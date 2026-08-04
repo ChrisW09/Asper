@@ -8,7 +8,7 @@ Everything the HSBI team needs to **prepare for, travel to, and compete at** the
 **Coach / faculty advisor:** Prof. Dr. Christoph Weisser
 
 > This directory is the **working copy** of the preparation project: the loose documents currently in
-> active use, plus `asper-abcc-2027.zip`, which holds the **complete, structured repository** (52 files,
+> active use, plus `asper-abcc-2027.zip`, which holds the **complete, structured repository** (53 files,
 > eight lifecycle folders, own git history). See [What is in this directory](#what-is-in-this-directory).
 
 ---
@@ -71,8 +71,8 @@ for every rule claim in every other document.
 | `judge_brief_template.docx` | The boardroom one-page black-and-white judge brief, ready to fill |
 
 **Relationship between the two.** The loose files above are the documents and assets in day-to-day use;
-they are byte-identical to their counterparts inside the zip, except `DOCUMENTATION.md` and
-`abcc_overview.pdf`, where the zip holds the newer build. Everything else — rules, plan, cases, drills,
+they are byte-identical to their counterparts inside the zip, except `abcc_overview.pdf`, where the zip
+holds the newer build. Everything else — rules, plan, cases, drills,
 logistics — exists **only inside the zip**. To work with the whole thing:
 
 ```bash
@@ -322,7 +322,7 @@ Saturday traditional case, finals, awards gala · Sunday departure.
 
 | Asset | Notes |
 |---|---|
-| `team_template.pptx` | 14-slide general skeleton: title, exec summary, content patterns, financials, chart, roadmap, risks, the ask, appendix, **boardroom one-slide summary**. Placeholder consulting name "Aurora Advisory" — replace at the division draw |
+| `team_template.pptx` | 14-slide general skeleton: title, exec summary, content patterns, financials, chart, roadmap, risks, the ask, appendix, **boardroom one-slide summary**. Placeholder consulting name "Aurora Advisory" — replace with the fictional consulting name the team registers with the organizers before the event (the division draw assigns the letter A–I, not the name) |
 | `case-type-templates/casetype_A_turnaround_nonprofit.pptx` | Turnaround / nonprofit sustainability |
 | `case-type-templates/casetype_B_growth_market_entry.pptx` | Growth and market entry |
 | `case-type-templates/casetype_C_brand_premiumization.pptx` | Brand premiumization |
@@ -350,7 +350,7 @@ storyline, the judge attacks and counters, the traps, and the self-checks.
   and the assets here are deliberately clean.
 - **Git.** The zip carries the full history; commits so far run one per work package
   (v1 initial → v2 validated expansion → v3 adversarial review + new material → v4 templates & toolkit →
-  v5 restructure + documentation). To publish privately:
+  v5 restructure + documentation → v6 exercise program → v7 consistency pass). To publish privately:
 
   ```bash
   gh repo create asper-abcc-2027 --private --source=. --push
@@ -373,8 +373,9 @@ flags where 2027 specifics are still TBA.
   data** (labelled as case data); teaching-note figures are calibration aids, not real-company facts.
 - **Eligibility of the specific HSBI student mix needs written confirmation** from the organizers — the top
   open question in `facts_and_rules.md`.
-- Six of nine past-case PDFs are mirrored locally; the remaining three (2024 cases 1 and 3, all 2026 cases)
-  are linked by URL in `01-competition/past_cases.md`.
+- Eleven official past cases exist across ten clients (2023 ran both rounds on Manitoba Hydro). **Six PDFs
+  are mirrored locally**; the remaining five (2024 cases 1 and 3, all three 2026 cases) are linked by URL in
+  `01-competition/facts_and_rules.md` and `01-competition/past_cases.md`.
 
 Open questions to put to the organizers after registration: 2027 agenda and prepared-case release/submission
 dates · registration process and fee for an international (German) team and what it covers · eligibility

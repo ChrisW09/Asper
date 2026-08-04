@@ -27,6 +27,6 @@ Practical consequences, from our GenAI standard operating procedure (`03-team/ro
 - During any presentation or Q&A: **any communication between coach and team — or any coach intervention in the question period — means immediate disqualification of the team.**
 - If the team reaches the **final**: advisors of finalist teams may not communicate with their team until after it has presented (finalists wait in a holding room; the traditional deck is frozen).
 
-**One more coach-relevant rule:** the school-anonymity rule binds the coach too — nothing said to a judge, worn, or shown may identify HSBI; teams compete under a fictional consulting name assigned life by the division draw.
+**One more coach-relevant rule:** the school-anonymity rule binds the coach too — nothing said to a judge, worn, or shown may identify HSBI. Teams compete under **a fictional consulting name they choose themselves** and register with the organizers before the event, plus **a division letter (A–I) drawn at on-site registration** that sets the week's presentation slots. The name is ours; the letter is theirs.
 
 **Rule of thumb for February:** the coach's influence ends at case release and resumes at the feedback session — everything the team needs from you must already be in their habits by then. That is what the autumn simulation calendar (`02-plan/week_by_week_plan.md`) is for.

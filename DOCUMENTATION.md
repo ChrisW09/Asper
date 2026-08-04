@@ -18,7 +18,7 @@ asper-abcc-2027/
 ├── 02-plan/                   When we do what: concept plan, dated calendar, results log
 ├── 03-team/                   Who we are: charter, role playbooks (incl. GenAI SOP)
 ├── 04-training/               Skill building: presenting, Q&A, math, English, frameworks
-├── 05-practice-cases/         What we practice on: 3 full cases, 6 mini-cases, model answers
+├── 05-practice-cases/         What we practice on: 3 full cases, 12 mini-cases, model answers
 ├── 06-templates/              What we build with: slide skeletons, toolkit, judge brief
 ├── 07-logistics/              Getting there: travel, registration, competition-day runbook
 └── 08-briefing-slides/        The kick-off Beamer deck (LaTeX + PDF)
@@ -52,6 +52,7 @@ asper-abcc-2027/
 |---|---|---|
 | `team_charter.md` | Commitments, working rules, non-negotiables, escalation; signature block | Kick-off (W1); any charter talk |
 | `role_playbooks.md` | Per-role missions, artifacts, prep minute-maps (3-h and 4-h), drills, failure modes; **GenAI standard operating procedure**; prep-room kit checklist | Role onboarding; before every timed simulation |
+| `coach_and_ai_rules.md` | One-pager answering: may the team use AI in competition (yes — officially, with our SOP discipline) and what the professor/coach may and may not do, round by round | Coach reference; brief the team in W1 |
 
 ### 04-training — skills
 
@@ -63,6 +64,12 @@ asper-abcc-2027/
 | `english_phrasebook.md` | DE–EN terminology, phrase banks (presentation, Q&A, boardroom), numbers out loud, pronunciation traps |
 | `vocab_flashcards.csv` | 87 flashcards (German, English, note) — import into Anki: File → Import, comma-separated, first row is header |
 | `frameworks.md` | Framework toolkit (problem framing, strategy, marketing, finance, innovation, implementation) + storyline skeleton + Q&A protocol |
+| `exercises/README.md` | **Exercise catalog**: full drill inventory (~200 solved items) mapped week by week onto the calendar |
+| `exercises/format_quiz.md` | 25-question competition-format quiz with answer key — every member scores 25/25 by W3 |
+| `exercises/workbook1_reading_and_structuring.md` | Timed speed-reads and ask-decomposition **on the real ABCC case PDFs**, issue trees, case-type classification — with answer keys |
+| `exercises/workbook2_quant_drills.md` | 12 sizing problems (DE + Manitoba), exhibit math on the real cases, sensitivity one-pager, weekly arithmetic circuit — with worked answers |
+| `exercises/workbook3_storyline_and_slides.md` | Action-title rewrites, storyline sprints, ordering drills, implementation-plan drills (the 2.5× muscle), boardroom one-slider — with models |
+| `exercises/workbook4_delivery_drills.md` | 3-minute pitch scenarios (with a model pitch script), judge-brief writing with marking checklist, 24 number-attack Q&A per original case, choreography, dress-rehearsal protocol |
 
 ### 05-practice-cases — material to train on
 
@@ -73,6 +80,7 @@ asper-abcc-2027/
 | `case2_boardroom_premium_brand.md` | Original full case, boardroom format (4 h, 3-min pitch + 22-min discussion): premium→luxury candle maker; 6 exhibits + teaching note with 10 judge questions |
 | `case3_prepared_arts_festival.md` | Original full case, prepared format (14 days, 25+15): jazz festival needing one radical idea; 8 exhibits + teaching note with 4-option solution space |
 | `mini_cases.md` | Six one-page cases for 30–45-min weekly drills, each with a 90-second sizing warm-up and a boxed solution sketch |
+| `mini_cases_set2.md` | Six further mini-cases (Canadian-leaning, quant-heavier) for November onward; ends with the author-your-own assignment |
 | `model_answers.md` | Calibration: a full worked answer outline (Access CU 2026 re-crack) and a filled one-page judge brief (AROW 2025) |
 
 ### 06-templates — competition-legal assets (prebuilt own templates are allowed)
@@ -115,8 +123,8 @@ asper-abcc-2027/
 
 Update `01-competition/facts_and_rules.md` **first** whenever the organizers publish 2027 information (Competition Guide, deadlines, agenda, hotel), then sweep the repo for affected statements — the TBA tracker in `01-competition/handbook.md` §12 lists exactly what to confirm. Keep the calendar authoritative: date conflicts resolve in favour of `02-plan/week_by_week_plan.md`. Log every simulation the same day. Never commit anything bearing the HSBI name into slide templates or briefs — anonymity is a disqualification rule, and the repo's assets are deliberately clean. After the competition, write the debrief and hand this repository to the next team (final section of the week plan).
 
-**Git.** The repo ships with full history. To publish privately: `gh repo create asper-abcc-2027 --private --source=. --push` (or add a remote and `git push -u origin main`). Conventions so far: one commit per work package (v1 initial → v2 validated expansion → v3 adversarial review + new material → v4 templates & toolkit → v5 restructure + documentation).
+**Git.** The repo ships with full history. To publish privately: `gh repo create asper-abcc-2027 --private --source=. --push` (or add a remote and `git push -u origin main`). Conventions so far: one commit per work package (v1 initial → v2 validated expansion → v3 adversarial review + new material → v4 templates & toolkit → v5 restructure + documentation → v6 exercise program → v7 consistency pass).
 
 ## 5. Known limitations
 
-The 2027 agenda, deadlines, fees, and field are TBA until the organizers publish them — everything schedule-shaped is a 2025/2026-baseline assumption, flagged as such in place. The three original practice cases and all worked model answers use **fictional, internally consistent data** (labelled as case data); teaching-note figures are calibration aids, not real-company facts. Eligibility of the specific HSBI student mix needs written confirmation from the organizers (top open question in `01-competition/facts_and_rules.md`). Six of nine past-case PDFs are mirrored locally; the remaining three (2024 cases 1 and 3, all 2026 cases) are linked by URL in `01-competition/past_cases.md`.
+The 2027 agenda, deadlines, fees, and field are TBA until the organizers publish them — everything schedule-shaped is a 2025/2026-baseline assumption, flagged as such in place. The three original practice cases and all worked model answers use **fictional, internally consistent data** (labelled as case data); teaching-note figures are calibration aids, not real-company facts. Eligibility of the specific HSBI student mix needs written confirmation from the organizers (top open question in `01-competition/facts_and_rules.md`). Eleven official past cases exist across ten clients (2023 ran both rounds on Manitoba Hydro); **six PDFs are mirrored locally** and the remaining five (2024 cases 1 and 3, all three 2026 cases) are linked by URL in `01-competition/facts_and_rules.md` and `01-competition/past_cases.md`.
