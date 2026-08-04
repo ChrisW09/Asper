@@ -6,77 +6,35 @@
 
 **Provenance.** All competition facts were researched and validated (July–August 2026) against the official Asper website, the official **ABCC 2025 Event Guide** (the fullest public rulebook), the official past-case PDFs, and UM Today press coverage. The materials then went through a multi-agent adversarial review: rule claims re-checked against the fact base, all exhibit arithmetic recomputed, all official URLs link-checked. Every document flags where 2027 specifics are still TBA.
 
-**Scope of this file.** This is the map of the whole body of material: where it lives, what each file is, when to use it, how the pieces are kept in sync, and what has been verified against what. For the short version, read [`README.md`](README.md). For rule questions, go to `01-competition/facts_and_rules.md` — the single source of truth.
+**Scope of this file.** This is the reference map of the repository: what every file is, when to use it, how the material is maintained, and what has been verified against what. [`README.md`](README.md) is the entry point — read it first if you are new. For rule questions, go to `01-competition/facts_and_rules.md`, the single source of truth.
 
 ---
 
 ## Contents
 
-1. [Two layers: workspace and archive](#1-two-layers-workspace-and-archive)
-2. [How the archive is organized](#2-how-the-archive-is-organized)
-3. [File inventory](#3-file-inventory)
-4. [Documentation metrics](#4-documentation-metrics)
-5. [Core workflows](#5-core-workflows)
-6. [Keeping the two layers in sync](#6-keeping-the-two-layers-in-sync)
-7. [Maintenance rules](#7-maintenance-rules)
-8. [Version history](#8-version-history)
-9. [Verification log (2026-08-04)](#9-verification-log-2026-08-04)
-10. [Conventions and hard rules](#10-conventions-and-hard-rules)
-11. [Known limitations and open questions](#11-known-limitations-and-open-questions)
+1. [Repository layout](#1-repository-layout)
+2. [File inventory](#2-file-inventory)
+3. [Documentation metrics](#3-documentation-metrics)
+4. [Core workflows](#4-core-workflows)
+5. [Maintenance rules](#5-maintenance-rules)
+6. [Version history](#6-version-history)
+7. [Verification log (2026-08-04)](#7-verification-log-2026-08-04)
+8. [Conventions and hard rules](#8-conventions-and-hard-rules)
+9. [Known limitations and open questions](#9-known-limitations-and-open-questions)
 
 ---
 
-## 1. Two layers: workspace and archive
+## 1. Repository layout
 
-The material exists in two layers, and knowing which one you are reading matters, because the folder paths quoted throughout this file only resolve in one of them.
-
-| Layer | What it is | Contains |
-|---|---|---|
-| **Workspace** (`Asper/`) | The flat working copy in day-to-day use, itself a git repository | This file, the workspace `README.md`, `CHANGELOG.md`, two loose reference documents, the slide templates and toolkit, the briefing PDF, and `asper-abcc-2027.zip` |
-| **Archive** (`asper-abcc-2027.zip`) | The complete, structured repository — **54 files** in eight lifecycle folders, **with its own git history** (8 commits) | Everything: rules, plan, team docs, training program, practice cases, templates, logistics, briefing deck, and the six official past-case PDFs |
-
-**If you are reading this inside the workspace,** the numbered folders (`01-competition/` …) are *inside the zip*, not next to you. Unpack first:
-
-```bash
-unzip asper-abcc-2027.zip          # → ./asper-abcc-2027/ with full git history
-cd asper-abcc-2027 && git log --oneline
-```
-
-**If you are reading this inside the unpacked archive,** every path below resolves relative to you, and the "workspace" is the directory the zip came from.
-
-**Why two layers.** The workspace keeps the handful of documents and assets that get opened weekly (the coach one-pager, the exercise catalog, the slide templates, the toolkit, the briefing PDF) reachable without unpacking anything; the archive is the canonical, versioned whole. The workspace copies are duplicates, not variants — see §6 for the rule that keeps them honest and §9 for the last verification.
-
-### What is loose in the workspace
-
-| File / folder | Archive counterpart | Notes |
-|---|---|---|
-| `README.md` | `README.md` | **Differs by design.** The workspace README is the long entry point (~33 KB); the archive README is a lean repo front page (~5 KB) that points here |
-| `DOCUMENTATION.md` | `DOCUMENTATION.md` | Kept byte-identical — this file is written to read correctly from either layer |
-| `CHANGELOG.md` | `CHANGELOG.md` | Kept byte-identical |
-| `coach_and_ai_rules.md` | `03-team/coach_and_ai_rules.md` | Byte-identical (verified 2026-08-04) |
-| `exercise_catalog.md` | `04-training/exercises/README.md` | Byte-identical (verified 2026-08-04) |
-| `abcc_overview.pdf` | `08-briefing-slides/abcc_overview.pdf` | Same 25-page deck, **different builds** — the archive holds the newer one (built 2026-08-01 13:04 UTC vs. 12:31 UTC). Rebuild both from the `.tex` when the deck changes |
-| `team_template.pptx` | `06-templates/team_template.pptx` | Byte-identical (verified 2026-08-04) |
-| `case-type-templates/` (6 × `.pptx`) | `06-templates/case-type-templates/` | All six byte-identical (verified 2026-08-04) |
-| `case_financial_toolkit.xlsx` | `06-templates/case_financial_toolkit.xlsx` | Byte-identical (verified 2026-08-04) |
-| `judge_brief_template.docx` | `06-templates/judge_brief_template.docx` | Byte-identical (verified 2026-08-04) |
-| `asper-abcc-2027.zip` | — | The archive itself (≈14 MB) |
-
-Everything not in that table — the rule base, the handbook, the calendar, the practice cases, the workbooks, the logistics files, the case-type playbook, the LaTeX source — exists **only in the archive**.
-
----
-
-## 2. How the archive is organized
-
-The eight numbered folders follow the lifecycle of the project: *understand the competition → plan → form the team → train → practice → build assets → travel → brief.*
+Eight numbered folders follow the lifecycle of the project — *understand the competition → plan → form the team → train → practice → build assets → travel → brief* — plus three documents at the root.
 
 ```
-asper-abcc-2027/
-├── README.md                  Lean entry point: structure, one-paragraph overview, next actions
-├── DOCUMENTATION.md           This file: inventory, workflows, maintenance, verification
-├── CHANGELOG.md               What changed in each version, both layers
+.
+├── README.md                  Entry point: the competition, where we are, quick start, rules cheat sheet
+├── DOCUMENTATION.md           This file: full inventory, workflows, maintenance, verification
+├── CHANGELOG.md               What changed in each version
 ├── .gitignore                 LaTeX auxiliaries, .DS_Store
-├── 01-competition/            What the ABCC is: rules, history, judging, past cases + PDFs
+├── 01-competition/            What the ABCC is: rules, history, judging, past cases + six official PDFs
 ├── 02-plan/                   When we do what: concept, dated calendar, results log
 ├── 03-team/                   Who we are: charter, role playbooks (incl. GenAI SOP), coach rules
 ├── 04-training/               Skill building: presenting, Q&A, math, English, frameworks, exercises/
@@ -86,15 +44,19 @@ asper-abcc-2027/
 └── 08-briefing-slides/        The kick-off Beamer deck (LaTeX + PDF)
 ```
 
-**Single source of truth:** `01-competition/facts_and_rules.md`. Every rule claim in every other document defers to it. When the 2027 Competition Guide arrives, update that file **first**, then propagate (§7).
+Every file has exactly **one** canonical location, and every path quoted in any document is relative to this root. The numbered prefixes encode the lifecycle order and are load-bearing: roughly 35 documents cross-reference each other by path, so folders should not be renamed casually.
+
+**Single source of truth:** `01-competition/facts_and_rules.md`. Every rule claim in every other document defers to it. When the 2027 Competition Guide arrives, update that file **first**, then propagate (§5).
 
 **Authoritative on dates:** `02-plan/week_by_week_plan.md`. Where any two documents disagree about *when*, the calendar wins.
 
+**A note on history.** Until 2026-08-04 the material lived in two layers: a flat working directory plus `asper-abcc-2027.zip`, which held this same eight-folder structure as a nested git repository. That arrangement duplicated eleven files and put half the documentation behind an unzip step, so it was flattened into the single repository you are reading. The nested repository's eight commits (v1–v8) are preserved on the **`archive-history`** branch — `git log archive-history` still shows the full provenance.
+
 ---
 
-## 3. File inventory
+## 2. File inventory
 
-Paths are relative to the archive root. Counts were re-verified on 2026-08-04 (§9).
+Paths are relative to the repository root. Counts were re-verified on 2026-08-04 (§7).
 
 ### 01-competition — know the game
 
@@ -148,9 +110,9 @@ The four roles all run against one shared clock; the **CS & analytics lead is al
 | File | What it is |
 |---|---|
 | `05-practice-cases/index.md` | Practice-material index and the recommended order (real re-cracks first, original cases for graded simulations), plus the 2027 pattern to train against |
-| `05-practice-cases/case1_traditional_sparkasse_youth.md` | Original full case, **traditional** format (3 h, 20 + 10): Sparkasse Ostwestfalen winning back under-30s. **8 exhibits** + coach-only teaching note with solution, traps, and a 100-point rubric |
-| `05-practice-cases/case2_boardroom_premium_brand.md` | Original full case, **boardroom** format (4 h, 3-min pitch + 22-min discussion): Manufaktur Lichtwerk from premium to luxury. **6 exhibits** + teaching note with ten judge questions |
-| `05-practice-cases/case3_prepared_arts_festival.md` | Original full case, **prepared** format (14 days, 25 + 15): Klangfest Bielefeld needing one radical idea. **8 exhibits** + teaching note with a four-option solution space |
+| `05-practice-cases/case1_traditional_sparkasse_youth.md` | Original full case, **traditional** format (3 h, 20 + 10): Sparkasse Ostwestfalen winning back the under-30s (archetype: Access Credit Union 2026). **8 exhibits** + coach-only teaching note with solution, traps, and a 100-point rubric |
+| `05-practice-cases/case2_boardroom_premium_brand.md` | Original full case, **boardroom** format (4 h, 3-min pitch + 22-min discussion): Manufaktur Lichtwerk, a premium scented-candle maker going luxury (archetype: Coal & Canary 2026). **6 exhibits** + teaching note with ten judge questions |
+| `05-practice-cases/case3_prepared_arts_festival.md` | Original full case, **prepared** format (14 days, 25 + 15): Klangfest Bielefeld needing one radical idea (archetype: Jazz Winnipeg 2026). **8 exhibits** + teaching note with a four-option solution space |
 | `05-practice-cases/mini_cases.md` | **Mini-cases 1–6** for 30–45-minute weekly drills, each with a 90-second sizing warm-up and a boxed solution sketch |
 | `05-practice-cases/mini_cases_set2.md` | **Mini-cases 7–12** — Canadian-leaning and quant-heavier, for November onward; closes with the author-your-own assignment |
 | `05-practice-cases/model_answers.md` | Calibration pack: a full worked answer outline (Access Credit Union 2026 re-crack), a filled one-page judge brief (AROW Global 2025), and how to use both |
@@ -190,28 +152,28 @@ Every case-type deck opens with a **red coach-briefing slide — delete it befor
 cd 08-briefing-slides && pdflatex abcc_overview.tex && pdflatex abcc_overview.tex   # twice, for navigation
 ```
 
-Or upload the `.tex` to Overleaf. If the deck changes, refresh **both** PDF copies (§6).
+Or upload the `.tex` to Overleaf. The `.gitignore` keeps LaTeX auxiliaries out of the repository; the built PDF is committed on purpose, so that nobody needs LaTeX to read the deck.
 
 ---
 
-## 4. Documentation metrics
+## 3. Documentation metrics
 
-As of 2026-08-04, archive content (excluding `.git`):
+As of 2026-08-04, excluding `.git`:
 
-| Layer | Files | Notes |
+| | Count | Notes |
 |---|---|---|
-| Archive total | **54** | 35 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore |
-| Written material | **35 markdown files, ≈73,000 words** | ≈5–6 hours of reading end to end |
+| Files | **54** | 35 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore |
+| Written material | **35 markdown files, ≈75,000 words** | ≈5–6 hours of reading end to end |
 | Binary assets | ≈8.5 MB | 6.2 MB official case PDFs · 2.3 MB slide templates |
-| Archive working tree | ≈9.4 MB content + 7.6 MB `.git` | Zip ships at ≈14 MB |
+| Working tree | ≈9.4 MB content | Plus ≈20 MB of packed git history |
 
-Word count by folder: `05-practice-cases` 27,300 · `04-training` 14,200 · `01-competition` 11,000 · `03-team` 4,600 · `02-plan` 3,800 · `07-logistics` 3,600 · `06-templates` 2,300 · root documents (this file, README, changelog) 6,300.
+Word count by folder: `05-practice-cases` 27,300 · `04-training` 14,200 · `01-competition` 11,000 · `03-team` 4,600 · `02-plan` 3,800 · `07-logistics` 3,600 · `06-templates` 2,300 · root documents (README, this file, changelog) 8,300.
 
 Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items across four workbooks, 40 math drills, 60 Q&A questions, 12 mini-cases, 3 full graded cases, 10 re-crack briefs.
 
 ---
 
-## 5. Core workflows
+## 4. Core workflows
 
 **Kick-off (W1 — the current week).** Present `08-briefing-slides/abcc_overview.pdf` → everyone reads `01-competition/handbook.md` → sign `03-team/team_charter.md` → assign roles per `03-team/role_playbooks.md` → brief the team on `03-team/coach_and_ai_rules.md` → send `07-logistics/registration_email_draft.md` → open the admin track in `07-logistics/travel_logistics.md` (passports now, eTAs in W2).
 
@@ -229,136 +191,103 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 
 ---
 
-## 6. Keeping the two layers in sync
-
-The workspace duplicates a handful of archive files (§1). Divergence is the one structural risk in this arrangement, so treat the **archive as the master** and the workspace copies as exports.
-
-**Rule.** Edit inside the unpacked archive, commit there, then rebuild the zip and refresh the workspace copies. Never edit a workspace duplicate and leave it there.
-
-```bash
-# 1. unpack and edit
-unzip asper-abcc-2027.zip
-cd asper-abcc-2027
-#    ... make the change ...
-git add -A && git commit -m "v8: <what changed>"
-
-# 2. refresh the workspace duplicates (archive → workspace)
-cd ..
-cp asper-abcc-2027/DOCUMENTATION.md asper-abcc-2027/CHANGELOG.md .
-cp asper-abcc-2027/03-team/coach_and_ai_rules.md .
-cp asper-abcc-2027/04-training/exercises/README.md exercise_catalog.md
-cp asper-abcc-2027/08-briefing-slides/abcc_overview.pdf .
-cp asper-abcc-2027/06-templates/team_template.pptx \
-   asper-abcc-2027/06-templates/case_financial_toolkit.xlsx \
-   asper-abcc-2027/06-templates/judge_brief_template.docx .
-cp asper-abcc-2027/06-templates/case-type-templates/*.pptx case-type-templates/
-
-# 3. rebuild the archive, then commit the workspace
-rm asper-abcc-2027.zip
-zip -qr asper-abcc-2027.zip asper-abcc-2027 -x '*.DS_Store'
-rm -rf asper-abcc-2027
-git add -A && git commit -m "Update documentation and rebuild archive"
-```
-
-The workspace `README.md` is deliberately **not** copied — it is the long entry point and has no archive twin (the archive's own `README.md` is the lean version).
-
-**Verify the sync** with the check in §9; it takes seconds and catches exactly the drift this section exists to prevent.
-
----
-
-## 7. Maintenance rules
+## 5. Maintenance rules
 
 - **Rules first.** Whenever the organizers publish 2027 information (Competition Guide, agenda, deadlines, fees, hotel), update `01-competition/facts_and_rules.md` **first**, then sweep the repository for affected statements. The **TBA tracker in `01-competition/handbook.md` §12** lists exactly what to confirm: the day-by-day schedule and which date carries which round, the case sponsors (watch the sponsor page and @Asper_BCC from autumn — case writing starts around October), the prepared-case release date and deck deadline, the 2027 field, prize amounts, the Round 1 venue, and any rule deltas versus 2025.
-- **Propagation order** after a rules change: `facts_and_rules.md` → `handbook.md` → `judging_scoresheet.md` (if the rubric moved) → `02-plan/week_by_week_plan.md` (if dates moved) → `07-logistics/competition_day_runbook.md` → `08-briefing-slides/abcc_overview.tex` (rebuild the PDF twice) → `04-training/exercises/format_quiz.md` (the answer key quotes the rules) → this file and the two READMEs.
+- **Propagation order** after a rules change: `01-competition/facts_and_rules.md` → `01-competition/handbook.md` → `01-competition/judging_scoresheet.md` (if the rubric moved) → `02-plan/week_by_week_plan.md` (if dates moved) → `07-logistics/competition_day_runbook.md` → `08-briefing-slides/abcc_overview.tex` (rebuild the PDF twice) → `04-training/exercises/format_quiz.md` (the answer key quotes the rules) → `README.md` and this file.
 - **The calendar is authoritative.** Date conflicts resolve in favour of `02-plan/week_by_week_plan.md`. Its phase numbers are calendar phases and deliberately differ from the concept phases in `preparation_plan.md`.
 - **Log every simulation the same day** in `02-plan/simulation_log.md`, with rubric scores and one carried-forward goal per person.
+- **One canonical copy per file.** If a document is worth reaching quickly, link to it — do not copy it to the root. The two-layer duplication this repository used to carry is exactly what §1 removed.
 - **Never commit the HSBI name** into a slide template, judge brief, or any competition-facing asset. Anonymity is a disqualification rule and the assets here are deliberately clean.
-- **Keep the layers in sync** per §6, and re-run the §9 checks after any change that touches a duplicated file.
+- **Keep the repository private.** `01-competition/past-case-pdfs/` holds confidential competition documents.
 - **Hand over after the competition.** Write the debrief and the two-page handover, then pass the repository to the next HSBI team (final section of the week plan).
 
 ---
 
-## 8. Version history
+## 6. Version history
 
-Two independent git histories. Full detail in [`CHANGELOG.md`](CHANGELOG.md).
+Full detail in [`CHANGELOG.md`](CHANGELOG.md). Work packages, not semantic versions.
 
-**Archive** (`asper-abcc-2027/.git`, 7 commits, tree clean at `db64f12`) — one commit per work package:
-
-| Tag | Commit |
+| Version | What it delivered |
 |---|---|
 | v1 | Initial: briefing deck, preparation plan, resources |
 | v2 | Validated handbook, past-case dossier + PDFs, three practice cases, training pack, dated calendar; deck and facts aligned to the official 2025 Event Guide rules and rubric |
 | v3 | Adversarial review fixes (36 findings), all URLs validated, mini-case pack, role playbooks + GenAI SOP, model answers, phrasebook, scoresheet, simulation log, anonymity-proof team template |
 | v4 | Six case-type skeletons + tackling playbook, financial toolkit, judge-brief template, day runbook, flashcards, registration e-mail, team charter |
-| v5 | Restructure into the eight numbered lifecycle folders; all cross-references rewritten; `DOCUMENTATION.md` added; lean README |
+| v5 | Restructure into the eight numbered lifecycle folders; all cross-references rewritten; `DOCUMENTATION.md` added |
 | v6 | Exercise program (≈200 solved items): format quiz, four workbooks anchored in the real ABCC cases, mini-case set 2, week-mapped catalog; coach & AI rules one-pager |
 | v7 | Consistency pass: text-corruption repair, drill arithmetic fixes, corrected past-case counts |
-| v8 | Documentation overhaul: two-layer model documented, inventory re-verified and re-pathed, metrics, sync procedure, verification log, changelog |
+| v8 | Documentation overhaul: inventory re-verified and re-pathed, metrics, verification log, changelog |
+| **v9** | **Flattened to a single repository:** archive unzipped into the root, eleven duplicated files removed, zip retired, root documents de-duplicated against each other, history preserved on `archive-history` |
 
-**Workspace** (3 commits before v8): initial import → workspace README → documentation and resource update with expanded practice cases, exercise catalog, and the team-anonymity clarification.
-
-**Publishing.** To put either layer on a private remote:
+**Git.** `main` carries the current material. The **`archive-history`** branch holds the eight commits of the formerly nested repository (v1–v8) — kept for provenance, never merged. To publish privately:
 
 ```bash
 gh repo create asper-abcc-2027 --private --source=. --push
 # or: git remote add origin git@github.com:<user>/asper-abcc-2027.git && git push -u origin main
 ```
 
-Keep it **private** — the mirrored case PDFs are confidential competition documents.
-
 ---
 
-## 9. Verification log (2026-08-04)
+## 7. Verification log (2026-08-04)
 
 What was checked, so the next reader knows what is asserted and what is assumed.
 
-**Structure and integrity**
-- Archive contains 54 files excluding `.git`; inner working tree clean; 8 commits, HEAD at v8.
+**Structure**
+- 54 files excluding `.git`: 35 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`.
+- Every folder-qualified cross-reference in every markdown file resolves from the repository root; every anchor in this file's table of contents resolves to a real heading.
+- No duplicated files: before the flattening, all eleven workspace duplicates were confirmed **byte-identical** to their canonical counterparts, so nothing was lost when they were deleted. The single exception was `abcc_overview.pdf`, where two builds of the same 25-page deck existed — the newer one (2026-08-01 13:04 UTC) was kept.
 - All six official case PDFs present in `01-competition/past-case-pdfs/` (6.2 MB); the other five official cases are URL-only, as documented.
-- Every relative path quoted in this file and in both READMEs resolves inside the archive.
+- `archive-history` holds 8 commits, `git fsck` clean.
 
-**Workspace ↔ archive duplicates.** Byte-identical: `DOCUMENTATION.md`, `CHANGELOG.md`, `coach_and_ai_rules.md`, `exercise_catalog.md` ↔ `04-training/exercises/README.md`, `team_template.pptx`, all six `case-type-templates/*.pptx`, `case_financial_toolkit.xlsx`, `judge_brief_template.docx`. Differing by design: `README.md` (two different documents) and `abcc_overview.pdf` (archive holds the newer build of the same 25-page deck). Re-run with:
+Re-run the structural checks with:
 
 ```bash
-unzip -q -o asper-abcc-2027.zip -d /tmp/abcc && A=/tmp/abcc/asper-abcc-2027
-for p in "DOCUMENTATION.md:DOCUMENTATION.md" "CHANGELOG.md:CHANGELOG.md" \
-         "coach_and_ai_rules.md:03-team/coach_and_ai_rules.md" \
-         "exercise_catalog.md:04-training/exercises/README.md" \
-         "team_template.pptx:06-templates/team_template.pptx" \
-         "case_financial_toolkit.xlsx:06-templates/case_financial_toolkit.xlsx" \
-         "judge_brief_template.docx:06-templates/judge_brief_template.docx"; do
-  cmp -s "${p%%:*}" "$A/${p##*:}" && echo "ok   ${p%%:*}" || echo "DIFF ${p%%:*}"
-done
-for f in case-type-templates/*.pptx; do
-  cmp -s "$f" "$A/06-templates/$f" && echo "ok   $f" || echo "DIFF $f"
-done
+find . -type f -not -path './.git/*' | wc -l                    # expect 54
+python3 - <<'EOF'
+import re, os, glob
+bad = {}
+for p in glob.glob('**/*.md', recursive=True):
+    t = open(p, encoding='utf-8').read()
+    refs = {m for m in re.findall(r'`([^`\n]+)`', t)
+            if m.count('/') >= 1 and ' ' not in m and not m.startswith(('http','[','/','git','cd ','gh '))}
+    refs |= {m for m in re.findall(r'\]\(([^)\s]+)\)', t) if not m.startswith(('http','mailto','#'))}
+    for r in refs:
+        r0 = r.split('#')[0].rstrip('/')
+        if r0 and '§' not in r0 and not (os.path.exists(r0)
+                or os.path.exists(os.path.join(os.path.dirname(p), r0))):
+            bad.setdefault(p, set()).add(r)
+print(bad or 'all cross-references resolve')
+EOF
 ```
 
-**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 35 markdown files, ≈73,000 words · eleven official cases across ten clients.
+Bare filenames inside the inventory tables of this file are section-scoped, not links; the check above only follows folder-qualified paths.
 
-**Dates.** February 18–22, 2027 is **Thursday–Monday**; the 2025 baseline ran Wednesday–Sunday with registration on Wed Feb 19, 2025. The one-day shift is flagged in `week_by_week_plan.md`, `competition_day_runbook.md`, and §5 above; the actual round-to-day mapping stays TBA. W1 of the plan is Aug 3–9, 2026 — the current week.
+**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 35 markdown files, ≈75,000 words · eleven official cases across ten clients.
+
+**Dates.** February 18–22, 2027 is **Thursday–Monday**; the 2025 baseline ran Wednesday–Sunday with registration on Wed Feb 19, 2025. The one-day shift is flagged in `week_by_week_plan.md`, `competition_day_runbook.md`, `README.md`, and §4 above; the actual round-to-day mapping stays TBA. W1 of the plan is Aug 3–9, 2026 — the current week.
 
 **Not verified here.** Nothing on the official Asper website was re-fetched on 2026-08-04; all competition facts still carry their July–August 2026 validation date. Re-validate when the 2027 Competition Guide is published.
 
 ---
 
-## 10. Conventions and hard rules
+## 8. Conventions and hard rules
 
 - **Anonymity.** Nothing said, worn, or shown may identify HSBI. The team competes under a **fictional consulting name it chooses and registers with the organizers before the event** (the templates ship with the placeholder "Aurora Advisory"), plus a **division letter A–I drawn at on-site registration** that sets the week's slots. The name is ours; the letter is theirs. Naming your school to a judge is disqualification.
 - **Coach silence.** From the release of a boardroom or traditional case until the team has presented, no contact of any kind. Any coach–team communication during a presentation or Q&A, or any coach intervention in the question period, means immediate disqualification. Advisors of finalist teams stay silent until their team has presented. The coach is fully in the game for the prepared case and for everything before the competition.
 - **GenAI.** Explicitly permitted during timed prep. The edge is the drilled procedure, not the access: one designated operator, narrow sanctioned tasks, and **no unverified number reaches a slide**. Framing, option choice, and the recommendation are never outsourced. Do not paste confidential case text into consumer tools.
-- **Confidentiality.** The case PDFs in `01-competition/past-case-pdfs/` are © University of Manitoba and marked "no reproduction or transmission" — internal team use only. Do not redistribute; keep both layers private.
+- **Confidentiality.** The case PDFs in `01-competition/past-case-pdfs/` are © University of Manitoba and marked "no reproduction or transmission" — internal team use only. Do not redistribute; keep the repository private.
 - **File conventions.** Competition hand-ins follow the organizers' naming (`[Team Name] Prepared Case`, `[Team Name] Traditional Case`). Case data in the original practice cases is fictional and labelled as such. Documents state their own source and validation date at the top.
 
 ---
 
-## 11. Known limitations and open questions
+## 9. Known limitations and open questions
 
-- **The 2027 agenda, deadlines, fees, and field are TBA.** Everything schedule-shaped in this repository is a 2025/2026-baseline assumption, flagged in place. The Thursday–Monday footprint of Feb 18–22, 2027 means the published day-by-day agenda will almost certainly shift rounds against the 2025 pattern.
+- **The 2027 agenda, deadlines, fees, and field are TBA.** Everything schedule-shaped in this repository is a 2025/2026-baseline assumption, flagged in place. The Thursday–Monday footprint of Feb 18–22, 2027 means the published day-by-day agenda will almost certainly shift rounds against the 2025 pattern — the day-sheets will need re-mapping, not just re-dating.
 - **Original practice material uses fictional data.** The three full cases and all worked model answers are internally consistent inventions, labelled as case data; teaching-note figures are calibration aids, not real-company facts.
-- **Eligibility of the specific HSBI student mix needs written confirmation** from the organizers — the top open question in `facts_and_rules.md`.
-- **Five of the eleven official cases are URL-only** (2024 cases 1 and 3, all three 2026 cases); download them before the sessions that use them.
-- **The archive is a binary blob in the workspace's git history.** Every rebuild writes a fresh ~14 MB object; the history is honest but grows. Rebuild only when the content actually changed.
+- **Eligibility of the specific HSBI student mix needs written confirmation** from the organizers — the top open question in `01-competition/facts_and_rules.md`.
+- **Five of the eleven official cases are URL-only** (2024 cases 1 and 3, all three 2026 cases); download them before the sessions that use them (W14, W25).
+- **The git history is large for a documents repository** (≈20 MB packed, against a ≈9.4 MB working tree), because six official case PDFs and seven slide decks are versioned and earlier commits also carried a 14 MB zip of the whole repository. This is sunk history; nothing further grows it unless binaries change.
 
 Open questions to put to the organizers after registration (all seven are covered by `07-logistics/registration_email_draft.md`): the 2027 agenda and prepared-case release/submission dates · the registration process and fee for an international team and what it covers · eligibility confirmation · roster, bio and photo requirements plus advisor registration · the 2027 hotel block and booking code · whether the 2027 rules package changes anything versus the 2025 baseline, specifically any **new generative-AI clauses** · a **formal letter of invitation** naming all five travellers and the dates, for the Canadian border and for university travel funding.
 

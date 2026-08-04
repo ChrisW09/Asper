@@ -1,15 +1,42 @@
 # Changelog — ABCC 2027 Preparation (HSBI)
 
-All notable changes to the preparation material. Two git histories exist and are tracked separately:
-the **archive** (`asper-abcc-2027/`, shipped inside `asper-abcc-2027.zip`) and the **workspace**
-(the flat directory that holds the zip). See `DOCUMENTATION.md` §1 for why, and §6 for how the two are
-kept in sync.
+All notable changes to the preparation material. Dates are the dates of the work, not of any release.
+Versions are work packages, not semantic versions.
 
-Dates are the dates of the work, not of any release. Versions are work packages, not semantic versions.
+Until v9 the material lived in two layers — a flat working directory plus `asper-abcc-2027.zip`, which
+held the eight-folder structure as a nested git repository. v9 flattened them into the single repository
+this file sits in. The two histories are listed separately below; the pre-v9 archive commits are preserved
+on the **`archive-history`** branch.
 
 ---
 
-## Archive
+## v9 — One repository · 2026-08-04
+
+- **Archive unzipped into the repository root.** The eight lifecycle folders (`01-competition` …
+  `08-briefing-slides`) and `.gitignore` now sit at the top level. Every path in every document already
+  pointed at this layout, so all cross-references resolve unchanged — verified file by file.
+- **Eleven duplicated files removed.** `coach_and_ai_rules.md`, `exercise_catalog.md` (the copy of
+  `04-training/exercises/README.md`), `team_template.pptx`, the six `case-type-templates/*.pptx`,
+  `case_financial_toolkit.xlsx`, and `judge_brief_template.docx` were confirmed byte-identical to their
+  canonical counterparts before deletion. `abcc_overview.pdf` existed in two builds of the same 25-page
+  deck; the newer one was kept at `08-briefing-slides/abcc_overview.pdf`.
+- **`asper-abcc-2027.zip` retired** (14 MB). Its content is now the repository; earlier revisions of the zip
+  remain in git history.
+- **Archive history preserved.** The nested repository's eight commits (v1–v8) were fetched into the
+  **`archive-history`** branch before its `.git` was discarded — `git log archive-history` still shows the
+  full provenance. Never merged; kept as a reference ref.
+- **Root documents de-duplicated against each other.** `README.md` had grown a full per-folder file
+  inventory that duplicated `DOCUMENTATION.md`; it is now the entry point (competition overview, current
+  week, quick start per role, folder-level map, workflow summaries, rubric, rules cheat sheet, timeline,
+  sources) and defers all per-file detail to `DOCUMENTATION.md`. Its two README variants collapsed into one.
+- **`DOCUMENTATION.md` restructured** from eleven sections to nine: the two-layer explanation and the
+  workspace↔archive sync procedure are gone; §1 is now a plain repository layout with a short note on the
+  flattening; the verification log became a structural check with a re-runnable cross-reference script.
+- **Maintenance rules gained** "one canonical copy per file — link, do not copy", replacing the sync rule.
+
+---
+
+## Archive history (pre-v9, branch `archive-history`)
 
 ### v8 — Documentation overhaul · 2026-08-04
 
@@ -88,7 +115,7 @@ The ABCC 2027 briefing deck, the preparation plan, and first resources.
 
 ---
 
-## Workspace
+## Workspace history (pre-v9, on `main`)
 
 ### 2026-08-04 — Documentation overhaul
 

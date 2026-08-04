@@ -1,0 +1,389 @@
+% ============================================================
+% HSBI Beamer Template — Prof. Dr. Christoph Weisser
+% Asper Business Case Competition 2027 — Team Briefing
+% ============================================================
+
+\documentclass[aspectratio=169,11pt]{beamer}
+
+% ---- Encoding & language -----------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ---- Core packages -----------------------------------------
+\usepackage{graphicx}
+\usepackage{booktabs}           % professional tables (\toprule etc.)
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{mathtools}          % dcases, \coloneqq, etc.
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% ---- Beamer theme ------------------------------------------
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}   % hide the click-navigation icons
+\setbeamertemplate{footline}[frame number] % page number in footer
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+% ---- Section navigation bar in headline --------------------
+% Shows which section is currently active across the top of every slide.
+\setbeamertemplate{headline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex]{section in head/foot}%
+      \insertsectionnavigationhorizontal{\paperwidth}{}{\hskip0pt plus1filll}%
+    \end{beamercolorbox}%
+  }%
+}
+
+% ---- Auto section overview slides --------------------------
+% Inserts an overview frame before each new section
+% showing the full TOC with the current section highlighted.
+% Do NOT add manual section-title frames — this hook handles them.
+\AtBeginSection[]{%
+  \begin{frame}{Overview}
+    \tableofcontents[currentsection,hideallsubsections]
+  \end{frame}
+}
+
+% ============================================================
+% TITLE BLOCK
+% ============================================================
+\title{Asper Business Case Competition 2027}
+\subtitle{Team Briefing: Format, Rules and Deliverables}
+\author{Prof.\ Dr.\ Christoph Weisser}
+\institute{HSBI}
+\date{Winnipeg, February 18--22, 2027}
+
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% ---- Title slide -------------------------------------------
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ---- Table of contents -------------------------------------
+\begin{frame}{Table of Contents}
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+
+% ============================================================
+\section{The Competition at a Glance}
+% ============================================================
+
+\subsection{Host and Setting}
+
+\begin{frame}{What is the ABCC?}
+  \begin{block}{Asper Business Case Competition (ABCC)}
+    A three-day, graduate-level business case competition hosted by the
+    I.\,H.~Asper School of Business, University of Manitoba, in
+    Winnipeg, Canada. The 2027 edition (February 18--22) is the
+    \textbf{fifth annual} competition.
+  \end{block}
+  \begin{itemize}
+    \item Hosted at the \textbf{Drake Centre}, 181 Freedman Crescent, University of Manitoba campus
+    \item Teams stay at the \textbf{Delta Hotels Winnipeg} (downtown, skywalk access)
+    \item Teams from top Canadian business schools -- and, since 2026, international teams
+    \item 2026 field: 9 graduate teams, incl.\ HEC Montr\'eal, DeGroote, Beedie, Babe\c{s}-Bolyai (Romania)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Why It Matters for Us}
+  \begin{itemize}
+    \item First-hand experience with the \textbf{North American case method} under time pressure
+    \item Benchmarking against strong Canadian MBA/graduate teams -- the 2025 field included Ivey, John Molson, HEC Montr\'eal, Telfer, DeGroote, Beedie, Levene, Memorial and Asper
+    \item In 2026, the international newcomer Babe\c{s}-Bolyai University \textbf{won} the competition -- international teams can absolutely compete for the title
+    \item Rich social program: team-bonding events, networking with judges from industry, gala dinner with awards
+  \end{itemize}
+  \begin{exampleblock}{Scale of the event (2026)}
+    35 participants, 9 faculty advisors, 50 industry judges, 52 volunteers.
+  \end{exampleblock}
+\end{frame}
+
+\subsection{Team and Eligibility}
+
+\begin{frame}{Team Composition and Eligibility}
+  \begin{itemize}
+    \item Teams consist of \textbf{four students}; all four present in every round
+    \item Open to graduate-level students (full-time, part-time, executive MBA, and Masters-level students of other management programs)
+    \item Each team travels with a \textbf{faculty advisor / coach} (that is me)
+    \item Maximum of four laptops per team; \textbf{no cellphones or smartwatches} during case preparation and presentations
+  \end{itemize}
+  \begin{alertblock}{Golden rule}
+    \textbf{Every team member must speak} in every presentation and discussion round; judging uses the official 7-category team rubric.
+  \end{alertblock}
+\end{frame}
+
+
+% ============================================================
+\section{Competition Format}
+% ============================================================
+
+\subsection{The Three Rounds}
+
+\begin{frame}{A Typical Competition Week (2025 Schedule Pattern)}
+  \begin{center}
+    \begin{tabular}{lll}
+      \toprule
+      \textbf{Day} & \textbf{Programme} & \textbf{Evening} \\
+      \midrule
+      Wednesday & Arrival, registration, division draw & Free \\
+      Thursday  & \textbf{Prepared case} presentations & Museum social event \\
+      Friday    & \textbf{Boardroom case}: 4\,h prep + presentations & Festival du Voyageur \\
+      Saturday  & \textbf{Traditional case}: 3\,h prep + presentations & Finals, gala \& awards \\
+      Sunday    & Departure & -- \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \begin{itemize}
+    \item Teams present in staggered slots (division draw at registration); shuttles provided
+    \item 2027 daily agenda still TBA -- and note: Feb 18--22, 2027 is a \textbf{Thursday--Monday} footprint, so the 2025 weekday labels above will shift
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Three Rounds, Three Different Styles}
+  \begin{center}
+    \begin{tabular}{llll}
+      \toprule
+      \textbf{Round} & \textbf{Prep time} & \textbf{Format} & \textbf{Weight} \\
+      \midrule
+      1: Prepared case    & ca.\ 2 weeks (before travel) & 25\,min + 15\,min Q\&A & 25\,\% \\
+      2: Boardroom case   & short (4\,h in 2026)         & 3\,min + 22\,min discussion & 30\,\% \\
+      3: Traditional case & short (3\,h in 2026)         & 20\,min + 10\,min Q\&A & 45\,\% \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \begin{itemize}
+    \item Escalating difficulty and point value across the three rounds
+    \item Top 3 teams advance to a \textbf{final round} in front of a new judge panel
+    \item Ties broken by the highest traditional-case score
+  \end{itemize}
+\end{frame}
+
+\subsection{Round 1: Prepared Case}
+
+\begin{frame}{Round 1: The Prepared Case}
+  \begin{block}{Format}
+    25-minute presentation + 15-minute Q\&A. Unlimited slides and exhibits. Time warnings at 5 minutes (yellow) and 1 minute (red).
+  \end{block}
+  \begin{itemize}
+    \item Case is released \textbf{weeks before the competition} -- worked on at home
+    \item A real client: in 2026 this was \textbf{Jazz Winnipeg} (pitch a radical new operational idea)
+    \item All resources may be used -- \textbf{except} contacting employees of the case sponsor
+    \item The coach \textbf{may} give input on this case (unlike rounds 2 and 3)
+    \item Slide deck must be \textbf{submitted before the deadline} -- late submissions are placed at the bottom of the pool
+  \end{itemize}
+\end{frame}
+
+\subsection{Round 2: Boardroom Case}
+
+\begin{frame}{Round 2: The Boardroom Case}
+  \begin{block}{Format}
+    Seated boardroom setting: 3-minute uninterrupted recommendation, then 22 minutes of open discussion with the judges (in 2026: four judges plus a company representative).
+  \end{block}
+  \begin{itemize}
+    \item Short preparation window on site (4 hours in 2025 and 2026)
+    \item Protected 3 minutes: \textbf{one summary slide only} -- appendices are blocked; red card at 1 minute
+    \item Appendices unlocked for the 22-minute discussion (yellow/red cards at 5/1 minutes)
+    \item Judges receive a \textbf{one-page black-and-white brief} in advance; deck + brief handed in on a provided USB stick
+    \item Seated delivery via wireless keyboard/mouse; \textbf{no coach contact} after case release
+    \item 2026 client: Coal \& Canary -- elevate the brand from premium to luxury
+  \end{itemize}
+\end{frame}
+
+\subsection{Round 3: Traditional Case}
+
+\begin{frame}{Round 3: The Traditional Case}
+  \begin{block}{Format}
+    Classic case-competition style: 20-minute presentation + 10-minute Q\&A. Time warnings at 5 minutes (yellow) and 1 minute (red).
+  \end{block}
+  \begin{itemize}
+    \item Short preparation window on site (3 hours in 2026)
+    \item Highest weight of all rounds: \textbf{45\,\%} of the total score
+    \item One laptop per student; no cellphones or smartwatches
+    \item \textbf{No coach contact} after case release
+    \item 2026 client: Access Credit Union -- service innovations to engage young customers
+  \end{itemize}
+\end{frame}
+
+\subsection{Final Round}
+
+\begin{frame}{The Final Round}
+  \begin{itemize}
+    \item The \textbf{top 3 teams} present again before a fresh judge panel
+    \item 20-minute presentation + 15-minute Q\&A
+    \item Slide decks \textbf{cannot be modified} for the final
+    \item Faculty advisors may not communicate with their team until after the presentation
+    \item Winners announced at the \textbf{gala dinner}
+  \end{itemize}
+  \begin{exampleblock}{2026 podium}
+    1.~Babe\c{s}-Bolyai University (Romania) \quad 2.~DeGroote School of Business \quad 3.~HEC Montr\'eal
+  \end{exampleblock}
+\end{frame}
+
+
+% ============================================================
+\section{Deliverables Before the Competition}
+% ============================================================
+
+\subsection{Checklist}
+
+\begin{frame}{What We Must Hand In Before We Travel}
+  \begin{enumerate}
+    \item \textbf{Registration} of the school/team with the organizers \\
+          (contact: aspercasecomps@umanitoba.ca -- Judith Jayasuriya, Steven Harrison)
+    \item \textbf{Team roster}: four students + faculty advisor, with bios/photos as requested by the organizers
+    \item \textbf{Prepared-case slide deck} (Round 1): \textbf{.pptx only}, submitted by e-mail, file named ``[Team Name] Prepared Case'' -- in 2025: released Feb 5, due Feb 19, 10:00 CT (registration day). Late = bottom of the pool
+    \item Any \textbf{forms and waivers} sent by the organizing committee after registration
+    \item Optional but smart: \textbf{prebuilt slide template} for the on-site rounds (explicitly allowed; build before travelling)
+  \end{enumerate}
+  \begin{alertblock}{Note}
+    The detailed 2027 agenda and exact deadlines are still marked TBA on the official site -- they will be communicated after registration. We track them in the repository as they arrive.
+  \end{alertblock}
+\end{frame}
+
+\subsection{Travel and Administration}
+
+\begin{frame}{Travel Checklist (Germany $\rightarrow$ Canada)}
+  \begin{itemize}
+    \item Valid \textbf{passport} for every traveller (check expiry dates now)
+    \item \textbf{eTA} (Electronic Travel Authorization) for visa-exempt air travellers to Canada -- apply early, verify each student's citizenship requirements
+    \item Flights to \textbf{Winnipeg (YWG)}, arrival by February 18, 2027
+    \item Hotel: Delta Hotels Winnipeg (competition hotel; skywalk access)
+    \item \textbf{Travel health insurance} valid in Canada for all participants
+    \item Winter clothing -- Winnipeg in February regularly reaches $-20^{\circ}$C or below
+  \end{itemize}
+\end{frame}
+
+
+% ============================================================
+\section{Rules and Judging}
+% ============================================================
+
+\subsection{Core Rules}
+
+\begin{frame}{Core Rules Across All Rounds}
+  \begin{itemize}
+    \item Competition language: \textbf{English}; presentations must be \textbf{PowerPoint (.pptx)} -- no Prezi etc.
+    \item All four team members must speak in every round (not necessarily during the protected 3 minutes of the boardroom pitch)
+    \item One laptop per student; no cellphones or smartwatches during prep and presentation
+    \item No contact with the coach after release of the boardroom and traditional cases; on-site decks are collected on a provided USB stick at fixed pickup times
+    \item Time warnings: yellow card at 5 minutes, red card at 1 minute; \textbf{late arrival = no extra time}
+    \item Slide clickers are provided; volunteers monitor rule compliance
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Fair Play, Anonymity and Allowed Tools}
+  \begin{alertblock}{Disqualification risks}
+    Revealing your \textbf{school of origin} to a judge at any point, or any coach communication during a presentation or Q\&A, leads to \textbf{disqualification}. Teams compete under neutral letters (division draw at registration).
+  \end{alertblock}
+  \begin{itemize}
+    \item \textbf{Internet use is allowed} during prep -- including university databases and \textbf{Generative AI}
+    \item Prebuilt \textbf{own} slide templates are permitted (built outside prep time); no third-party templates for the prepared case
+    \item Never contact employees of a case sponsor; cases are confidential -- no sharing or reproducing
+    \item Dress code: \textbf{business professional} throughout competition days
+  \end{itemize}
+\end{frame}
+
+\subsection{Scoring}
+
+\begin{frame}{Scoring and Tie-Breaking}
+  \begin{center}
+    \begin{tabular}{lr}
+      \toprule
+      \textbf{Round} & \textbf{Weight} \\
+      \midrule
+      Prepared case    & 25\,\% \\
+      Boardroom case   & 30\,\% \\
+      Traditional case & 45\,\% \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \begin{itemize}
+    \item Rubric-based evaluation by panels of industry judges
+    \item Ties resolved by highest traditional-case score, then by performance in the weighted rounds and individual rubric categories
+    \item Strategic implication: \textbf{the short-prep rounds decide the competition} (75\,\% combined) -- our training focuses accordingly
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{The Judging Rubric (Official, 2025 Event Guide)}
+  \begin{center}
+    \begin{tabular}{lc}
+      \toprule
+      \textbf{Category} & \textbf{Weight} \\
+      \midrule
+      Implementation \& resources & $2.5\times$ \\
+      Analysis & $2.0\times$ \\
+      Recommendation & $2.0\times$ \\
+      Communicating effectively & $1.0\times$ \\
+      Framing the problem & $1.0\times$ \\
+      Impact & $1.0\times$ \\
+      Measurement, risks \& mitigation & $1.0\times$ \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \begin{alertblock}{Training implication}
+    \textbf{Implementation \& resources carries the highest weight} (2.5$\times$): every recommendation needs a concrete path -- steps, owners, timeline, resources, and financials -- not just a good idea.
+  \end{alertblock}
+\end{frame}
+
+
+% ============================================================
+\section{Our Team and Roadmap}
+% ============================================================
+
+\subsection{Team Roles}
+
+\begin{frame}{Playing to Our Strengths}
+  \begin{center}
+    \begin{tabular}{lll}
+      \toprule
+      \textbf{Background} & \textbf{Natural lead role} & \textbf{Typical ownership} \\
+      \midrule
+      Finance & CFO of the team & Financials, valuation, sensitivity \\
+      Innovation & Creative lead & Idea generation, differentiation \\
+      Computer Science & Analytics/tech lead & Data, feasibility, digital angle \\
+      General Business & Strategist \& integrator & Framing, structure, storyline \\
+      \bottomrule
+    \end{tabular}
+  \end{center}
+  \begin{itemize}
+    \item Roles are \textbf{leads}, not silos -- everyone masters the full storyline
+    \item Rotating ``presenter~1'' role in practice so all four are strong openers
+  \end{itemize}
+\end{frame}
+
+\subsection{Preparation Roadmap}
+
+\begin{frame}{Preparation Roadmap (Details in the Prep Plan)}
+  \begin{enumerate}
+    \item \textbf{Foundations} -- case method, core frameworks, business math drills
+    \item \textbf{Skill building} -- role-specific deep dives, slide craft, storylining
+    \item \textbf{Simulation} -- weekly timed mock cases: 3\,h traditional, 4\,h boardroom
+    \item \textbf{Prepared case sprint} -- structured 2-week sprint once Case 1 is released
+    \item \textbf{Final polish \& travel} -- Q\&A gauntlet, dress rehearsals, logistics
+  \end{enumerate}
+  \begin{exampleblock}{Guiding principle}
+    Train hardest for what weighs most: short-prep cases under competition-identical time limits and device rules.
+  \end{exampleblock}
+\end{frame}
+
+\begin{frame}{Sources and Further Information}
+  \begin{itemize}
+    \item Official page: \url{https://umanitoba.ca/asper/asper-business-case-competition}
+    \item ABCC 2025 Event Guide (rules, rubric, schedule): \url{https://umanitoba.ca/asper/sites/asper/files/2025-01/abcc25-eventguide.pdf}
+    \item Past case PDFs 2024--2026 (all nine cases): linked in \texttt{01-competition/past\_cases.md} of our repository
+    \item 2026 recap: \url{https://umtoday.ca/stories/forging-worldwide-relationships-2026-asper-business-case-competition}
+    \item Instagram: @Asper\_BCC \quad Contact: aspercasecomps@umanitoba.ca
+  \end{itemize}
+  \begin{alertblock}{Status of information}
+    Rules and rubric follow the official 2025 Event Guide and the 2027 website; prep times and clients from 2025/2026. The 2027 agenda is TBA -- re-verify all deadlines after registration.
+  \end{alertblock}
+\end{frame}
+
+
+\end{document}
