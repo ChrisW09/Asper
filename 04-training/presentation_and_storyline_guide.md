@@ -1,8 +1,21 @@
 # Presentation and Storyline Guide
 
-**ABCC 2027 Training Series — Part 1 of 3**
+**Core skills trio, part 1 of 3 · Delivery: how the argument reaches the judges.** The other two: [`qa_drills.md`](qa_drills.md) · [`business_math_drills.md`](business_math_drills.md). Folder overview: [`README.md`](README.md).
 
 This guide is for our four-member Masters team (finance, innovation, computer science, general business administration) and our coach. It covers how we build and deliver decks across all three Asper rounds: the **Prepared case** (received ~2 weeks ahead; 25-minute presentation + 15-minute Q&A; 25% of total score), the **Boardroom case** (4-hour prep; 3-minute pitch + 22-minute seated discussion; 30%), and the **Traditional case** (3-hour prep; 20-minute presentation + 10-minute Q&A; 45%). Asper's judges are industry practitioners, not academics — and the official ABCC rubric (2025 Event Guide) makes **Implementation & Resources the single heaviest criterion at 2.5×**, ahead of Analysis (2.0×) and Recommendation (2.0×), with communication, framing, impact, and risk categories at 1.0× each. Everything below is tuned to that reality: one decisive, quantified, executable recommendation with a resourced roadmap.
+
+---
+
+## Contents
+
+- [1. Action titles and horizontal logic](#1-action-titles-and-horizontal-logic)
+- [2. The standard storyline skeleton](#2-the-standard-storyline-skeleton)
+- [3. The 3-hour production workflow (Traditional round)](#3-the-3-hour-production-workflow-traditional-round)
+- [4. The 3-minute boardroom pitch formula](#4-the-3-minute-boardroom-pitch-formula)
+- [5. Seated boardroom discussion technique (22 minutes)](#5-seated-boardroom-discussion-technique-22-minutes)
+- [6. Handovers](#6-handovers)
+- [7. Delivery for non-native speakers](#7-delivery-for-non-native-speakers)
+- [8. Dress and stage presence](#8-dress-and-stage-presence)
 
 ---
 
@@ -11,7 +24,7 @@ This guide is for our four-member Masters team (finance, innovation, computer sc
 **The rule.** Every slide title is a full-sentence claim — with a number wherever possible — never a label. The slide body exists only to prove its title (vertical logic). Read top to bottom, the titles alone must tell the complete argument (horizontal logic). Judges skim; many will form their verdict from titles and charts alone.
 
 | Weak (label) | Strong (action title) |
-|---|---|
+| --- | --- |
 | Market Overview | The Canadian premium candle market grows 6% p.a. — but 70% of value sits in gifting occasions |
 | Financial Projections | A CAD 1.2M investment returns CAD 3.4M NPV and pays back in 2.1 years |
 | Risks | The two risks that matter — channel conflict and FX — are capped at CAD 0.4M by our phasing |
@@ -27,7 +40,7 @@ This guide is for our four-member Masters team (finance, innovation, computer sc
 We use one skeleton for every deck, pre-built in our branded template (logos, colors, layouts — no text, as competition rules require). Pyramid Principle throughout: answer first, proof after. One recommendation, never a menu — "We recommend B, and here is why A and C don't hold up."
 
 | # | Slide | Job of the slide |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Title | Team identity, client, date; recommendation teased in the subtitle |
 | 2 | Executive summary | The recommendation, three supporting reasons, quantified impact, the ask |
 | 3 | Situation and problem | The one-sentence exam question and why it is urgent now |
@@ -50,7 +63,7 @@ Principles proven by winning teams: hypothesis-driven from minute one; roughly 1
 **Roles.**
 
 | Role | Team member profile | Owns |
-|---|---|---|
+| --- | --- | --- |
 | Quarterback (PM) | General business administration | Time, storyline, executive summary, implementation slides, final decisions |
 | Chief Analyst | Finance | The model, every case number, financial and sensitivity slides |
 | Strategist | Innovation | Alternatives, recommendation design, risks, the creative edge |
@@ -59,7 +72,7 @@ Principles proven by winning teams: hypothesis-driven from minute one; roughly 1
 **Minute by minute.**
 
 | Time | Quarterback | Chief Analyst | Strategist | Design & Data Lead |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 0:00–0:05 | Reads the prompt aloud twice; writes the exam question on the whiteboard | Opens model shell | Recalls industry priors from our prepared country/industry files | Opens template and shared deck; sets skeleton |
 | 0:05–0:30 | Silent read: prompt, stakeholders, constraints, decision-maker | Silent read: exhibits and financials; tags the page of every figure | Silent read: market, customers, competition | Silent read: chartable data, operations facts |
 | 0:30–0:35 | Runs readouts: each member states the problem in one sentence plus top three facts | — | — | — |
@@ -81,7 +94,7 @@ Rules that make it work: the Quarterback vocalizes time and drift ("Twenty minut
 Three minutes is roughly 400 words at our deliberate non-native pace (about 135 words per minute). One summary slide only — appendices are blocked during the protected 3 minutes and accessible only in the 22-minute discussion; everything else lives in the appendix. This is the one script we memorize verbatim and never improvise.
 
 | Clock | Beat | Content |
-|---|---|---|
+| --- | --- | --- |
 | 0:00–0:20 | Governing thesis | "We recommend [action]. It delivers [quantified impact] by [date] for an investment of [X]." |
 | 0:20–0:50 | The problem, sharpened | The single insight that reframes the case — why now, in one number |
 | 0:50–2:10 | Three pillars | Reasons 1–3, ~25 seconds each, one number each, one speaker each |

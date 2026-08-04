@@ -6,7 +6,7 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 
 - **Competition:** Asper Business Case Competition (ABCC) — "a three-day national-level, graduate case competition hosted at the I. H. Asper School of Business"
 - **Editions:** 2026 was the fourth edition (UM Today) → **2027 is the fifth annual ABCC**
-- **Dates 2027:** February 18–22, 2027; daily agenda TBA
+- **Dates 2027:** February 18–22, 2027; daily agenda TBA. **Note the weekday anomaly** — see below
 - **Host/venue:** Drake Centre, Asper School of Business, 181 Freedman Crescent, Winnipeg (2025: prepared-case day at the Manitoba Museum; venues can vary by day)
 - **Hotel 2027:** Delta Hotels Winnipeg, downtown (2025 used Hilton Garden Inn — hotel varies by year)
 - **Eligibility (official wording):** "full-time, part-time, and executive MBA students, as well as Masters-level students from other management programs. Every team shall be composed of four team members."
@@ -17,12 +17,36 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 ## Typical week (2025 Event Guide)
 
 | Day | Programme |
-|---|---|
+| --- | --- |
 | Wednesday | Arrival; 17:00 team registration + division draw (teams get neutral letters A–I) |
 | Thursday | Prepared-case presentations (staggered slots from ~09:30); evening museum social |
 | Friday | Boardroom case: staggered 4-h prep from ~09:30, presentations from ~14:00; Festival du Voyageur evening |
 | Saturday | Traditional case: staggered 3-h prep from ~08:40, presentations from ~12:00; ~15:50 finalist announcement; finals 16:20–18:20; reception + awards gala (Marshall McLuhan Hall); student mixer |
 | Sunday | Departure |
+
+### The 2027 weekday question (open, and it affects flights)
+
+Both documented editions started on a **Wednesday** and ended on a **Sunday**:
+
+| Edition | Published window | Weekdays |
+| --- | --- | --- |
+| ABCC 2025 (3rd) | Feb 19–23, 2025 | **Wed** → Sun |
+| ABCC 2026 (4th) | Feb 18–21, 2026 (departure Feb 22) | **Wed** → Sat (dep. Sun) |
+| ABCC 2027 (5th) | Feb 18–22, 2027 *(as published)* | **Thu** → Mon |
+
+So the published 2027 window would be the **first Thursday start** in the series. Two readings are possible
+and we cannot yet tell which is right:
+
+1. **The window is exact** — registration Thu Feb 18, three competition days Fri–Sun, departure Mon Feb 22.
+   The awards gala would fall on a Sunday.
+2. **The Wednesday pattern holds** and the real week is Wed Feb 17 – Sun Feb 21, with the published range
+   either provisional or counting days differently.
+
+**Practical consequence.** Our travel envelope — arrive **Feb 16/17**, return **Feb 22/23** — covers both
+readings, so the booking plan is safe as it stands. **Do not book non-refundable tickets outside that
+envelope, and do not fix hotel nights to a specific round order, until the 2027 agenda is published.** All
+day-sheets in this repository assume reading 1 with the 2025 round order, and say so in place. Confirm with
+the organizers (question 1 of the open list below).
 
 ## Format and rules (validated)
 
@@ -70,7 +94,7 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 ## Official judging rubric (2025 Event Guide — applied to all rounds)
 
 | Category | Weight | Judges ask |
-|---|---|---|
+| --- | --- | --- |
 | Implementation & resources | **2.5×** | Clear path to follow, with resources, time, and financial considerations? |
 | Analysis | 2.0× | Assessment/recommendation substantiated by research, logic, quant + qual analysis? |
 | Recommendation | 2.0× | Effective, clear, comprehensive, strategic fit? |
@@ -87,7 +111,7 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 `01-competition/past-case-pdfs/`; the other five are linked below and must be downloaded before use.
 
 | Edition | Round | Client / case | Mirrored locally | PDF |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 2026 | Prepared | Jazz Winnipeg at a Crossroads | — | https://umanitoba.ca/asper/sites/asper/files/2026-05/abcc-2026_prepared-case.pdf |
 | 2026 | Boardroom | Coal & Canary | — | https://umanitoba.ca/asper/sites/asper/files/2026-05/abcc-2026_boardroom-case_final.pdf |
 | 2026 | Traditional | Access Credit Union | — | https://umanitoba.ca/asper/sites/asper/files/2026-04/abcc-2026_traditional-case-final.pdf |

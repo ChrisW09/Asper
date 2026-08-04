@@ -4,6 +4,19 @@ Companion to the six PowerPoint skeletons in `06-templates/case-type-templates/`
 
 The types are induced from the actual ABCC client formula (see `01-competition/past_cases.md`, Part III): the prepared round has been an arts/culture non-profit three years running, the boardroom round an owner-led consumer or family business at a crossroads, the traditional round a large Manitoba-rooted enterprise with an engagement, trust, or talent problem.
 
+## Contents
+
+- [The first ten minutes: classifying the case](#the-first-ten-minutes-classifying-the-case)
+- [Type A — Turnaround & Revenue Sustainability](#type-a--turnaround--revenue-sustainability)
+- [Type B — Growth & Market Entry](#type-b--growth--market-entry)
+- [Type C — Brand Repositioning / Premiumization](#type-c--brand-repositioning--premiumization)
+- [Type D — New Product / Opportunity Screen](#type-d--new-product--opportunity-screen)
+- [Type E — Digital Customer Engagement](#type-e--digital-customer-engagement)
+- [Type F — Talent, Trust & Change](#type-f--talent-trust--change)
+- [Using the templates](#using-the-templates)
+
+---
+
 ## The first ten minutes: classifying the case
 
 Read the ask twice before anything else. The task sentence almost always names the type: *viability/radical idea* → Turnaround (A); *expansion/growth/pilot budget* → Growth & Entry (B); *positioning/brand elevation* → Premiumization (C); *next product/opportunity, with numeric screens* → Opportunity Screen (D); *engage segment X / service innovation / digital* → Engagement (E); *hiring/trust/adoption/change* → People & Change (F). Then confirm against the client archetype and exhibits: a deficit P&L signals A; a market/competitor table signals B or D; brand-tracking data signals C; funnel or demographic data signals E; workforce or adoption data signals F.

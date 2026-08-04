@@ -55,7 +55,7 @@ Nine graduate teams of four compete over three days in **three case formats**, t
 Everything runs **in English**, PowerPoint only, judged by ~50 industry practitioners.
 
 | Round | Prep | Delivery | Weight |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Prepared case** | released ~2 weeks ahead, all resources incl. coach | 25 min presentation + 15 min Q&A; deck due as `.pptx` by e-mail before arrival (**late = bottom of pool**) | **25 %** |
 | **Boardroom case** | 4 h on site, no coach contact | 3-min *protected* pitch from **one summary slide** + 22-min judge discussion; one-page b/w judge brief handed to judges in advance | **30 %** |
 | **Traditional case** | 3 h on site, no coach contact | 20 min presentation + 10 min Q&A; unlimited slides | **45 %** |
@@ -69,9 +69,12 @@ Field and history: 2025 saw Asper, Beedie, DeGroote, HEC Montréal, Ivey, John M
 Telfer. 2026 (fourth edition) included the first international team — Babeș-Bolyai, Romania — which **won
 outright**, ahead of DeGroote and HEC Montréal. That is the precedent this team is following.
 
-> **Watch the weekday shift.** Feb 18–22, 2027 falls **Thursday–Monday**; the 2025 baseline ran
-> **Wednesday–Sunday** (registration was Wed Feb 19, 2025). Every day-by-day schedule here is built on the
-> 2025 shape and marked TBA — the real round-to-day mapping arrives with the 2027 agenda.
+> **Watch the weekday question.** Feb 18–22, 2027 falls **Thursday–Monday**, but both documented editions
+> ran **Wednesday–Sunday** (2025: Wed Feb 19 – Sun Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday),
+> so 2027 would be the first Thursday start. Either the window is exact, or the real week is Wed Feb 17 – Sun
+> Feb 21. Every day-sheet here assumes the published window with the 2025 round order and says so in place;
+> our flight envelope (arrive Feb 16/17, return Feb 22/23) covers both readings. Details:
+> [`01-competition/facts_and_rules.md`](01-competition/facts_and_rules.md).
 
 Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/facts_and_rules.md) —
 **the single source of truth** for every rule claim in every other document.
@@ -82,21 +85,24 @@ Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/f
 
 Eight numbered folders follow the lifecycle of the project:
 *understand the competition → plan → form the team → train → practice → build assets → travel → brief.*
-**54 files**, of which **35 markdown documents, ≈75,000 words**.
+**62 files**, of which **42 markdown documents, ≈82,500 words**. **Every folder opens with its own
+`README.md`** — what is inside, in what order to use it, and the hard rules that apply — so you can navigate
+by clicking rather than by searching.
 
 | Folder | Contents |
-|---|---|
-| [`01-competition/`](01-competition/) | Rules & facts (**source of truth**), handbook, official judging scoresheet, past-case dossier with ten re-crack briefs, and six official case PDFs |
+| --- | --- |
+| [`01-competition/`](01-competition/) | Rules & facts (**source of truth**), handbook, official judging scoresheet + external-judge briefing, past-case dossier with ten re-crack briefs, and six official case PDFs |
 | [`02-plan/`](02-plan/) | Preparation concept, dated week-by-week calendar (**governs on date conflicts**), simulation log |
 | [`03-team/`](03-team/) | Team charter, role playbooks incl. the GenAI operating procedure, coach & AI rules one-pager |
-| [`04-training/`](04-training/) | Presentation & storyline guide, Q&A drills (60 questions), business math (40 drills), English phrasebook + 87 flashcards, frameworks, and the **exercise program** in [`04-training/exercises/`](04-training/exercises/) — 25-question format quiz, four solved workbooks, week-mapped catalog, ≈200 items |
+| [`04-training/`](04-training/) | The core skills trio — presentation & storyline guide, Q&A drills (60 questions), business math (40 drills) — plus the framework selector, English phrasebook + 87 flashcards, and the **exercise program** in [`04-training/exercises/`](04-training/exercises/): 25-question format quiz, four solved workbooks, week-mapped catalog, ≈200 items |
 | [`05-practice-cases/`](05-practice-cases/) | Three original full cases (traditional / boardroom / prepared, with teaching notes), mini-cases 1–12, model answers |
 | [`06-templates/`](06-templates/) | The 14-slide team skeleton, six case-type skeletons (A–F), case-type playbook, financial toolkit (xlsx), judge-brief template (docx) |
 | [`07-logistics/`](07-logistics/) | Registration e-mail draft, travel logistics Germany→Winnipeg, competition-day runbook |
 | [`08-briefing-slides/`](08-briefing-slides/) | Kick-off Beamer deck — LaTeX source + the 25-page PDF |
 
 **What each individual file is, and when to use it:** [`DOCUMENTATION.md`](DOCUMENTATION.md) §2. Every file
-has one canonical location and every path in every document is relative to this root.
+has one canonical location, every path in every document is relative to this root, and the sixteen longest
+documents carry their own table of contents.
 
 The eight commits of this material's earlier life as a nested repository (v1–v8, before it was flattened into
 one) are preserved on the **`archive-history`** branch: `git log archive-history`.
@@ -183,7 +189,7 @@ Step-by-step detail for each of these: [`DOCUMENTATION.md`](DOCUMENTATION.md) §
 The official ABCC rubric (2025 Event Guide) applies to **all rounds**, 7 categories, max 105 points:
 
 | Category | Weight | What judges ask |
-|---|---|---|
+| --- | --- | --- |
 | **Implementation & resources** | **2.5×** | Is there a clear path to follow, with resources, time, and financial considerations? |
 | Analysis | 2.0× | Is the assessment substantiated by research, logic, quantitative and qualitative analysis? |
 | Recommendation | 2.0× | Effective, clear, comprehensive, strategically fitting? |
@@ -236,7 +242,7 @@ template or judge brief.**
 ## Timeline and milestones
 
 | Date | Milestone |
-|---|---|
+| --- | --- |
 | **Aug 3–9, 2026 (now)** | **W1 kick-off:** deck presented, charter signed, roles assigned; **registration e-mail sent**; passports checked |
 | Aug 2026 | **eTAs applied for** (W2), all five travellers |
 | Sep–Oct 2026 | **Flights booked** (arrive Feb 16/17, return Feb 22/23); funding secured; hotel block confirmed |
@@ -255,12 +261,13 @@ Training phases: **Foundations** (W1–W5, Aug 3 – Sep 6) → **Skill building
 
 **The competition week, and the caveat.** The 2025 pattern ran Wednesday arrival with registration and the
 division draw · Thursday prepared-case presentations and the museum social · Friday boardroom case and
-Festival du Voyageur · Saturday traditional case, finals and awards gala · Sunday departure. But 2025 started
-on a Wednesday (Feb 19) and **2027 runs Thursday Feb 18 to Monday Feb 22**, so the round-to-day mapping must
-shift somewhere. Every day-sheet in
+Festival du Voyageur · Saturday traditional case, finals and awards gala · Sunday departure. 2026 ran the
+same shape, also from a Wednesday. The published 2027 window (**Thu Feb 18 – Mon Feb 22**) would break that
+pattern, so the day-sheets in
 [`07-logistics/competition_day_runbook.md`](07-logistics/competition_day_runbook.md) and the week-plan table
-is built on the 2025 shape and marked *expected*; the first thing to reconcile when the 2027 agenda publishes
-is which date carries which round.
+map the 2025 order onto the published dates and mark every weekday *expected*. What the team drills is the
+*shape* of each day; the dates are a one-line edit when the agenda lands. First thing to reconcile then:
+which date carries which round.
 
 ---
 

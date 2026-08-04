@@ -4,6 +4,18 @@
 
 All six companies are fictional; figures are simplified case data — treat them as given and state extra assumptions out loud. The scenarios mirror client archetypes recurring across real ABCC editions: arts non-profits (Manitoba Museum 2025, WAG–Qaumajuq 2024, Jazz Winnipeg 2026), family retail (Independent Jewellers 2024), Manitoba manufacturing (AROW Global 2025, StandardAero 2024), financial services chasing the young (Access Credit Union 2026), premium brands (Coal & Canary 2026), people problems (People Corporation 2025). If a 2027 client feels familiar in February, that is the point.
 
+## Contents
+
+- [How to run the drill](#how-to-run-the-drill)
+- [Mini-Case 1 · Kammerphilharmonie Lippe — the €400k hole](#mini-case-1--kammerphilharmonie-lippe--the-400k-hole)
+- [Mini-Case 2 · Thiessen & Sons Outfitters — one store, three doors](#mini-case-2--thiessen--sons-outfitters--one-store-three-doors)
+- [Mini-Case 3 · Boundary Trail Metalworks — what do we build next?](#mini-case-3--boundary-trail-metalworks--what-do-we-build-next)
+- [Mini-Case 4 · Tallgrass Mutual — insuring the renters](#mini-case-4--tallgrass-mutual--insuring-the-renters)
+- [Mini-Case 5 · Lindenhof Naturkosmetik — the discount that ate the brand](#mini-case-5--lindenhof-naturkosmetik--the-discount-that-ate-the-brand)
+- [Mini-Case 6 · Senne Präzisionstechnik — fourteen empty workbenches](#mini-case-6--senne-präzisionstechnik--fourteen-empty-workbenches)
+
+---
+
 ## How to run the drill
 
 **Purpose.** These weekly drills train one muscle: crack a problem to a defensible, numbered recommendation in under half an hour and defend it out loud — a miniature of the boardroom round's protected three minutes and of every Q&A in Winnipeg.
@@ -11,7 +23,7 @@ All six companies are fictional; figures are simplified case data — treat them
 **Timing (about 40 minutes).**
 
 | Clock | Step |
-|---|---|
+| --- | --- |
 | 0:00–0:02 | Warm-up: one member answers the market-sizing question cold, timed at 90 seconds; compare with the printed answer. |
 | 0:02–0:06 | Silent read of the case. |
 | 0:06–0:21 | Whiteboard crack — the lead owns marker and structure; one member runs the key numbers. |

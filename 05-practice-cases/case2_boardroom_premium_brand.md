@@ -6,10 +6,36 @@
 
 ---
 
+## Contents
+
+  - [How to Run This Practice Round](#how-to-run-this-practice-round)
+  - [The Boardroom Brief](#the-boardroom-brief)
+- [THE CASE](#the-case)
+  - [1. A Candle Poured Against the Weather](#1-a-candle-poured-against-the-weather)
+  - [2. The Product Today](#2-the-product-today)
+  - [3. How Lichtwerk Sells](#3-how-lichtwerk-sells)
+  - [4. The Market and the Competitive Set](#4-the-market-and-the-competitive-set)
+  - [5. The Customer Picture](#5-the-customer-picture)
+  - [6. Edition Eins: The €95 Experiment](#6-edition-eins-the-95-experiment)
+  - [7. The Founders' Disagreement](#7-the-founders-disagreement)
+  - [8. Decisions the Board Cannot Postpone](#8-decisions-the-board-cannot-postpone)
+- [EXHIBITS (CASE DATA)](#exhibits-case-data)
+  - [Exhibit 1 — Pricing Ladder: Hero Candles, DACH Market](#exhibit-1--pricing-ladder-hero-candles-dach-market)
+  - [Exhibit 2 — Lichtwerk P&L Structure, FY2025](#exhibit-2--lichtwerk-pl-structure-fy2025)
+  - [Exhibit 3 — Channel Economics, FY2025](#exhibit-3--channel-economics-fy2025)
+  - [Exhibit 4 — DTC Customer Segmentation (CRM, 24-month actives, n = 96,000)](#exhibit-4--dtc-customer-segmentation-crm-24-month-actives-n--96000)
+  - [Exhibit 5 — Brand Tracking, DACH Premium-Fragrance Buyers (Jan–Feb 2026, n = 2,100)](#exhibit-5--brand-tracking-dach-premium-fragrance-buyers-janfeb-2026-n--2100)
+  - [Exhibit 6 — The Founders' Maison Plan and Operating Constraints](#exhibit-6--the-founders-maison-plan-and-operating-constraints)
+- [YOUR TASK](#your-task)
+
+*Then the coach-only teaching note — do not read it before you have presented.*
+
+---
+
 ## How to Run This Practice Round
 
 | Parameter | Specification (mirrors ABCC Boardroom round) |
-|---|---|
+| --- | --- |
 | Preparation time | **4 hours**, team of 4, sequestered from coach and outsiders; internet research **allowed** — including databases and generative AI — per official ABCC rules; no phones or smartwatches |
 | Opening pitch | **3 minutes, uninterrupted**, hard stop; all four members must speak at some point in the session |
 | Board discussion | **22 minutes**, moderated by the judges in role as the board; interruptions expected |
@@ -29,7 +55,7 @@ You are a four-person strategy team engaged by the board of **Manufaktur Lichtwe
 
 ---
 
-# CASE NARRATIVE
+# THE CASE
 
 ## 1. A Candle Poured Against the Weather
 
@@ -97,14 +123,14 @@ And behind them, the Sévigné letter. The board meets on 7 August. You speak fi
 
 ---
 
-# EXHIBITS
+# EXHIBITS (CASE DATA)
 
 *All Lichtwerk figures are fictional. Competitor figures are rounded street-price estimates, spring 2026, for teaching purposes.*
 
 ## Exhibit 1 — Pricing Ladder: Hero Candles, DACH Market
 
 | Brand | Hero candle | Size | RRP (€) | €/100 g | Distribution character |
-|---|---|---:|---:|---:|---|
+| --- | --- | ---: | ---: | ---: | --- |
 | Zara Home | Ceramic jar | 200 g | 16 | 8.0 | Mass, own stores/online, frequent promotion |
 | Yankee Candle | Large jar | 538 g | 35 | 6.5 | Mass, broad wholesale, heavy discounting |
 | Rituals | Private Collection | 290 g | 30 | 10.3 | Mass-premium, ~1,000 own stores EU |
@@ -122,7 +148,7 @@ And behind them, the Sévigné letter. The board meets on 7 August. You speak fi
 **By product line:**
 
 | Product line | Revenue (€m) | Share | Gross margin % | Gross profit (€m) |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Klassik candles | 3.16 | 46.5% | 52% | 1.65 |
 | Stadtlichter seasonal | 0.78 | 11.5% | 55% | 0.43 |
 | Home fragrance | 1.16 | 17.0% | 58% | 0.67 |
@@ -135,7 +161,7 @@ And behind them, the Sévigné letter. The board meets on 7 August. You speak fi
 **Unit economics, per candle (ex 19% VAT):**
 
 | | Klassik 220 g (€39 RRP) | Maison 300 g (€95 RRP, pilot actuals) |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Net revenue, DTC | 32.77 | 79.83 |
 | Wax & fragrance | 4.10 | 10.90 (Grasse oil, 10% load) |
 | Vessel & lid | 2.30 | 9.50 (mouth-blown) |
@@ -149,7 +175,7 @@ And behind them, the Sévigné letter. The board meets on 7 August. You speak fi
 ## Exhibit 3 — Channel Economics, FY2025
 
 | Channel | Revenue (€m) | Share | YoY growth | Contribution margin* | Notes |
-|---|---:|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | ---: | --- |
 | DTC webshop | 2.31 | 34% | +9% | 38% | AOV €61; 96k active customers; 210k email list |
 | Atelier store (Ottensen) | 0.48 | 7% | +6% | 30% | Production theatre; strong tourist traffic |
 | Wholesale (380 doors) | 2.52 | 37% | +3% | 22% | Top 40 doors = 55% of wholesale; tail door avg. €3.3k p.a. |
@@ -162,7 +188,7 @@ And behind them, the Sévigné letter. The board meets on 7 August. You speak fi
 ## Exhibit 4 — DTC Customer Segmentation (CRM, 24-month actives, n = 96,000)
 
 | Segment | % of customers | % of DTC revenue | AOV (€) | Orders/yr | 12-mo repeat rate | "Would consider a €95+ Lichtwerk candle" |
-|---|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Ritualists (self-purchase regulars) | 29% | 41% | 52 | 2.9 | 58% | 12% |
 | Gift Givers (Q4-heavy) | 41% | 33% | 68 | 1.3 | 31% | 9% |
 | Aesthetes (design-led, urban) | 12% | 19% | 86 | 2.2 | 47% | 44% |
@@ -177,7 +203,7 @@ Edition Eins buyers: 41% existing top-decile customers (heavily Aesthetes), 38% 
 *Attribute scores among respondents aware of each brand (% agreeing).*
 
 | Brand | Aided awareness | "Is a luxury brand" | "Authentic craftsmanship" | "Worth a premium price" | "A prestigious gift" | Median acceptable price, 220 g (€) |
-|---|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Rituals | 91% | 18% | 22% | 26% | 38% | 26 |
 | Yankee Candle | 78% | 6% | 12% | 11% | 14% | 22 |
 | Jo Malone London | 44% | 69% | 41% | 52% | 71% | 58 |
@@ -192,7 +218,7 @@ Lichtwerk awareness: 47% Hamburg metro vs 13% rest of DACH (the study deliberate
 **Merle's investment plan (24 months, €k):**
 
 | Item | €k |
-|---|---:|
+| --- | ---: |
 | Brand identity, packaging design & tooling | 180 |
 | Neuer Wall flagship fit-out | 450 |
 | PR, sampling, launch events (Paris/Milan press days) | 320 |
@@ -205,7 +231,7 @@ Lichtwerk awareness: 47% Hamburg metro vs 13% rest of DACH (the study deliberate
 **Operating constraints:**
 
 | Constraint | Detail |
-|---|---|
+| --- | --- |
 | Hand-pour capacity | 9,000 candles/week (11,500 with overtime); Q4 already at peak |
 | Cure time | Klassik 5 days; Maison formulation 14 days |
 | Vessels | MOQ 5,000/order; 16-week lead time; 2027 capacity slot must be reserved by 15 Sep 2026; 2027 plan needs ~8,000 vessels |
@@ -290,7 +316,7 @@ Brief the four judges into roles and instruct them to interrupt from minute 4: *
 ## Scoring Rubric (100 points)
 
 | Criterion | Pts | What excellent looks like |
-|---|---:|---|
+| --- | ---: | --- |
 | Opening pitch (3 min) | 10 | Recommendation in the first 30 seconds; three numbered reasons; lands at 2:50–3:00; confident handoffs |
 | Summary slide | 5 | One message, readable at 4 m; the recommendation and 3–4 proof numbers; no clutter |
 | One-page judge brief | 10 | Genuine board pre-read: decision requested, key economics, risks with mitigations, explicit asks/deadlines; clean b/w typography |

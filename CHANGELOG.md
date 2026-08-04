@@ -10,6 +10,75 @@ on the **`archive-history`** branch.
 
 ---
 
+## v10 — Material and structure improvement round · 2026-08-04
+
+### Structure
+
+- **A `README.md` index in every lifecycle folder** (01–08). Each says what the folder holds, in what order
+  to use it, and which hard rules live there. GitHub renders them under the folder's file list, so browsing
+  the repository is now self-guiding. They are navigation; `DOCUMENTATION.md` remains the per-file reference.
+- **`05-practice-cases/index.md` merged into that folder's `README.md`** and deleted — the new index made it
+  a near-duplicate. Nothing was lost: the recommended re-crack order, the "other sources" list, and the 2027
+  client pattern all moved across, and a stale instruction to "create the simulation log on first simulation"
+  (it has existed since v3) is gone.
+- **Tables of contents added to the 16 documents over ~1,500 words**, generated from their own headings.
+  In the three practice cases the list deliberately **stops at the coach-only teaching note**, with a line
+  saying so, so a table of contents cannot become a shortcut to the solution.
+- **One heading convention across the three practice cases.** They had drifted into three: case 3 marked its
+  teaching note with a plain paragraph and used H2 for part separators, case 2 called its narrative
+  "CASE NARRATIVE", case 1 "THE CASE". All three now run
+  `# THE CASE` → `# EXHIBITS (CASE DATA)` → `# YOUR TASK` → `# === TEACHING NOTE (coach only) ===`.
+- **Repo-wide markdown normalization:** 111 table delimiter rows padded to `| --- | --- |` across 24 files,
+  the one unlanguaged code fence fixed, trailing newlines made uniform. Codified in a new
+  **`.markdownlint.json`** so the editor enforces it from here on.
+- **`.gitignore`** now also excludes Office lock files (`~$*`), which appear whenever a `.pptx`/`.xlsx` is
+  open.
+- **The reference convention is now documented** rather than merely observed (`DOCUMENTATION.md` §8):
+  navigation files use clickable relative links, content documents cite root-relative paths in backticks —
+  because the training material gets printed and pasted, where a relative link is meaningless.
+
+### Material
+
+- **The 2027 weekday question — researched, resolved as far as it can be, and propagated.** ABCC 2025 ran
+  Wed Feb 19 – Sun Feb 23 and ABCC 2026 ran Wed Feb 18 – Sat Feb 21 (departure Sunday): **both started on a
+  Wednesday.** The published 2027 window, February 18–22, falls **Thursday–Monday** — the first Thursday
+  start in the series. Either the window is exact (registration Thursday, gala Sunday, departure Monday) or
+  the real week is Wed Feb 17 – Sun Feb 21. `facts_and_rules.md` now carries the full analysis with the
+  edition-by-edition table; the handbook's §12 tracker, the calendar footnote, the runbook intro, the travel
+  plan's booking countdown, and both root documents point to it. **Booking consequence, now stated where
+  flights are booked:** the planned envelope (arrive Feb 16/17, return Feb 22/23) covers both readings, so it
+  is safe — but nothing outside it should be booked non-refundably, and hotel nights should not be tied to a
+  round order, until the agenda is published. This replaces the vaguer earlier claim that "the round-to-day
+  mapping must shift somewhere".
+- **`frameworks.md` rebuilt as a decision tool.** It was a 540-word list of framework names. It now opens
+  with a **five-minute selector** — a row per case type (A–F, keyed to `case_type_playbook.md`) giving the
+  decision the client faces, the analyses to always do, those usually worth it, and those to skip — and closes
+  with a **"frameworks to handle with care"** table (SWOT, Five Forces, BCG, PESTEL, Ansoff: why judges get
+  impatient, and the one condition under which each earns its slide). The blocks in between gained the
+  judge-facing consequence of each tool rather than just its name.
+- **A conflict between two training documents fixed.** `frameworks.md` set a 60-second limit per Q&A answer;
+  `qa_drills.md` — which owns the protocol — sets 20–30 seconds standard and 45 as the maximum for a
+  financial walk-through. `frameworks.md` now defers to it explicitly instead of restating a different number.
+- **Briefing for an external judge added** to `judging_scoresheet.md`. The calendar asks for external judges
+  five times (W17, W19, W23–24, both W25 rounds) and there was nothing to hand them: now a recruiting ask
+  short enough to send as-is, and the six points to cover in fifteen minutes — play the client's
+  decision-maker, Implementation & Resources counts 2.5×, question like a practitioner, the clock is hard,
+  feedback as two strengths and two gaps, and the note that a judge who has *not* read the teaching note
+  often gives the more useful verdict.
+- **The "Training Series — Part N of 3" labels now say what the series is:** the core skills trio —
+  delivery, defence, numbers — with each part linking to the other two and to the folder index. The label was
+  accurate but unexplained, and three of the six training documents sit outside it.
+
+### Verified
+
+All 40 business-math drills recomputed (every answer and anchor holds) · the 3-hour and 4-hour prep phase
+clocks match line for line between the role playbooks and the runbook, and each sums exactly to its window ·
+round formats, weights, rubric multipliers and card timings agree wherever restated · the ten simulations
+match the calendar week for week · 178+ in-page anchors resolve, no broken links · no duplicate file content
+in the repository.
+
+---
+
 ## v9 — One repository · 2026-08-04
 
 - **Archive unzipped into the repository root.** The eight lifecycle folders (`01-competition` …

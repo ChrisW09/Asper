@@ -5,19 +5,19 @@ Preparation starts **now (August 2026)**; the competition is **February 18–22,
 ## Inventory at a glance
 
 | Material | Where | Count | Solutions? |
-|---|---|---|---|
-| Format mastery quiz | `format_quiz.md` | 25 questions | Yes |
-| Reading & structuring exercises | `workbook1_reading_and_structuring.md` | 5 exercises (on real ABCC cases) | Yes |
-| Quant drills: sizing, exhibit math, sensitivity | `workbook2_quant_drills.md` | 4 sets ≈ 30 items | Yes |
-| Storyline, slides & implementation drills | `workbook3_storyline_and_slides.md` | 5 exercises ≈ 25 items | Yes |
-| Delivery: pitch, brief, Q&A, choreography | `workbook4_delivery_drills.md` | 5 drill formats (6 pitch scenarios, 3 briefs, 24 number-attacks) | Yes |
-| Business math base set | `../business_math_drills.md` | 40 drills | Yes |
-| Q&A question banks | `../qa_drills.md` | 60 questions | Patterns |
-| Mini-cases Set 1 | `../../05-practice-cases/mini_cases.md` | 6 cases + warm-ups | Sketches |
-| Mini-cases Set 2 | `../../05-practice-cases/mini_cases_set2.md` | 6 cases + warm-ups | Sketches |
-| Real past-case re-cracks | `../../01-competition/past_cases.md` + `past-case-pdfs/` | 10 briefs, 6 PDFs | Model for 1 |
-| Original full cases (graded) | `../../05-practice-cases/` | 3 full cases | Teaching notes + rubrics |
-| Model answers (calibration) | `../../05-practice-cases/model_answers.md` | 1 storyline + 1 brief | — |
+| --- | --- | --- | --- |
+| Format mastery quiz | `04-training/exercises/format_quiz.md` | 25 questions | Yes |
+| Reading & structuring exercises | `04-training/exercises/workbook1_reading_and_structuring.md` | 5 exercises (on real ABCC cases) | Yes |
+| Quant drills: sizing, exhibit math, sensitivity | `04-training/exercises/workbook2_quant_drills.md` | 4 sets ≈ 30 items | Yes |
+| Storyline, slides & implementation drills | `04-training/exercises/workbook3_storyline_and_slides.md` | 5 exercises ≈ 25 items | Yes |
+| Delivery: pitch, brief, Q&A, choreography | `04-training/exercises/workbook4_delivery_drills.md` | 5 drill formats (6 pitch scenarios, 3 briefs, 24 number-attacks) | Yes |
+| Business math base set | `04-training/business_math_drills.md` | 40 drills | Yes |
+| Q&A question banks | `04-training/qa_drills.md` | 60 questions | Patterns |
+| Mini-cases Set 1 | `05-practice-cases/mini_cases.md` | 6 cases + warm-ups | Sketches |
+| Mini-cases Set 2 | `05-practice-cases/mini_cases_set2.md` | 6 cases + warm-ups | Sketches |
+| Real past-case re-cracks | `01-competition/past_cases.md` + `01-competition/past-case-pdfs/` | 10 briefs, 6 PDFs | Model for 1 |
+| Original full cases (graded) | `05-practice-cases/` | 3 full cases | Teaching notes + rubrics |
+| Model answers (calibration) | `05-practice-cases/model_answers.md` | 1 storyline + 1 brief | — |
 
 That is ≈ **200 discrete exercises** across knowledge, analysis, quant, storytelling, and delivery — enough for two sessions per week from now to February without repetition.
 
@@ -26,7 +26,7 @@ That is ≈ **200 discrete exercises** across knowledge, analysis, quant, storyt
 Full session plan: `02-plan/week_by_week_plan.md`. This table adds the exercise layer (midweek + homework):
 
 | Weeks | Phase | Midweek exercise | Individual homework |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | W1 (Aug 3) | Kick-off | Format quiz, first pass | Read handbook; charter signed |
 | W2–W3 | Foundations | Workbook 1.1 + 1.2 (speed-reads); format quiz to 25/25 | Math base set drills 1–10 |
 | W4–W5 | Foundations | Workbook 1.3 (issue trees) + 1.4 (decompose the ask) | Math 11–20; flashcards 1–30 |

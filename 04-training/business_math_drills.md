@@ -1,13 +1,28 @@
 # Business Math Drills
 
-**ABCC 2027 Training Series — Part 3 of 3**
+**Core skills trio, part 3 of 3 · Numbers: how the argument is quantified on the spot.** The other two: [`presentation_and_storyline_guide.md`](presentation_and_storyline_guide.md) · [`qa_drills.md`](qa_drills.md). Folder overview: [`README.md`](README.md).
 
 At Asper, phones and smartwatches are banned in the prep room, and practitioner judges trust teams that quantify on the spot. These 40 drills build speed on the calculations that appear in almost every case. House rules: round aggressively, state assumptions aloud, always give units, and sanity-check against an anchor. Speak every answer in English — "one point two billion Canadian dollars," never "1,2 Milliarden" — and remember the false friend: German *Billion* = English *trillion*; *Milliarde* = billion.
+
+## Contents
+
+- [Anchor numbers (memorize cold)](#anchor-numbers-memorize-cold)
+- [Toolkit](#toolkit)
+- [A. Market sizing (drills 1–8)](#a-market-sizing-drills-18)
+- [B. Margins and pricing (drills 9–15)](#b-margins-and-pricing-drills-915)
+- [C. Growth and CAGR (drills 16–21)](#c-growth-and-cagr-drills-1621)
+- [D. Break-even (drills 22–27)](#d-break-even-drills-2227)
+- [E. Unit economics (drills 28–33)](#e-unit-economics-drills-2833)
+- [F. Quick NPV and payback (drills 34–37)](#f-quick-npv-and-payback-drills-3437)
+- [G. Mental-math finishers (drills 38–40)](#g-mental-math-finishers-drills-3840)
+- [The weekly 30-minute drill routine](#the-weekly-30-minute-drill-routine)
+
+---
 
 ## Anchor numbers (memorize cold)
 
 | Anchor | Value | Anchor | Value |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Germany population | 84M | Canada population | 40M |
 | German households | 41M (~2.0 per HH) | Canadian households | 15M (~2.6 per HH) |
 | Berlin | 3.7M | Manitoba | 1.4M |
@@ -148,7 +163,7 @@ Assume 15M EVs; one public charger per 10 EVs → **1.5M chargers**; at EUR 10k 
 ## The weekly 30-minute drill routine
 
 | Minutes | Activity |
-|---|---|
+| --- | --- |
 | 0–5 | **Anchor recall.** A partner quizzes populations, households, FX, and the fraction-percent table — answers spoken in English, with units. |
 | 5–15 | **Two market sizings aloud** — one German, one Canadian context, 5 minutes each. The partner must challenge one assumption; the sizer defends it or adjusts on the spot. |
 | 15–25 | **Timed gauntlet.** Eight mixed drills from sections B–G, 75 seconds each, no calculator; answers written, then checked. |

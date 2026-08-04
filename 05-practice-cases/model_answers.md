@@ -44,7 +44,7 @@ Access cannot out-app the Big 5 or out-yield Wealthsimple, but it owns the one a
 **Targets and economics — all figures illustrative, to be rebuilt from case appendices:**
 
 | Metric | Illustrative figure | Logic shown to judges |
-|---|---|---|
+| --- | --- | --- |
 | Members under 30 today | ~31,000 (assume ~15% of 208,000) | Stated as a planning assumption, sanity-checked against the case exhibit. The quant drill in `04-training/exercises/workbook2_quant_drills.md` §2.2c runs the same base at a more conservative 11% (~22,900) — either is defensible, but say which one you took, and note that at 11% the +12,000 target is ~+52% of the youth segment, not ~+40% |
 | Acquisition target | **+12,000 net new members aged 14–30 in 36 months** (~4,000/yr) | ≈ +6% total membership; ≈ +40% growth of the youth segment; a niche share of Manitoba's youth cohort — we do not need to "beat" Wealthsimple |
 | Investment | **~$8.0M over 3 years**: Yr 1 $4.5M (platform build $2.5M, operations $1.0M, marketing $1.0M); Yrs 2–3 $1.75M each | Partially funded by redeploying savings from the six announced branch consolidations |
@@ -59,7 +59,7 @@ This slide must answer the rubric question directly: *a clear path to follow, wi
 **Governance:** Executive sponsor: Chief Marketing/Member Officer. Accountable owner: a newly named **GM, Youth Segment**. Core squad of 8–10 FTE (product lead, digital/IT, marketing, compliance, data analyst, one branch lead per region) plus an onboarding/KYC technology vendor. Quarterly board dashboard.
 
 | Phase | Timing | What happens | Resources & cost *(illustrative)* | Go/no-go gate |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | **0 — Mobilize** | Months 0–3 | Name GM and squad; select KYC/onboarding vendor (fixed-scope MVP contract); design custodial account with parental consent for minors and pre-engage the regulator; baseline metrics | Squad stood up; ~$0.8M | Vendor signed; compliant minor-account design approved |
 | **1 — Pilot** | Months 3–9 | Instant onboarding + no-fee youth account live in 3 rural communities and 2 Winnipeg campuses; 25 school and member-family partnerships; target 1,500 members | ~$1.7M | 30-day activation ≥ 60%; marketing CAC ≤ $350; youth NPS positive |
 | **2 — Provincial launch** | Months 9–18 | Full launch; ownership dividend v1 paid visibly in-app; gamified saving and financial-literacy content; youth advisory council seated; cumulative 6,000 members | ~$2.75M | Cumulative members ≥ 5,000; cost per member on model; dormancy < 25% |
@@ -72,7 +72,7 @@ This slide must answer the rubric question directly: *a clear path to follow, wi
 ### Risk table (slide 17)
 
 | Risk | Likelihood / impact | Mitigation | Early indicator |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Accounts opened but dormant | Med / High | Activation-first design (direct-deposit incentive, streaks); Gate 1 kill-switch | 30-day activation < 60% in pilot |
 | CAC overruns | Med / Med | Weight school and member-family referral channels; cap paid media; referral engine | Pilot CAC > $350 |
 | Rural backlash — "apps while branches close" | Med / High | Frame consolidation savings as reinvestment; town halls; video advice and service standards for consolidated communities | Member-satisfaction dip in affected towns |

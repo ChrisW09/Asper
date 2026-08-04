@@ -4,12 +4,23 @@
 
 ---
 
+## Contents
+
+- [1. DE–EN terminology](#1-deen-terminology)
+- [2. Presentation phrase bank](#2-presentation-phrase-bank)
+- [3. Q&A under fire](#3-qa-under-fire)
+- [4. Boardroom register](#4-boardroom-register)
+- [5. Numbers out loud](#5-numbers-out-loud)
+- [6. Pronunciation traps for German speakers](#6-pronunciation-traps-for-german-speakers)
+
+---
+
 ## 1. DE–EN terminology
 
 ### Finance and accounting
 
 | Deutsch | English | Note |
-|---|---|---|
+| --- | --- | --- |
 | der Umsatz | revenue, sales | Prefer "revenue" in North America; "turnover" often means staff fluctuation |
 | die Umsatzrendite | return on sales, net margin | |
 | der Deckungsbeitrag | contribution margin | |
@@ -38,7 +49,7 @@
 ### Strategy and corporate
 
 | Deutsch | English | Note |
-|---|---|---|
+| --- | --- | --- |
 | der Konzern | group, corporation | **False friend** — see box below |
 | der Mittelstand | mid-sized companies, SMEs | No exact equivalent; explain if used |
 | das Kerngeschäft | core business | |
@@ -57,7 +68,7 @@
 ### Marketing and sales
 
 | Deutsch | English | Note |
-|---|---|---|
+| --- | --- | --- |
 | die Marke | brand | |
 | die Markenbekanntheit | brand awareness | |
 | die Zielgruppe | target group, target segment | |
@@ -74,7 +85,7 @@
 ### Operations and implementation
 
 | Deutsch | English | Note |
-|---|---|---|
+| --- | --- | --- |
 | die Umsetzung | implementation, execution | Your most important word: rubric weight 2.5x |
 | die Lieferkette | supply chain | |
 | die Beschaffung | procurement, sourcing | |
@@ -91,7 +102,7 @@
 ### Statistics and data
 
 | Deutsch | English | Note |
-|---|---|---|
+| --- | --- | --- |
 | die Stichprobe | sample | |
 | die Grundgesamtheit | population | |
 | der Mittelwert | mean, average | |
@@ -107,7 +118,7 @@
 ### False friends that will hurt you
 
 | German word | It means | The trap |
-|---|---|---|
+| --- | --- | --- |
 | die Milliarde | **billion** (10^9) | German "Billion" = English **trillion** (10^12). Get this wrong and your market size is off by a factor of 1,000 |
 | eventuell | possibly, perhaps | "Eventually" means it *will* happen in the end ("schließlich"). "Eventually we partner" is a promise, not an option |
 | der Konzern | group, corporation | English "concern" = Sorge, Anliegen ("a valid concern") |

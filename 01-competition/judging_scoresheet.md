@@ -4,13 +4,15 @@ Printable scoresheet for every HSBI simulation. It replicates the **official ABC
 
 The criterion questions in the table are the official wording; the 3/7/10 behavioural anchors are our coaching interpretation of that wording, added so scores stay comparable across judges and months.
 
+Print one sheet per judge per team. If the judge is **external** — the calendar asks for one at W17, W19, W23–24 and both W25 rounds — brief them from the last section of this file first.
+
 **Sheet header (fill in before the presentation):**
 Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional / Final · Prep time ______ · Judge ______ · Team ______
 
 ## Scoresheet
 
 | # | Category | Weight | Official criterion — judges ask | Score (1–10) | Weighted |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 1 | Implementation & Resources | ×2.5 | Is there a clear path to follow, with resources, time, and financial considerations? | ____ | ____ /25 |
 | 2 | Analysis | ×2.0 | Is the assessment and recommendation substantiated by research, logic, and quantitative + qualitative analysis? | ____ | ____ /20 |
 | 3 | Recommendation | ×2.0 | Is it effective, clear, comprehensive, and a strategic fit? | ____ | ____ /20 |
@@ -90,3 +92,36 @@ Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional / Final
 - **Gap 2** (category + weight): ____________________
 - **One drill** to close the biggest gap (name the source: `04-training/qa_drills.md`, `04-training/business_math_drills.md`, `04-training/presentation_and_storyline_guide.md`): ____________________
 - **One improvement goal per person** (Finance / Innovation / CS / General Business) — transfer verbatim into `02-plan/simulation_log.md`: ____________________
+
+## Briefing an external judge
+
+External judges are worth more than the coach at the same table: unfamiliar faces raise the pressure, and a
+practitioner's instinct for feasibility is exactly what the real panel brings. The calendar asks for one at
+**W17, W19, W23–24, and both W25 rounds**. Recruit from HSBI faculty outside the team, alumni, or local
+practitioners — a consultant, a bank or brand manager, an NGO director.
+
+**The ask (e-mail or call, keep it this short).** "Four Masters students are preparing for a graduate case
+competition in Canada in February. Would you judge one 3-hour case simulation — you arrive at *time*, watch a
+20-minute presentation, ask 10 minutes of hard questions, score a one-page sheet we provide, and give 10
+minutes of feedback? About 90 minutes in total, no preparation needed from you."
+
+**The 15-minute briefing before the round.** Hand over this file and cover only these points:
+
+1. **Your role.** Play the client's decision-maker, not a teacher. Be the person who would have to fund and
+   own this recommendation.
+2. **What is scored.** The seven categories on the sheet, in whole numbers 1–10, using the 3/7/10 anchors.
+   **Implementation & Resources counts 2.5× — more than any other category.** If you remember one thing:
+   ask who does what, by when, paid from where.
+3. **How to question.** Practitioner questions, not academic ones: challenge the numbers and the feasibility.
+   Interrupt if a claim has no evidence. Ask the same question twice if the first answer dodged it. Every team
+   member should have to speak.
+4. **The clock is hard.** Yellow card at 5 minutes remaining, red at 1. Do not extend it — the real
+   competition does not.
+5. **Feedback format.** Two strengths, two gaps, and — if you can — one thing you would drill. Blunt is a gift;
+   these students would rather hear it in Bielefeld than in Winnipeg.
+6. **What you do not need to know.** The case has a coach-only teaching note with a solution sketch; ask for
+   it if you want it, but a fresh judge who has *not* read it often gives the more useful verdict.
+
+**Afterwards:** the coach collects the sheets, transfers scores into `02-plan/simulation_log.md` within 24 h,
+and sends a thank-you. Ask each external judge whether they would return — a small standing panel that sees
+the team improve across autumn is worth a lot by January.

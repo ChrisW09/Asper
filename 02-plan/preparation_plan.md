@@ -19,7 +19,7 @@
 ## Team roles
 
 | Student | Lead role | Owns | Stretch goal |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Finance | Team CFO | Financial model, valuation, break-even, sensitivity, funding ask | Explaining numbers simply to non-finance judges |
 | Innovation | Creative lead | Idea generation, differentiation, customer value proposition, "radical idea" framing (cf. Jazz Winnipeg 2026) | Disciplining creativity into 2–3 feasible options |
 | Computer Science | Analytics & tech lead | Data analysis of case exhibits, digital/AI feasibility, implementation architecture, quick Excel/Python modelling | Business framing: translating tech into revenue/cost impact |
@@ -104,7 +104,7 @@ Suggested 14-day sprint:
 ## Risks and mitigations
 
 | Risk | Mitigation |
-|---|---|
+| --- | --- |
 | 2027 rules differ from 2026 | Re-verify everything after registration; update repo and deck |
 | Prepared-case deadline missed | Day-14 buffer, submission owner = strategist, backup = coach reminder |
 | One member ill during competition | Everyone can cover every part; shared appendix knowledge |

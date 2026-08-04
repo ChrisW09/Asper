@@ -5,7 +5,7 @@
 **ASPER ABCC 2027 Training Programme — Prepared Case (Simulation of the 25%-weight Prepared Round)**
 
 | Parameter | Value |
-|---|---|
+| --- | --- |
 | Format | Prepared case, released 14 days before presentation |
 | Presentation | 25 minutes, hard stop |
 | Q&A | 15 minutes, judges role-play the supervisory board |
@@ -17,7 +17,25 @@
 
 ---
 
-# PART I — THE CASE
+## Contents
+
+- [THE CASE](#the-case)
+  - [Prologue: The July Board Meeting](#prologue-the-july-board-meeting)
+  - [From Cellar Club to City Festival](#from-cellar-club-to-city-festival)
+  - [The Programme and the People](#the-programme-and-the-people)
+  - [The Audience](#the-audience)
+  - [How the Money Works](#how-the-money-works)
+  - [Venues: A Festival Without a Home](#venues-a-festival-without-a-home)
+  - [What Has Been Tried](#what-has-been-tried)
+  - [The Mandate](#the-mandate)
+- [EXHIBITS (CASE DATA)](#exhibits-case-data)
+- [YOUR TASK](#your-task)
+
+*Then the coach-only teaching note — do not read it before you have presented.*
+
+---
+
+# THE CASE
 
 ## Prologue: The July Board Meeting
 
@@ -97,14 +115,14 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 
 ---
 
-## EXHIBITS
+# EXHIBITS (CASE DATA)
 
 *All figures fictional; monetary values in € thousands unless stated. Ticket income is VAT-exempt under §4 Nr. 20a UStG; sponsorship is shown net of 19% VAT.*
 
 ### Exhibit 1 — Attendance and Ticketing, 2016–2025
 
 | Year | Events | Total visits | Paid attendance | Paid capacity | Avg. fill | Avg. ticket price | Ticket revenue (€k) |
-|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | 2016 | 58 | 31,400 | 21,900 | 27,000 | 81% | €24.10 | 528 |
 | 2018 | 60 | 30,200 | 20,800 | 26,600 | 78% | €25.30 | 526 |
 | 2019 | 62 | 29,800 | 20,300 | 26,900 | 75% | €26.00 | 528 |
@@ -118,7 +136,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 ### Exhibit 2 — Audience Profile, Visitor Surveys 2019 vs. 2025
 
 | Indicator | 2019 | 2025 |
-|---|---|---|
+| --- | --- | --- |
 | Age under 30 | 14% | 9% |
 | Age 30–44 | 21% | 17% |
 | Age 45–59 | 33% | 31% |
@@ -137,7 +155,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 ### Exhibit 3 — Income by Source (€k)
 
 | Source | 2019 | 2022 | 2023 | 2024 | 2025 |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | City of Bielefeld (Kulturamt) | 430 | 455 | 470 | 480 | 480 |
 | Land NRW (MKW) | 290 | 300 | 315 | 320 | 320 |
 | Federal & other project grants | 60 | 210 | 130 | 105 | 95 |
@@ -154,7 +172,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 ### Exhibit 4 — Summary Income Statement, 2023–2025 (€k)
 
 | Line | 2023 | 2024 | 2025 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Total income | 1,938 | 1,886 | 1,852 |
 | Artistic fees, travel & hospitality | 688 | 694 | 672 |
 | Production, technical & security | 442 | 452 | 438 |
@@ -171,7 +189,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 ### Exhibit 5 — Venue Portfolio, 2025 Edition
 
 | Venue | Type | Capacity | Ticketed events | Avg. fill | Hire cost / night | Constraint |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | Rudolf-Oetker-Halle | Historic concert hall | 1,480 | 4 | 74% | €9,800 | June availability limited (orchestra residency) |
 | Lokschuppen | Industrial hall | 1,600 (standing) | 5 | 62% | €7,200 | Site enters redevelopment review 2028 |
 | Hechelei (Ravensberger Park) | Heritage hall | 550 | 6 | 65% | €3,400 | — |
@@ -186,7 +204,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 ### Exhibit 6 — Comparable Festivals (Illustrative Training Data)
 
 | Festival | Format | Days | Attendance | Budget (€m) | Self-generated share | Public share | Model note |
-|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | **Klangfest Bielefeld** | Citywide multi-venue | 10 | 24,800 | 1.85 | 45% | 55% | Classic grant-anchored model |
 | moers festival | Curated avant-garde | 4 | ~40,000 incl. free | 2.4 | ~30% | ~65% | Strong municipal backing; camping; large free programme |
 | Elbjazz, Hamburg | Site-based harbour festival | 2 | ~25,000 | 3.2 | ~85% | <10% | Private promoter; day-pass model; corporate partners |
@@ -202,7 +220,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 **(a) German sponsorship market (illustrative estimates, € billions):**
 
 | | 2019 | 2022 | 2025 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Total sponsorship volume | 4.4 | 4.6 | 5.1 |
 | Sport share | 62% | 64% | 66% |
 | Culture share | 13% | 12% | 11% |
@@ -211,7 +229,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 **(b) Survey of 42 OWL marketing directors (fictional "OWL Marketingclub" survey, 2025) — "Which culture-sponsorship formats would justify budget?"**
 
 | Format | High interest |
-|---|---|
+| --- | --- |
 | Employee engagement / staff cultural offers | 68% |
 | B2B hospitality and networking formats | 55% |
 | Youth, education and ESG-linked programmes | 52% |
@@ -224,7 +242,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 ### Exhibit 8 — Digital Reach and Year-Round Pilots
 
 | Indicator | Value (2025/26) |
-|---|---|
+| --- | --- |
 | Newsletter subscribers (open rate) | 14,200 (41%) |
 | Instagram / TikTok followers | 11,300 (+9% y/y) / 1,900 |
 | Freundeskreis members (fee; renewal rate) | 640 (€50/yr; 91%) |
@@ -234,7 +252,7 @@ The board's resolution of 10 July 2026 sets the assignment and its guardrails:
 
 ---
 
-## PART II — THE TASK (Formal Assignment)
+# YOUR TASK
 
 You are the strategy team retained by the Aufsichtsrat of Klangfest Bielefeld gGmbH. You will present to the board (played by the judging panel) at its November retreat.
 
@@ -251,7 +269,7 @@ Your presentation must:
 ### Round rules (mirrors the ABCC prepared-round discipline — treat as binding)
 
 | Rule | Detail |
-|---|---|
+| --- | --- |
 | Preparation window | Exactly 14 days: case release Monday 4 Jan 2027, 09:00 CET |
 | **Submission deadline** | **Monday 18 Jan 2027, 09:00 CET** (start of W25 in the team plan; the case's fictional "today" remains July 2026) — upload final deck (.pptx, 16:9, plus PDF export) to the team drive folder `/submissions/case3/`; coach confirms receipt |
 | File naming | `TEAM_Klangfest_Prepared_FINAL.pptx` — the .pptx is the locked file you present from (mirrors the ABCC's .pptx-only rule); the PDF export is a supplementary safety copy |
@@ -267,7 +285,7 @@ Submitting on time, in the right format, at final quality is part of the assesse
 
 ---
 
-=== TEACHING NOTE (coach only) ===
+# === TEACHING NOTE (coach only) ===
 
 ## 1. Purpose and Fit
 
@@ -371,7 +389,7 @@ Minimum artifacts — absence of any one caps the finance score at ~12/20:
 ## 7. Scoring Rubric (100 points)
 
 | Criterion | Pts | Full marks look like | Typical shortfall |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Problem definition & diagnosis | 15 | Quantified structural gap, 2027 cliff and 60%-target math, cited to exhibits | Restates the narrative; no arithmetic |
 | The Idea: radicality, singularity, fit | 20 | One engine passing the §4 six-part test; rejected alternatives named with reasons | Bouquet of initiatives; engine is really a tactic |
 | Financial plan & rigour | 20 | All §5 artifacts; internally consistent; assumptions traceable; honest downside | Hockey sticks; missing funding bridge; Innovationsfonds timing wrong |

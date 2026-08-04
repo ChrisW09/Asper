@@ -8,5 +8,8 @@
 *.vrb
 *.synctex.gz
 
+# Office lock/temp files (created when a .pptx/.xlsx/.docx is open)
+~$*
+
 # OS
 .DS_Store

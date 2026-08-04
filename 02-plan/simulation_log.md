@@ -15,7 +15,7 @@ Column key: **I&R** Implementation & Resources · **Ana** Analysis · **Rec** Re
 ## Results
 
 | # | Week | Date | Case | Format | Prep | I&R | Ana | Rec | Com | Frm | Imp | MRM | Total /105 | Goals (Fin / Inn / CS / GB) |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | W8 | Sep 21–27 | Manitoba Museum 2025 (re-crack) | Prepared-style, 25+15 to coach | 6 h (generous) | | | | | | | | | |
 | 2 | W11 | Oct 12–18 | People Corporation 2025 (re-crack) | Traditional #1 | 4 h (softened) | | | | | | | | | |
 | 3 | W13 | Oct 26–Nov 1 | AROW Global 2025 (re-crack) | Boardroom #1 | 4 h | | | | | | | | | |

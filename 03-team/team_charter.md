@@ -25,7 +25,7 @@ Anyone can call a charter talk at any time — fifteen minutes, coach moderates,
 ## Signatures
 
 | Name | Role | Date | Signature |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | | Finance lead | | |
 | | Innovation lead | | |
 | | CS & analytics lead | | |

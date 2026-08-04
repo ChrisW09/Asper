@@ -1,8 +1,18 @@
 # Q&A Drills
 
-**ABCC 2027 Training Series — Part 2 of 3**
+**Core skills trio, part 2 of 3 · Defence: how the argument survives questioning.** The other two: [`presentation_and_storyline_guide.md`](presentation_and_storyline_guide.md) · [`business_math_drills.md`](business_math_drills.md). Folder overview: [`README.md`](README.md).
 
 Q&A is scored in every Asper round — 15 minutes after the Prepared case, 10 minutes after the Traditional case, and the 22-minute Boardroom discussion, which is effectively all Q&A. Coaches across competitions describe Q&A as the tiebreaker between closely ranked teams. Asper's judges are practitioners: they probe assumptions, feasibility, and ownership. Our standard: every answer inside 30 seconds, answer first, with a number.
+
+---
+
+## Contents
+
+- [1. The answer-first protocol](#1-the-answer-first-protocol)
+- [2. Bridging technique](#2-bridging-technique)
+- [3. The Q&A quarterback system](#3-the-qa-quarterback-system)
+- [4. Drill formats](#4-drill-formats)
+- [5. Question banks — 60 hard questions](#5-question-banks--60-hard-questions)
 
 ---
 
@@ -28,7 +38,7 @@ Timing: 20–30 seconds standard; 45 seconds maximum for a financial walk-throug
 Bridging returns any question to prepared ground in three moves: **Acknowledge → Bridge → Anchor.**
 
 | Move | Phrase bank |
-|---|---|
+| --- | --- |
 | Acknowledge | "Fair challenge." / "That is exactly the right question on this slide." / "You're right — that is the sensitive assumption." |
 | Bridge | "And that is why…" / "What the case data tells us is…" / "The way we protected against that is…" |
 | Anchor | …a prepared strength: a sensitivity table, a phasing gate, an appendix slide, the governing thesis. |

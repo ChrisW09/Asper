@@ -6,12 +6,37 @@ This dossier reconstructs the history of the Asper Business Case Competition (AB
 
 ---
 
+## Contents
+
+- [Part I — The five editions](#part-i--the-five-editions)
+  - [At a glance](#at-a-glance)
+  - [ALCC 2023 — the inaugural "Leadership" edition](#alcc-2023--the-inaugural-leadership-edition)
+  - [ABCC 2024 — rebrand and the boardroom round](#abcc-2024--rebrand-and-the-boardroom-round)
+  - [ABCC 2025 — Memorial's win](#abcc-2025--memorials-win)
+  - [ABCC 2026 — first international field](#abcc-2026--first-international-field)
+  - [ABCC 2027 — what we are entering](#abcc-2027--what-we-are-entering)
+- [Part II — Client profiles and re-crack briefs](#part-ii--client-profiles-and-re-crack-briefs)
+  - [1. Jazz Winnipeg — 2026 Prepared Case](#1-jazz-winnipeg--2026-prepared-case)
+  - [2. Coal & Canary Candle Company — 2026 Boardroom Case](#2-coal--canary-candle-company--2026-boardroom-case)
+  - [3. Access Credit Union — 2026 Traditional Case](#3-access-credit-union--2026-traditional-case)
+  - [4. The Manitoba Museum — 2025 Prepared Case](#4-the-manitoba-museum--2025-prepared-case)
+  - [5. AROW Global — 2025 Boardroom Case](#5-arow-global--2025-boardroom-case)
+  - [6. People Corporation — 2025 Traditional Case](#6-people-corporation--2025-traditional-case)
+  - [7. WAG-Qaumajuq (Winnipeg Art Gallery) — 2024 Prepared Case](#7-wag-qaumajuq-winnipeg-art-gallery--2024-prepared-case)
+  - [8. Independent Jewellers Ltd (IJL Since 1937) — 2024 Boardroom Case](#8-independent-jewellers-ltd-ijl-since-1937--2024-boardroom-case)
+  - [9. StandardAero — 2024 Traditional Case](#9-standardaero--2024-traditional-case)
+  - [10. Manitoba Hydro — 2023 Prepared and Traditional Cases](#10-manitoba-hydro--2023-prepared-and-traditional-cases)
+- [Part III — Patterns to exploit for 2027](#part-iii--patterns-to-exploit-for-2027)
+- [Sources](#sources)
+
+---
+
 ## Part I — The five editions
 
 ### At a glance
 
 | Edition | Dates | Field | Format | Champion | Rest of podium |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | ALCC 2023 (1st) | Feb 23–25, 2023 | 8 Canadian graduate teams | 2 rounds, 50/50 | Not publicly documented | Asper 2nd; 3rd unknown |
 | ABCC 2024 (2nd) | Feb 21–24, 2024 | 9 teams | 3 rounds, 25/30/45 | Asper ("Stellaris Consulting") | Haskayne 2nd, DeGroote 3rd |
 | ABCC 2025 (3rd) | Feb 19–23, 2025 | 9 teams | 3 rounds, 25/30/45 | Memorial University | John Molson 2nd, DeGroote 3rd |

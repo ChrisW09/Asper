@@ -6,6 +6,24 @@
 
 ---
 
+## Contents
+
+- [1. What the ABCC Is](#1-what-the-abcc-is)
+- [2. History and Positioning](#2-history-and-positioning)
+- [3. Eligibility, Entry, and Registration](#3-eligibility-entry-and-registration)
+- [4. The Event Flow: Arrival to Gala](#4-the-event-flow-arrival-to-gala)
+- [5. The Three Rounds in Forensic Detail](#5-the-three-rounds-in-forensic-detail)
+- [6. Scoring, Weights, and Tie-Breaks](#6-scoring-weights-and-tie-breaks)
+- [7. The Judging Rubric (Official, 2025 Guide)](#7-the-judging-rubric-official-2025-guide)
+- [8. What Must Be Handed In, and When](#8-what-must-be-handed-in-and-when)
+- [9. Code of Conduct, Devices, and Integrity Rules](#9-code-of-conduct-devices-and-integrity-rules)
+- [10. Social Program](#10-social-program)
+- [11. A Day in the Life: The Short-Prep Saturday (Traditional Round + Finals)](#11-a-day-in-the-life-the-short-prep-saturday-traditional-round--finals)
+- [12. Open Items for 2027 (TBA Tracker)](#12-open-items-for-2027-tba-tracker)
+- [13. Sources](#13-sources)
+
+---
+
 ## 1. What the ABCC Is
 
 The Asper Business Case Competition is a national (and, since 2026, internationalizing) graduate-level case competition hosted by the I.H. Asper School of Business and the Stu Clark Graduate School at the University of Manitoba in Winnipeg. Nine teams of four Master's/MBA students compete over three competition days in three rounds with three genuinely different case formats — a two-week **prepared case**, a four-hour **boardroom case**, and a three-hour **traditional case** — followed by a public **final round** for the top three teams. Every case is a live engagement written for a real client organization; roughly 50 industry judges, drawn heavily from The Associates (a network of ~370 Manitoba business executives), evaluate the teams, and the winning recommendations are handed to the client companies afterwards.
@@ -19,7 +37,7 @@ Two features distinguish the ABCC from most comparable competitions (e.g., the J
 The competition launched in February 2023 as the **Asper Leadership Case Competition (ALCC)** — billed as the first national graduate case competition hosted by Asper — with two rounds weighted 50/50 and eight Canadian teams, all working Manitoba Hydro cases. In 2024 it was renamed the ABCC, expanded to nine teams, and adopted its current three-round, 25/30/45 format, adding the signature boardroom round.
 
 | Year | Edition | Dates | Format | Field | Champion |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 2023 | ALCC (1st) | Feb 23–25 | 2 rounds, 50/50 + finals | 8 (Canadian) | Not published (Asper 2nd) |
 | 2024 | ABCC (2nd) | Feb 21–24 | 3 rounds, 25/30/45 + finals | 9 | Asper ("Stellaris Consulting") |
 | 2025 | ABCC (3rd) | Feb 19–23 | 3 rounds, 25/30/45 + finals | 9 (Ivey, Memorial debut) | Memorial University |
@@ -47,7 +65,7 @@ Key people: **Judith (Judy) Jayasuriya**, Instructor and Lead, Experiential Lear
 The 2027 day-by-day schedule is TBA. The structure below is the verified 2025 template (dates shifted), which 2026 followed with minor variations; 2027 runs February 18–22, which by the calendar is a Thursday–Monday footprint (prior editions ran Wednesday–Sunday) — confirm exact day allocation when the 2027 guide arrives.
 
 | Day | Content (2025 actuals as baseline) |
-|---|---|
+| --- | --- |
 | **Day 0 (arrival)** | Teams arrive; prepared-case decks already submitted by **10:00 a.m. CT** that morning; 5:00 p.m. registration + division draw at the hotel; evening free (own dinner). |
 | **Day 1 — Round 1 (Prepared)** | Hotel breakfast 7:00–8:30; presentations from 9:30 a.m. in three slot waves; competitor lunch ~12:00; **judges' feedback sessions** 12:50–1:35 p.m. (15-minute blocks per team); afternoon social (The Forks); evening event (2025: Manitoba Museum reception). |
 | **Day 2 — Round 2 (Boardroom)** | Staggered 4-hour preps from 9:30 a.m.; lunch delivered during prep; presentations from 2:00 p.m.; feedback 4:30–5:15; evening at **Festival du Voyageur** (return shuttles 9:00/10:30/12:00). |
@@ -103,7 +121,7 @@ The heaviest round — worth nearly half the qualifying score and the deck that 
 ## 6. Scoring, Weights, and Tie-Breaks
 
 | Component | Weight | Prep time | Presentation format |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Round 1 — Prepared | 25% | ~2 weeks | 25 min + 15 min Q&A |
 | Round 2 — Boardroom | 30% | 4 hours | 3 min pitch + 22 min discussion |
 | Round 3 — Traditional | 45% | 3 hours | 20 min + 10 min Q&A |
@@ -120,7 +138,7 @@ The heaviest round — worth nearly half the qualifying score and the deck that 
 Seven criteria with multipliers, total weight 10.5x. This is the actual scoresheet judges use in every round.
 
 | # | Criterion | Multiplier | What judges look for |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | Communicating Effectively | 1.0x | Clear, professional, compelling, easy to follow; readable deck |
 | 2 | Framing the Problem | 1.0x | Issues wrapped into a clear, solvable problem statement covering the majority of primary and most secondary issues |
 | 3 | Analysis | 2.0x | Assessment, recommendation, and implementation substantiated by research, logic, and qualitative + quantitative analysis |
@@ -136,7 +154,7 @@ Read the weighting: **Implementation is the single heaviest criterion**, and Ana
 ## 8. What Must Be Handed In, and When
 
 | Deliverable | Deadline (2025 baseline; 2027 TBA) | Channel | Penalty if late/wrong |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Consulting team name (fictional; no school identifiers) | Requested by organizers pre-event (exact process not published) | Via your school's coordination with organizers | Anonymity breach risks DQ |
 | Prepared-case deck (.pptx), "[Team Name] Prepared Case" | **10:00 a.m. CT, arrival day** | Email to aspercasecomps@umanitoba.ca | Bottom of pool for Round 1 |
 | Boardroom deck + **one-page executive summary**, "[Team Name] Boardroom Case" | Within the 4-hour prep window | Organizer-provided USB | No extension; present with whatever is saved |
@@ -188,7 +206,7 @@ Illustrative walkthrough using 2025 actual times, for a team drawn as letter "E"
 
 ## 12. Open Items for 2027 (TBA Tracker)
 
-Confirm these the moment the 2027 Competition Guide is released: exact day-by-day schedule and which date carries which round; case-sponsor companies (watch the sponsor page and @asper_bcc from autumn — case writing starts around October); prepared-case release date and deck deadline; the 2027 field of schools; prize amounts; whether Round 1 runs at the Drake Centre or a client site (as in 2024–25); and any rule deltas versus 2025 (already-known 2026/27-cycle additions: expanded tie-breaker cascade, boardroom mouse, printed one-page judge brief, finalist-advisor gag).
+Confirm these the moment the 2027 Competition Guide is released: **the weekday footprint** — both documented editions ran Wednesday→Sunday (2025: Wed Feb 19 – Sun Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday), while the published 2027 window of Feb 18–22 falls **Thursday→Monday**, which would be the first Thursday start in the series (`facts_and_rules.md`, "The 2027 weekday question"); the exact day-by-day schedule and which date carries which round; case-sponsor companies (watch the sponsor page and @asper_bcc from autumn — case writing starts around October); prepared-case release date and deck deadline; the 2027 field of schools; prize amounts; whether Round 1 runs at the Drake Centre or a client site (as in 2024–25); and any rule deltas versus 2025 (already-known 2026/27-cycle additions: expanded tie-breaker cascade, boardroom mouse, printed one-page judge brief, finalist-advisor gag).
 
 ---
 

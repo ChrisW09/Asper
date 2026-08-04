@@ -4,10 +4,24 @@ Dated execution plan for the HSBI team (finance / innovation / computer science 
 
 *Note on phase numbers:* the phases here are **calendar phases** and shift slightly against the concept phases of `preparation_plan.md` (its Phase 0–1 ≈ W1–W5 here, Phase 2 ≈ W6–W10, Phase 3 ≈ W11–W26 including the Christmas dip and January peak, Phase 4 = the prepared-case sprint, Phase 5 = taper and travel). Where the two disagree on a week boundary, this calendar governs.
 
+## Contents
+
+- [Milestone summary](#milestone-summary)
+- [Phase 1 — Foundations (W1–W5, Aug 3 – Sep 6) (semester break: flexible scheduling)](#phase-1--foundations-w1w5-aug-3--sep-6-semester-break-flexible-scheduling)
+- [Phase 2 — Skill building (W6–W10, Sep 7 – Oct 11)](#phase-2--skill-building-w6w10-sep-7--oct-11)
+- [Phase 3 — Simulations under competition rules (W11–W20, Oct 12 – Dec 20) (lectures running: weekend blocks)](#phase-3--simulations-under-competition-rules-w11w20-oct-12--dec-20-lectures-running-weekend-blocks)
+- [Christmas break (W21–W22, Dec 21 – Jan 3) (light load)](#christmas-break-w21w22-dec-21--jan-3-light-load)
+- [Phase 4 — Peak (W23–W26, Jan 4 – Jan 31)](#phase-4--peak-w23w26-jan-4--jan-31)
+- [Phase 5 — Prepared-case sprint & travel (W27–W29, Feb 1 – Feb 17)](#phase-5--prepared-case-sprint--travel-w27w29-feb-1--feb-17)
+- [Competition week (Feb 18–22, 2027) — operating rhythm](#competition-week-feb-1822-2027--operating-rhythm)
+- [Debrief (week of Feb 23)](#debrief-week-of-feb-23)
+
+---
+
 ## Milestone summary
 
 | Date | Milestone |
-|---|---|
+| --- | --- |
 | Aug 2026 (now) | E-mail organizers: register interest, confirm eligibility, get on 2027 mailing list |
 | Aug 2026 | All five passports verified; **eTAs applied for** (CAD 7 each, official site only) |
 | Sep–Oct 2026 | **Flights booked** (arrive Feb 16/17, return Feb 22/23); university funding secured; hotel block confirmed |
@@ -25,7 +39,7 @@ Weekly cadence from October: one 3–5 h weekend block (simulation or workshop) 
 ## Phase 1 — Foundations (W1–W5, Aug 3 – Sep 6) *(semester break: flexible scheduling)*
 
 | Week | Dates | Team session | Materials | Role homework | Admin |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | W1 | Aug 3–9 | Kick-off: walk through `08-briefing-slides/abcc_overview.pdf` + `01-competition/handbook.md`; agree charter & cadence | Deck, handbook | All: read `01-competition/past_cases.md` Part I | Registration e-mail to organizers; passport check |
 | W2 | Aug 10–16 | Case method 101: reading a case in 30 min, issue trees, MECE, hypothesis-first | `04-training/frameworks.md` §1 | All: apply issue tree to one past-case brief | eTA applications |
 | W3 | Aug 17–23 | Framework toolkit workshop: strategy, marketing, finance blocks | `04-training/frameworks.md` | Finance: teach-back quick model; CS: case-data attack plan | Flight price alerts on |
@@ -35,7 +49,7 @@ Weekly cadence from October: one 3–5 h weekend block (simulation or workshop) 
 ## Phase 2 — Skill building (W6–W10, Sep 7 – Oct 11)
 
 | Week | Dates | Team session | Materials | Role homework | Admin |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | W6 | Sep 7–13 | Storylining & action titles workshop; build the standard skeleton | `04-training/presentation_and_storyline_guide.md` | GB: draft team storyline skeleton | Book flights |
 | W7 | Sep 14–20 | Slide craft + start team .pptx template (16:9, anonymity-proof, no school marks) | Guide §template | CS: template mechanics; Finance: standard financial-exhibit formats | — |
 | W8 | Sep 21–27 | First full crack, generous 6 h: **re-crack Manitoba Museum 2025 (prepared-style)**; present 25+15 to coach | `01-competition/past-case-pdfs/abcc2025_prepared_manitoba-museum.pdf`, re-crack brief in `01-competition/past_cases.md` | All: video review, one improvement goal each | — |
@@ -47,7 +61,7 @@ Weekly cadence from October: one 3–5 h weekend block (simulation or workshop) 
 Every simulation competition-identical: staggered release, timed prep, one laptop per student, internet + GenAI allowed, no coach contact, .pptx to "USB" at pickup time, all four speak, yellow/red cards, rubric scoring into `02-plan/simulation_log.md`.
 
 | Week | Dates | Simulation (weekend block) | Materials |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | W11 | Oct 12–18 | **Traditional #1 (4 h, softened):** re-crack People Corporation 2025 | `01-competition/past-case-pdfs/abcc2025_traditional_people-corporation.pdf` |
 | W12 | Oct 19–25 | Debrief + rubric deep dive; implementation-slide clinic (2.5× criterion) | Sim video, handbook §7 |
 | W13 | Oct 26–Nov 1 | **Boardroom #1 (4 h):** re-crack AROW Global 2025 — one slide + one-page brief + 3-min pitch + 22-min grilling | `01-competition/past-case-pdfs/abcc2025_boardroom_arow-global.pdf` |
@@ -66,7 +80,7 @@ Individual only: 30-min math drills twice, English case-vocabulary list, one cas
 ## Phase 4 — Peak (W23–W26, Jan 4 – Jan 31)
 
 | Week | Dates | Session | Materials |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | W23 | Jan 4–10 | **Prepared-round dress rehearsal (14-day mini-sprint start):** original case — **Klangfest Bielefeld**; workstreams per sprint plan | `05-practice-cases/case3_prepared_arts_festival.md` |
 | W24 | Jan 11–17 | Klangfest dress rehearsal 25+15 before external judges; full feedback | Teaching note rubric |
 | W25 | Jan 18–24 | **Competition-week simulation:** traditional (3 h) Saturday + boardroom (4 h) Sunday, back-to-back, external judges, business attire | Re-crack briefs: Jazz Winnipeg, Coal & Canary, StandardAero/WAG as needed |
@@ -82,14 +96,14 @@ Individual only: 30-min math drills twice, English case-vocabulary list, one cas
 ## Competition week (Feb 18–22, 2027) — operating rhythm
 
 | Day | Expected (2025 pattern; confirm with 2027 guide) | Team protocol |
-|---|---|---|
+| --- | --- | --- |
 | Feb 18 | Arrival day; ~17:00 registration + division draw; free evening | Early night; prep-room kit check; prepared-case run-through once, then stop |
 | Feb 19* | Prepared-case presentations + feedback session; evening social | Fixed pre-room ritual; attend feedback, note judge patterns; 15-min debrief max |
 | Feb 20* | Boardroom: staggered 4-h prep + presentations; Festival evening | Tested prep protocol: the six-phase clock in `03-team/role_playbooks.md` (4-h column), rehearsed all autumn; brief finished early — judges read it before we enter |
 | Feb 21* | Traditional: 3-h prep + presentations; finalist announcement; finals; gala | Same protocol, faster; after presenting: immediately pressure-test the deck in case of finals (deck frozen!) |
 | Feb 22 | Departure (or finals day if schedule shifts) | Buffer; thank-you notes to organizers before leaving |
 
-\* Exact round-to-day mapping TBA — the 2027 footprint (Thu–Mon) may shift days versus 2025's Wed–Sun.
+\* Round-to-day mapping is **TBA**. The table above assumes the published Feb 18–22 window taken literally (Thu–Mon) with the 2025 round order. Both prior editions started on a **Wednesday** (2025: Wed Feb 19 – Sun Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday), so 2027 would be the first Thursday start — the alternative reading is Wed Feb 17 – Sun Feb 21. Our flight envelope (arrive Feb 16/17, return Feb 22/23) covers both; the details are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
 
 Standing rules all week: business professional; **never name HSBI in front of judges**; phones surrendered before prep; the strategist owns the clock; appendix bank feeds Q&A; every debrief ends after 15 minutes; enjoy the social program — judges remember teams they liked.
 

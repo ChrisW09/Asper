@@ -8,6 +8,22 @@
 
 ---
 
+## Contents
+
+- [1. Entry requirements: eTA for German citizens](#1-entry-requirements-eta-for-german-citizens)
+- [2. Flights: Germany → Winnipeg (YWG)](#2-flights-germany--winnipeg-ywg)
+- [3. Delta Hotels Winnipeg (team hotel)](#3-delta-hotels-winnipeg-team-hotel)
+- [4. Airport → downtown](#4-airport--downtown)
+- [5. Campus, Drake Centre and daily transfers](#5-campus-drake-centre-and-daily-transfers)
+- [6. February weather and clothing — take this seriously](#6-february-weather-and-clothing--take-this-seriously)
+- [7. Money, tipping, SIM](#7-money-tipping-sim)
+- [8. Travel insurance](#8-travel-insurance)
+- [9. Jet lag strategy (7 hours)](#9-jet-lag-strategy-7-hours)
+- [10. Booking countdown](#10-booking-countdown)
+- [Sources](#sources)
+
+---
+
 ## 1. Entry requirements: eTA for German citizens
 
 German citizens are **visa-exempt** for Canada but need an **Electronic Travel Authorization (eTA)** to board a flight to Canada.
@@ -31,7 +47,7 @@ There are **no nonstop flights from Germany to Winnipeg**; plan one connection i
 **Typical routings (one stop):**
 
 | Routing | Carriers | Approx. times |
-|---|---|---|
+| --- | --- | --- |
 | FRA → Toronto (YYZ) → YWG | Air Canada / Lufthansa + Air Canada, WestJet or Porter | FRA–YYZ ~8.5 h; YYZ–YWG ~2 h 50 min, many daily departures |
 | FRA → Montreal (YUL) → YWG | Lufthansa / Air Canada | similar total, fewer onward frequencies |
 | FRA or MUC → Calgary/Vancouver → YWG | Lufthansa + WestJet/Air Canada | backtracking eastward on the last leg |
@@ -63,7 +79,7 @@ Winnipeg's airport is **Winnipeg James Armstrong Richardson International (YWG)*
 ### On-the-ground contact card (print one per person; `07-logistics/competition_day_runbook.md` refers here)
 
 | Need | Contact |
-|---|---|
+| --- | --- |
 | Emergency (police / fire / ambulance) | **911** |
 | Organizers, all week | aspercasecomps@umanitoba.ca |
 | On-site coordinator | Steven Harrison, **+1 204 396 9631** *(2025 cell — reconfirm in the 2027 guide)* |
@@ -126,13 +142,21 @@ Winnipeg is on **Central Standard Time (UTC−6)** in February; Germany is on CE
 ## 10. Booking countdown
 
 | When | Action |
-|---|---|
+| --- | --- |
 | **T−6 months (Aug 2026)** | Confirm team registration with Asper; verify all 5 passports; **apply for eTAs (CAD 7 each)**; open flight-price alerts |
-| **T−5 to 4 months (Sep–Oct 2026)** | **Book flights** (arrive Feb 16/17, depart Feb 22/23); secure university funding approvals; confirm hotel block with organizers |
+| **T−5 to 4 months (Sep–Oct 2026)** | **Book flights** (arrive Feb 16/17, depart Feb 22/23 — this envelope covers both possible 2027 weekday footprints, see note below); secure university funding approvals; confirm hotel block with organizers |
 | **T−3 months (Nov 2026)** | Take out health + cancellation insurance; verify university Dienstreise coverage; students order/borrow −30 °C gear |
 | **T−2 months (Dec 2026)** | Buy winter boots and gloves in end-of-year sales; order eSIMs; confirm shuttle arrangements with hosts |
 | **T−4 weeks (mid-Jan 2027)** | Reconfirm eTA/passport match, seat assignments, garment bags; notify banks; print invitation letters and hotel confirmations; fill in and print the contact card in §4 |
 | **T−1 week** | Check Environment Canada forecast for Winnipeg; begin sleep-shifting; pack (boots on feet, suits in carry-on); online check-in 24 h out |
+
+> **Booking note — the 2027 weekday question.** The competition is published as February 18–22, 2027, which
+> falls **Thursday–Monday**, but both documented editions ran **Wednesday–Sunday** (2025: Wed Feb 19 – Sun
+> Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday). If the Wednesday pattern holds, the real week is
+> Wed Feb 17 – Sun Feb 21. **Arriving Feb 16/17 and returning Feb 22/23 covers both readings** — so book that
+> envelope, keep tickets changeable if the fare difference is small, and do not commit hotel nights to a
+> specific round order until the 2027 agenda is out. Details: `01-competition/facts_and_rules.md`, "The 2027
+> weekday question".
 
 ---
 

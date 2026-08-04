@@ -1,6 +1,6 @@
 # Competition-Day Runbook — ABCC 2027, February 18–22
 
-Hour-by-hour operating sheets for the five days. Times follow the **2025 Event Guide pattern** (the only published full schedule); the 2027 agenda is TBA and Feb 18–22, 2027 runs **Thursday–Monday**, so expect the same shape on shifted weekdays and update this file the day the 2027 guide arrives. All times Winnipeg local (CST = UTC−6, 7 hours behind Bielefeld).
+Hour-by-hour operating sheets for the five days. Times follow the **2025 Event Guide pattern** (the only published full schedule), mapped onto the published 2027 window of Feb 18–22, which falls **Thursday–Monday**. Treat every weekday below as *expected*: both prior editions began on a **Wednesday**, so the real 2027 week may instead run Wed Feb 17 – Sun Feb 21 (`01-competition/facts_and_rules.md`, "The 2027 weekday question"). The *shape* of each day — registration and draw, then prepared, boardroom, traditional with finals — is what this runbook drills; rewrite the dates the day the 2027 guide arrives. All times Winnipeg local (CST = UTC−6, 7 hours behind Bielefeld).
 
 ## Standing rules (all days)
 
@@ -9,7 +9,7 @@ Business professional in every competition context; boots for outside, shoes car
 ## Day 0 — Arrival day (Thu Feb 18 expected)
 
 | Time (baseline) | What | Team protocol |
-|---|---|---|
+| --- | --- | --- |
 | afternoon | Arrive Delta Winnipeg (team flew in Feb 16/17 per travel plan) | Check prep kit complete (see `03-team/role_playbooks.md` kit list); test laptops + clicker + adapters |
 | ~17:00 | **Registration + division draw** at the hotel | Note the team letter and ALL slot times for the week; photograph the posted schedule; confirm fictional team name usage |
 | evening | Free (dinner not provided) | Light meal; one 25-min prepared-case run-through, then STOP; deck already submitted (deadline was 10:00 CT); bed by 22:30 |
@@ -17,7 +17,7 @@ Business professional in every competition context; boots for outside, shoes car
 ## Day 1 — Prepared case (Fri Feb 19 expected)
 
 | Time | What | Team protocol |
-|---|---|---|
+| --- | --- | --- |
 | 07:00 | Breakfast (hotel, for guests) | Full business professional; no last-minute deck edits — the file is frozen |
 | 08:30–09:40 | Shuttle by slot | Arrive early; find the room; check clicker and screen |
 | 09:30–12:00 | Presentations in three slot waves, 25 + 15 each | Pre-room ritual (60 s, three keys, one breath); all four speak; yellow at 5, red at 1 — in both segments |
@@ -29,7 +29,7 @@ Business professional in every competition context; boots for outside, shoes car
 ## Day 2 — Boardroom case (Sat Feb 20 expected)
 
 | Time | What | Team protocol |
-|---|---|---|
+| --- | --- | --- |
 | 07:00 | Breakfast | Carbs + protein; this is the long day of thinking |
 | 08:30–10:15 | Shuttle by slot; phones surrendered | Template file open; roles confirmed; water bottles filled |
 | 09:30–14:50 | **Staggered 4-h prep** (slot-dependent) | Phase clock per `03-team/role_playbooks.md` (4-h column): P1 0:00–0:25 read → P2 0:25–0:55 lock the recommendation → P3 0:55–2:15 analysis sprint → P4 2:15–3:15 build (deck, one summary slide, one-page brief, appendix bank) → P5 3:15–3:45 number audit + rehearse the 3-minute pitch twice → P6 3:45–4:00 save + USB. Brief and slide wording must match |
@@ -40,7 +40,7 @@ Business professional in every competition context; boots for outside, shoes car
 ## Day 3 — Traditional case + finals + gala (Sun Feb 21 expected)
 
 | Time | What | Team protocol |
-|---|---|---|
+| --- | --- | --- |
 | 06:45 | Breakfast | Earliest start of the week |
 | 07:45–09:20 | Shuttle by slot | Phones surrendered; template open |
 | 08:40–13:00 | **Staggered 3-h prep** | Same phase clock, 3-h column: P1 0:00–0:20 read → P2 0:20–0:40 lock the recommendation → P3 0:40–1:40 analysis sprint → P4 1:40–2:25 build → P5 2:25–2:50 number audit, rubric check (Implementation & Resources strongest section?), run-through → P6 2:50–3:00 save + USB |

@@ -4,6 +4,17 @@ Six more one-page drill cases (format and rules identical to `05-practice-cases/
 
 ---
 
+## Contents
+
+- [Mini-Case 7 · Prairie Sky Tours — ten weeks of summer](#mini-case-7--prairie-sky-tours--ten-weeks-of-summer)
+- [Mini-Case 8 · Fjellvann Software — the price rise that scares everyone](#mini-case-8--fjellvann-software--the-price-rise-that-scares-everyone)
+- [Mini-Case 9 · Théâtre de la Rivière — subscribers are dying, literally](#mini-case-9--théâtre-de-la-rivière--subscribers-are-dying-literally)
+- [Mini-Case 10 · Bergkette Logistik — the €1.2M digitization pot](#mini-case-10--bergkette-logistik--the-12m-digitization-pot)
+- [Mini-Case 11 · Red River Creamery — the co-op wants out of the milk trap](#mini-case-11--red-river-creamery--the-co-op-wants-out-of-the-milk-trap)
+- [Mini-Case 12 · Klinikum Weserbergland — 78 open nursing positions](#mini-case-12--klinikum-weserbergland--78-open-nursing-positions)
+
+---
+
 ## Mini-Case 7 · Prairie Sky Tours — ten weeks of summer
 
 *Warm-up (90 s): how many tourists visit Winnipeg per year? (Sketch: ~0.9M metro population; leisure+VFR+business visitors ≈ 2–2.5M; answer in millions, state your filters.)*

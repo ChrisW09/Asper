@@ -3,7 +3,7 @@
 ## Sparkasse Ostwestfalen: Winning Back the Under-30s
 
 | Item | Detail |
-|---|---|
+| --- | --- |
 | Practice round type | TRADITIONAL (mirrors ABCC Traditional round; reference archetype: Access Credit Union case, ABCC 2026) |
 | Preparation time | 3 hours, closed room |
 | Presentation | 20 minutes, followed by 10 minutes Q&A |
@@ -14,6 +14,33 @@
 | Authorship | Original practice case written July 2026 for the HSBI ABCC 2027 team. Entirely fictional. Any resemblance to real institutions, persons, or figures is coincidental. |
 
 > **Note on data.** All figures in this case — including those describing the German banking market — are **case data**: directionally realistic but simplified and partly fictionalised for teaching purposes. Treat them as given. Do not substitute outside knowledge, and state any additional assumptions explicitly in your presentation.
+
+---
+
+## Contents
+
+- [THE CASE](#the-case)
+  - [1. A Monday Morning in Bielefeld](#1-a-monday-morning-in-bielefeld)
+  - [2. Sparkasse Ostwestfalen: A Public Bank with a Long Memory](#2-sparkasse-ostwestfalen-a-public-bank-with-a-long-memory)
+  - [3. Market Context: German Retail Banking and the Neobank Wave](#3-market-context-german-retail-banking-and-the-neobank-wave)
+  - [4. The Problem in Numbers](#4-the-problem-in-numbers)
+  - [5. A Scar That Still Itches: The "YoungS" Pilot](#5-a-scar-that-still-itches-the-youngs-pilot)
+  - [6. Voices from Inside and Outside](#6-voices-from-inside-and-outside)
+  - [7. Seven Options on the Whiteboard](#7-seven-options-on-the-whiteboard)
+  - [8. Constraints and Guardrails](#8-constraints-and-guardrails)
+- [EXHIBITS (CASE DATA)](#exhibits-case-data)
+  - [Exhibit 1 — Retail customers by age band, 2019-2025](#exhibit-1--retail-customers-by-age-band-2019-2025)
+  - [Exhibit 2 — Channel usage and product holdings by age band, 2025](#exhibit-2--channel-usage-and-product-holdings-by-age-band-2025)
+  - [Exhibit 3 — Retail segment P&L extract, 2023-2025](#exhibit-3--retail-segment-pl-extract-2023-2025)
+  - [Exhibit 4 — Competitor snapshot, early 2026](#exhibit-4--competitor-snapshot-early-2026)
+  - [Exhibit 5 — Survey of 16-29-year-olds in the territory, May 2026](#exhibit-5--survey-of-16-29-year-olds-in-the-territory-may-2026)
+  - [Exhibit 6 — Unit economics per retail customer by age band, 2025](#exhibit-6--unit-economics-per-retail-customer-by-age-band-2025)
+  - [Exhibit 7 — Strategic options: preliminary cost estimates](#exhibit-7--strategic-options-preliminary-cost-estimates)
+  - [Exhibit 8 — Onboarding funnel and the 18th-birthday cliff](#exhibit-8--onboarding-funnel-and-the-18th-birthday-cliff)
+- [YOUR TASK](#your-task)
+  - [Deliverable specification](#deliverable-specification)
+
+*Then the coach-only teaching note — do not read it before you have presented.*
 
 ---
 
@@ -120,7 +147,7 @@ The board has set explicit guardrails for the October decision:
 *(Number of customers, end of year; case data)*
 
 | Age band | 2019 | 2022 | 2025 | Change 2019-25 |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Under 16 | 33,800 | 31,900 | 29,600 | -12.4% |
 | 16-19 | 27,400 | 25,200 | 22,900 | -16.4% |
 | 20-24 | 33,100 | 28,700 | 24,300 | -26.6% |
@@ -134,7 +161,7 @@ The board has set explicit guardrails for the October decision:
 Supplementary indicators:
 
 | Indicator | 2019 | 2022 | 2025 |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Residents aged 16-29 in territory | 159,000 | 158,500 | 158,000 |
 | SPK OWL account penetration, 16-29 | 60% | 53% | 46% |
 | Share of 20-29 account holders with salary/main inflow at SPK OWL | 58% | 47% | 37% |
@@ -146,7 +173,7 @@ Supplementary indicators:
 *(Active customers; case data)*
 
 | Age band | App logins per month | Branch visits per year | Share naming app as primary channel | Products per customer | Share holding a securities account |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | 16-19 | 19.2 | 0.6 | 87% | 1.6 | 9% |
 | 20-24 | 16.8 | 0.8 | 84% | 1.9 | 14% |
 | 25-29 | 14.1 | 1.1 | 79% | 2.3 | 19% |
@@ -159,7 +186,7 @@ Supplementary indicators:
 *(EUR million; management accounts; case data)*
 
 | | 2023 | 2024 | 2025 |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Net interest income | 171.4 | 183.9 | 176.2 |
 | Net fee and commission income | 61.8 | 63.5 | 65.1 |
 | — of which payments and accounts | 31.2 | 31.9 | 32.4 |
@@ -180,7 +207,7 @@ Memo items (2025): customer deposits €8.9bn; customer loans €7.6bn; deposits
 *(Case data; "SPK OWL" = Sparkasse Ostwestfalen)*
 
 | Dimension | SPK OWL | N26 | Trade Republic | Revolut | C24 | ING Deutschland |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | Customers, Germany (m) | 0.53 (region only) | 4.3 | 4.6 | 2.1 | 1.1 | 9.6 |
 | Monthly fee, standard account | €5.90 (€0 to age 21; €4.90 ages 22-27 if in education) | €0 | €0 | €0 | €0 | €0 with €700+ monthly inflow, else €4.90 |
 | Interest on balances | 0.0% current; 0.5% savings | up to 1.3% | 2.0% | 1.5% | 1.5% | 1.25% |
@@ -201,7 +228,7 @@ Memo items (2025): customer deposits €8.9bn; customer loans €7.6bn; deposits
 **5a. "Which bank holds your main account?"**
 
 | Main bank | All 16-29 | 16-19 | 20-24 | 25-29 |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Sparkasse Ostwestfalen | 34% | 51% | 29% | 24% |
 | Neobank (N26, Trade Republic, Revolut, C24) | 32% | 18% | 38% | 39% |
 | Direct bank (ING, DKB, comdirect) | 17% | 9% | 19% | 23% |
@@ -211,7 +238,7 @@ Memo items (2025): customer deposits €8.9bn; customer loans €7.6bn; deposits
 **5b. Neobank main-bank users: "Why did you choose it?"** *(multiple answers)*
 
 | Reason | Share |
-|---|---:|
+| --- | ---: |
 | No monthly fees | 68% |
 | Better app experience | 57% |
 | Instant notifications and card control | 49% |
@@ -224,7 +251,7 @@ Memo items (2025): customer deposits €8.9bn; customer loans €7.6bn; deposits
 **5c. All respondents: "What would make you use the Sparkasse as your main bank?"** *(multiple answers)*
 
 | Condition | Share |
-|---|---:|
+| --- | ---: |
 | Free account until age 30 | 61% |
 | Interest on my balance | 54% |
 | Commission-free ETF savings plans | 47% |
@@ -238,7 +265,7 @@ Memo items (2025): customer deposits €8.9bn; customer loans €7.6bn; deposits
 **5d. Attitudes and loyalty indicators, 16-29**
 
 | Indicator | SPK OWL | Trade Republic | N26 | ING |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Net Promoter Score | -18 | +46 | +31 | +24 |
 | "Would trust most with my salary and savings in a crisis" | 62% | 31% | 24% | 41% |
 
@@ -249,7 +276,7 @@ Additional findings: among 20-29-year-olds who hold a SPK OWL account but bank m
 *(Per customer per year, EUR, allocated management accounting; case data)*
 
 | Age band | Avg. deposits € | Avg. loans € | Net interest contribution | Net fee income | Allocated cost to serve | **Annual contribution** |
-|---|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | 16-19 | 1,450 | 0 | 24 | 5 | 42 | **-13** |
 | 20-24 | 2,750 | 300 | 51 | 29 | 61 | **+19** |
 | 25-29 | 5,900 | 1,100 | 104 | 62 | 79 | **+87** |
@@ -264,7 +291,7 @@ Memo items: 71% of current 30-44-year-old mortgage borrowers were SPK OWL custom
 *(Pre-feasibility estimates from the August offsite; case data)*
 
 | Option | One-off investment (€m) | Recurring cost (€m p.a., steady state) | Time to launch | Notes |
-|---|---:|---:|---|---|
+| --- | ---: | ---: | --- | --- |
 | A. "S-Move" youth experience layer in app | 6.5 | 1.6 | 14-18 months | Depends on FI release cycle; local satellite elements possible earlier |
 | B. Onboarding and switching overhaul | 3.1 | 0.7 | 6-9 months | Instant virtual card; new ident flow; salary-switch concierge |
 | C. Youth pricing (free to 30; 1.5% on first €10k) | 0.2 | 3.4 | 3 months | ≈ €1.2m forgone fees + ≈ €2.2m interest cost at current balances |
@@ -282,7 +309,7 @@ Board guardrails (repeated): ≤ €15m cumulative one-off 2027-2029; ≤ €4.5
 **8a. Online account opening funnel, 2025 (share of applications started; 16-29-year-old applicants)**
 
 | Funnel step | SPK OWL 2025 | Neobank benchmark |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Application started | 100% | 100% |
 | Personal data completed | 74% | 90% |
 | Identification (video ident) completed | 58% | 78% |
@@ -295,7 +322,7 @@ Applications started by 16-29-year-olds in 2025: 9,400.
 **8b. Youth account conversion at age 18**
 
 | Indicator | 2019 | 2022 | 2025 |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Youth accounts reaching holder's 18th birthday (per year) | 3,700 | 3,500 | 3,400 |
 | Still active main relationship at age 20 | 83% | 72% | 59% |
 | Of lapsed: opened main account at neobank/direct bank | 41% | 55% | 68% |
@@ -315,7 +342,7 @@ You are the strategy team engaged by Dr. Brune. In **three hours**, prepare a **
 ## Deliverable specification
 
 | Requirement | Specification |
-|---|---|
+| --- | --- |
 | Presentation | 20 minutes; slide deck submitted as .pptx at the end of prep time (simulated USB hand-in); all four team members present substantive content |
 | Q&A | 10 minutes; judges act in role as board members; any team member may answer |
 | Analysis | Every quantitative claim traceable to an exhibit or an explicitly stated assumption; cite exhibit numbers on slides |
@@ -339,7 +366,7 @@ This case mirrors the ABCC Traditional-round archetype (reference: Access Credit
 ## 2. Suggested prep clock and role split (3:00)
 
 | Time | Activity |
-|---|---|
+| --- | --- |
 | 0:00-0:20 | Individual read; team aligns on problem statement and storyline hypothesis |
 | 0:20-1:20 | Parallel work: finance lead builds model (Section 4 below); CS lead mines Exhibits 5 and 8; innovation lead designs and screens option portfolio against guardrails; BA lead drafts storyline and slide skeleton |
 | 1:20-1:40 | Midpoint sync: lock recommendation and headline numbers |
@@ -404,7 +431,7 @@ With offline tools and 8 exhibits, the CS lead can visibly differentiate the tea
 ## 8. Scoring rubric (100 points)
 
 | Dimension | Points | What distinguishes top scores |
-|---|---:|---|
+| --- | ---: | --- |
 | Problem definition and prioritisation | 10 | Frames lifecycle/CLV pipeline, names the three leak points; not "banks must digitalise" |
 | Analysis and insight from exhibits | 15 | Uses ≥ 6 exhibits; finds the cliff (8b), the parent-ownership insight, the dormant-holder pool, the 71% mortgage memo |
 | Financial model and business case | 20 | CLV built with stated assumptions; value at stake; breakeven customers; guardrail test; ≥ 2 sensitivities |
@@ -419,7 +446,7 @@ Suggested band interpretation: 85+ excellent (competition-ready); 70-84 solid wi
 ## 9. Coach check figures (for fast verification during debrief)
 
 | Quantity | Defensible range |
-|---|---|
+| --- | --- |
 | CLV per retained/won young main-bank customer (8%, 96-98% retention) | €1,200-2,500 |
 | NPV destroyed per vintage year of inaction | €5-8m |
 | Funding cost exposure on under-30 deposits | €2.6-3.8m p.a. |
