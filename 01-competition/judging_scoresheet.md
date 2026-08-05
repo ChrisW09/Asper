@@ -4,7 +4,7 @@ Printable scoresheet for every HSBI simulation. It replicates the **official ABC
 
 The criterion questions in the table are the official wording; the 3/7/10 behavioural anchors are our coaching interpretation of that wording, added so scores stay comparable across judges and months.
 
-Print one sheet per judge per team. If the judge is **external** — the calendar asks for one at W17, W19, W23–24 and both W25 rounds — brief them from the last section of this file first.
+Print one sheet per judge per team. If the judge is **external** — the calendar asks for one at W17, W23–24 and both W25 rounds, and W19 is graded too if you can get one — brief them from the last section of this file first.
 
 **Sheet header (fill in before the presentation):**
 Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional / Final · Prep time ______ · Judge ______ · Team ______
@@ -96,9 +96,11 @@ Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional / Final
 ## Briefing an external judge
 
 External judges are worth more than the coach at the same table: unfamiliar faces raise the pressure, and a
-practitioner's instinct for feasibility is exactly what the real panel brings. The calendar asks for one at
-**W17, W19, W23–24, and both W25 rounds**. Recruit from HSBI faculty outside the team, alumni, or local
-practitioners — a consultant, a bank or brand manager, an NGO director.
+practitioner's instinct for feasibility is exactly what the real panel brings. The calendar asks for external
+judges at **W17, W23–24, and both W25 rounds** — four occasions, which is the "at least 4 sessions" the
+preparation plan commits to — and **W19** is a graded simulation that deserves one if a judge is available.
+Recruit from HSBI faculty outside the team, alumni, or local practitioners — a consultant, a bank or brand
+manager, an NGO director.
 
 **The ask (e-mail or call, keep it this short).** "Four Masters students are preparing for a graduate case
 competition in Canada in February. Would you judge one 3-hour case simulation — you arrive at *time*, watch a

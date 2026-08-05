@@ -69,13 +69,45 @@ on the **`archive-history`** branch.
   delivery, defence, numbers — with each part linking to the other two and to the folder index. The label was
   accurate but unexplained, and three of the six training documents sit outside it.
 
+### Closing the open items
+
+- **The briefing deck was updated and rebuilt** — it had gone untouched while the material around it moved,
+  and W1 is the week it gets presented. Two fixes: the schedule frame now carries the weekday finding
+  (both prior editions Wednesday-start; two readings of the 2027 window) instead of a vague "the labels will
+  shift", and the travel checklist said **"arrival by February 18, 2027"** — the day the competition opens,
+  and a day late if the Wednesday reading holds. It now reads "arrive Feb 16 or 17, return Feb 22 or 23".
+  Rebuilt with pdflatex twice; still 25 pages.
+- **The registration e-mail now asks the weekday question**, since it is question 1 for the organizers and
+  the answer gates flight booking. It also names what the answer triggers: rewrite the day-sheets, delete the
+  open-question section, book the flights.
+- **`.markdownlint.json` contradicted the convention it was meant to encode** — `default: true` enables MD025
+  (one H1 per file), which would flag the practice cases whose H1 part separators had just been standardized.
+  MD025 is now off, and §8 says why.
+- **`preparation_plan.md` corrections:** the planning horizon said ~28 weeks against the calendar's 29; the
+  W20 milestone stated a numeric rubric target (≥80%) that all but collided with the simulation log's W25
+  target (≥85/105), so it now defers to the log, where the targets live in one place.
+- **An overstatement of my own, corrected:** the new external-judge briefing claimed the calendar asks for
+  judges at "W17, W19, W23–24 and both W25 rounds" (five). The log specifies four — W17, W23–24, and both W25
+  rounds — matching the plan's "at least 4 sessions". W19 is now described as graded and worth a judge if one
+  is available, which is what it is.
+- **A reverse cross-reference** from `case_type_playbook.md` to the new selector in `frameworks.md`, so the
+  pair links both ways: classify the case, then read off the analyses it needs.
+- **Format-quiz answer 24** now carries the weekday nuance as a bonus point.
+
 ### Verified
 
-All 40 business-math drills recomputed (every answer and anchor holds) · the 3-hour and 4-hour prep phase
-clocks match line for line between the role playbooks and the runbook, and each sums exactly to its window ·
-round formats, weights, rubric multipliers and card timings agree wherever restated · the ten simulations
-match the calendar week for week · 178+ in-page anchors resolve, no broken links · no duplicate file content
-in the repository.
+**Every quantitative answer key in the repository was recomputed and holds:** the 40 business-math drills and
+their anchor numbers · all four sets in `workbook2_quant_drills.md` · the key calculation in each of the
+twelve mini-cases, including the derived ones (overtime premium €54 × 0.4/1.4, agency premium
+€2.8M × 0.65/1.65, renter-first lifetime margin, contribution per bottleneck-hour). **One defect found:**
+mini-case 7 labelled 1.71M as "summer" revenue when it is the April–October operating season (1.8M less 90k
+winter), not the 82% landing in July–September — a student computing 1.8 × 0.82 would have got 1.476M and
+doubted themselves. Relabelled.
+
+Also verified: the 3-hour and 4-hour prep phase clocks match line for line between the role playbooks and the
+runbook, and each sums exactly to its window · round formats, weights, rubric multipliers and card timings
+agree wherever restated · the ten simulations match the calendar week for week · 188 in-page anchors resolve,
+no broken links · no duplicate file content · LaTeX build leaves nothing untracked.
 
 ---
 

@@ -25,6 +25,8 @@ Two rules govern hybrids. First, **the ask wins**: a bank case with brand-tracki
 
 Whatever the type, three constants from the official rubric apply: Implementation & Resources is the heaviest criterion (2.5×), so the roadmap slide is never the one you cut; Analysis (2.0×) means every claim traces to an exhibit or a stated assumption; and Measurement/Risks (1.0×) is cheap insurance — a risk table and KPI strip take ten minutes and are pre-built in every template.
 
+Once the type is fixed, the **five-minute selector** at the top of `04-training/frameworks.md` gives the analyses that type needs — what to always do, what is usually worth it, and what to skip — so the analysis plan is decided before anyone opens a spreadsheet.
+
 ---
 
 ## Type A — Turnaround & Revenue Sustainability

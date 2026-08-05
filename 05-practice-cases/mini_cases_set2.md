@@ -21,7 +21,7 @@ Six more one-page drill cases (format and rules identical to `05-practice-cases/
 
 **Situation.** Prairie Sky Tours runs boat and walking tours in Winnipeg (The Forks, Exchange District) — CAD 1.8M revenue, 82% earned in July–September. Owner Dana wants year-round viability: winter revenue is CAD 90k against CAD 240k of winter fixed costs (staff core, boats stored, office). Options on the table: (A) winter festival partnerships (Festival du Voyageur shuttle-and-story packages, est. revenue 160k, margin 45%, cost to launch 40k); (B) corporate events year-round (est. 220k revenue at 38% margin, needs one salesperson at 70k/yr); (C) close November–March completely (saves 150k of the 240k, forfeits the 90k winter revenue and one core guide who won't return seasonally).
 
-**Hard data.** Summer contribution: 1.71M × 41% ≈ 700k. Winter today: 90k × 35% ≈ 31k contribution against 240k fixed → winter drag ≈ −209k/yr.
+**Hard data.** Operating-season revenue (April–October) = 1.8M − 90k winter = **1.71M**, of which 82% of the annual total lands in July–September; season contribution 1.71M × 41% ≈ **700k**. Winter today: 90k × 35% ≈ 31k contribution against 240k of fixed cost → **winter drag ≈ −209k/yr**.
 
 **Task.** Which combination fixes winter, and what is the year-one P&L effect?
 

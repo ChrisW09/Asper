@@ -166,11 +166,11 @@ As of 2026-08-04, excluding `.git`:
 | | Count | Notes |
 | --- | --- | --- |
 | Files | **62** | 42 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
-| Written material | **42 markdown files, ≈82,500 words** | ≈6 hours of reading end to end |
+| Written material | **42 markdown files, ≈83,500 words** | ≈6 hours of reading end to end |
 | Binary assets | ≈8.5 MB | 6.2 MB official case PDFs · 2.3 MB slide templates |
 | Working tree | ≈9.5 MB content | Plus ≈20 MB of packed git history |
 
-Word count by folder: `05-practice-cases` 28,400 · `04-training` 15,700 · `01-competition` 12,300 · `03-team` 4,900 · `02-plan` 4,200 · `07-logistics` 4,100 · `06-templates` 2,600 · `08-briefing-slides` 200 · root documents (README, this file, changelog) 10,000.
+Word count by folder: `05-practice-cases` 28,500 · `04-training` 15,800 · `01-competition` 12,300 · `03-team` 4,900 · `02-plan` 4,200 · `07-logistics` 4,200 · `06-templates` 2,600 · `08-briefing-slides` 200 · root documents (README, this file, changelog) 10,600.
 
 Nine of the 42 markdown files are navigation: the three root documents, one `README.md` per lifecycle folder, and the exercise catalog in `04-training/exercises/`. Sixteen of the long documents carry their own table of contents.
 
@@ -247,7 +247,7 @@ What was checked, so the next reader knows what is asserted and what is assumed.
 - `archive-history` holds 8 commits, `git fsck` clean.
 
 **Internal consistency** (checked across all markdown files)
-- All 40 drills in `04-training/business_math_drills.md` recomputed — every stated answer, and every anchor number, holds.
+- **Every quantitative answer key in the repository recomputed**, and all of it holds: the 40 drills and anchor numbers in `04-training/business_math_drills.md`; all four exercise sets in `04-training/exercises/workbook2_quant_drills.md` (sizing ladder, exhibit math on the real cases, the sensitivity grid, the arithmetic circuit); and the key calculation in each of the twelve mini-cases, including the derived ones — the overtime premium (€54 × 0.4/1.4), the agency premium (€2.8M × 0.65/1.65), the renter-first lifetime margin, and contribution per bottleneck-hour. One labelling defect was found and fixed: mini-case 7 used "summer contribution: 1.71M × 41%" where 1.71M is the April–October operating season (1.8M less 90k of winter revenue), not the 82% that lands in July–September.
 - The 3-hour and 4-hour prep phase clocks match line for line between `03-team/role_playbooks.md` and `07-logistics/competition_day_runbook.md`, and each sums exactly to its window.
 - Round formats, score weights (25/30/45), rubric multipliers, and card timings agree wherever they are restated.
 - The ten planned simulations in `02-plan/simulation_log.md` match the calendar week for week.
@@ -276,9 +276,11 @@ EOF
 
 Bare filenames inside the inventory tables of this file are section-scoped, not links; the check above only follows folder-qualified paths. `CHANGELOG.md` legitimately names files that no longer exist — that is what a changelog is for.
 
-**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 42 markdown files, ≈82,500 words · eleven official cases across ten clients.
+**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 42 markdown files, ≈83,500 words · eleven official cases across ten clients.
 
 **Dates.** February 18–22, 2027 is **Thursday–Monday**. ABCC 2025 ran Wed Feb 19 – Sun Feb 23 and ABCC 2026 ran Wed Feb 18 – Sat Feb 21 with a Sunday departure, so both documented editions started on a Wednesday and 2027 as published would be the first Thursday start. This is recorded as an open question in `facts_and_rules.md` and the handbook's §12 tracker, and flagged in the calendar, the runbook, the travel plan, and `README.md`. Our flight envelope covers both readings. W1 of the plan is Aug 3–9, 2026 — the current week.
+
+**Rebuilt.** `08-briefing-slides/abcc_overview.pdf` was rebuilt from source with pdflatex (twice, for navigation) after the deck was corrected; still 25 pages.
 
 **Not verified here.** Nothing on the official Asper website was re-fetched on 2026-08-04; all competition facts still carry their July–August 2026 validation date. Re-validate when the 2027 Competition Guide is published.
 
@@ -292,7 +294,7 @@ Bare filenames inside the inventory tables of this file are section-scoped, not 
 - **Confidentiality.** The case PDFs in `01-competition/past-case-pdfs/` are © University of Manitoba and marked "no reproduction or transmission" — internal team use only. Do not redistribute; keep the repository private.
 - **File conventions.** Competition hand-ins follow the organizers' naming (`[Team Name] Prepared Case`, `[Team Name] Traditional Case`). Case data in the original practice cases is fictional and labelled as such. Documents state their own source and validation date at the top.
 - **How documents reference each other.** Two deliberate styles: **navigation files** (the root documents and each folder's `README.md`) use clickable *relative* markdown links; **content documents** cite other files as backticked paths from the repository root, e.g. `` `01-competition/facts_and_rules.md` `` — unambiguous when a page is printed, pasted into a chat, or read on paper, which is how the training material is actually used. Do not mix the two within a file.
-- **Markdown style.** Enforced by `.markdownlint.json`: line length unconstrained (prose wraps at ~100 or per sentence), table delimiter rows padded (`| --- | --- |`), every fenced block carries a language, inline HTML allowed. Practice cases use H1 as part separators (`# THE CASE`, `# EXHIBITS (CASE DATA)`, `# YOUR TASK`, `# === TEACHING NOTE (coach only) ===`), which is why multiple H1s per file are permitted there.
+- **Markdown style.** Enforced by `.markdownlint.json`: line length unconstrained (prose wraps at ~100 characters or per sentence), table delimiter rows padded (`| --- | --- |`), every fenced block carries a language, inline HTML allowed, duplicate headings allowed only between different parents, and **MD025 off** — the practice cases use H1 as part separators (`# THE CASE`, `# EXHIBITS (CASE DATA)`, `# YOUR TASK`, `# === TEACHING NOTE (coach only) ===`), so multiple H1s per file are intentional there.
 - **Long documents carry a `## Contents` list** of their H2 sections, placed after the intro. In the three practice cases the list deliberately stops at the teaching-note marker.
 
 ---

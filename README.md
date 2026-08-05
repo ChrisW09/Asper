@@ -85,7 +85,7 @@ Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/f
 
 Eight numbered folders follow the lifecycle of the project:
 *understand the competition → plan → form the team → train → practice → build assets → travel → brief.*
-**62 files**, of which **42 markdown documents, ≈82,500 words**. **Every folder opens with its own
+**62 files**, of which **42 markdown documents, ≈83,500 words**. **Every folder opens with its own
 `README.md`** — what is inside, in what order to use it, and the hard rules that apply — so you can navigate
 by clicking rather than by searching.
 

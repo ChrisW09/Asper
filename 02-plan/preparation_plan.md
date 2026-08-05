@@ -2,7 +2,7 @@
 
 **Team:** 4 students (Finance, Innovation, Computer Science, General Business Administration) + faculty advisor Prof. Dr. Christoph Weisser (HSBI)
 **Competition:** February 18–22, 2027, Asper School of Business, University of Manitoba, Winnipeg
-**Planning horizon:** August 2026 → February 2027 (~28 weeks)
+**Planning horizon:** August 2026 → February 2027 (29 weeks, W1 = Aug 3–9, 2026)
 **Dated schedule:** see `week_by_week_plan.md` for the calendar version of this plan (its calendar phases compress this file's concept phases into slightly different week boundaries — the calendar governs)
 
 ---
@@ -41,7 +41,7 @@ Rotate the **opening speaker** and the **Q&A quarterback** across mock cases so 
 **Goal: shared language and method.**
 
 - **Case method basics:** how to read a case in 30 minutes (skim → exhibits → problem statement → hypothesis), issue trees, MECE, hypothesis-driven analysis.
-- **Framework toolkit** (see `04-training/frameworks.md`): profitability tree, 3C/4P, Porter's Five Forces, value chain, Ansoff, BCG, unit economics, market sizing, break-even, NPV/payback, SWOT-as-synthesis (not as analysis).
+- **Framework toolkit** (see `04-training/frameworks.md`): profitability tree, 3C/4P, Porter's Five Forces, value chain, Ansoff, BCG, unit economics, market sizing, break-even, NPV/payback, SWOT-as-synthesis (not as analysis). Train the **five-minute selector** at the top of that file — which analyses each of the six case types actually needs — rather than the framework list itself.
 - **Business math drills** (30 min/week, all members): mental math, market sizing, margin/CAGR/break-even calculations without a calculator.
 - **Watch and dissect** 3–4 recordings of winning case competition finals (many university competitions publish finals on YouTube). Score them with a rubric; discuss what made the winner win.
 - **Role deep dives:** each lead prepares a 45-min teach-back for the team (finance: how I build a quick model; CS: how I attack case data; innovation: ideation methods; general business: storylining and the pyramid principle).
@@ -67,7 +67,7 @@ Rotate the **opening speaker** and the **Q&A quarterback** across mock cases so 
 - Recruit **external judges** (colleagues, alumni, local executives) for at least 4 sessions; unfamiliar faces change team behaviour.
 - **Score every simulation with the official ABCC rubric** (7 categories: implementation & resources 2.5×, analysis 2.0×, recommendation 2.0×, communication, framing, impact, measurement/risks 1.0× each — see `01-competition/facts_and_rules.md`). Track scores over time in `02-plan/simulation_log.md`.
 - Practise **failure modes:** a case in an unfamiliar industry, a case with heavy data exhibits (CS lead under pressure), a deliberately ambiguous case, one simulation where the projector "fails."
-- Milestone (end W20): two consecutive simulations scored ≥ 80 % on the internal rubric, with every member having opened at least once.
+- Milestone (end W20): two consecutive simulations showing a rising trend within their format, with every member having opened at least once. The numeric targets live in one place — `02-plan/simulation_log.md` ("Internal targets") — so they are not restated here.
 
 ## Phase 4 — Prepared-case sprint (release of Case 1 → submission deadline, ~2 weeks, likely late January/early February 2027)
 
