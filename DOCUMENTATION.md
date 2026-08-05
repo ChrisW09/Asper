@@ -2,7 +2,7 @@
 
 **Purpose.** Everything the HSBI team — four Masters students (finance · innovation · computer science · general business administration) plus Prof. Dr. Christoph Weisser as coach and faculty advisor — needs to prepare for, travel to, and compete at the **Asper Business Case Competition 2027**: fifth annual edition, **February 18–22, 2027**, I. H. Asper School of Business, University of Manitoba, Winnipeg.
 
-**Status.** Documentation verified and updated **2026-08-04**. Calendar position: **Week 1 (Aug 3–9, 2026)** — kick-off week. 29 weeks to the competition.
+**Status.** Documentation verified and updated **2026-08-05**. Calendar position: **Week 1 (Aug 3–9, 2026)** — kick-off week. 29 weeks to the competition.
 
 **Provenance.** All competition facts were researched and validated (July–August 2026) against the official Asper website, the official **ABCC 2025 Event Guide** (the fullest public rulebook), the official past-case PDFs, and UM Today press coverage. The materials then went through a multi-agent adversarial review: rule claims re-checked against the fact base, all exhibit arithmetic recomputed, all official URLs link-checked. Every document flags where 2027 specifics are still TBA.
 
@@ -18,7 +18,7 @@
 4. [Core workflows](#4-core-workflows)
 5. [Maintenance rules](#5-maintenance-rules)
 6. [Version history](#6-version-history)
-7. [Verification log (2026-08-04)](#7-verification-log-2026-08-04)
+7. [Verification log](#7-verification-log)
 8. [Conventions and hard rules](#8-conventions-and-hard-rules)
 9. [Known limitations and open questions](#9-known-limitations-and-open-questions)
 
@@ -166,7 +166,7 @@ As of 2026-08-04, excluding `.git`:
 | | Count | Notes |
 | --- | --- | --- |
 | Files | **62** | 42 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
-| Written material | **42 markdown files, ≈83,500 words** | ≈6 hours of reading end to end |
+| Written material | **42 markdown files, ≈84,000 words** | ≈6 hours of reading end to end |
 | Binary assets | ≈8.5 MB | 6.2 MB official case PDFs · 2.3 MB slide templates |
 | Working tree | ≈9.5 MB content | Plus ≈20 MB of packed git history |
 
@@ -190,7 +190,7 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 
 **Prepared-case sprint (on release, ~2 weeks).** Follow Phase 4 of `02-plan/preparation_plan.md` day by day: deep read and client research → parallel workstreams → storyline plus **coach review, which is allowed in this round** → deck build → dress rehearsals → freeze. Submit the `.pptx` by e-mail **at least 24 h before the deadline**, named `[Team Name] Prepared Case`; the strategist owns submission, the coach confirms receipt.
 
-**Competition week.** `07-logistics/competition_day_runbook.md` is the daily script; the standing rules at its top apply all week. Note the open weekday question: the published window **Feb 18–22, 2027 falls Thursday–Monday**, while both documented editions ran Wednesday–Sunday, so 2027 would be the first Thursday start. The runbook and the week plan map the 2025 round order onto the published dates and mark every weekday *expected*; the analysis and the booking consequence are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
+**Competition week.** `07-logistics/competition_day_runbook.md` is the daily script; the standing rules at its top apply all week. Note the open weekday question: the published window **Feb 18–22, 2027 falls Thursday–Monday**, while all three ABCC-format editions started on a Wednesday, so 2027 would be the first Thursday start since the format change. The runbook and the week plan map the 2025 round order onto the published dates and mark every weekday *expected*; the analysis and the booking consequence are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
 
 **After.** Debrief in the week of Feb 23: retro against the rubric, archive all decks and scores, write a two-page handover for the next HSBI team, send thank-yous, and update `01-competition/handbook.md` with everything 2027 actually did differently.
 
@@ -224,7 +224,8 @@ Full detail in [`CHANGELOG.md`](CHANGELOG.md). Work packages, not semantic versi
 | v7 | Consistency pass: text-corruption repair, drill arithmetic fixes, corrected past-case counts |
 | v8 | Documentation overhaul: inventory re-verified and re-pathed, metrics, verification log, changelog |
 | v9 | Flattened to a single repository: archive unzipped into the root, eleven duplicated files removed, zip retired, root documents de-duplicated against each other, history preserved on `archive-history` |
-| **v10** | **Material and structure improvement round:** a `README.md` index per folder · tables of contents in 16 long documents · one heading convention across the three practice cases · repo-wide markdown normalization plus `.markdownlint.json` · the 2027 weekday question researched and propagated · `frameworks.md` rebuilt around a case-type selector · external-judge briefing added · Q&A-length conflict resolved · `index.md` merged into the practice-cases README |
+| v10 | Material and structure improvement round: a `README.md` index per folder · tables of contents in 16 long documents · one heading convention across the three practice cases · repo-wide markdown normalization plus `.markdownlint.json` · the 2027 weekday question researched and propagated · `frameworks.md` rebuilt around a case-type selector · external-judge briefing added · Q&A-length conflict resolved · `index.md` merged into the practice-cases README |
+| **v11** | **Second content audit:** every remaining answer key and teaching note recomputed (model answers, case-1 economics, workbook hooks) · weekday analysis extended to all five editions (three Wednesday starts in a row) and repropagated · boardroom file name added to the compliance card · verification log extended |
 
 **Git.** `main` carries the current material. The **`archive-history`** branch holds the eight commits of the formerly nested repository (v1–v8) — kept for provenance, never merged. To publish privately:
 
@@ -235,9 +236,9 @@ gh repo create asper-abcc-2027 --private --source=. --push
 
 ---
 
-## 7. Verification log (2026-08-04)
+## 7. Verification log
 
-What was checked, so the next reader knows what is asserted and what is assumed.
+What was checked, so the next reader knows what is asserted and what is assumed. Structural checks ran 2026-08-04; the content audit below was extended 2026-08-05.
 
 **Structure**
 - 62 files excluding `.git`: 42 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`.
@@ -245,6 +246,12 @@ What was checked, so the next reader knows what is asserted and what is assumed.
 - No duplicated files (verified by content hash): before the flattening, all eleven workspace duplicates were confirmed **byte-identical** to their canonical counterparts, so nothing was lost when they were deleted. The single exception was `abcc_overview.pdf`, where two builds of the same 25-page deck existed — the newer one (2026-08-01 13:04 UTC) was kept.
 - All six official case PDFs present in `01-competition/past-case-pdfs/` (6.2 MB); the other five official cases are URL-only, as documented.
 - `archive-history` holds 8 commits, `git fsck` clean.
+
+**Content audit, second pass (2026-08-05)** — the remaining answer keys and teaching notes, read end to end:
+- `05-practice-cases/model_answers.md`: the Access CU model economics recomputed ($8.0M = 4.5 + 1.75 + 1.75 and 0.8 + 1.7 + 2.75 + 2.75; ~$670 per member; +12,000 as ≈+6% of membership and ≈+40%/+52% of the youth segment on the 15%/11% base) and the AROW brief's gates (0.6 + 1.6 + 2.0 = 4.2 = the Year-1 investment; Gate 1 ≈ 15% of spend, matching "before 85% of spend").
+- Case 1's coach-only teaching note: the CLV path (€19/€87/€261/€378 at 96–98% retention, 8% discount) reproduces to ≈€1,420 — inside the stated €1,100–1,500 before mortgage optionality; the guardrail trap (0.7 + 3.4 + 0.9 + 1.3 = €6.3m > €4.5m), the redesigned package (3.1 + 0.2 + 2.4 + 1.8 = €7.5m), the cliff yield (16–21 pp × 3,400 ≈ +550–700), the funnel yield (21–26 pp × 9,400 ≈ +2,000–2,500), the value at stake (3,700 × €1,500–2,000 ≈ €6–7m), the funding exposure (€427m × 60–90 bp = €2.6–3.8m), and the CIR bridge (≈€4–4.5m against €241m ≈ 1.5–1.9 points) all recompute.
+- Every drill hook in workbook 4's number-attack gauntlet exists in the case it targets (the €5,000 interest cap, the €7.5m package, the 6,000–8,000 breakeven, the 78% parent-opened share, Klangfest's €330k floor, the Westkrone and Innovationsfonds dates).
+- Workbook 1's answer keys checked against the real case PDFs' facts as profiled in `past_cases.md`; the 2024 edition (Feb 21–24) added to the weekday analysis, making it three Wednesday starts in a row.
 
 **Internal consistency** (checked across all markdown files)
 - **Every quantitative answer key in the repository recomputed**, and all of it holds: the 40 drills and anchor numbers in `04-training/business_math_drills.md`; all four exercise sets in `04-training/exercises/workbook2_quant_drills.md` (sizing ladder, exhibit math on the real cases, the sensitivity grid, the arithmetic circuit); and the key calculation in each of the twelve mini-cases, including the derived ones — the overtime premium (€54 × 0.4/1.4), the agency premium (€2.8M × 0.65/1.65), the renter-first lifetime margin, and contribution per bottleneck-hour. One labelling defect was found and fixed: mini-case 7 used "summer contribution: 1.71M × 41%" where 1.71M is the April–October operating season (1.8M less 90k of winter revenue), not the 82% that lands in July–September.
@@ -276,13 +283,13 @@ EOF
 
 Bare filenames inside the inventory tables of this file are section-scoped, not links; the check above only follows folder-qualified paths. `CHANGELOG.md` legitimately names files that no longer exist — that is what a changelog is for.
 
-**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 42 markdown files, ≈83,500 words · eleven official cases across ten clients.
+**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 42 markdown files, ≈84,000 words · eleven official cases across ten clients.
 
-**Dates.** February 18–22, 2027 is **Thursday–Monday**. ABCC 2025 ran Wed Feb 19 – Sun Feb 23 and ABCC 2026 ran Wed Feb 18 – Sat Feb 21 with a Sunday departure, so both documented editions started on a Wednesday and 2027 as published would be the first Thursday start. This is recorded as an open question in `facts_and_rules.md` and the handbook's §12 tracker, and flagged in the calendar, the runbook, the travel plan, and `README.md`. Our flight envelope covers both readings. W1 of the plan is Aug 3–9, 2026 — the current week.
+**Dates.** February 18–22, 2027 is **Thursday–Monday**. All three ABCC-format editions started on a Wednesday (2024: Feb 21–24; 2025: Feb 19–23; 2026: Feb 18–21 with Sunday departure), so 2027 as published would be the first Thursday start since the format change. This is recorded as an open question in `facts_and_rules.md` and the handbook's §12 tracker, and flagged in the calendar, the runbook, the travel plan, and `README.md`. Our flight envelope covers both readings. W1 of the plan is Aug 3–9, 2026.
 
 **Rebuilt.** `08-briefing-slides/abcc_overview.pdf` was rebuilt from source with pdflatex (twice, for navigation) after the deck was corrected; still 25 pages.
 
-**Not verified here.** Nothing on the official Asper website was re-fetched on 2026-08-04; all competition facts still carry their July–August 2026 validation date. Re-validate when the 2027 Competition Guide is published.
+**Not verified here.** Nothing on the official Asper website was re-fetched during these passes; all competition facts still carry their July–August 2026 validation date. Re-validate when the 2027 Competition Guide is published.
 
 ---
 

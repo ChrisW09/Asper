@@ -26,16 +26,19 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 
 ### The 2027 weekday question (open, and it affects flights)
 
-Both documented editions started on a **Wednesday** and ended on a **Sunday**:
+Every edition in the competition's current format has started on a **Wednesday**:
 
 | Edition | Published window | Weekdays |
 | --- | --- | --- |
+| ALCC 2023 (1st, 2-round format) | Feb 23–25, 2023 | Thu → Sat |
+| ABCC 2024 (2nd) | Feb 21–24, 2024 | **Wed** → Sat |
 | ABCC 2025 (3rd) | Feb 19–23, 2025 | **Wed** → Sun |
 | ABCC 2026 (4th) | Feb 18–21, 2026 (departure Feb 22) | **Wed** → Sat (dep. Sun) |
 | ABCC 2027 (5th) | Feb 18–22, 2027 *(as published)* | **Thu** → Mon |
 
-So the published 2027 window would be the **first Thursday start** in the series. Two readings are possible
-and we cannot yet tell which is right:
+So the published 2027 window would be the **first Thursday start since the format change** — three
+Wednesday starts in a row say the pattern is deliberate (weekend gala, Sunday travel). Two readings are
+possible and we cannot yet tell which is right:
 
 1. **The window is exact** — registration Thu Feb 18, three competition days Fri–Sun, departure Mon Feb 22.
    The awards gala would fall on a Sunday.

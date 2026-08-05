@@ -151,8 +151,8 @@ Winnipeg is on **Central Standard Time (UTC−6)** in February; Germany is on CE
 | **T−1 week** | Check Environment Canada forecast for Winnipeg; begin sleep-shifting; pack (boots on feet, suits in carry-on); online check-in 24 h out |
 
 > **Booking note — the 2027 weekday question.** The competition is published as February 18–22, 2027, which
-> falls **Thursday–Monday**, but both documented editions ran **Wednesday–Sunday** (2025: Wed Feb 19 – Sun
-> Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday). If the Wednesday pattern holds, the real week is
+> falls **Thursday–Monday**, but every ABCC-format edition has started on a **Wednesday** (2024: Feb 21;
+> 2025: Feb 19; 2026: Feb 18). If the Wednesday pattern holds, the real week is
 > Wed Feb 17 – Sun Feb 21. **Arriving Feb 16/17 and returning Feb 22/23 covers both readings** — so book that
 > envelope, keep tickets changeable if the fare difference is small, and do not commit hotel nights to a
 > specific round order until the 2027 agenda is out. Details: `01-competition/facts_and_rules.md`, "The 2027

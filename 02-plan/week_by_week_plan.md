@@ -103,7 +103,7 @@ Individual only: 30-min math drills twice, English case-vocabulary list, one cas
 | Feb 21* | Traditional: 3-h prep + presentations; finalist announcement; finals; gala | Same protocol, faster; after presenting: immediately pressure-test the deck in case of finals (deck frozen!) |
 | Feb 22 | Departure (or finals day if schedule shifts) | Buffer; thank-you notes to organizers before leaving |
 
-\* Round-to-day mapping is **TBA**. The table above assumes the published Feb 18–22 window taken literally (Thu–Mon) with the 2025 round order. Both prior editions started on a **Wednesday** (2025: Wed Feb 19 – Sun Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday), so 2027 would be the first Thursday start — the alternative reading is Wed Feb 17 – Sun Feb 21. Our flight envelope (arrive Feb 16/17, return Feb 22/23) covers both; the details are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
+\* Round-to-day mapping is **TBA**. The table above assumes the published Feb 18–22 window taken literally (Thu–Mon) with the 2025 round order. All three ABCC-format editions started on a **Wednesday** (2024, 2025, 2026), so 2027 as published would be the first Thursday start — the alternative reading is Wed Feb 17 – Sun Feb 21. Our flight envelope (arrive Feb 16/17, return Feb 22/23) covers both; the details are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
 
 Standing rules all week: business professional; **never name HSBI in front of judges**; phones surrendered before prep; the strategist owns the clock; appendix bank feeds Q&A; every debrief ends after 15 minutes; enjoy the social program — judges remember teams they liked.
 

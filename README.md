@@ -8,7 +8,7 @@ Everything the HSBI team needs to **prepare for, travel to, and compete at** the
 **Coach / faculty advisor:** Prof. Dr. Christoph Weisser
 
 Reference map of every file: [`DOCUMENTATION.md`](DOCUMENTATION.md) ·
-change history: [`CHANGELOG.md`](CHANGELOG.md) · *documentation verified 2026-08-04*
+change history: [`CHANGELOG.md`](CHANGELOG.md) · *documentation verified 2026-08-05*
 
 ---
 
@@ -69,11 +69,11 @@ Field and history: 2025 saw Asper, Beedie, DeGroote, HEC Montréal, Ivey, John M
 Telfer. 2026 (fourth edition) included the first international team — Babeș-Bolyai, Romania — which **won
 outright**, ahead of DeGroote and HEC Montréal. That is the precedent this team is following.
 
-> **Watch the weekday question.** Feb 18–22, 2027 falls **Thursday–Monday**, but both documented editions
-> ran **Wednesday–Sunday** (2025: Wed Feb 19 – Sun Feb 23; 2026: Wed Feb 18 – Sat Feb 21, departure Sunday),
-> so 2027 would be the first Thursday start. Either the window is exact, or the real week is Wed Feb 17 – Sun
-> Feb 21. Every day-sheet here assumes the published window with the 2025 round order and says so in place;
-> our flight envelope (arrive Feb 16/17, return Feb 22/23) covers both readings. Details:
+> **Watch the weekday question.** Feb 18–22, 2027 falls **Thursday–Monday**, but every edition in the
+> current format has started on a **Wednesday** (2024, 2025, 2026 — three in a row), so 2027 as published
+> would break the pattern. Either the window is exact, or the real week is Wed Feb 17 – Sun Feb 21. Every
+> day-sheet here assumes the published window with the 2025 round order and says so in place; our flight
+> envelope (arrive Feb 16/17, return Feb 22/23) covers both readings. Details:
 > [`01-competition/facts_and_rules.md`](01-competition/facts_and_rules.md).
 
 Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/facts_and_rules.md) —
@@ -85,7 +85,7 @@ Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/f
 
 Eight numbered folders follow the lifecycle of the project:
 *understand the competition → plan → form the team → train → practice → build assets → travel → brief.*
-**62 files**, of which **42 markdown documents, ≈83,500 words**. **Every folder opens with its own
+**62 files**, of which **42 markdown documents, ≈84,000 words**. **Every folder opens with its own
 `README.md`** — what is inside, in what order to use it, and the hard rules that apply — so you can navigate
 by clicking rather than by searching.
 

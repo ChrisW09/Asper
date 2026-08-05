@@ -10,6 +10,40 @@ on the **`archive-history`** branch.
 
 ---
 
+## v11 — Second content audit · 2026-08-05
+
+The remaining half of the material — the documents no prior pass had read end to end — audited, with the
+quantitative teaching apparatus recomputed in full.
+
+### Verified clean (nothing changed)
+
+- **`model_answers.md`:** the Access CU model economics recompute exactly — the $8.0M program
+  (4.5 + 1.75 + 1.75 by year; 0.8 + 1.7 + 2.75 + 2.75 by phase), ~$670 all-in per acquired member, and the
+  +12,000 target's share arithmetic on both the 15% and 11% youth-base assumptions. The AROW brief's gates
+  sum to its Year-1 investment (0.6 + 1.6 + 2.0 = 4.2) and Gate 1 is ≈15% of spend, matching the "before 85%
+  of spend" claim.
+- **Case 1's teaching note is calibrated to its own exhibits:** the CLV path reproduces to ≈€1,420 (stated
+  band €1,100–1,500); the guardrail trap, redesigned package, cliff and funnel yields, value-at-stake,
+  funding exposure, and CIR bridge all recompute from case data.
+- **Every hook in workbook 4's number-attack gauntlet exists in the case it targets** — the €5,000 cap, the
+  €7.5m package, the 6,000–8,000 breakeven, the 78% parent-opened share, Klangfest's €330k floor, the
+  Westkrone and Innovationsfonds dates. Workbook 1's answer keys match the real-case facts in the dossier.
+- The phrasebook's language guidance (stress patterns, -ed endings, number conventions,
+  Milliarde/billion) is accurate throughout; the handbook, role playbooks, and Q&A drill formats read clean.
+
+### Changed
+
+- **The weekday analysis now covers all five editions.** ABCC 2024 ran Feb 21–24 — also a Wednesday start —
+  so the pattern is three Wednesday starts in a row (2024, 2025, 2026), not two, and 2023's Thursday start
+  belongs to the old two-round format. The table in `facts_and_rules.md` now shows all five editions, and the
+  seven documents that cite the pattern were repropagated ("both documented editions" → "all three
+  ABCC-format editions").
+- **The compliance card in `role_playbooks.md` listed two of the three file-name conventions** — added
+  "[Team Name] Boardroom Case".
+- Verification log restructured with a dated second-pass section; status dates bumped to 2026-08-05.
+
+---
+
 ## v10 — Material and structure improvement round · 2026-08-04
 
 ### Structure

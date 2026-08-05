@@ -233,7 +233,7 @@ The rules explicitly allow internet during timed prep, including university data
 
 **Compliance card — tape it to the table**
 
-- [ ] English only; **.pptx only**; exact file names per the guide ("[Team Name] Prepared Case", "[Team Name] Traditional Case")
+- [ ] English only; **.pptx only**; exact file names per the guide ("[Team Name] Prepared Case", "[Team Name] Boardroom Case", "[Team Name] Traditional Case")
 - [ ] No coach or outside contact after case release; no phones or smartwatches in prep
 - [ ] Never name the school — anywhere, to anyone, on any slide or screen
 - [ ] Know the fixed USB pickup time; save, verify, back up well before it

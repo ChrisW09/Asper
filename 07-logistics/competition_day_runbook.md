@@ -1,6 +1,6 @@
 # Competition-Day Runbook — ABCC 2027, February 18–22
 
-Hour-by-hour operating sheets for the five days. Times follow the **2025 Event Guide pattern** (the only published full schedule), mapped onto the published 2027 window of Feb 18–22, which falls **Thursday–Monday**. Treat every weekday below as *expected*: both prior editions began on a **Wednesday**, so the real 2027 week may instead run Wed Feb 17 – Sun Feb 21 (`01-competition/facts_and_rules.md`, "The 2027 weekday question"). The *shape* of each day — registration and draw, then prepared, boardroom, traditional with finals — is what this runbook drills; rewrite the dates the day the 2027 guide arrives. All times Winnipeg local (CST = UTC−6, 7 hours behind Bielefeld).
+Hour-by-hour operating sheets for the five days. Times follow the **2025 Event Guide pattern** (the only published full schedule), mapped onto the published 2027 window of Feb 18–22, which falls **Thursday–Monday**. Treat every weekday below as *expected*: all three ABCC-format editions began on a **Wednesday**, so the real 2027 week may instead run Wed Feb 17 – Sun Feb 21 (`01-competition/facts_and_rules.md`, "The 2027 weekday question"). The *shape* of each day — registration and draw, then prepared, boardroom, traditional with finals — is what this runbook drills; rewrite the dates the day the 2027 guide arrives. All times Winnipeg local (CST = UTC−6, 7 hours behind Bielefeld).
 
 ## Standing rules (all days)
 
