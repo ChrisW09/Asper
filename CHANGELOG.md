@@ -12,17 +12,19 @@ on the **`archive-history`** branch.
 
 ## v12 — Handouts, and scope narrowed to the competition · 2026-08-16
 
-### Added — `09-handouts/`, every document in the format it is used in
+### Added — every document also published in the format it is used in
 
-- **37 PDFs**, one per markdown document, mirroring the folder structure: house style (XCharter/Source Sans,
-  deep-blue headings, running head, print footer), a generated table of contents where a document lacks its
-  own, and cross-links re-pointed so the handouts link to each other exactly as the markdown does.
+- **37 PDFs**, one per markdown document, **built beside its source** (`handbook.md` → `handbook.pdf`), the
+  pairing `08-briefing-slides/` already used: house style (XCharter/Source Sans, deep-blue headings, running
+  head, print footer), a generated table of contents where a document lacks its own, and cross-links
+  re-pointed so the PDFs link to each other exactly as the markdown does.
 - **Four PowerPoint decks** for the documents that exist to be *presented* rather than read —
   `coach_and_ai_rules` (15 slides), `frameworks` (21), `presentation_and_storyline_guide` (36),
   `case_type_playbook` (34). These are condensed rewrites; the slide sources live in `tools/slides/`.
-- **`tools/`** — `build_handouts.py`, `build_decks.py`, `check_decks.py`, the shared LaTeX preamble, and
-  `slides/make_reference.py`, which patches pandoc's reference `.pptx` into the house style. Everything in
-  `09-handouts/` is build output; the markdown remains the source of truth.
+- **`tools/`** — `build_handouts.py`, `build_decks.py`, `check_decks.py`, the shared LaTeX preamble,
+  `slides/make_reference.py` (which patches pandoc's reference `.pptx` into the house style), and a
+  `README.md` explaining the build. The PDFs and decks are build output; the markdown remains the source of
+  truth and is the only thing edited by hand.
 
 ### Fixed — a rendering bug in the source material
 

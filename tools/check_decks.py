@@ -160,8 +160,14 @@ def check(pptx: Path) -> list[str]:
 
 
 def main() -> int:
-    targets = [Path(a) for a in sys.argv[1:]] or sorted(
-        (ROOT / "09-handouts").rglob("*.pptx"))
+    if sys.argv[1:]:
+        targets = [Path(a) for a in sys.argv[1:]]
+    else:
+        # Only the generated decks — the slide templates in 06-templates/ are
+        # hand-built and have their own geometry.
+        sys.path.insert(0, str(ROOT / "tools"))
+        from build_decks import DECKS
+        targets = [ROOT / t for t in DECKS.values()]
     total = 0
     for pptx in targets:
         problems = check(pptx)

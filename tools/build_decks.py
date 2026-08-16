@@ -10,7 +10,7 @@ file it came from, so the two can be kept in step.
     python3 tools/slides/make_reference.py    # once, or after a style change
     python3 tools/build_decks.py
 
-Output lands in 09-handouts/, next to the PDFs, mirroring the source folders.
+Each deck is written beside the document it replaces, the way the PDFs are.
 """
 
 from __future__ import annotations
@@ -24,9 +24,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SLIDES = ROOT / "tools" / "slides"
 REFERENCE = SLIDES / "abcc-reference.pptx"
-OUT_DIR = ROOT / "09-handouts"
 
-# slide source  ->  destination, mirroring the markdown document it replaces
+# slide source  ->  destination, beside the markdown document it replaces
 DECKS = {
     "coach_and_ai_rules.md": "03-team/coach_and_ai_rules.pptx",
     "frameworks.md": "04-training/frameworks.pptx",
@@ -62,7 +61,7 @@ def main() -> int:
 
     for name, target in DECKS.items():
         source = SLIDES / name
-        dest = OUT_DIR / target
+        dest = ROOT / target
         try:
             slides = build(source, dest)
         except subprocess.CalledProcessError as exc:
@@ -71,7 +70,7 @@ def main() -> int:
         print(f"  ok   {source.relative_to(ROOT)}  ->  "
               f"{dest.relative_to(ROOT)}  ({slides} slides)")
 
-    print(f"\n{len(DECKS)} decks built into {OUT_DIR.relative_to(ROOT)}/")
+    print(f"\n{len(DECKS)} decks built beside their sources")
     return 0
 
 

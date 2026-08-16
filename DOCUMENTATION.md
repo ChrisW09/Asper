@@ -42,8 +42,17 @@ Eight numbered folders follow the lifecycle of the project — *understand the c
 ├── 05-practice-cases/         What we practice on: 3 full cases, 12 mini-cases, model answers
 ├── 06-templates/              What we build with: slide skeletons, playbook, toolkit, judge brief
 ├── 07-logistics/              Organizer contact and the competition-day runbook
-└── 08-briefing-slides/        The kick-off Beamer deck (LaTeX + PDF)
+├── 08-briefing-slides/        The kick-off Beamer deck (LaTeX + PDF)
+└── tools/                     Build scripts, LaTeX house style, and the four slide sources
 ```
+
+**Every markdown document is also published beside itself** — `handbook.md` and `handbook.pdf` sit in the
+same folder, the pairing `08-briefing-slides/` already used for its LaTeX deck. Thirty-seven documents
+render to PDF; the four that exist to be *presented* render to `.pptx` instead
+(`03-team/coach_and_ai_rules`, `04-training/frameworks`,
+`04-training/presentation_and_storyline_guide`, `06-templates/case_type_playbook`). Those rendered files
+are **build output** — never edit them; edit the markdown and rebuild with `tools/build_handouts.py` and
+`tools/build_decks.py` (see `tools/README.md`).
 
 **Every folder opens with its own `README.md`** — a short index that says what is in the folder, in what order to use it, and what the hard rules are. GitHub renders it under the folder's file list, so browsing the repository is self-guiding. Those indexes are navigation; this file is the reference.
 
@@ -164,8 +173,10 @@ As of 2026-08-04, excluding `.git`:
 
 | | Count | Notes |
 | --- | --- | --- |
-| Files | **61** | 41 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
-| Written material | **41 markdown files, ≈81,000 words** | ≈6 hours of reading end to end |
+| Source files | **61** | 41 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
+| Build output | **41** | 37 PDFs + 4 decks rendered from the markdown, each beside its source |
+| Build tooling | **11** | `tools/`: 4 python scripts · 4 slide sources · 1 preamble · 1 reference deck · 1 README |
+| Written material | **41 markdown documents, ≈81,000 words** | ≈6 hours of reading end to end |
 | Binary assets | ≈8.5 MB | 6.2 MB official case PDFs · 2.3 MB slide templates |
 | Working tree | ≈9.5 MB content | Plus ≈20 MB of packed git history |
 
@@ -240,7 +251,7 @@ gh repo create asper-abcc-2027 --private --source=. --push
 What was checked, so the next reader knows what is asserted and what is assumed. Structural checks ran 2026-08-04; the content audit below was extended 2026-08-05.
 
 **Structure**
-- 61 files excluding `.git`: 41 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`.
+- 113 files excluding `.git`: 61 source files (41 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`), 41 rendered documents (37 pdf, 4 pptx), and 11 files of build tooling in `tools/`.
 - Every folder-qualified cross-reference in every markdown file resolves from the repository root; all **178+ in-page anchors** (the generated tables of contents) resolve to real headings; no anchor is broken.
 - No duplicated files (verified by content hash): before the flattening, all eleven workspace duplicates were confirmed **byte-identical** to their canonical counterparts, so nothing was lost when they were deleted. The single exception was `abcc_overview.pdf`, where two builds of the same 25-page deck existed — the newer one (2026-08-01 13:04 UTC) was kept.
 - All six official case PDFs present in `01-competition/past-case-pdfs/` (6.2 MB); the other five official cases are URL-only, as documented.

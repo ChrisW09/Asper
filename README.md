@@ -83,9 +83,15 @@ Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/f
 
 Eight numbered folders follow the lifecycle of the project:
 *understand the competition → plan → form the team → train → practice → build assets → operate → brief.*
-**62 files**, of which **42 markdown documents, ≈84,000 words**. **Every folder opens with its own
-`README.md`** — what is inside, in what order to use it, and the hard rules that apply — so you can navigate
-by clicking rather than by searching.
+**41 markdown documents, ≈81,000 words.** **Every folder opens with its own `README.md`** — what is inside,
+in what order to use it, and the hard rules that apply — so you can navigate by clicking rather than by
+searching.
+
+**Every document is also published beside itself** — `handbook.md` and `handbook.pdf` in the same folder, so
+anything can be read, printed or handed out without a markdown viewer. Four documents that exist to be
+*presented* render to PowerPoint instead of PDF: the coach & AI rules, the framework toolkit, the
+presentation guide, and the case-type playbook. Those files are build output — edit the markdown and rebuild
+(see [`tools/`](tools/)); never edit them by hand.
 
 | Folder | Contents |
 | --- | --- |
@@ -96,7 +102,8 @@ by clicking rather than by searching.
 | [`05-practice-cases/`](05-practice-cases/) | Three original full cases (traditional / boardroom / prepared, with teaching notes), mini-cases 1–12, model answers |
 | [`06-templates/`](06-templates/) | The 14-slide team skeleton, six case-type skeletons (A–F), case-type playbook, financial toolkit (xlsx), judge-brief template (docx) |
 | [`07-logistics/`](07-logistics/) | Registration e-mail draft to the organizers, competition-day runbook |
-| [`08-briefing-slides/`](08-briefing-slides/) | Kick-off Beamer deck — LaTeX source + the 25-page PDF |
+| [`08-briefing-slides/`](08-briefing-slides/) | Kick-off Beamer deck — LaTeX source + the 24-page PDF |
+| [`tools/`](tools/) | Build scripts for the PDFs and the four session decks, the LaTeX house style, and the slide sources |
 
 **What each individual file is, and when to use it:** [`DOCUMENTATION.md`](DOCUMENTATION.md) §2. Every file
 has one canonical location, every path in every document is relative to this root, and the sixteen longest

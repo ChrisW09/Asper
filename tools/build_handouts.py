@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build print-ready PDFs from every markdown document in the repository.
+"""Build a print-ready PDF next to every markdown document in the repository.
 
-Output goes to 09-handouts/, mirroring the source folder structure, so the
-markdown tree stays the single editable source and the handouts folder can be
-zipped or printed as a whole.
+Each PDF sits beside its source — `01-competition/handbook.md` builds
+`01-competition/handbook.pdf` — the same way `08-briefing-slides` pairs its
+LaTeX source with the built deck. The markdown stays the editable original;
+the PDF is build output and is never edited by hand.
 
     python3 tools/build_handouts.py            # build everything
     python3 tools/build_handouts.py 04-training/frameworks.md   # build one file
@@ -11,8 +12,8 @@ zipped or printed as a whole.
 What the script does beyond a plain `pandoc x.md -o x.pdf`:
 
 * uses the first `# H1` as the PDF title and drops it from the body;
-* re-points every `.md` cross-link at the corresponding `.pdf` in 09-handouts/,
-  so the PDFs link to each other the way the markdown does;
+* re-points every `.md` cross-link at the PDF or deck built from that file, so
+  the PDFs link to each other the way the markdown does;
 * rebalances pipe-table separator rows (`| --- |`) so column widths in the PDF
   are proportional to the actual content instead of all equal — without this,
   a six-column rubric table gets six equal columns and the long criterion text
@@ -31,7 +32,6 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT_DIR = ROOT / "09-handouts"
 PREAMBLE = ROOT / "tools" / "pdf-preamble.tex"
 
 # Documents converted to PowerPoint decks instead of PDFs (see tools/slides/).
@@ -170,27 +170,19 @@ def normalise(src_rel: Path, path: str) -> str:
 
 
 def retarget_links(text: str, src_rel: Path) -> str:
-    """Rewrite relative links so they still resolve from inside 09-handouts.
+    """Point every `.md` cross-link at the PDF or deck built from that file.
 
-    A `.md` link becomes a link to the handout built from that file. Any other
-    relative link — the xlsx toolkit, the docx judge brief, the official case
-    PDFs, a folder — points back into the repository, since those files are not
-    copied here.
+    Because the PDF is written beside its source, every other relative link —
+    the xlsx toolkit, the docx judge brief, the official case PDFs, a folder —
+    already resolves from the PDF's location and is left untouched.
     """
-    # 09-handouts/<src dir>/ back up to the repository root.
-    up = "../" * (len(src_rel.parent.parts) + 1)
-
     def repl(match: re.Match) -> str:
         label, target = match.group(1), match.group(2)
         path, _, anchor = target.partition("#")
-        suffix = ("#" + anchor) if anchor else ""
-        if not path or path.startswith(("http://", "https://", "mailto:")):
+        if not path.endswith(".md") or path.startswith(("http://", "https://")):
             return match.group(0)
-        key = normalise(src_rel, path)
-        if path.endswith(".md"):
-            ext = ".pptx" if key in SLIDE_SOURCES else ".pdf"
-            return f"[{label}]({path[:-3]}{ext}{suffix})"
-        return f"[{label}]({up}{key}{'/' if path.endswith('/') else ''}{suffix})"
+        ext = ".pptx" if normalise(src_rel, path) in SLIDE_SOURCES else ".pdf"
+        return f"[{label}]({path[:-3]}{ext}{('#' + anchor) if anchor else ''})"
 
     return re.sub(r"\[([^\]]*)\]\(([^)\s]+)\)", repl, text)
 
@@ -247,8 +239,7 @@ def short_title(title: str) -> str:
 def build_pdf(src: Path) -> tuple[Path, list[str]]:
     """Build one PDF. Returns the destination and any typesetting warnings."""
     rel = src.relative_to(ROOT)
-    dest = OUT_DIR / rel.with_suffix(".pdf")
-    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest = src.with_suffix(".pdf")
 
     body, title, wants_toc = prepare(src)
     folder = rel.parent.as_posix()
@@ -346,7 +337,6 @@ def main() -> int:
             p for p in ROOT.rglob("*.md")
             if ".git" not in p.parts
             and "tools" not in p.parts          # slide sources, not documents
-            and OUT_DIR not in p.parents
             and p.relative_to(ROOT).as_posix() not in SLIDE_SOURCES
         )
 
@@ -363,8 +353,8 @@ def main() -> int:
             failures.append(rel)
             print(f"  FAIL {rel}\n{exc}", file=sys.stderr)
 
-    print(f"\n{len(sources) - len(failures)}/{len(sources)} documents built into "
-          f"{OUT_DIR.relative_to(ROOT)}/")
+    print(f"\n{len(sources) - len(failures)}/{len(sources)} PDFs built "
+          "beside their sources")
     if failures:
         print("failed: " + ", ".join(str(f) for f in failures), file=sys.stderr)
     return 1 if failures else 0
