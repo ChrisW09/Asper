@@ -1,10 +1,10 @@
 # 08 · Briefing slides — the kick-off deck
 
 [`abcc_overview.pdf`](abcc_overview.pdf) — the deck the coach presents in W1 to bring the whole team to the
-same understanding of the competition in one sitting. **25 pages** (21 frames + 4 section pages), Beamer,
+same understanding of the competition in one sitting. **24 pages** (20 frames + 4 section pages), Beamer,
 HSBI house style, in five parts: the competition at a glance · the format and the three rounds plus the
-final · deliverables before we travel · rules and judging incl. the official rubric · our team and the
-roadmap.
+final · deliverables before the competition · rules and judging incl. the official rubric · our team and
+the roadmap.
 
 This is an **internal** deck — it names HSBI and is never shown at the competition. Nothing in
 [`../06-templates/`](../06-templates/) may inherit from it.

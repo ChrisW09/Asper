@@ -243,4 +243,3 @@ The rules explicitly allow internet during timed prep, including university data
 **Body and climate**
 
 - [ ] Water and snacks for the prep room; business professional attire ready for presentation slots
-- [ ] Winnipeg in February: warm layers, winter footwear, heavy jacket — the organizers' explicit advice

@@ -33,7 +33,6 @@ Rotate the **opening speaker** and the **Q&A quarterback** across mock cases so 
 
 - Kick-off meeting: walk through the slide deck (`08-briefing-slides/abcc_overview.pdf`), the rules, and this plan; agree on the weekly time commitment (target: 4–6 h/week rising to 8–10 h near the competition).
 - Register the team with the organizers (aspercasecomps@umanitoba.ca) and get on the mailing list for the 2027 rules package and deadlines.
-- Administrative track starts immediately: passports, eTA applications, flight options to YWG, Delta Hotel booking, travel insurance, university funding/approval.
 - Set up shared infrastructure: this repo, a shared drive for case PDFs, a slide template (one clean 16:9 template the team always uses), a timer protocol.
 
 ## Phase 1 — Foundations (Weeks 2–6)
@@ -83,13 +82,12 @@ Suggested 14-day sprint:
 - **Day 13:** final polish, freeze.
 - **Day 14 (before the deadline, not on it):** **submit**. Late submissions are placed at the bottom of the pool — build in a 24-h buffer.
 
-## Phase 5 — Final polish and travel (last 2 weeks)
+## Phase 5 — Final polish (last 2 weeks)
 
 - One light boardroom + one traditional simulation to stay sharp (no new content marathon; avoid burnout).
 - Prepared-case run-throughs to internalize (not memorize word-for-word) — Q&A practice matters more than delivery at this point.
-- Logistics check: documents, adapters, backup laptop chargers, USB-C/HDMI dongles, offline copies of all materials, business attire, serious winter clothing (Winnipeg in February: −20 °C is normal).
+- Kit check: adapters, backup laptop chargers, USB-C/HDMI dongles, clicker, backup USB sticks, offline copies of all materials, business attire.
 - Team charter for competition days: sleep discipline, meal plan, roles during prep windows (first 20 min = silent reading; minute 20–40 = align on problem & storyline; last 30 min = rehearsal, always).
-- Jet-lag plan: arrive with enough buffer, shift sleep 2–3 days before departure if possible.
 
 ---
 

@@ -62,7 +62,7 @@ it is worth 30 % of the score.
 - **Devices.** One laptop per student. No phones, no smartwatches. Volunteers
   check the prep rooms.
 
-Check the 2027 guide for new AI clauses before travelling.
+Check the 2027 guide for new AI clauses before the competition.
 
 # 2 · What may the coach do?
 

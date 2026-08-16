@@ -146,7 +146,7 @@ Our English is an asset if we manage it deliberately.
 
 ## 8. Dress and stage presence
 
-- **Attire.** Business formal, coordinated as a team, harmonized with the deck's color scheme. Pack two complete outfits plus a stain-and-repair kit; competition weeks are long, and Winnipeg in February demands warm layers for transit and a crisp look on stage.
+- **Attire.** Business formal, coordinated as a team, harmonized with the deck's color scheme. Pack two complete outfits plus a stain-and-repair kit; competition weeks are long, and a crisp look on stage is part of the score.
 - **Stance.** Standing: weight balanced, no pacing, no lectern-gripping; gestures at chest height; eye contact swept across all judges, not only the friendly one. Seated (boardroom): upright, hands visible, forearms on the table.
 - **Energy.** Practitioner judges read presence in the first 30 seconds. Smile at the open and the close. Manage fuel deliberately — water and snacks during prep, nothing experimental on competition days — and protect sleep: competitors consistently report visible delivery collapse after short-sleep nights.
 - **Logistics as presence.** Visit the presentation room before round one; know where the restrooms are so no prep minute is lost; arrive early enough to breathe. Run the fixed pre-room ritual: 60 seconds, top three keys spoken aloud, one breath together, walk in.

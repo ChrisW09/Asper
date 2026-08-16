@@ -1,6 +1,6 @@
 # Asper Business Case Competition 2027 — HSBI Preparation
 
-Everything the HSBI team needs to **prepare for, travel to, and compete at** the
+Everything the HSBI team needs to **prepare for and compete at** the
 **Asper Business Case Competition (ABCC) 2027** — fifth annual edition,
 **February 18–22, 2027**, I. H. Asper School of Business, University of Manitoba, Winnipeg.
 
@@ -26,12 +26,11 @@ team formed and the admin clock running.
       allowed, coach contact is not
 - [ ] **Registration e-mail sent** to `aspercasecomps@umanitoba.ca`
       ([`07-logistics/registration_email_draft.md`](07-logistics/registration_email_draft.md))
-- [ ] All five passports checked (eTA applications follow in W2)
 - [ ] Homework: [`01-competition/past_cases.md`](01-competition/past_cases.md) Part I; first pass at
       [`04-training/exercises/format_quiz.md`](04-training/exercises/format_quiz.md)
 
 Then: Foundations to Sep 6 → skill building to Oct 11 → simulations under competition rules to Dec 20 →
-peak in January → prepared-case sprint and travel in February.
+peak in January → prepared-case sprint in February.
 
 ---
 
@@ -72,8 +71,7 @@ outright**, ahead of DeGroote and HEC Montréal. That is the precedent this team
 > **Watch the weekday question.** Feb 18–22, 2027 falls **Thursday–Monday**, but every edition in the
 > current format has started on a **Wednesday** (2024, 2025, 2026 — three in a row), so 2027 as published
 > would break the pattern. Either the window is exact, or the real week is Wed Feb 17 – Sun Feb 21. Every
-> day-sheet here assumes the published window with the 2025 round order and says so in place; our flight
-> envelope (arrive Feb 16/17, return Feb 22/23) covers both readings. Details:
+> day-sheet here assumes the published window with the 2025 round order and says so in place. Details:
 > [`01-competition/facts_and_rules.md`](01-competition/facts_and_rules.md).
 
 Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/facts_and_rules.md) —
@@ -84,7 +82,7 @@ Full validated rule base: [`01-competition/facts_and_rules.md`](01-competition/f
 ## The repository
 
 Eight numbered folders follow the lifecycle of the project:
-*understand the competition → plan → form the team → train → practice → build assets → travel → brief.*
+*understand the competition → plan → form the team → train → practice → build assets → operate → brief.*
 **62 files**, of which **42 markdown documents, ≈84,000 words**. **Every folder opens with its own
 `README.md`** — what is inside, in what order to use it, and the hard rules that apply — so you can navigate
 by clicking rather than by searching.
@@ -97,7 +95,7 @@ by clicking rather than by searching.
 | [`04-training/`](04-training/) | The core skills trio — presentation & storyline guide, Q&A drills (60 questions), business math (40 drills) — plus the framework selector, English phrasebook + 87 flashcards, and the **exercise program** in [`04-training/exercises/`](04-training/exercises/): 25-question format quiz, four solved workbooks, week-mapped catalog, ≈200 items |
 | [`05-practice-cases/`](05-practice-cases/) | Three original full cases (traditional / boardroom / prepared, with teaching notes), mini-cases 1–12, model answers |
 | [`06-templates/`](06-templates/) | The 14-slide team skeleton, six case-type skeletons (A–F), case-type playbook, financial toolkit (xlsx), judge-brief template (docx) |
-| [`07-logistics/`](07-logistics/) | Registration e-mail draft, travel logistics Germany→Winnipeg, competition-day runbook |
+| [`07-logistics/`](07-logistics/) | Registration e-mail draft to the organizers, competition-day runbook |
 | [`08-briefing-slides/`](08-briefing-slides/) | Kick-off Beamer deck — LaTeX source + the 25-page PDF |
 
 **What each individual file is, and when to use it:** [`DOCUMENTATION.md`](DOCUMENTATION.md) §2. Every file
@@ -128,14 +126,10 @@ verified and how. Then [`CHANGELOG.md`](CHANGELOG.md).
 
 **Next actions beyond this week** (this week's checklist is at the top):
 
-1. **W2:** apply for **eTAs** — CAD 7 each, official Government of Canada site only, all five travellers.
-2. **W3–W6:** flight price alerts on, then **book flights** (arrive Feb 16/17, return Feb 22/23); submit the
-   university funding application.
-3. **W9:** confirm the hotel block with the organizers (Delta Hotels Winnipeg per the 2027 site).
-4. **From W11:** the simulation cadence starts — ten simulations under competition rules, logged in
+1. **From W11:** the simulation cadence starts — ten simulations under competition rules, logged in
    [`02-plan/simulation_log.md`](02-plan/simulation_log.md). Download the five non-mirrored official cases
    before the sessions that use them (W14, W25).
-5. **Watch for the 2027 Competition Guide** — the sponsor page and @Asper_BCC from autumn; case writing
+2. **Watch for the 2027 Competition Guide** — the sponsor page and @Asper_BCC from autumn; case writing
    starts around October. When it lands, follow the propagation order in
    [`DOCUMENTATION.md`](DOCUMENTATION.md) §5.
 
@@ -144,8 +138,7 @@ verified and how. Then [`CHANGELOG.md`](CHANGELOG.md).
 ## Core workflows
 
 **Kick-off (W1).** Present the briefing deck → everyone reads the handbook → sign the charter → assign roles
-→ send the registration e-mail → start the admin track in
-[`07-logistics/travel_logistics.md`](07-logistics/travel_logistics.md).
+→ send the registration e-mail.
 
 **A normal training week (Phases 2–3).** One 3–5 h weekend block (simulation or workshop) per the calendar
 → one 60–90 min midweek debrief plus a skill session from [`04-training/`](04-training/) → 30 min of
@@ -219,7 +212,7 @@ counterarguments, polishing brief wording, the 10-minute Q&A-anticipation routin
 outsourced — borrowed logic collapses in the 22-minute discussion. **Confidentiality caution:** competition
 cases are confidential documents, so do not paste full case text into consumer AI tools; prefer
 university-licensed enterprise tools and work from your own summaries. Re-check the 2027 guide for new AI
-clauses before travelling.
+clauses before the competition.
 
 **The coach is in the game** for the prepared case (unrestricted — faculty input explicitly allowed), for
 everything before the competition, and on site for presentations, feedback sessions, and the full social
@@ -243,21 +236,19 @@ template or judge brief.**
 
 | Date | Milestone |
 | --- | --- |
-| **Aug 3–9, 2026 (now)** | **W1 kick-off:** deck presented, charter signed, roles assigned; **registration e-mail sent**; passports checked |
-| Aug 2026 | **eTAs applied for** (W2), all five travellers |
-| Sep–Oct 2026 | **Flights booked** (arrive Feb 16/17, return Feb 22/23); funding secured; hotel block confirmed |
-| Nov 2026 | Travel health + cancellation insurance closed; **team `.pptx` template v1** built (anonymity-proof) |
-| Dec 2026 | Winter gear complete; eSIMs ordered; template v2 frozen after use in three simulations |
-| Late Jan 2027 | Taper begins; prepared-case sprint logistics ready |
+| **Aug 3–9, 2026 (now)** | **W1 kick-off:** deck presented, charter signed, roles assigned; **registration e-mail sent** |
+| Sep–Oct 2026 | Organizer answers logged; the simulation calendar starts |
+| Nov 2026 | **Team `.pptx` template v1** built (anonymity-proof) |
+| Dec 2026 | Template v2 frozen after use in three simulations |
+| Late Jan 2027 | Taper begins; prepared-case sprint ready to launch |
 | ~Feb 4, 2027 *(TBA)* | **Prepared case released** → 14-day sprint |
 | ~Feb 17, 2027 *(TBA)* | **Prepared deck submitted** ≥24 h before the deadline |
-| Feb 16/17, 2027 | Fly Bielefeld → Winnipeg |
 | **Thu Feb 18 – Mon Feb 22, 2027** | **ABCC 2027** |
 | Week of Feb 23 | Debrief, thank-yous, handover to the next team |
 
 Training phases: **Foundations** (W1–W5, Aug 3 – Sep 6) → **Skill building** (W6–W10, Sep 7 – Oct 11) →
 **Simulations under competition rules** (W11–W20, Oct 12 – Dec 20) → *Christmas, light load* (W21–W22) →
-**Peak** (W23–W26, Jan 4–31) → **Prepared-case sprint & travel** (W27–W29, Feb 1–17).
+**Peak** (W23–W26, Jan 4–31) → **Prepared-case sprint** (W27–W29, Feb 1–17).
 
 **The competition week, and the caveat.** The 2025 pattern ran Wednesday arrival with registration and the
 division draw · Thursday prepared-case presentations and the museum social · Friday boardroom case and
@@ -286,13 +277,12 @@ which date carries which round.
   [`01-competition/past_cases.md`](01-competition/past_cases.md) — download them before the sessions that
   need them (W14, W25).
 
-Open questions to put to the organizers after registration — all seven are covered by
+Open questions to put to the organizers after registration — all four are covered by
 [`07-logistics/registration_email_draft.md`](07-logistics/registration_email_draft.md): 2027 agenda and
 prepared-case release/submission dates · registration process and fee for an international (German) team and
-what it covers · eligibility confirmation · roster, bio and photo requirements plus advisor registration ·
-2027 hotel block and booking code · whether the 2027 rules package changes anything against the 2025
-baseline, **specifically any new generative-AI clauses** · a **formal letter of invitation** naming all five
-travellers and the dates, for the Canadian border and for university travel funding.
+what it covers, plus eligibility confirmation · roster, bio and photo requirements plus advisor
+registration · whether the 2027 rules package changes anything against the 2025 baseline, **specifically any
+new generative-AI clauses**.
 
 **Provenance.** All competition facts were researched and validated (July–August 2026) against the official
 Asper website, the official **ABCC 2025 Event Guide** (the fullest public rulebook), the official past-case
@@ -310,7 +300,6 @@ their July–August 2026 validation.
 **Organizers:** `aspercasecomps@umanitoba.ca` — Judith Jayasuriya (Instructor & Lead, Experiential Learning),
 Steven Harrison (Case Competition Coordinator, +1 204 396 9631) · Instagram **@Asper_BCC**
 **Venue:** Drake Centre, Asper School of Business, 181 Freedman Crescent, Winnipeg (venues can vary by day)
-**Hotel 2027:** Delta Hotels Winnipeg, downtown
 
 - Official ABCC page (2027): <https://umanitoba.ca/asper/asper-business-case-competition>
 - Case competitions hub (past cases): <https://umanitoba.ca/asper/student-experience/case-competitions>

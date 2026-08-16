@@ -236,8 +236,8 @@ Banned fillers: *basically, actually, you know*.
 ## Dress and stance
 
 - **Attire.** Business formal, coordinated as a team, harmonized with the deck's
-  colours. Two complete outfits plus a stain-and-repair kit; Winnipeg in February
-  needs warm layers for transit and a crisp look on stage
+  colours. Two complete outfits plus a stain-and-repair kit — competition weeks
+  are long
 - **Standing.** Weight balanced, no pacing, no lectern-gripping; gestures at
   chest height; eye contact swept across *all* judges, not only the friendly one
 - **Seated.** Upright, hands visible, forearms on the table

@@ -69,14 +69,14 @@ All editions share two structural constants: every case client is a **Manitoba/W
 
 ### ABCC 2026 — first international field
 
-- **Dates:** February 18–21, 2026. "Case village" at the Delta hotel downtown; gala at Marshall McLuhan Hall.
+- **Dates:** February 18–21, 2026 (arrival Wed Feb 18, winners announced Sat Feb 21); gala at Marshall McLuhan Hall.
 - **Field (9):** first-ever international team, **Babeș-Bolyai University (Cluj-Napoca, Romania)**; confirmed others: Asper, Beedie, DeGroote, HEC Montréal, John Molson (full nine-team list unpublished).
 - **Rounds:** Prepared — **Jazz Winnipeg** (fix a structural ~$50,000 annual deficit; "bold transformation vs. gradual adaptation"). Boardroom — **Coal & Canary** (elevate the brand from premium to high-end luxury). Traditional — **Access Credit Union** (digital banking to engage Gen Z and Gen Alpha).
 - **Podium:** 1st **Babeș-Bolyai** — the only undefeated team, winning all three qualifying rounds and the final unanimously (CAD $5,000 + trophy); 2nd **DeGroote**; 3rd **HEC Montréal**; 4th John Molson. Scale: 35 competitors, 50 judges.
 
 ### ABCC 2027 — what we are entering
 
-February 18–22, 2027; teams of four graduate students; hotel Delta Winnipeg; venue the Drake Centre (the Asper School of Business building) — daily agenda and round-to-day mapping still TBA. Format carried over: Prepared 25% (25 + 15), Boardroom 30% (3-minute pitch + 22-minute discussion, one slide plus a one-page black-and-white judge brief), Traditional 45% (20 + 10); top three re-present frozen decks to a fresh judge panel (20 + 15). Notable rules: finalists' faculty advisors barred from contact until after presenting; maximum four laptops, no phones or smartwatches; ties broken by performance in the highest-weighted rounds.
+February 18–22, 2027; teams of four graduate students; venue the Drake Centre (the Asper School of Business building) — daily agenda and round-to-day mapping still TBA. Format carried over: Prepared 25% (25 + 15), Boardroom 30% (3-minute pitch + 22-minute discussion, one slide plus a one-page black-and-white judge brief), Traditional 45% (20 + 10); top three re-present frozen decks to a fresh judge panel (20 + 15). Notable rules: finalists' faculty advisors barred from contact until after presenting; maximum four laptops, no phones or smartwatches; ties broken by performance in the highest-weighted rounds.
 
 ---
 

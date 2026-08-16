@@ -1,6 +1,6 @@
 # Repository Documentation — ABCC 2027 Preparation (HSBI)
 
-**Purpose.** Everything the HSBI team — four Masters students (finance · innovation · computer science · general business administration) plus Prof. Dr. Christoph Weisser as coach and faculty advisor — needs to prepare for, travel to, and compete at the **Asper Business Case Competition 2027**: fifth annual edition, **February 18–22, 2027**, I. H. Asper School of Business, University of Manitoba, Winnipeg.
+**Purpose.** Everything the HSBI team — four Masters students (finance · innovation · computer science · general business administration) plus Prof. Dr. Christoph Weisser as coach and faculty advisor — needs to prepare for and compete at the **Asper Business Case Competition 2027**: fifth annual edition, **February 18–22, 2027**, I. H. Asper School of Business, University of Manitoba, Winnipeg.
 
 **Status.** Documentation verified and updated **2026-08-05**. Calendar position: **Week 1 (Aug 3–9, 2026)** — kick-off week. 29 weeks to the competition.
 
@@ -26,7 +26,7 @@
 
 ## 1. Repository layout
 
-Eight numbered folders follow the lifecycle of the project — *understand the competition → plan → form the team → train → practice → build assets → travel → brief* — plus three documents at the root.
+Eight numbered folders follow the lifecycle of the project — *understand the competition → plan → form the team → train → practice → build assets → operate → brief* — plus three documents at the root.
 
 ```text
 .
@@ -41,7 +41,7 @@ Eight numbered folders follow the lifecycle of the project — *understand the c
 ├── 04-training/               Skill building: presenting, Q&A, math, English, frameworks, exercises/
 ├── 05-practice-cases/         What we practice on: 3 full cases, 12 mini-cases, model answers
 ├── 06-templates/              What we build with: slide skeletons, playbook, toolkit, judge brief
-├── 07-logistics/              Getting there: registration, travel, competition-day runbook
+├── 07-logistics/              Organizer contact and the competition-day runbook
 └── 08-briefing-slides/        The kick-off Beamer deck (LaTeX + PDF)
 ```
 
@@ -139,17 +139,16 @@ Prebuilt **own** templates are explicitly permitted (built outside prep time); *
 
 Every case-type deck opens with a **red coach-briefing slide — delete it before any round** — followed by a type-tuned storyline with coaching in the speaker notes.
 
-### 07-logistics — getting there and operating there
+### 07-logistics — operating on the ground
 
 | File | What it is |
 | --- | --- |
-| `07-logistics/registration_email_draft.md` | Ready-to-send e-mail to `aspercasecomps@umanitoba.ca` covering eligibility, dates, fees, hotel block, formalities, and all seven open questions in one exchange |
-| `07-logistics/travel_logistics.md` | Ten sections: eTA for German citizens, flight routings and price bands, Delta Hotels Winnipeg, airport transfer, campus and daily transfers, **−30 °C clothing list**, money/tipping/SIM, insurance (**statutory German GKV does not cover Canada**), the 7-hour jet-lag plan, and the booking countdown |
+| `07-logistics/registration_email_draft.md` | Ready-to-send e-mail to `aspercasecomps@umanitoba.ca` covering eligibility, dates, fees, formalities, and all four open questions in one exchange |
 | `07-logistics/competition_day_runbook.md` | Hour-by-hour sheets for all five days on the 2025 baseline, TBA-hedged for the 2027 weekday shift, plus standing rules and contingency plans |
 
 ### 08-briefing-slides — the kick-off deck
 
-`08-briefing-slides/abcc_overview.tex` / `.pdf` — the kick-off Beamer deck in HSBI house style: **21 frames plus 4 section pages = 25 PDF pages**, covering the competition, the week, all three rounds, the final, deliverables, the travel checklist, core rules, anonymity and allowed tools, scoring and tie-breaking, the official rubric, team strengths, the roadmap, and sources.
+`08-briefing-slides/abcc_overview.tex` / `.pdf` — the kick-off Beamer deck in HSBI house style: **20 frames plus 4 section pages = 24 PDF pages**, covering the competition, the week, all three rounds, the final, deliverables, core rules, anonymity and allowed tools, scoring and tie-breaking, the official rubric, team strengths, the roadmap, and sources.
 
 ```bash
 cd 08-briefing-slides && pdflatex abcc_overview.tex && pdflatex abcc_overview.tex   # twice, for navigation
@@ -165,14 +164,14 @@ As of 2026-08-04, excluding `.git`:
 
 | | Count | Notes |
 | --- | --- | --- |
-| Files | **62** | 42 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
-| Written material | **42 markdown files, ≈84,000 words** | ≈6 hours of reading end to end |
+| Files | **61** | 41 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
+| Written material | **41 markdown files, ≈81,000 words** | ≈6 hours of reading end to end |
 | Binary assets | ≈8.5 MB | 6.2 MB official case PDFs · 2.3 MB slide templates |
 | Working tree | ≈9.5 MB content | Plus ≈20 MB of packed git history |
 
-Word count by folder: `05-practice-cases` 28,500 · `04-training` 15,800 · `01-competition` 12,300 · `03-team` 4,900 · `02-plan` 4,200 · `07-logistics` 4,200 · `06-templates` 2,600 · `08-briefing-slides` 200 · root documents (README, this file, changelog) 10,600.
+Word count by folder: `05-practice-cases` 28,500 · `04-training` 15,800 · `01-competition` 12,200 · `03-team` 4,900 · `02-plan` 4,100 · `07-logistics` 1,900 · `06-templates` 2,600 · `08-briefing-slides` 200 · root documents (README, this file, changelog) 10,400.
 
-Nine of the 42 markdown files are navigation: the three root documents, one `README.md` per lifecycle folder, and the exercise catalog in `04-training/exercises/`. Sixteen of the long documents carry their own table of contents.
+Nine of the 41 markdown files are navigation: the three root documents, one `README.md` per lifecycle folder, and the exercise catalog in `04-training/exercises/`. Sixteen of the long documents carry their own table of contents.
 
 Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items across four workbooks, 40 math drills, 60 Q&A questions, 12 mini-cases, 3 full graded cases, 10 re-crack briefs.
 
@@ -180,7 +179,7 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 
 ## 4. Core workflows
 
-**Kick-off (W1 — the current week).** Present `08-briefing-slides/abcc_overview.pdf` → everyone reads `01-competition/handbook.md` → sign `03-team/team_charter.md` → assign roles per `03-team/role_playbooks.md` → brief the team on `03-team/coach_and_ai_rules.md` → send `07-logistics/registration_email_draft.md` → open the admin track in `07-logistics/travel_logistics.md` (passports now, eTAs in W2).
+**Kick-off (W1 — the current week).** Present `08-briefing-slides/abcc_overview.pdf` → everyone reads `01-competition/handbook.md` → sign `03-team/team_charter.md` → assign roles per `03-team/role_playbooks.md` → brief the team on `03-team/coach_and_ai_rules.md` → send `07-logistics/registration_email_draft.md`.
 
 **A normal training week (Phases 2–3).** One 3–5 h weekend block per `02-plan/week_by_week_plan.md` (simulation or workshop) → one 60–90 min midweek debrief plus a skill session from `04-training/`, opened by a mini-case → 30 min of individual drills (math routine, flashcards) on a third day. The per-week exercise layer is in `04-training/exercises/README.md`. **If a week collapses, the priority order is simulation > mini-case > workbook item > individual drills** — protect the simulations above all.
 
@@ -198,7 +197,7 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 
 ## 5. Maintenance rules
 
-- **Rules first.** Whenever the organizers publish 2027 information (Competition Guide, agenda, deadlines, fees, hotel), update `01-competition/facts_and_rules.md` **first**, then sweep the repository for affected statements. The **TBA tracker in `01-competition/handbook.md` §12** lists exactly what to confirm: the day-by-day schedule and which date carries which round, the case sponsors (watch the sponsor page and @Asper_BCC from autumn — case writing starts around October), the prepared-case release date and deck deadline, the 2027 field, prize amounts, the Round 1 venue, and any rule deltas versus 2025.
+- **Rules first.** Whenever the organizers publish 2027 information (Competition Guide, agenda, deadlines, fees), update `01-competition/facts_and_rules.md` **first**, then sweep the repository for affected statements. The **TBA tracker in `01-competition/handbook.md` §12** lists exactly what to confirm: the day-by-day schedule and which date carries which round, the case sponsors (watch the sponsor page and @Asper_BCC from autumn — case writing starts around October), the prepared-case release date and deck deadline, the 2027 field, prize amounts, the Round 1 venue, and any rule deltas versus 2025.
 - **Propagation order** after a rules change: `01-competition/facts_and_rules.md` → `01-competition/handbook.md` → `01-competition/judging_scoresheet.md` (if the rubric moved) → `02-plan/week_by_week_plan.md` (if dates moved) → `07-logistics/competition_day_runbook.md` → `08-briefing-slides/abcc_overview.tex` (rebuild the PDF twice) → `04-training/exercises/format_quiz.md` (the answer key quotes the rules) → `README.md` and this file.
 - **The calendar is authoritative.** Date conflicts resolve in favour of `02-plan/week_by_week_plan.md`. Its phase numbers are calendar phases and deliberately differ from the concept phases in `preparation_plan.md`.
 - **Log every simulation the same day** in `02-plan/simulation_log.md`, with rubric scores and one carried-forward goal per person.
@@ -241,7 +240,7 @@ gh repo create asper-abcc-2027 --private --source=. --push
 What was checked, so the next reader knows what is asserted and what is assumed. Structural checks ran 2026-08-04; the content audit below was extended 2026-08-05.
 
 **Structure**
-- 62 files excluding `.git`: 42 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`.
+- 61 files excluding `.git`: 41 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`.
 - Every folder-qualified cross-reference in every markdown file resolves from the repository root; all **178+ in-page anchors** (the generated tables of contents) resolve to real headings; no anchor is broken.
 - No duplicated files (verified by content hash): before the flattening, all eleven workspace duplicates were confirmed **byte-identical** to their canonical counterparts, so nothing was lost when they were deleted. The single exception was `abcc_overview.pdf`, where two builds of the same 25-page deck existed — the newer one (2026-08-01 13:04 UTC) was kept.
 - All six official case PDFs present in `01-competition/past-case-pdfs/` (6.2 MB); the other five official cases are URL-only, as documented.
@@ -283,11 +282,11 @@ EOF
 
 Bare filenames inside the inventory tables of this file are section-scoped, not links; the check above only follows folder-qualified paths. `CHANGELOG.md` legitimately names files that no longer exist — that is what a changelog is for.
 
-**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 21 frames + 4 section pages = 25 PDF pages · 42 markdown files, ≈84,000 words · eleven official cases across ten clients.
+**Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 20 frames + 4 section pages = 24 PDF pages · 41 markdown files, ≈81,000 words · eleven official cases across ten clients.
 
-**Dates.** February 18–22, 2027 is **Thursday–Monday**. All three ABCC-format editions started on a Wednesday (2024: Feb 21–24; 2025: Feb 19–23; 2026: Feb 18–21 with Sunday departure), so 2027 as published would be the first Thursday start since the format change. This is recorded as an open question in `facts_and_rules.md` and the handbook's §12 tracker, and flagged in the calendar, the runbook, the travel plan, and `README.md`. Our flight envelope covers both readings. W1 of the plan is Aug 3–9, 2026.
+**Dates.** February 18–22, 2027 is **Thursday–Monday**. All three ABCC-format editions started on a Wednesday (2024: Feb 21–24; 2025: Feb 19–23; 2026: Feb 18–21 with Sunday departure), so 2027 as published would be the first Thursday start since the format change. This is recorded as an open question in `facts_and_rules.md` and the handbook's §12 tracker, and flagged in the calendar, the runbook, and `README.md`. W1 of the plan is Aug 3–9, 2026.
 
-**Rebuilt.** `08-briefing-slides/abcc_overview.pdf` was rebuilt from source with pdflatex (twice, for navigation) after the deck was corrected; still 25 pages.
+**Rebuilt.** `08-briefing-slides/abcc_overview.pdf` is rebuilt from source with pdflatex (twice, for navigation) whenever the deck changes; currently 24 pages.
 
 **Not verified here.** Nothing on the official Asper website was re-fetched during these passes; all competition facts still carry their July–August 2026 validation date. Re-validate when the 2027 Competition Guide is published.
 
@@ -314,6 +313,6 @@ Bare filenames inside the inventory tables of this file are section-scoped, not 
 - **Five of the eleven official cases are URL-only** (2024 cases 1 and 3, all three 2026 cases); download them before the sessions that use them (W14, W25).
 - **The git history is large for a documents repository** (≈20 MB packed, against a ≈9.4 MB working tree), because six official case PDFs and seven slide decks are versioned and earlier commits also carried a 14 MB zip of the whole repository. This is sunk history; nothing further grows it unless binaries change.
 
-Open questions to put to the organizers after registration (all seven are covered by `07-logistics/registration_email_draft.md`): the 2027 agenda and prepared-case release/submission dates · the registration process and fee for an international team and what it covers · eligibility confirmation · roster, bio and photo requirements plus advisor registration · the 2027 hotel block and booking code · whether the 2027 rules package changes anything versus the 2025 baseline, specifically any **new generative-AI clauses** · a **formal letter of invitation** naming all five travellers and the dates, for the Canadian border and for university travel funding.
+Open questions to put to the organizers after registration (all four are covered by `07-logistics/registration_email_draft.md`): the 2027 agenda and prepared-case release/submission dates · the registration process and fee for an international team and what it covers, plus eligibility confirmation · roster, bio and photo requirements plus advisor registration · whether the 2027 rules package changes anything versus the 2025 baseline, specifically any **new generative-AI clauses**.
 
-**Contacts.** `aspercasecomps@umanitoba.ca` — Judith Jayasuriya (Instructor & Lead, Experiential Learning), Steven Harrison (Case Competition Coordinator, +1 204 396 9631) · Instagram @Asper_BCC · Drake Centre, Asper School of Business, 181 Freedman Crescent, Winnipeg · Delta Hotels Winnipeg (2027 team hotel).
+**Contacts.** `aspercasecomps@umanitoba.ca` — Judith Jayasuriya (Instructor & Lead, Experiential Learning), Steven Harrison (Case Competition Coordinator, +1 204 396 9631) · Instagram @Asper_BCC · Drake Centre, Asper School of Business, 181 Freedman Crescent, Winnipeg.

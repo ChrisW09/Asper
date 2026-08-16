@@ -10,6 +10,52 @@ on the **`archive-history`** branch.
 
 ---
 
+## v12 — Handouts, and scope narrowed to the competition · 2026-08-16
+
+### Added — `09-handouts/`, every document in the format it is used in
+
+- **37 PDFs**, one per markdown document, mirroring the folder structure: house style (XCharter/Source Sans,
+  deep-blue headings, running head, print footer), a generated table of contents where a document lacks its
+  own, and cross-links re-pointed so the handouts link to each other exactly as the markdown does.
+- **Four PowerPoint decks** for the documents that exist to be *presented* rather than read —
+  `coach_and_ai_rules` (15 slides), `frameworks` (21), `presentation_and_storyline_guide` (36),
+  `case_type_playbook` (34). These are condensed rewrites; the slide sources live in `tools/slides/`.
+- **`tools/`** — `build_handouts.py`, `build_decks.py`, `check_decks.py`, the shared LaTeX preamble, and
+  `slides/make_reference.py`, which patches pandoc's reference `.pptx` into the house style. Everything in
+  `09-handouts/` is build output; the markdown remains the source of truth.
+
+### Fixed — a rendering bug in the source material
+
+- Currency written as `CA$…` was being parsed as LaTeX maths wherever two dollar signs met on one line,
+  swallowing whole phrases into a maths font. It affected `mini_cases.md`, `model_answers.md`, the quant
+  workbooks and others. Fixed in the build (`-tex_math_dollars`); the markdown itself was correct.
+
+### Removed — travel, visas and accommodation
+
+The material now covers the competition only. `07-logistics/travel_logistics.md` deleted, and every
+flight, eTA, passport, hotel, insurance, winter-gear and airport-transfer reference stripped from
+`README.md`, `DOCUMENTATION.md`, `01-competition/{facts_and_rules,handbook,past_cases}.md`,
+`02-plan/{week_by_week_plan,preparation_plan}.md`, `03-team/role_playbooks.md`,
+`04-training/{presentation_and_storyline_guide,exercises/format_quiz}.md`, all of `07-logistics/`, and the
+kick-off Beamer deck (its "Travel and Administration" subsection is gone; the deck is now **24 pages**).
+The competition-day runbook keeps its operating script; the registration e-mail keeps four open questions
+instead of seven — the hotel-block and letter-of-invitation asks are gone.
+
+**Counts after this change:** 61 files, 41 markdown documents, ≈81,000 words.
+
+### Re-verified against the official sources (2026-08-16)
+
+Checked against the [case-competitions page](https://umanitoba.ca/asper/student-experience/case-competitions),
+the [2027 competition page](https://umanitoba.ca/asper/asper-business-case-competition), the **2025 Event
+Guide** and the official 2025 boardroom case PDF. Everything held: the three round formats and their
+25/30/45 weights, all seven rubric categories and multipliers, the GenAI and internet clause verbatim, the
+anonymity and coach-contact rules, the A–I division draw, the nine-team field, the final-round mechanics,
+the contacts, and the one-page **black-and-white** judge brief that judges get **10 minutes** before the
+team enters — that last detail comes from the case PDF, not the Event Guide. Two dates were tightened:
+2026 ran **Wed Feb 18 – Sat Feb 21** (UM Today), and ABCC 2024 ran **Feb 21–24**, also a Wednesday start —
+so the "three Wednesday starts in a row" claim behind the 2027 weekday question is now sourced for all
+three editions.
+
 ## v11 — Second content audit · 2026-08-05
 
 The remaining half of the material — the documents no prior pass had read end to end — audited, with the

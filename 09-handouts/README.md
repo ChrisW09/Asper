@@ -1,7 +1,7 @@
 # 09 · Handouts — the printable and presentable versions
 
 Every markdown document in this repository, rendered into the format it is
-actually used in: **38 PDFs to read, print and hand out**, and **four PowerPoint
+actually used in: **37 PDFs to read, print and hand out**, and **four PowerPoint
 decks** for the documents that exist to be presented in a session. The folder
 mirrors the repository structure, so the path of a handout is the path of its
 source with a different extension.
@@ -14,7 +14,7 @@ hand — everything is regenerated from `../` by the two scripts in
 
 | Format | Which documents | Why |
 | --- | --- | --- |
-| **PDF** | 38 of the 42 documents — rules, plans, cases, drills, workbooks, logistics, the scoresheet, the folder indexes | They are read at a desk, marked up, or printed. Cross-links between them still work: an `.md` link in the source becomes a link to the corresponding handout |
+| **PDF** | 37 of the 41 documents — rules, plans, cases, drills, workbooks, logistics, the scoresheet, the folder indexes | They are read at a desk, marked up, or printed. Cross-links between them still work: an `.md` link in the source becomes a link to the corresponding handout |
 | **PPTX** | 4 documents that a coach *presents* to the team | A workshop is delivered from slides, not from a page. These are condensed rewrites, not the document with its paragraphs shortened |
 
 The four decks, and the sessions they belong to:
@@ -34,7 +34,7 @@ The W1 kick-off deck is **not** here: it is hand-built in Beamer and lives at
 Needs `pandoc` and a LaTeX installation with `lualatex` (MacTeX or TeX Live).
 
 ```bash
-python3 tools/build_handouts.py            # all 38 PDFs
+python3 tools/build_handouts.py            # all 37 PDFs
 python3 tools/build_handouts.py 01-competition/handbook.md   # or just one
 python3 tools/build_decks.py               # the four decks
 python3 tools/check_decks.py               # flag slides whose content overflows

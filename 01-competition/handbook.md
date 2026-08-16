@@ -55,7 +55,7 @@ Key people: **Judith (Judy) Jayasuriya**, Instructor and Lead, Experiential Lear
 - **Entry is by school, not by open sign-up.** Asper invites/hosts graduate teams from business schools; there is no public registration portal or published entry fee anywhere in the official materials — the event is sponsor-financed (tiers from $1,000 Room Sponsor to $25,000 Diamond; case sponsorship is $10,000). Participation logistics are coordinated between each school and the organizers via aspercasecomps@umanitoba.ca.
 - **Team composition:** exactly **4 students** plus a faculty advisor/coach. Eligible members are full-time, part-time, or executive MBA students, **and Master's-level students of other management programs** — so a mixed MSc team qualifies. (The official boilerplate says "top Canadian business schools," but the 2026 invitation of Babeș-Bolyai from Romania is precedent that international teams compete by arrangement with the organizers.)
 - **School-side selection** is each school's own affair (Asper runs credit courses and tryouts; HEC Montréal selects via its competitions service). There is no first-time-only rule published for the ABCC (unlike JMICC).
-- **On-site registration:** teams register in person at the hotel on arrival evening — 2025 baseline: **5:00 p.m., team registration and division draw**, followed by free time (arrival-night dinner is *not* provided). The draw assigns each team a letter **A–I**, forming **three pools of three**, which determines presentation slots for the whole week (see §6 and §11). 2027 hotel: **Delta Hotels Winnipeg** downtown (skywalk-connected to the convention centre); in 2026 the Delta was set up as a "case village" modeled on athlete villages.
+- **On-site registration:** teams register in person on arrival evening — 2025 baseline: **5:00 p.m., team registration and division draw**, followed by free time (arrival-night dinner is *not* provided). The draw assigns each team a letter **A–I**, forming **three pools of three**, which determines presentation slots for the whole week (see §6 and §11).
 - **2027 venue:** the Drake Centre — which *is* the Asper School of Business building (181 Freedman Crescent); the official page's per-day listings all point there, and the daily agenda is TBA. In 2024–25 the prepared-case day was staged at the client's own site (Winnipeg Art Gallery, Manitoba Museum); whether 2027 adds a client-site day is TBA.
 
 ---
@@ -66,13 +66,13 @@ The 2027 day-by-day schedule is TBA. The structure below is the verified 2025 te
 
 | Day | Content (2025 actuals as baseline) |
 | --- | --- |
-| **Day 0 (arrival)** | Teams arrive; prepared-case decks already submitted by **10:00 a.m. CT** that morning; 5:00 p.m. registration + division draw at the hotel; evening free (own dinner). |
-| **Day 1 — Round 1 (Prepared)** | Hotel breakfast 7:00–8:30; presentations from 9:30 a.m. in three slot waves; competitor lunch ~12:00; **judges' feedback sessions** 12:50–1:35 p.m. (15-minute blocks per team); afternoon social (The Forks); evening event (2025: Manitoba Museum reception). |
-| **Day 2 — Round 2 (Boardroom)** | Staggered 4-hour preps from 9:30 a.m.; lunch delivered during prep; presentations from 2:00 p.m.; feedback 4:30–5:15; evening at **Festival du Voyageur** (return shuttles 9:00/10:30/12:00). |
-| **Day 3 — Round 3 (Traditional) + Finals + Gala** | Staggered 3-hour preps from 8:40 a.m.; presentations from 12:00; lunch in prep rooms; feedback ~2:40–3:10; **finalist announcement ~3:50 p.m.; public finals 4:20/5:00/5:40; reception 6:45; awards dinner 7:15 (Marshall McLuhan Hall); shuttle 9:30; student mixer 10:00 p.m.** at the hotel. |
-| **Day 4 (departure)** | Hotel breakfast 8:00–10:00; teams depart. |
+| **Day 0 (arrival)** | Teams arrive; prepared-case decks already submitted by **10:00 a.m. CT** that morning; 5:00 p.m. registration + division draw; evening free (own dinner). |
+| **Day 1 — Round 1 (Prepared)** | Breakfast 7:00–8:30; presentations from 9:30 a.m. in three slot waves; competitor lunch ~12:00; **judges' feedback sessions** 12:50–1:35 p.m. (15-minute blocks per team); afternoon social (The Forks); evening event (2025: Manitoba Museum reception). |
+| **Day 2 — Round 2 (Boardroom)** | Staggered 4-hour preps from 9:30 a.m.; lunch delivered during prep; presentations from 2:00 p.m.; feedback 4:30–5:15; evening at **Festival du Voyageur**. |
+| **Day 3 — Round 3 (Traditional) + Finals + Gala** | Staggered 3-hour preps from 8:40 a.m.; presentations from 12:00; lunch in prep rooms; feedback ~2:40–3:10; **finalist announcement ~3:50 p.m.; public finals 4:20/5:00/5:40; reception 6:45; awards dinner 7:15 (Marshall McLuhan Hall); student mixer 10:00 p.m.** |
+| **Day 4 (departure)** | Teams depart. |
 
-Shuttles are provided for all official transfers; backup taxis (Duffy's 204-925-0101, Unicity 204-925-3131) and Uber operate in Winnipeg. Budget for a 10-minute outdoor walk between facilities in a Winnipeg February: pack serious winter clothing and footwear alongside business attire.
+Transfers between the official venues are organized by the committee and run to the slot times above.
 
 ---
 
@@ -161,7 +161,7 @@ Read the weighting: **Implementation is the single heaviest criterion**, and Ana
 | Traditional deck, "[Team Name] Traditional Case" | Within the 3-hour prep window | Organizer-provided USB | Same |
 | Finals deck | Nothing new — Round 3 deck frozen | — | Any change is a rule breach |
 
-Slide templates may be built before the competition but are not submitted in advance; there is no published requirement to hand in template files (unlike JMICC's template-USB regime). Travel details, rosters, and dietary needs are coordinated school-to-organizer; expect the 2027 Competition Guide to specify these logistics.
+Slide templates may be built before the competition but are not submitted in advance; there is no published requirement to hand in template files (unlike JMICC's template-USB regime). Rosters and dietary needs are coordinated school-to-organizer; expect the 2027 Competition Guide to specify these details.
 
 ---
 
@@ -190,9 +190,9 @@ The social calendar is a designed part of the event — attendance is expected a
 - **Welcome/arrival evening:** registration, division draw, free evening (a Platinum-sponsor-named welcome reception appears in the sponsorship structure).
 - **The Forks:** Winnipeg's historic market district; 2026 featured a team scavenger hunt (including a visit to case-client Coal & Canary's store).
 - **Evening receptions:** 2025 held an evening event at the Manitoba Museum; formats rotate with the case clients.
-- **Festival du Voyageur:** the Round 2 evening traditionally goes to Western Canada's largest winter festival (outdoor: bring the warm layer).
-- **Awards gala:** reception + dinner at **Marshall McLuhan Hall**, with sponsor speeches, client remarks, trophy and cheque presentations — followed by a **student mixer** back at the hotel.
-- Daily amenities: hotel breakfasts, competitor lunches, a sponsor-named competitor greenroom and refreshment area, and shuttles throughout.
+- **Festival du Voyageur:** the Round 2 evening traditionally goes to Western Canada's largest winter festival (outdoor).
+- **Awards gala:** reception + dinner at **Marshall McLuhan Hall**, with sponsor speeches, client remarks, trophy and cheque presentations — followed by a **student mixer**.
+- Daily amenities: breakfasts, competitor lunches, a sponsor-named competitor greenroom and refreshment area, and transfers throughout.
 
 ---
 
@@ -200,7 +200,7 @@ The social calendar is a designed part of the event — attendance is expected a
 
 Illustrative walkthrough using 2025 actual times, for a team drawn as letter "E" (Slot 1 on traditional day under the rotation: Prepared Slot 2 → Boardroom Slot 3 → Traditional Slot 1 — each pool takes each position exactly once across the week).
 
-**7:00** Breakfast at the hotel in business professional attire; laptops charged, chargers, adapters (Canadian Type A/B plugs, 120 V), and the team's template file checked the night before. **8:15** Shuttle/walk to the Drake Centre; phones and smart watches surrendered into bags before prep. **8:40** Case release in your assigned prep room — the 3-hour clock starts. A drilled routine matters more than brilliance now: minutes 0–20 individual read and issue capture; 20–40 alignment on problem statement and recommendation thesis; 40–150 parallel workstreams (financial model, market/qualitative analysis, implementation plan, deck production in the prebuilt template); 150–170 integration, rubric check — is Implementation & Resources (2.5x) the strongest section? — and save; final minutes for Q&A brainstorming. Volunteers will drop in unannounced; a boxed lunch arrives around 12:30 for later slots (Slot 1 eats after presenting). **11:40** USB collected — whatever is on it is final. **12:00** Present: 20 minutes standing, yellow card at 5 remaining, red at 1; all four members speak; then 10 minutes of Q&A. **12:40–13:20** Other slots present; you decompress in the greenroom. **14:40–15:10** Fifteen-minute judge feedback session — take notes; if you make finals, these judges' criticisms are your Q&A prep. **15:50** Finalist announcement. If named: escorted to the **holding room**, no advisor contact, deck frozen. **16:20/17:00/17:40** Public finals — same deck, 20 + 15 before a fresh panel, with rivals and ~50 judges watching. **18:45** Reception; **19:15** awards dinner at Marshall McLuhan Hall — podium revealed, trophy and oversized cheques presented. **21:30** Shuttle to the hotel; **22:00** student mixer. **Sunday** breakfast and departure.
+**7:00** Breakfast in business professional attire; laptops charged, chargers, adapters (Canadian Type A/B plugs, 120 V), and the team's template file checked the night before. **8:15** Travel to the Drake Centre; phones and smart watches surrendered into bags before prep. **8:40** Case release in your assigned prep room — the 3-hour clock starts. A drilled routine matters more than brilliance now: minutes 0–20 individual read and issue capture; 20–40 alignment on problem statement and recommendation thesis; 40–150 parallel workstreams (financial model, market/qualitative analysis, implementation plan, deck production in the prebuilt template); 150–170 integration, rubric check — is Implementation & Resources (2.5x) the strongest section? — and save; final minutes for Q&A brainstorming. Volunteers will drop in unannounced; a boxed lunch arrives around 12:30 for later slots (Slot 1 eats after presenting). **11:40** USB collected — whatever is on it is final. **12:00** Present: 20 minutes standing, yellow card at 5 remaining, red at 1; all four members speak; then 10 minutes of Q&A. **12:40–13:20** Other slots present; you decompress in the greenroom. **14:40–15:10** Fifteen-minute judge feedback session — take notes; if you make finals, these judges' criticisms are your Q&A prep. **15:50** Finalist announcement. If named: escorted to the **holding room**, no advisor contact, deck frozen. **16:20/17:00/17:40** Public finals — same deck, 20 + 15 before a fresh panel, with rivals and ~50 judges watching. **18:45** Reception; **19:15** awards dinner at Marshall McLuhan Hall — podium revealed, trophy and oversized cheques presented. **22:00** Student mixer. **Sunday** departure.
 
 ---
 

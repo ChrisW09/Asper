@@ -8,7 +8,6 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 - **Editions:** 2026 was the fourth edition (UM Today) → **2027 is the fifth annual ABCC**
 - **Dates 2027:** February 18–22, 2027; daily agenda TBA. **Note the weekday anomaly** — see below
 - **Host/venue:** Drake Centre, Asper School of Business, 181 Freedman Crescent, Winnipeg (2025: prepared-case day at the Manitoba Museum; venues can vary by day)
-- **Hotel 2027:** Delta Hotels Winnipeg, downtown (2025 used Hilton Garden Inn — hotel varies by year)
 - **Eligibility (official wording):** "full-time, part-time, and executive MBA students, as well as Masters-level students from other management programs. Every team shall be composed of four team members."
 - **Field:** 9 teams. 2025: Asper, Beedie, DeGroote, HEC Montréal, Ivey, John Molson, Levene, Memorial, Telfer. 2026: incl. first international team Babeș-Bolyai (Romania) — the 2026 winner (2nd DeGroote, 3rd HEC Montréal)
 - **Contact:** aspercasecomps@umanitoba.ca — Judith Jayasuriya (Instructor & Lead, Experiential Learning), Steven Harrison (Case Competition Coordinator, +1 204 396 9631)
@@ -24,7 +23,7 @@ Validated against the official Asper website, the official **ABCC 2025 Event Gui
 | Saturday | Traditional case: staggered 3-h prep from ~08:40, presentations from ~12:00; ~15:50 finalist announcement; finals 16:20–18:20; reception + awards gala (Marshall McLuhan Hall); student mixer |
 | Sunday | Departure |
 
-### The 2027 weekday question (open, and it affects flights)
+### The 2027 weekday question (open, and it affects the round-to-day mapping)
 
 Every edition in the competition's current format has started on a **Wednesday**:
 
@@ -37,19 +36,18 @@ Every edition in the competition's current format has started on a **Wednesday**
 | ABCC 2027 (5th) | Feb 18–22, 2027 *(as published)* | **Thu** → Mon |
 
 So the published 2027 window would be the **first Thursday start since the format change** — three
-Wednesday starts in a row say the pattern is deliberate (weekend gala, Sunday travel). Two readings are
-possible and we cannot yet tell which is right:
+Wednesday starts in a row say the pattern is deliberate, with the gala landing on a Saturday. Two readings
+are possible and we cannot yet tell which is right:
 
 1. **The window is exact** — registration Thu Feb 18, three competition days Fri–Sun, departure Mon Feb 22.
    The awards gala would fall on a Sunday.
 2. **The Wednesday pattern holds** and the real week is Wed Feb 17 – Sun Feb 21, with the published range
    either provisional or counting days differently.
 
-**Practical consequence.** Our travel envelope — arrive **Feb 16/17**, return **Feb 22/23** — covers both
-readings, so the booking plan is safe as it stands. **Do not book non-refundable tickets outside that
-envelope, and do not fix hotel nights to a specific round order, until the 2027 agenda is published.** All
-day-sheets in this repository assume reading 1 with the 2025 round order, and say so in place. Confirm with
-the organizers (question 1 of the open list below).
+**Practical consequence.** All day-sheets in this repository assume reading 1 with the 2025 round order,
+and say so in place. **Do not fix any round to a weekday until the 2027 agenda is published** — what the
+team drills is the shape of each day, not its date. Confirm with the organizers (question 1 of the open
+list below).
 
 ## Format and rules (validated)
 
@@ -92,7 +90,7 @@ the organizers (question 1 of the open list below).
 - **School anonymity: identifying your school of origin to a judge at any point = disqualification**; coach communication during presentation/Q&A = disqualification
 - Cases are confidential: no reproduction/sharing; no discussing outside the competition context
 - Slide clickers provided; volunteers monitor compliance; late arrival = no additional prep or presentation time; slide decks are shared with case sponsors after the event
-- Dress code: **business professional**; organizers explicitly advise warm clothing, winter footwear, heavy jacket
+- Dress code: **business professional** for every competition context
 
 ## Official judging rubric (2025 Event Guide — applied to all rounds)
 
@@ -148,8 +146,6 @@ Diamond: The Associates, Stu Clark Graduate School · Room: Qualico · Supporter
 2. Registration process/fee for an international (German) team and what it covers
 3. Confirmation of eligibility for our specific student mix (Masters-level, HSBI)
 4. Team roster/bio/photo requirements and deadlines; advisor registration
-5. 2027 hotel block and booking code (Delta Winnipeg per website)
-6. Whether the 2027 rules package changes anything vs. the 2025 Event Guide baseline — specifically any **new generative-AI clauses** (tool restrictions, disclosure duties, AI-specific confidentiality terms); the 2025 baseline simply permits GenAI
-7. A **formal letter of invitation** naming all five travellers and the dates — for the Canadian border and for university travel funding
+5. Whether the 2027 rules package changes anything vs. the 2025 Event Guide baseline — specifically any **new generative-AI clauses** (tool restrictions, disclosure duties, AI-specific confidentiality terms); the 2025 baseline simply permits GenAI
 
-All seven are asked in one exchange by `07-logistics/registration_email_draft.md`.
+All five are asked in one exchange by `07-logistics/registration_email_draft.md`.

@@ -157,25 +157,40 @@ def rebalance_tables(text: str) -> str:
     return "\n".join(out)
 
 
+def normalise(src_rel: Path, path: str) -> str:
+    """"07-logistics/../03-team/x.md" -> "03-team/x.md", relative to the root."""
+    parts: list[str] = []
+    for part in (src_rel.parent / path).as_posix().split("/"):
+        if part == "..":
+            if parts:
+                parts.pop()
+        elif part not in (".", ""):
+            parts.append(part)
+    return "/".join(parts)
+
+
 def retarget_links(text: str, src_rel: Path) -> str:
-    """Point `.md` cross-links at the PDF (or PPTX) built from that file."""
+    """Rewrite relative links so they still resolve from inside 09-handouts.
+
+    A `.md` link becomes a link to the handout built from that file. Any other
+    relative link — the xlsx toolkit, the docx judge brief, the official case
+    PDFs, a folder — points back into the repository, since those files are not
+    copied here.
+    """
+    # 09-handouts/<src dir>/ back up to the repository root.
+    up = "../" * (len(src_rel.parent.parts) + 1)
+
     def repl(match: re.Match) -> str:
         label, target = match.group(1), match.group(2)
         path, _, anchor = target.partition("#")
-        if not path.endswith(".md") or path.startswith(("http://", "https://")):
+        suffix = ("#" + anchor) if anchor else ""
+        if not path or path.startswith(("http://", "https://", "mailto:")):
             return match.group(0)
-        # normalise "07-logistics/../03-team/x.md" -> "03-team/x.md"
-        parts: list[str] = []
-        for part in (src_rel.parent / path).as_posix().split("/"):
-            if part == "..":
-                if parts:
-                    parts.pop()
-            elif part not in (".", ""):
-                parts.append(part)
-        key = "/".join(parts)
-        ext = ".pptx" if key in SLIDE_SOURCES else ".pdf"
-        new_target = path[:-3] + ext + (("#" + anchor) if anchor else "")
-        return f"[{label}]({new_target})"
+        key = normalise(src_rel, path)
+        if path.endswith(".md"):
+            ext = ".pptx" if key in SLIDE_SOURCES else ".pdf"
+            return f"[{label}]({path[:-3]}{ext}{suffix})"
+        return f"[{label}]({up}{key}{'/' if path.endswith('/') else ''}{suffix})"
 
     return re.sub(r"\[([^\]]*)\]\(([^)\s]+)\)", repl, text)
 
