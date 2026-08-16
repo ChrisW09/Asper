@@ -1,0 +1,140 @@
+% ============================================================
+% Shared LaTeX preamble for all ABCC 2027 handout PDFs.
+% Injected by tools/build_handouts.py via pandoc --include-in-header.
+% Body font: XCharter · headings: Source Sans Pro · accent: HSBI-style deep blue.
+% ============================================================
+
+% ---- Fonts (LuaLaTeX: needed for ≈ · × ✓ → ș and the rest of the Unicode) --
+\usepackage{fontspec}
+\setmainfont{XCharter}[
+  Extension      = .otf,
+  UprightFont    = *-Roman,
+  BoldFont       = *-Bold,
+  ItalicFont     = *-Italic,
+  BoldItalicFont = *-BoldItalic]
+\setsansfont{SourceSans3}[
+  Extension      = .otf,
+  UprightFont    = *-Regular,
+  BoldFont       = *-Semibold,
+  ItalicFont     = *-RegularIt,
+  BoldItalicFont = *-SemiboldIt,
+  Scale          = 0.94]
+% DejaVu Sans Mono rather than Source Code Pro: it carries the box-drawing
+% glyphs (─ ├ └) used by the directory tree in DOCUMENTATION.md.
+\setmonofont{DejaVuSansMono}[
+  Extension   = .ttf,
+  UprightFont = *,
+  BoldFont    = *-Bold,
+  ItalicFont  = *-Oblique,
+  Scale       = 0.80]
+% Fallback family for the handful of glyphs XCharter does not carry.
+\newfontfamily\ABCCfallback{DejaVuSans}[Extension=.ttf, UprightFont=*, Scale=0.94]
+
+\usepackage{etoolbox}
+\usepackage{titling}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{newunicodechar}
+
+% Glyphs XCharter lacks — routed to maths or to the fallback family.
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{⇒}{\ensuremath{\Rightarrow}}
+\newunicodechar{↔}{\ensuremath{\leftrightarrow}}
+\newunicodechar{✓}{\ensuremath{\checkmark}}
+% \symbol, not the literal character: the character itself is now active.
+\newunicodechar{ɪ}{{\ABCCfallback\symbol{"026A}}}
+\newunicodechar{ː}{{\ABCCfallback\symbol{"02D0}}}
+
+% ---- Colours ------------------------------------------------
+\definecolor{abccblue}{HTML}{1F3864}
+\definecolor{abccgrey}{HTML}{5A5A5A}
+\definecolor{abccrule}{HTML}{C9D2E0}
+
+% ---- Links (deferred: hyperref is loaded after this file) ----
+\AtBeginDocument{\hypersetup{
+  colorlinks=true,
+  linkcolor=abccblue,
+  urlcolor=abccblue,
+  filecolor=abccblue,
+  citecolor=abccblue,
+  linktoc=all,
+  pdfborder={0 0 0}
+}}
+
+% ---- Headings -----------------------------------------------
+\titleformat{\section}
+  {\sffamily\bfseries\large\color{abccblue}}{\thesection}{0.7em}{}
+\titleformat{\subsection}
+  {\sffamily\bfseries\normalsize\color{abccblue}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}
+  {\sffamily\bfseries\small\color{abccgrey}}{\thesubsubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{2.0ex plus .6ex minus .2ex}{0.9ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{1.5ex plus .5ex minus .2ex}{0.7ex plus .2ex}
+
+% ---- Running head / foot ------------------------------------
+% Both macros are overwritten per document by the build script.
+\providecommand{\ABCCdocsource}{ABCC 2027 preparation}
+\providecommand{\ABCCshorttitle}{}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{abccrule}\leaders\hrule height \headrulewidth\hfill}}
+\fancyhead[L]{\footnotesize\sffamily\color{abccgrey}\ABCCdocsource}
+\fancyhead[R]{\footnotesize\sffamily\color{abccgrey}\ABCCshorttitle}
+\fancyfoot[L]{\footnotesize\sffamily\color{abccgrey}ABCC 2027 · HSBI · internal}
+\fancyfoot[R]{\footnotesize\sffamily\color{abccgrey}\thepage}
+\fancypagestyle{plain}{%
+  \fancyhf{}\renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[L]{\footnotesize\sffamily\color{abccgrey}ABCC 2027 · HSBI · internal}%
+  \fancyfoot[R]{\footnotesize\sffamily\color{abccgrey}\thepage}}
+
+% ---- Title block --------------------------------------------
+\pretitle{\vspace*{-1.2cm}\begin{flushleft}\sffamily\bfseries\LARGE\color{abccblue}}
+\posttitle{\par\end{flushleft}\vspace{0.30cm}
+  {\color{abccrule}\hrule height 1.2pt}\vspace{0.30cm}}
+\preauthor{\begin{flushleft}\sffamily\small\color{abccgrey}}
+\postauthor{\end{flushleft}}
+\predate{\begin{flushleft}\sffamily\footnotesize\color{abccgrey}}
+\postdate{\end{flushleft}}
+
+% ---- Tables -------------------------------------------------
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{6.5pt}
+% Table body one step smaller so wide rubric/plan tables stay on the page.
+\AtBeginEnvironment{longtable}{\footnotesize\setlength{\emergencystretch}{3em}}
+\AtBeginEnvironment{tabular}{\footnotesize\setlength{\emergencystretch}{3em}}
+
+% ---- Code ---------------------------------------------------
+% The directory tree in DOCUMENTATION.md runs to 107 characters; footnotesize
+% mono is what fits it inside an A4 text block without wrapping.
+\AtBeginEnvironment{verbatim}{\footnotesize}
+\AtBeginEnvironment{Shaded}{\footnotesize}
+% Let long file paths in \texttt{} break instead of running into the margin.
+\usepackage[htt]{hyphenat}
+
+% ---- Lists --------------------------------------------------
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.15ex,topsep=0.5ex,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.4em,itemsep=0.15ex,topsep=0.5ex,parsep=0pt}
+
+% ---- Block quotes as a tinted call-out ----------------------
+\renewenvironment{quote}
+  {\begin{list}{}{\setlength{\leftmargin}{1.0em}\setlength{\rightmargin}{0.5em}}%
+   \item[]\color{abccblue!85!black}\itshape}
+  {\end{list}}
+
+% ---- Misc ---------------------------------------------------
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{0}
+\raggedbottom
+\sloppy
