@@ -14,7 +14,8 @@ shared team clock; all four must speak in every round.
 2. [`role_playbooks.md`](role_playbooks.md) — the operational core of this folder: per-role mission,
    artifacts, and **prep minute-maps in a 3-hour and a 4-hour column**, plus drills, failure modes, the
    **GenAI standard operating procedure**, and the one-page prep-room kit checklist. Re-read your column
-   before every timed simulation.
+   before every timed simulation. The W1 roles briefing is presented from
+   [`role_playbooks.pptx`](role_playbooks.pptx) (32 slides, built from `tools/slides/`).
 3. [`coach_and_ai_rules.md`](coach_and_ai_rules.md) — the two questions that decide coach behaviour: may we
    use AI in competition (**yes, explicitly**), and what may the coach do, round by round. The coach's
    influence ends at case release and resumes at the feedback session.

@@ -43,15 +43,19 @@ Eight numbered folders follow the lifecycle of the project — *understand the c
 ├── 06-templates/              What we build with: slide skeletons, playbook, toolkit, judge brief
 ├── 07-logistics/              Organizer contact and the competition-day runbook
 ├── 08-briefing-slides/        The kick-off Beamer deck (LaTeX + PDF)
-└── tools/                     Build scripts, LaTeX house style, and the four slide sources
+└── tools/                     Build scripts, LaTeX house style, and the eleven slide sources
 ```
 
 **Every markdown document is also published beside itself** — `handbook.md` and `handbook.pdf` sit in the
 same folder, the pairing `08-briefing-slides/` already used for its LaTeX deck. Thirty-seven documents
-render to PDF; the four that exist to be *presented* render to `.pptx` instead
+render to PDF; the four that exist only to be *presented* render to `.pptx` instead
 (`03-team/coach_and_ai_rules`, `04-training/frameworks`,
-`04-training/presentation_and_storyline_guide`, `06-templates/case_type_playbook`). Those rendered files
-are **build output** — never edit them; edit the markdown and rebuild with `tools/build_handouts.py` and
+`04-training/presentation_and_storyline_guide`, `06-templates/case_type_playbook`). **Seven more documents
+get a session deck in addition to their PDF** — the handout is worked at a desk, the deck opens the session
+that teaches it: `01-competition/judging_scoresheet`, `02-plan/preparation_plan`, `03-team/role_playbooks`,
+`04-training/qa_drills`, `04-training/business_math_drills`, `04-training/english_phrasebook`,
+`07-logistics/competition_day_runbook`. All rendered files are **build output** — never edit them; edit the
+markdown (for decks: the slide source in `tools/slides/`) and rebuild with `tools/build_handouts.py` and
 `tools/build_decks.py` (see `tools/README.md`).
 
 **Every folder opens with its own `README.md`** — a short index that says what is in the folder, in what order to use it, and what the hard rules are. GitHub renders it under the folder's file list, so browsing the repository is self-guiding. Those indexes are navigation; this file is the reference.
@@ -174,8 +178,8 @@ As of 2026-08-04, excluding `.git`:
 | | Count | Notes |
 | --- | --- | --- |
 | Source files | **61** | 41 markdown · 7 pptx · 7 pdf · 1 xlsx · 1 docx · 1 csv · 1 tex · 1 .gitignore · 1 .markdownlint.json |
-| Build output | **41** | 37 PDFs + 4 decks rendered from the markdown, each beside its source |
-| Build tooling | **11** | `tools/`: 4 python scripts · 4 slide sources · 1 preamble · 1 reference deck · 1 README |
+| Build output | **48** | 37 PDFs + 11 decks rendered from the markdown, each beside its source |
+| Build tooling | **18** | `tools/`: 4 python scripts · 11 slide sources · 1 preamble · 1 reference deck · 1 README |
 | Written material | **41 markdown documents, ≈81,000 words** | ≈6 hours of reading end to end |
 | Binary assets | ≈8.5 MB | 6.2 MB official case PDFs · 2.3 MB slide templates |
 | Working tree | ≈9.5 MB content | Plus ≈20 MB of packed git history |
@@ -211,6 +215,7 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 - **Rules first.** Whenever the organizers publish 2027 information (Competition Guide, agenda, deadlines, fees), update `01-competition/facts_and_rules.md` **first**, then sweep the repository for affected statements. The **TBA tracker in `01-competition/handbook.md` §12** lists exactly what to confirm: the day-by-day schedule and which date carries which round, the case sponsors (watch the sponsor page and @Asper_BCC from autumn — case writing starts around October), the prepared-case release date and deck deadline, the 2027 field, prize amounts, the Round 1 venue, and any rule deltas versus 2025.
 - **Propagation order** after a rules change: `01-competition/facts_and_rules.md` → `01-competition/handbook.md` → `01-competition/judging_scoresheet.md` (if the rubric moved) → `02-plan/week_by_week_plan.md` (if dates moved) → `07-logistics/competition_day_runbook.md` → `08-briefing-slides/abcc_overview.tex` (rebuild the PDF twice) → `04-training/exercises/format_quiz.md` (the answer key quotes the rules) → `README.md` and this file.
 - **The calendar is authoritative.** Date conflicts resolve in favour of `02-plan/week_by_week_plan.md`. Its phase numbers are calendar phases and deliberately differ from the concept phases in `preparation_plan.md`.
+- **Keep the decks in step with their documents.** The eleven slide sources in `tools/slides/` are condensed by hand and do not track their documents automatically — when one of the eleven deck documents changes, re-read its slide source against it, then rebuild (`tools/build_decks.py`, then `tools/check_decks.py`).
 - **Log every simulation the same day** in `02-plan/simulation_log.md`, with rubric scores and one carried-forward goal per person.
 - **One canonical copy per file.** If a document is worth reaching quickly, link to it — do not copy it to the root. The two-layer duplication this repository used to carry is exactly what §1 removed.
 - **Never commit the HSBI name** into a slide template, judge brief, or any competition-facing asset. Anonymity is a disqualification rule and the assets here are deliberately clean.
@@ -235,7 +240,9 @@ Full detail in [`CHANGELOG.md`](CHANGELOG.md). Work packages, not semantic versi
 | v8 | Documentation overhaul: inventory re-verified and re-pathed, metrics, verification log, changelog |
 | v9 | Flattened to a single repository: archive unzipped into the root, eleven duplicated files removed, zip retired, root documents de-duplicated against each other, history preserved on `archive-history` |
 | v10 | Material and structure improvement round: a `README.md` index per folder · tables of contents in 16 long documents · one heading convention across the three practice cases · repo-wide markdown normalization plus `.markdownlint.json` · the 2027 weekday question researched and propagated · `frameworks.md` rebuilt around a case-type selector · external-judge briefing added · Q&A-length conflict resolved · `index.md` merged into the practice-cases README |
-| **v11** | **Second content audit:** every remaining answer key and teaching note recomputed (model answers, case-1 economics, workbook hooks) · weekday analysis extended to all five editions (three Wednesday starts in a row) and repropagated · boardroom file name added to the compliance card · verification log extended |
+| v11 | Second content audit: every remaining answer key and teaching note recomputed (model answers, case-1 economics, workbook hooks) · weekday analysis extended to all five editions (three Wednesday starts in a row) and repropagated · boardroom file name added to the compliance card · verification log extended |
+| v12 | Publishing pass: 37 PDFs and the first four decks built beside their sources, `tools/` build pipeline added, travel scope removed |
+| **v13** | **Session decks:** seven new PowerPoint decks so every coached session is delivered from slides — scoring workshop, season briefing, roles briefing, Q&A / math / English workshops, pre-departure briefing — each a condensed rewrite beside its PDF handout; build pipeline extended to eleven decks |
 
 **Git.** `main` carries the current material. The **`archive-history`** branch holds the eight commits of the formerly nested repository (v1–v8) — kept for provenance, never merged. To publish privately:
 
@@ -251,7 +258,7 @@ gh repo create asper-abcc-2027 --private --source=. --push
 What was checked, so the next reader knows what is asserted and what is assumed. Structural checks ran 2026-08-04; the content audit below was extended 2026-08-05.
 
 **Structure**
-- 113 files excluding `.git`: 61 source files (41 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`), 41 rendered documents (37 pdf, 4 pptx), and 11 files of build tooling in `tools/`.
+- 127 files excluding `.git`: 61 source files (41 markdown, 7 pptx, 7 pdf, 1 xlsx, 1 docx, 1 csv, 1 tex, 1 `.gitignore`, 1 `.markdownlint.json`), 48 rendered documents (37 pdf, 11 pptx), and 18 files of build tooling in `tools/` (counts re-verified 2026-08-20, when the seven session decks were added).
 - Every folder-qualified cross-reference in every markdown file resolves from the repository root; all **178+ in-page anchors** (the generated tables of contents) resolve to real headings; no anchor is broken.
 - No duplicated files (verified by content hash): before the flattening, all eleven workspace duplicates were confirmed **byte-identical** to their canonical counterparts, so nothing was lost when they were deleted. The single exception was `abcc_overview.pdf`, where two builds of the same 25-page deck existed — the newer one (2026-08-01 13:04 UTC) was kept.
 - All six official case PDFs present in `01-competition/past-case-pdfs/` (6.2 MB); the other five official cases are URL-only, as documented.
@@ -273,7 +280,7 @@ What was checked, so the next reader knows what is asserted and what is assumed.
 Re-run the structural checks with:
 
 ```bash
-find . -type f -not -path './.git/*' | wc -l                    # expect 54
+find . -type f -not -path './.git/*' -not -name '.DS_Store' | wc -l   # expect 127
 python3 - <<'EOF'
 import re, os, glob
 bad = {}

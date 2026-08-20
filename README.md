@@ -88,9 +88,12 @@ in what order to use it, and the hard rules that apply — so you can navigate b
 searching.
 
 **Every document is also published beside itself** — `handbook.md` and `handbook.pdf` in the same folder, so
-anything can be read, printed or handed out without a markdown viewer. Four documents that exist to be
-*presented* render to PowerPoint instead of PDF: the coach & AI rules, the framework toolkit, the
-presentation guide, and the case-type playbook. Those files are build output — edit the markdown and rebuild
+anything can be read, printed or handed out without a markdown viewer. **Eleven documents also render to
+PowerPoint.** Four that exist only to be *presented* get a deck instead of a PDF: the coach & AI rules, the
+framework toolkit, the presentation guide, and the case-type playbook. Seven more get a **session deck beside
+the PDF handout** — the rubric workshop, the season briefing, the roles briefing, the Q&A / math / English
+workshops, and the pre-departure briefing — so every coached session is delivered from slides while the
+handout stays printable. All rendered files are build output — edit the markdown and rebuild
 (see [`tools/`](tools/)); never edit them by hand.
 
 | Folder | Contents |
@@ -103,7 +106,7 @@ presentation guide, and the case-type playbook. Those files are build output —
 | [`06-templates/`](06-templates/) | The 14-slide team skeleton, six case-type skeletons (A–F), case-type playbook, financial toolkit (xlsx), judge-brief template (docx) |
 | [`07-logistics/`](07-logistics/) | Registration e-mail draft to the organizers, competition-day runbook |
 | [`08-briefing-slides/`](08-briefing-slides/) | Kick-off Beamer deck — LaTeX source + the 24-page PDF |
-| [`tools/`](tools/) | Build scripts for the PDFs and the four session decks, the LaTeX house style, and the slide sources |
+| [`tools/`](tools/) | Build scripts for the PDFs and the eleven decks, the LaTeX house style, and the slide sources |
 
 **What each individual file is, and when to use it:** [`DOCUMENTATION.md`](DOCUMENTATION.md) §2. Every file
 has one canonical location, every path in every document is relative to this root, and the sixteen longest

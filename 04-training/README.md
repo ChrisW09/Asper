@@ -15,12 +15,18 @@ Three guides, read in this order, one per weekend block in Phase 2:
 3. [`business_math_drills.md`](business_math_drills.md) — anchor numbers, mental-math toolkit, **40 worked
    drills**, and the weekly 30-minute routine.
 
+Each of the trio is delivered as a workshop from its own deck —
+[`presentation_and_storyline_guide.pptx`](presentation_and_storyline_guide.pptx) (36 slides),
+[`qa_drills.pptx`](qa_drills.pptx) (31), [`business_math_drills.pptx`](business_math_drills.pptx) (22) —
+while the handout keeps the full drill and question banks. The decks are built from `tools/slides/`.
+
 ## Reference and language
 
 - [`frameworks.md`](frameworks.md) — the framework toolbox, with a selector for *which* analysis a given
   case type actually needs. Not a menu to recite; judges punish name-dropping.
 - [`english_phrasebook.md`](english_phrasebook.md) — DE–EN terminology, phrase banks for presentation, Q&A
-  and boardroom register, numbers out loud, pronunciation traps.
+  and boardroom register, numbers out loud, pronunciation traps. The English workshop is presented from
+  [`english_phrasebook.pptx`](english_phrasebook.pptx) (31 slides).
 - [`vocab_flashcards.csv`](vocab_flashcards.csv) — 87 cards. Anki: File → Import, comma-separated, first
   row is a header.
 

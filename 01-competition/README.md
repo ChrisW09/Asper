@@ -11,7 +11,8 @@ Everything else in the repository defers to this folder on matters of rule and f
 2. [`handbook.md`](handbook.md) — the narrative version, 13 sections. The one file every team member reads
    in full in W1. §12 is the **TBA tracker** for 2027.
 3. [`judging_scoresheet.md`](judging_scoresheet.md) — printable rubric replica. The coach prints one per
-   judge before every simulation.
+   judge before every simulation. The scoring workshop that teaches the rubric is presented from
+   [`judging_scoresheet.pptx`](judging_scoresheet.pptx) (25 slides, built from `tools/slides/`).
 4. [`past_cases.md`](past_cases.md) — all five editions, ten client profiles, a **re-crack brief** for each,
    and the patterns to expect in 2027. This is where simulation material comes from.
 

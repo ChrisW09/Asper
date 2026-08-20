@@ -26,12 +26,21 @@ SLIDES = ROOT / "tools" / "slides"
 REFERENCE = SLIDES / "abcc-reference.pptx"
 
 # slide source  ->  destination, beside the markdown document it replaces
+# (or, for the session decks that accompany a handout PDF, beside the document
+# the session is taught from)
 DECKS = {
     "coach_and_ai_rules.md": "03-team/coach_and_ai_rules.pptx",
     "frameworks.md": "04-training/frameworks.pptx",
     "presentation_and_storyline_guide.md":
         "04-training/presentation_and_storyline_guide.pptx",
     "case_type_playbook.md": "06-templates/case_type_playbook.pptx",
+    "judging_scoresheet.md": "01-competition/judging_scoresheet.pptx",
+    "preparation_plan.md": "02-plan/preparation_plan.pptx",
+    "role_playbooks.md": "03-team/role_playbooks.pptx",
+    "qa_drills.md": "04-training/qa_drills.pptx",
+    "business_math_drills.md": "04-training/business_math_drills.pptx",
+    "english_phrasebook.md": "04-training/english_phrasebook.pptx",
+    "competition_day_runbook.md": "07-logistics/competition_day_runbook.pptx",
 }
 
 

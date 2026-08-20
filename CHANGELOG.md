@@ -10,6 +10,37 @@ on the **`archive-history`** branch.
 
 ---
 
+## v13 — A session deck for every coached session · 2026-08-20
+
+### Added — seven new PowerPoint decks
+
+Until now only four documents rendered to slides; every other session was taught straight from a PDF
+handout. Seven documents that anchor a coached session now get a **session deck beside their PDF** — the
+deck opens the session and carries the method, the handout keeps the full inventory (drills, questions,
+phrases, day-sheets):
+
+- `01-competition/judging_scoresheet.pptx` (25 slides) — the scoring workshop: seven categories, weights,
+  what the anchors reward, how mocks are scored
+- `02-plan/preparation_plan.pptx` (26) — the season briefing: phases, weekly cadence, the ten simulations,
+  milestones
+- `03-team/role_playbooks.pptx` (32) — the W1 roles briefing: four roles, the shared clock, per-role
+  minute-maps, the GenAI SOP
+- `04-training/qa_drills.pptx` (31) — the Q&A workshop: answer-first protocol, bridging, the quarterback
+  system, the five question banks
+- `04-training/business_math_drills.pptx` (22) — the quant workshop: anchor numbers, the calculation
+  families, the weekly routine
+- `04-training/english_phrasebook.pptx` (31) — the English workshop: phrase families, pronunciation traps,
+  the flashcard routine
+- `07-logistics/competition_day_runbook.pptx` (29) — the pre-departure briefing: standing rules and the
+  five days in Winnipeg
+
+Each deck is a condensed rewrite, not the document with its paragraphs shortened; the slide sources live in
+`tools/slides/` (now eleven), are registered in `tools/build_decks.py`, and pass `tools/check_decks.py`
+with no overflowing slides. `README.md`, `DOCUMENTATION.md` (§1, §3, §5–§7), `tools/README.md`, and the
+five affected folder indexes updated; repository file count 113 → 127.
+
+---
+
 ## v12 — Handouts, and scope narrowed to the competition · 2026-08-16
 
 ### Added — every document also published in the format it is used in

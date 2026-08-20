@@ -9,7 +9,8 @@ The organizer exchange, and the script for the five days in Winnipeg.
    2027 agenda and prepared-case dates, roster requirements, rule deltas) into one exchange.
 2. [`competition_day_runbook.md`](competition_day_runbook.md) — hour-by-hour sheets for all five days, the
    standing rules that apply all week, and the contingency plans. This is the file the team operates from in
-   Winnipeg; print it.
+   Winnipeg; print it. The pre-departure briefing in the week before the flight is presented from
+   [`competition_day_runbook.pptx`](competition_day_runbook.pptx) (29 slides, built from `tools/slides/`).
 
 Travel, visas, accommodation and everything else off the competition floor are handled outside this
 repository — nothing here depends on them.
