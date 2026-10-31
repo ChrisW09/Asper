@@ -1,7 +1,7 @@
 # 03 · Team — who we are
 
 Four Masters students and a coach, with the working agreements and the division of labour that make four
-people faster than one under a three-hour clock.
+people faster than one under a clock — three hours, four, or (new for 2027) ten.
 
 **The four roles** — finance lead · innovation lead · CS & analytics lead (also the **designated GenAI
 operator**) · general-business strategist (owns the clock and the storyline). All four run against one
@@ -12,7 +12,7 @@ shared team clock; all four must speak in every round.
 1. [`team_charter.md`](team_charter.md) — commitments, working rules, non-negotiables, escalation path.
    **Signed in W1** by all five. Short on purpose.
 2. [`role_playbooks.md`](role_playbooks.md) — the operational core of this folder: per-role mission,
-   artifacts, and **prep minute-maps in a 3-hour and a 4-hour column**, plus drills, failure modes, the
+   artifacts, and **prep minute-maps in 3-hour, 4-hour and 10-hour columns** (the 10-hour day has its own clock with two gates and a lunch), plus drills, failure modes, the
    **GenAI standard operating procedure**, and the one-page prep-room kit checklist. Re-read your column
    before every timed simulation. The W1 roles briefing is presented from
    [`role_playbooks.pptx`](role_playbooks.pptx) (32 slides, built from `tools/slides/`).

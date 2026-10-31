@@ -1,8 +1,10 @@
-# Week-by-Week Plan: August 3, 2026 → ABCC, February 18–22, 2027
+# Week-by-Week Plan: August 3, 2026 → ABCC, February 15–20, 2027
 
-Dated execution plan for the HSBI team (finance / innovation / computer science / general business + coach). It operationalizes `preparation_plan.md` and is tuned to the official ABCC rubric — **Implementation & Resources 2.5×, Analysis 2.0×, Recommendation 2.0×** — and to the score weights (traditional 45 %, boardroom 30 %, prepared 25 %). German winter-semester rhythm and the Christmas break are built in. Adjust freely; protect the simulation cadence above all.
+Dated execution plan for the HSBI team (finance / innovation / computer science / general business + coach). It operationalizes `preparation_plan.md` and is tuned to the official ABCC rubric — **Implementation & Resources 2.5×, Analysis 2.0×, Recommendation 2.0×** — and to the score weights (third round — the **10-hour case** in 2027 — 45 %, boardroom 30 %, prepared 25 %). German winter-semester rhythm and the Christmas break are built in. Adjust freely; protect the simulation cadence above all.
 
 *Note on phase numbers:* the phases here are **calendar phases** and shift slightly against the concept phases of `preparation_plan.md` (its Phase 0–1 ≈ W1–W5 here, Phase 2 ≈ W6–W10, Phase 3 ≈ W11–W26 including the Christmas dip and January peak, Phase 4 = the prepared-case sprint, Phase 5 = taper and competition week). Where the two disagree on a week boundary, this calendar governs.
+
+*Re-planned 2026-10-31* after the organizers published the 2027 schedule (**Mon Feb 15 – Sat Feb 20**, third round a **10-hour case** — `01-competition/facts_and_rules.md`, "What 2027 changed"). W1–W13 are unchanged; from W14 the calendar adds the 10-hour format, and the sprint and competition week move three days earlier.
 
 ## Contents
 
@@ -12,9 +14,9 @@ Dated execution plan for the HSBI team (finance / innovation / computer science 
 - [Phase 3 — Simulations under competition rules (W11–W20, Oct 12 – Dec 20) (lectures running: weekend blocks)](#phase-3--simulations-under-competition-rules-w11w20-oct-12--dec-20-lectures-running-weekend-blocks)
 - [Christmas break (W21–W22, Dec 21 – Jan 3) (light load)](#christmas-break-w21w22-dec-21--jan-3-light-load)
 - [Phase 4 — Peak (W23–W26, Jan 4 – Jan 31)](#phase-4--peak-w23w26-jan-4--jan-31)
-- [Phase 5 — Prepared-case sprint (W27–W29, Feb 1 – Feb 17)](#phase-5--prepared-case-sprint-w27w29-feb-1--feb-17)
-- [Competition week (Feb 18–22, 2027) — operating rhythm](#competition-week-feb-1822-2027--operating-rhythm)
-- [Debrief (week of Feb 23)](#debrief-week-of-feb-23)
+- [Phase 5 — Prepared-case sprint (W27–W28, Feb 1 – Feb 14)](#phase-5--prepared-case-sprint-w27w28-feb-1--feb-14)
+- [Competition week (W29, Feb 15–20, 2027) — operating rhythm](#competition-week-w29-feb-1520-2027--operating-rhythm)
+- [Debrief (W30, week of Feb 22)](#debrief-w30-week-of-feb-22)
 
 ---
 
@@ -22,16 +24,16 @@ Dated execution plan for the HSBI team (finance / innovation / computer science 
 
 | Date | Milestone |
 | --- | --- |
-| Aug 2026 (now) | E-mail organizers: register interest, confirm eligibility, get on 2027 mailing list |
+| Aug 2026 | ✓ Done or overdue: e-mail organizers — register interest, confirm eligibility, get on the 2027 mailing list |
 | Sep–Oct 2026 | Organizer answers logged into the fact base; simulation calendar running |
-| Nov 2026 | **Team .pptx template v1 built** (anonymity-proof) |
+| **Oct 31, 2026** | **2027 schedule published** — Feb 15–20, 10-hour third round; calendar re-planned from W14 |
+| Nov 2026 | **Team .pptx template v1 built** (anonymity-proof); 10-hour case protocol briefed (W15) and first run (W17) |
 | Dec 2026 | Template v2 frozen after use in three sims |
 | Late Jan 2027 | Taper begins; prepared-case sprint ready to launch |
-| ~Feb 4, 2027 (TBA) | **Prepared case released** → 14-day sprint (`preparation_plan.md`, Phase 4) |
-| ~Feb 17, 2027 (TBA) | **Prepared-case deck submitted** ≥24 h before the deadline (.pptx by e-mail, "[Team Name] Prepared Case") |
-| Feb 16/17 | Fly Bielefeld → Winnipeg |
-| Feb 18–22 | **ABCC 2027** |
-| Week of Feb 23 | Debrief, thank-yous, handover notes for the next team |
+| ~Mon Feb 1, 2027 (TBA) | **Prepared case released** → 14-day sprint (`preparation_plan.md`, Phase 4) |
+| **by Sat Feb 13, 2027** | **Prepared-case deck submitted** — ≥24 h before the expected Feb 15 deadline *and* before the team travels (.pptx by e-mail, "[Team Name] Prepared Case") |
+| Feb 15–20 | **ABCC 2027** — Mon arrival · Tue prepared · Wed boardroom · Thu excursion · Fri 10-hour prep · Sat 10-hour round, finals, awards dinner |
+| W30, week of Feb 22 | Debrief, thank-yous, handover notes for the next team |
 
 Weekly cadence from October: one 3–5 h weekend block (simulation or workshop) + one 60–90 min midweek debrief/skills session + 30 min individual drills (`04-training/business_math_drills.md` routine). **The exercise layer for every week — midweek drills and homework, ~200 solved items — is scheduled in `04-training/exercises/README.md`; it follows this calendar.**
 
@@ -64,10 +66,10 @@ Every simulation competition-identical: staggered release, timed prep, one lapto
 | W11 | Oct 12–18 | **Traditional #1 (4 h, softened):** re-crack People Corporation 2025 | `01-competition/past-case-pdfs/abcc2025_traditional_people-corporation.pdf` |
 | W12 | Oct 19–25 | Debrief + rubric deep dive; implementation-slide clinic (2.5× criterion) | Sim video, handbook §7 |
 | W13 | Oct 26–Nov 1 | **Boardroom #1 (4 h):** re-crack AROW Global 2025 — one slide + one-page brief + 3-min pitch + 22-min grilling | `01-competition/past-case-pdfs/abcc2025_boardroom_arow-global.pdf` |
-| W14 | Nov 2–8 | **Traditional #2 (3 h, full rules):** re-crack Access Credit Union 2026 (from re-crack brief) | `01-competition/past_cases.md` §3 |
-| W15 | Nov 9–15 | Debrief; finance clinic: unit economics, sensitivity, payback under time pressure | `04-training/business_math_drills.md` |
+| W14 | Nov 2–8 | **Traditional #2 (3 h, full rules):** re-crack Access Credit Union 2026 (from re-crack brief). Kept at 3 h as a **speed run** — the 20 + 10 delivery is identical in the 10-hour round | `01-competition/past_cases.md` §3 |
+| W15 | Nov 9–15 | Debrief; finance clinic: unit economics, sensitivity, payback under time pressure. **10-hour case briefing:** the 10-h clock, research plan, meals and energy, when the deck freezes | `04-training/business_math_drills.md`, `03-team/role_playbooks.md` (10-h column) |
 | W16 | Nov 16–22 | **Boardroom #2 (4 h):** re-crack Independent Jewellers 2024; freeze template v1 | `01-competition/past-case-pdfs/abcc2024_boardroom_independent-jewellers.pdf` |
-| W17 | Nov 23–29 | **Traditional #3 (3 h):** original case — **Sparkasse Ostwestfalen** (graded, external judge if possible) | `05-practice-cases/case1_traditional_sparkasse_youth.md` |
+| W17 | Nov 23–29 | **10-hour #1:** original case — **Sparkasse Ostwestfalen**, run as a 10-hour case (Sat 08:30–18:30 prep, own research expected; Sun morning 20 + 10, graded, external judge if possible) | `05-practice-cases/case1_traditional_sparkasse_youth.md` |
 | W18 | Nov 30–Dec 6 | Debrief + Q&A gauntlet #2 (hostile set) | `04-training/qa_drills.md` |
 | W19 | Dec 7–13 | **Boardroom #3 (4 h):** original case — **Manufaktur Lichtwerk** (graded) | `05-practice-cases/case2_boardroom_premium_brand.md` |
 | W20 | Dec 14–20 | Half-term review: rubric score trends, role rotation check, gap list for January | `02-plan/simulation_log.md` |
@@ -82,29 +84,31 @@ Individual only: 30-min math drills twice, English case-vocabulary list, one cas
 | --- | --- | --- | --- |
 | W23 | Jan 4–10 | **Prepared-round dress rehearsal (14-day mini-sprint start):** original case — **Klangfest Bielefeld**; workstreams per sprint plan | `05-practice-cases/case3_prepared_arts_festival.md` |
 | W24 | Jan 11–17 | Klangfest dress rehearsal 25+15 before external judges; full feedback | Teaching note rubric |
-| W25 | Jan 18–24 | **Competition-week simulation:** traditional (3 h) Saturday + boardroom (4 h) Sunday, back-to-back, external judges, business attire | Re-crack briefs: Jazz Winnipeg, Coal & Canary, StandardAero/WAG as needed |
+| W25 | Jan 18–24 | **Competition-week simulation in the 2027 order:** boardroom (4 h, Coal & Canary 2026) Friday → **10-hour case** Saturday (StandardAero 2024) → Sunday 20 + 10 plus a finals re-run to a fresh panel; external judges, business attire | Re-crack briefs in `01-competition/past_cases.md`: Coal & Canary, StandardAero |
 | W26 | Jan 25–31 | Targeted repairs only; Q&A gauntlet #3; taper begins — no new content after this week | Gap list |
 
-## Phase 5 — Prepared-case sprint (W27–W29, Feb 1 – Feb 17)
+## Phase 5 — Prepared-case sprint (W27–W28, Feb 1 – Feb 14)
 
-- **Case release expected early February (2025 pattern: 14 days before deadline; exact 2027 date TBA).** Run Phase 4 of `preparation_plan.md`: days 1–2 deep read + client research; 3–5 parallel workstreams; 6–7 storyline + coach review (allowed in this round!); 8–10 deck build; 11–12 dress rehearsals; 13 freeze; **submit ≥24 h before the deadline** (.pptx, "[Team Name] Prepared Case", to aspercasecomps@umanitoba.ca — strategist owns submission, coach confirms receipt).
-- Keep one light boardroom drill and one 3-h traditional drill mid-sprint to stay sharp; otherwise protect energy.
+- **Case release expected around Mon Feb 1** (2025 pattern: 14 days before a deadline on arrival day — for 2027 that means release ~Feb 1, deadline ~Mon Feb 15; exact dates TBA). The sprint is therefore **13 days, and it must be finished before the team travels**: plan the submission for **Sat Feb 13**. Run Phase 4 of `preparation_plan.md`: days 1–2 deep read + client research; 3–5 parallel workstreams; 6–7 storyline + coach review (allowed in this round!); 8–10 deck build; 11–12 dress rehearsals; 13 freeze; **submit ≥24 h before the deadline** (.pptx, "[Team Name] Prepared Case", to aspercasecomps@umanitoba.ca — strategist owns submission, coach confirms receipt).
+- Keep one light boardroom drill and one short (3-h) third-round drill mid-sprint to stay sharp; otherwise protect energy — the 10-hour day comes at the end of a long week.
 - Kit check before departure: laptops and chargers, adapters, clicker, backup USB sticks, offline copies of everything including this repository — the list is in `03-team/role_playbooks.md`.
 
-## Competition week (Feb 18–22, 2027) — operating rhythm
+## Competition week (W29, Feb 15–20, 2027) — operating rhythm
 
-| Day | Expected (2025 pattern; confirm with 2027 guide) | Team protocol |
+| Day | Official 2027 schedule (+ 2025 pattern where silent) | Team protocol |
 | --- | --- | --- |
-| Feb 18 | Arrival day; ~17:00 registration + division draw; free evening | Early night; prep-room kit check; prepared-case run-through once, then stop |
-| Feb 19* | Prepared-case presentations + feedback session; evening social | Fixed pre-room ritual; attend feedback, note judge patterns; 15-min debrief max |
-| Feb 20* | Boardroom: staggered 4-h prep + presentations; Festival evening | Tested prep protocol: the six-phase clock in `03-team/role_playbooks.md` (4-h column), rehearsed all autumn; brief finished early — judges read it before we enter |
-| Feb 21* | Traditional: 3-h prep + presentations; finalist announcement; finals; gala | Same protocol, faster; after presenting: immediately pressure-test the deck in case of finals (deck frozen!) |
-| Feb 22 | Departure (or finals day if schedule shifts) | Thank-you notes to organizers before leaving |
+| Mon Feb 15 | Team arrival day; registration + division draw expected (2025: 17:00) | Prepared deck already submitted; early night; prep-room kit check; prepared-case run-through once, then stop |
+| Tue Feb 16 | Opening ceremonies; **prepared-case presentations** (25 + 15) | Fixed pre-room ritual; attend feedback, note judge patterns; 15-min debrief max |
+| Wed Feb 17 | **Boardroom case** — 4-h prep + presentations | Tested prep protocol: the six-phase clock in `03-team/role_playbooks.md` (4-h column), rehearsed all autumn; brief finished early — judges read it before we enter |
+| Thu Feb 18 | **Excursion day** | Rest and social; one 30-min boardroom debrief, then off. Anonymity still applies — judges and volunteers may be on the excursion |
+| Fri Feb 19* | **10-hour case preparation** | The 10-h column in `03-team/role_playbooks.md`: research block, two storyline gates, scheduled meals, deck frozen with a full rehearsal before the end of prep |
+| Sat Feb 20 | **10-hour case presentations** (20 + 10); finals for the top 3 (20 + 15, decks frozen); awards dinner | Morning warm-up, no deck changes; after presenting, immediately pressure-test Q&A in case of finals |
+| Sun Feb 21 | Departure (presumed) | Thank-you notes to organizers before leaving |
 
-\* Round-to-day mapping is **TBA**. The table above assumes the published Feb 18–22 window taken literally (Thu–Mon) with the 2025 round order. All three ABCC-format editions started on a **Wednesday** (2024, 2025, 2026), so 2027 as published would be the first Thursday start — the alternative reading is Wed Feb 17 – Sun Feb 21. The details are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
+\* Printed as "February 22" on the official page — almost certainly a typo for Feb 19 (see `01-competition/facts_and_rules.md`, "The 2027 schedule"). Confirm with the organizers.
 
 Standing rules all week: business professional; **never name HSBI in front of judges**; phones surrendered before prep; the strategist owns the clock; appendix bank feeds Q&A; every debrief ends after 15 minutes; enjoy the social program — judges remember teams they liked.
 
-## Debrief (week of Feb 23)
+## Debrief (W30, week of Feb 22)
 
 Within ten days: team retro (what the rubric rewarded vs. our assumptions), archive all decks + scores in this repo, write a two-page handover for the next HSBI team, send thank-yous, and update `01-competition/handbook.md` with everything 2027 actually did differently.

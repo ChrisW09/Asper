@@ -2,7 +2,7 @@
 
 Companion to the six PowerPoint skeletons in `06-templates/case-type-templates/`. Each chapter tells you how to **recognize** a type in the first ten minutes, the **core question** judges want answered, the **analyses that decide it**, the **storyline** (mirroring the template slide by slide), the **judge attacks** to expect, and the **traps** that sink teams. The generic all-purpose skeleton remains `06-templates/team_template.pptx`; these six are pre-bent toward a case type so the storyline pass takes minutes, not an hour.
 
-The types are induced from the actual ABCC client formula (see `01-competition/past_cases.md`, Part III): the prepared round has been an arts/culture non-profit three years running, the boardroom round an owner-led consumer or family business at a crossroads, the traditional round a large Manitoba-rooted enterprise with an engagement, trust, or talent problem.
+The types are induced from the actual ABCC client formula (see `01-competition/past_cases.md`, Part III): the prepared round has been an arts/culture non-profit three years running, the boardroom round an owner-led consumer or family business at a crossroads, the traditional round a large Manitoba-rooted enterprise with an engagement, trust, or talent problem. In 2027 the traditional round becomes a **10-hour case** (assumed until the organizers confirm — `01-competition/facts_and_rules.md`); classification still happens in the first ten minutes, but the ten hours buy outside research, so expect judges to want the type's deciding analyses sourced rather than assumed.
 
 ## Contents
 
@@ -111,7 +111,7 @@ Once the type is fixed, the **five-minute selector** at the top of `04-training/
 
 ## Type E — Digital Customer Engagement
 
-**Template:** `casetype_E_digital_customer_engagement.pptx` · **ABCC precedent:** Access Credit Union 2026 (traditional); People Corp 2025 shares elements
+**Template:** `casetype_E_digital_customer_engagement.pptx` · **ABCC precedent:** Access Credit Union 2026 (traditional — the round that becomes the 10-hour case in 2027); People Corp 2025 shares elements
 
 **Recognize it:** a large incumbent (bank, credit union, insurer, utility, benefits platform) losing a demographic — usually the young — to digital-native rivals, with funnel or demographic exhibits.
 
@@ -151,4 +151,4 @@ Once the type is fixed, the **five-minute selector** at the top of `04-training/
 
 ## Using the templates
 
-Duplicate the matching template at case release, delete its red briefing slide, and rename per the round's file convention ("[Team Name] <Round> Case"). The skeletons are storyline scaffolds: replace every bracketed placeholder, keep the action-title discipline (titles alone must tell the story), and re-check anonymity — no school name, logo, or city hint anywhere. Recolor navy/ice to the client's palette only if time remains after content is frozen. For the boardroom round, pair whichever type applies with the boardroom summary-slide layout in `06-templates/team_template.pptx` (slide 14) and the one-page brief template in `06-templates/judge_brief_template.docx`. Slide time follows the rubric: whatever the type, the implementation section is load-bearing (2.5×) — when in trouble, cut an analysis slide, never the roadmap.
+Duplicate the matching template at case release, delete its red briefing slide, and rename per the round's file convention ("[Team Name] <Round> Case" — for the 2027 10-hour case, use whatever name the organizers specify; until then "[Team Name] Traditional Case"). The skeletons are storyline scaffolds: replace every bracketed placeholder, keep the action-title discipline (titles alone must tell the story), and re-check anonymity — no school name, logo, or city hint anywhere. Recolor navy/ice to the client's palette only if time remains after content is frozen. For the boardroom round, pair whichever type applies with the boardroom summary-slide layout in `06-templates/team_template.pptx` (slide 14) and the one-page brief template in `06-templates/judge_brief_template.docx`. Slide time follows the rubric: whatever the type, the implementation section is load-bearing (2.5×) — when in trouble, cut an analysis slide, never the roadmap.

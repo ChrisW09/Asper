@@ -2,7 +2,7 @@
 title: "Role Playbooks"
 subtitle: "Four roles, one clock — the W1 roles briefing"
 author: "ABCC 2027 · HSBI · internal briefing"
-date: "Source: 03-team/role_playbooks.md · 2025 Event Guide baseline — re-verify against the 2027 rules package"
+date: "Source: 03-team/role_playbooks.md · 2027 schedule (published 2026-10-31) + 2025 Event Guide baseline"
 ---
 
 # One team, four owners
@@ -12,12 +12,13 @@ date: "Source: 03-team/role_playbooks.md · 2025 Event Guide baseline — re-ver
 Roles are assigned today. Three things to walk out with:
 
 - **The four roles** — and the artifacts each one owns, round by round
-- **The shared clock** — six phases that run identically in the 3-hour and
-  4-hour preps, so hand-offs are predictable
+- **The shared clock** — six phases that run identically in the 3-hour,
+  4-hour and **10-hour** preps, so hand-offs are predictable
 - **The GenAI SOP** — one designated operator, narrow sanctioned tasks, and
   the hard rule: **no unverified number reaches a slide**
 
-Facts follow the 2025 Event Guide baseline — re-verify when the 2027 rules land.
+2027 runs **Mon Feb 15 – Sat Feb 20**; the third round is a **10-hour case**
+(working assumption — confirm with the organizers).
 
 ::: notes
 Source document: 03-team/role_playbooks.md. Rule base:
@@ -31,27 +32,27 @@ Present this right after the charter signing (03-team/team_charter.md).
 | --- | --- | --- |
 | **Prepared** | 25 % | 25 + 15 · .pptx by e-mail · late = bottom of pool |
 | **Boardroom** | 30 % | 4-h prep · protected 3 min · 22-min discussion |
-| **Traditional** | 45 % | 3-h prep · 20 + 10 — **where the competition is won** |
-| **Final** | top 3 | frozen decks · 20 + 15 · ties break on traditional |
+| **10-hour case** | 45 % | Fri prep · Sat 20 + 10 — **where the competition is won** |
+| **Final** | top 3 | frozen decks · 20 + 15 · ties break on round 3 |
 
 Every member speaks in every round. Judges get our **one-page black-and-white
 brief** before the boardroom discussion.
 
 # The shared team clock
 
-## Six phases, both timed rounds
+## Six phases, every timed round
 
 The clock starts the second the case is handed over — **late arrival earns no
 extra time**.
 
-| Phase | 3 h | 4 h | Gate output |
-| --- | --- | --- | --- |
-| P1 Read & frame | 0:00–0:20 | 0:00–0:25 | All read · facts logged |
-| P2 Align & decide | 0:20–0:40 | 0:25–0:55 | One-sentence rec locked |
-| P3 Analysis sprint | 0:40–1:40 | 0:55–2:15 | Model · evidence · concept |
-| P4 Build | 1:40–2:25 | 2:15–3:15 | Deck (+ brief) in template |
-| P5 Verify & rehearse | 2:25–2:50 | 3:15–3:45 | Audit · Q&A grid · run-through |
-| P6 Lockdown & USB | 2:50–3:00 | 3:45–4:00 | Files named · saved · verified |
+| Phase | 3 h | 4 h | 10 h | Gate output |
+| --- | --- | --- | --- | --- |
+| P1 Read & frame | 0:00–0:20 | 0:00–0:25 | 0:00–0:45 | All read · facts logged |
+| P2 Align & decide | 0:20–0:40 | 0:25–0:55 | 0:45–1:30 | Rec locked (10 h: provisional) |
+| P3 Analysis | 0:40–1:40 | 0:55–2:15 | 1:30–6:00 | Model · evidence · concept |
+| P4 Build | 1:40–2:25 | 2:15–3:15 | 6:00–8:00 | Deck (+ brief) in template |
+| P5 Verify & rehearse | 2:25–2:50 | 3:15–3:45 | 8:00–9:30 | Audit · Q&A grid · run-through |
+| P6 Lockdown & USB | 2:50–3:00 | 3:45–4:00 | 9:30–9:45 | Files named · saved · verified |
 
 ## Two hard gates
 
@@ -61,6 +62,48 @@ extra time**.
 
 The prepared case has no room clock, but the same ownership applies: every
 artifact below has exactly one owner in that round too.
+
+# The 10-hour day
+
+## Ten hours, two gates, one lunch
+
+| Clock | Block |
+| --- | --- |
+| 0:00–1:30 | Read & frame · provisional rec · **written research plan** |
+| 1:30–3:30 | Research & first analysis — GenAI lane, every figure verified |
+| 3:30 | **Gate A** — direction confirmed, paper storyboard |
+| 3:50–4:20 | **Lunch** — all four, away from screens |
+| 4:20–6:00 | Deep analysis — full model, implementation plan, KPIs |
+| 6:00 | **Gate B** — storyline frozen, every action title written |
+| 6:00–8:00 | Build — rolling merge; break with food ~7:00 |
+| 8:30 | **Content and number freeze** |
+| 8:30–9:45 | Full 20 + 10 rehearsal · AI Q&A routine · USB |
+
+## What changes in ten hours
+
+- **The bar rises.** Judges expect real research, a tested model and a
+  first-90-days plan — not a slower three-hour deck
+- **The risk changes.** From running out of time to running out of
+  energy: lunch is non-negotiable; the CS lead calls the breaks
+- **Gate A is the one free re-decision.** After it, reopening costs 10 minutes
+- **No deck work overnight** — dinner, one read of the Q&A grid, sleep
+- **The 3-hour clock stays drilled** — it is the fallback if the organizers
+  confirm a shorter round
+
+::: notes
+Source: 03-team/role_playbooks.md, "The 10-hour day". The 10-hour format is
+the 2027 schedule's third round; that it replaces the 3-hour traditional case
+is a working assumption (facts_and_rules.md, open question 1).
+:::
+
+## The 10-hour day by role
+
+| Role | What the extra seven hours buy |
+| --- | --- |
+| **Finance** | Full model by 6:00 — scenarios, sensitivity, funding; deep appendix bank |
+| **Innovation** | Confirm-or-kill evidence for the idea by Gate A; pilot design |
+| **CS & analytics** | Runs the research plan; source log; calls the breaks |
+| **Strategist** | Owns the research plan, both gates and the 8:30 freeze |
 
 # 1 · Finance lead
 
@@ -73,12 +116,12 @@ reaches a slide unless this role produced or verified it.
 
 - **Prepared:** full model workbook · impact exhibit · costed budget · sensitivity
 - **Boardroom:** the three headline figures · brief's financial lines · appendix
-- **Traditional:** impact + budget slides · assumptions register
+- **Round 3 (10 h):** impact + budget slides · assumptions register
 - **Final:** nothing new — total command of every number for Q&A
 
 ## Finance — minute-map
 
-| Phase | Traditional (3 h) | Boardroom adds |
+| Phase | 3 h (speed runs) | Boardroom adds |
 | --- | --- | --- |
 | P1 | Exhibits first; every figure to the register | +5 min on baseline economics |
 | P2 | 2-min "size of the prize" per option | Flag what is costable in 4 h |
@@ -112,12 +155,12 @@ innovation).
 
 - **Prepared:** option tree with kill log · concept slides · pilot design
 - **Boardroom:** the rec's core wording on the summary slide · counterargument sheet
-- **Traditional:** concept + "why this wins" · alternatives-considered slide
+- **Round 3 (10 h):** concept + "why this wins" · alternatives-considered slide
 - **Final:** sharpened articulation · every "why not X?" rehearsed
 
 ## Innovation — minute-map
 
-| Phase | Traditional (3 h) | Boardroom adds |
+| Phase | 3 h (speed runs) | Boardroom adds |
 | --- | --- | --- |
 | P1 | Read for customer/market signals; 5–7 option stubs | What did the client try before? |
 | P2 | 30-second pitches; run the kill; lock direction | Draft the one-sentence rec |
@@ -148,12 +191,12 @@ the fixed pickup time — so nobody else thinks about mechanics.
 
 - **Prepared:** research pack + source log · master deck · the submission e-mail
 - **Boardroom:** numbered **appendix map** — any judge question answered in seconds
-- **Traditional:** benchmark table with sources · exhibits · USB save
+- **Round 3 (10 h):** benchmark table with sources · exhibits · USB save
 - **Final:** printed Q&A grid and appendix map (deck edits impossible)
 
 ## CS & analytics — minute-map
 
-| Phase | Traditional (3 h) | Boardroom adds |
+| Phase | 3 h (speed runs) | Boardroom adds |
 | --- | --- | --- |
 | P1 | Workspace up: template, timer; exhibit data to sheet | Same |
 | P2 | Rapid benchmark scan; open the source log | Same |
@@ -185,12 +228,12 @@ category). **Timekeeper during prep, marshal during Q&A.**
   speaker allocation (every member must speak)
 - **Boardroom:** the one-page brief (drafting owner) · protected-3-minute
   script · discussion battle plan
-- **Traditional:** framing · storyline · KPI/risk slide · timing plan 20 + 10
+- **Round 3 (10 h):** framing · storyline · KPI/risk slide · timing plan 20 + 10
 - **Final:** Q&A grid v2 · timing for 20 + 15, fresh judge panel
 
 ## Strategist — minute-map
 
-| Phase | Traditional (3 h) | Boardroom adds |
+| Phase | 3 h (speed runs) | Boardroom adds |
 | --- | --- | --- |
 | P1 | Read for the decision-maker's actual question | Same |
 | P2 | Chair the vote; lock the rec; assign slides; post the clock | Sketch the brief skeleton |

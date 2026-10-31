@@ -32,7 +32,8 @@ names the type.
 Where the types come from: the prepared round has been an arts/culture
 non-profit three years running · the boardroom round an owner-led consumer or
 family business at a crossroads · the traditional round a large Manitoba-rooted
-enterprise with an engagement, trust or talent problem.
+enterprise with an engagement, trust or talent problem — **in 2027 the
+10-hour case**, so expect judges to want the deciding analyses sourced.
 
 ## Two rules for hybrids
 
@@ -216,7 +217,7 @@ freeze. State the maximum loss if gate 1 kills the idea.
 
 ## Recognise it
 
-*Precedent: Access Credit Union 2026 (traditional); People Corp 2025 shares elements.*
+*Precedent: Access Credit Union 2026 (traditional — the 10-hour round in 2027); People Corp 2025 shares elements.*
 
 A large incumbent — bank, credit union, insurer, utility, benefits platform —
 losing a demographic, usually the young, to digital-native rivals, with funnel

@@ -2,7 +2,7 @@
 
 **Core skills trio, part 2 of 3 · Defence: how the argument survives questioning.** The other two: [`presentation_and_storyline_guide.md`](presentation_and_storyline_guide.md) · [`business_math_drills.md`](business_math_drills.md). Folder overview: [`README.md`](README.md).
 
-Q&A is scored in every Asper round — 15 minutes after the Prepared case, 10 minutes after the Traditional case, and the 22-minute Boardroom discussion, which is effectively all Q&A. Coaches across competitions describe Q&A as the tiebreaker between closely ranked teams. Asper's judges are practitioners: they probe assumptions, feasibility, and ownership. Our standard: every answer inside 30 seconds, answer first, with a number.
+Q&A is scored in every Asper round — 15 minutes after the Prepared case, 10 minutes after the Traditional case (in 2027 the **10-hour case** — same 10 minutes, but judges who know you had ten hours will expect a sourced answer and the right appendix slide every time), and the 22-minute Boardroom discussion, which is effectively all Q&A. Coaches across competitions describe Q&A as the tiebreaker between closely ranked teams. Asper's judges are practitioners: they probe assumptions, feasibility, and ownership. Our standard: every answer inside 30 seconds, answer first, with a number.
 
 ---
 

@@ -25,7 +25,7 @@ with a resourced roadmap.**
 | --- | --- | --- | --- |
 | Prepared | ~2 weeks | 25 min + 15 min Q&A | 25 % |
 | Boardroom | 4 h on site | 3-min pitch + 22-min discussion | 30 % |
-| Traditional | 3 h on site | 20 min + 10 min Q&A | 45 % |
+| Traditional | 3 h on site → **10 h in 2027** | 20 min + 10 min Q&A | 45 % |
 
 # 1 · Action titles
 
@@ -134,6 +134,34 @@ Time split: ~15 % reading · 25 % structured debate · 50 % parallel build ·
   brilliant deck delivered raw
 - Boardroom (4 h): stretch the build block, add a Q&A-only rehearsal
 - Prepared: same skeleton, then iterate with the coach across two weeks
+
+## 2027: the 10-hour case
+
+Same 20 + 10 delivery, same 45 % weight (assumed until confirmed) — **the
+3-hour workflow stays the core**. What judges will expect from ten hours:
+
+- **Primary-style research** — sourced facts, not assumptions
+- **Fuller financials** — three scenarios, sensitivity, payback/NPV, funding
+- **A sharper implementation plan** — owners, months, budget by phase, KPIs,
+  a stop/go gate
+- **An appendix bank** — 15–25 numbered slides, one per predicted question
+
+More proof and more rehearsal — **not more main slides.**
+
+## The 10-hour clock
+
+| Clock | What happens |
+| --- | --- |
+| 0:00–1:30 | Read and frame; provisional call + written research plan |
+| 1:30–3:30 | Research and first analysis, 30 min per thread |
+| **3:30** | **GATE A — direction confirmed**; lunch away from screens |
+| 4:20–6:00 | Deep analysis: model, sensitivities, implementation, KPIs |
+| **6:00** | **GATE B — storyline frozen**; ghost deck in template |
+| 6:00–8:30 | Build + appendix bank; number audit; **freeze at 8:30** |
+| 8:30–10:00 | Timed rehearsal, Q&A routine, lockdown, buffer |
+
+Authoritative clock: `03-team/role_playbooks.md`, "The 10-hour day".
+First run: W17 (Sparkasse) · again in the W25 competition-week simulation.
 
 # 4 · The boardroom pitch
 

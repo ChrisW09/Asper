@@ -16,7 +16,8 @@ PDFs are mirrored in [`../01-competition/past-case-pdfs/`](../01-competition/pas
 
 **Recommended order:** Manitoba Museum 2025 (prepared) → People Corporation 2025 (traditional) → AROW Global
 2025 (boardroom) → Independent Jewellers 2024 (boardroom) → Access CU / Jazz Winnipeg / Coal & Canary 2026
-from the re-crack briefs → the Manitoba Hydro 2023 pair for framing drills.
+from the re-crack briefs → the Manitoba Hydro 2023 pair for framing drills. **StandardAero 2024 (traditional)
+is held back for the W25 competition-week simulation**, where it runs as a 10-hour case.
 
 Seven of the ten planned simulations run on these.
 
@@ -27,7 +28,7 @@ Written for this team in the exact format of each round, each with exhibits, a f
 
 | File | Round format mirrored | Client | Exhibits | Runs in |
 | --- | --- | --- | --- | --- |
-| [`case1_traditional_sparkasse_youth.md`](case1_traditional_sparkasse_youth.md) | Traditional, 3 h, 20 + 10, 45 % | Sparkasse Ostwestfalen — winning back the under-30s | 8 | W17 |
+| [`case1_traditional_sparkasse_youth.md`](case1_traditional_sparkasse_youth.md) | Traditional, 20 + 10, 45 % — written for 3 h, **run as a 10-hour case at W17** (teaching note §10) | Sparkasse Ostwestfalen — winning back the under-30s | 8 | W17 |
 | [`case2_boardroom_premium_brand.md`](case2_boardroom_premium_brand.md) | Boardroom, 4 h, 3-min pitch + 22-min discussion, 30 % | Manufaktur Lichtwerk — premium candles going luxury | 6 | W19 |
 | [`case3_prepared_arts_festival.md`](case3_prepared_arts_festival.md) | Prepared, 14 days, 25 + 15, 25 % | Klangfest Bielefeld — one radical operational idea | 8 | W23–24 |
 
@@ -73,6 +74,12 @@ non-profit with a sustainability problem · **boardroom** = owner-led local cons
 growth or positioning crossroads · **traditional** = large Manitoba-rooted enterprise with a trust, talent or
 digital-engagement challenge — always with a Manitoba anchor. Scan Winnipeg's arts scene and prominent local
 firms before February.
+
+**2027 twist:** the third round becomes a **10-hour case** (prep Fri Feb 19, presentations Sat Feb 20 —
+assumed to replace the 3-hour traditional until the organizers confirm; see
+[`../01-competition/facts_and_rules.md`](../01-competition/facts_and_rules.md)). Expect the same client type
+but a judge bar set for ten hours: sourced outside research, fuller financials, a month-level
+implementation plan. Both the W17 (Sparkasse) and W25 (StandardAero) simulations train that format.
 
 > **Case data in the original cases is fictional** and labelled as such; the companies are invented.
 > Teaching-note figures are calibration aids, not real-company facts.

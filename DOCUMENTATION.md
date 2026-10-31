@@ -1,10 +1,10 @@
 # Repository Documentation — ABCC 2027 Preparation (HSBI)
 
-**Purpose.** Everything the HSBI team — four Masters students (finance · innovation · computer science · general business administration) plus Prof. Dr. Christoph Weisser as coach and faculty advisor — needs to prepare for and compete at the **Asper Business Case Competition 2027**: fifth annual edition, **February 18–22, 2027**, I. H. Asper School of Business, University of Manitoba, Winnipeg.
+**Purpose.** Everything the HSBI team — four Masters students (finance · innovation · computer science · general business administration) plus Prof. Dr. Christoph Weisser as coach and faculty advisor — needs to prepare for and compete at the **Asper Business Case Competition 2027**: fifth annual edition, **Monday February 15 – Saturday February 20, 2027**, I. H. Asper School of Business, University of Manitoba, Winnipeg.
 
-**Status.** Documentation verified and updated **2026-08-05**. Calendar position: **Week 1 (Aug 3–9, 2026)** — kick-off week. 29 weeks to the competition.
+**Status.** Material updated **2026-10-31**, the day the official 2027 schedule was found published (Feb 15–20, third round a 10-hour case — `01-competition/facts_and_rules.md`, "What 2027 changed"). Calendar position: **Week 13 (Oct 26 – Nov 1, 2026)** — Phase 3, simulations under competition rules; competition week is W29. The current week, its checklist and the next three weeks are at the top of [`README.md`](README.md).
 
-**Provenance.** All competition facts were researched and validated (July–August 2026) against the official Asper website, the official **ABCC 2025 Event Guide** (the fullest public rulebook), the official past-case PDFs, and UM Today press coverage. The materials then went through a multi-agent adversarial review: rule claims re-checked against the fact base, all exhibit arithmetic recomputed, all official URLs link-checked. Every document flags where 2027 specifics are still TBA.
+**Provenance.** All competition facts were researched and validated (July–August 2026, the 2027 page re-checked 2026-10-31) against the official Asper website, the official **ABCC 2025 Event Guide** (the fullest public rulebook), the official past-case PDFs, and UM Today press coverage. The materials then went through a multi-agent adversarial review: rule claims re-checked against the fact base, all exhibit arithmetic recomputed, all official URLs link-checked. Every document flags where 2027 specifics are still TBA.
 
 **Scope of this file.** This is the reference map of the repository: what every file is, when to use it, how the material is maintained, and what has been verified against what. [`README.md`](README.md) is the entry point — read it first if you are new. For rule questions, go to `01-competition/facts_and_rules.md`, the single source of truth.
 
@@ -35,9 +35,9 @@ Eight numbered folders follow the lifecycle of the project — *understand the c
 ├── CHANGELOG.md               What changed in each version
 ├── .gitignore                 LaTeX auxiliaries, Office lock files, .DS_Store
 ├── .markdownlint.json         Markdown style rules for this repository
-├── 01-competition/            What the ABCC is: rules, history, judging, past cases + six official PDFs
+├── 01-competition/            What the ABCC is: rules, history, judging, past cases + all eleven official PDFs
 ├── 02-plan/                   When we do what: concept, dated calendar, results log
-├── 03-team/                   Who we are: charter, role playbooks (incl. GenAI SOP), coach rules
+├── 03-team/                   Who we are: charter, role playbooks (3/4/10-h clocks, GenAI SOP), coach rules
 ├── 04-training/               Skill building: presenting, Q&A, math, English, frameworks, exercises/
 ├── 05-practice-cases/         What we practice on: 3 full cases, 12 mini-cases, model answers
 ├── 06-templates/              What we build with: slide skeletons, playbook, toolkit, judge brief
@@ -82,9 +82,9 @@ Paths are relative to the repository root. Counts were re-verified on 2026-08-04
 | `01-competition/handbook.md` | Narrative handbook in 13 sections: what the ABCC is, history and positioning, eligibility and entry, event flow, **the three rounds in forensic detail**, scoring and tie-breaks, the rubric, hand-ins, conduct and device rules, social program, a day-in-the-life of the traditional Saturday, and the **§12 TBA tracker** | First read for every team member (W1) |
 | `01-competition/judging_scoresheet.md` | Printable replica of the official rubric (7 categories, ×2.5 … ×1.0, 105 points) with behavioural anchors, a per-round timing checklist, a 15-minute feedback template, and the **briefing for an external judge** (recruiting ask + the six points to cover in 15 minutes) | Print one per judge per team before every simulation |
 | `01-competition/past_cases.md` | Practice dossier in three parts: the five editions, **ten client profiles each with a re-crack brief**, and patterns to exploit for 2027 | Choosing simulation material; guessing the 2027 clients in February |
-| `01-competition/past-case-pdfs/` | **Six official case PDFs** (2023 prepared + traditional, 2024 boardroom, 2025 prepared/boardroom/traditional), 6.2 MB. © University of Manitoba — confidential, internal use only | Re-crack simulations; the workbook exercises are anchored in these files |
+| `01-competition/past-case-pdfs/` | **All eleven official case PDFs** (2023 prepared + traditional, 2024 ×3, 2025 ×3, 2026 ×3), 8.9 MB. © University of Manitoba — confidential, internal use only | Re-crack simulations; the workbook exercises are anchored in these files |
 
-The other five official cases (2024 cases 1 and 3, all three 2026 cases) are **not mirrored** — download them from the URLs in `facts_and_rules.md` before the sessions that need them (W14, W25).
+The five 2024/2026 cases that used to be URL-only (2024 cases 1 and 3, all three 2026 cases) were mirrored on 2026-10-31; `facts_and_rules.md` keeps every official URL as provenance.
 
 ### 02-plan — when we do what
 
@@ -102,7 +102,7 @@ The other five official cases (2024 cases 1 and 3, all three 2026 cases) are **n
 | `03-team/role_playbooks.md` | The shared team clock, then per-role missions, artifacts, prep minute-maps (**3-h and 4-h columns**), drills and failure modes for finance / innovation / CS & analytics / general-business strategist; the **GenAI standard operating procedure**; the one-page prep-room kit checklist | Role onboarding; before every timed simulation and every real round |
 | `03-team/coach_and_ai_rules.md` | One-pager answering the two questions that decide coach behaviour: may the team use AI in competition (**yes, explicitly**), and what may the coach do and not do, round by round | Coach reference; brief the whole team in W1 |
 
-The four roles all run against one shared clock; the **CS & analytics lead is also the designated GenAI operator**.
+The four roles all run against one shared clock — in **3-, 4- and 10-hour** versions; the **CS & analytics lead is also the designated GenAI operator**.
 
 ### 04-training — skills
 
@@ -156,8 +156,8 @@ Every case-type deck opens with a **red coach-briefing slide — delete it befor
 
 | File | What it is |
 | --- | --- |
-| `07-logistics/registration_email_draft.md` | Ready-to-send e-mail to `aspercasecomps@umanitoba.ca` covering eligibility, dates, fees, formalities, and all four open questions in one exchange |
-| `07-logistics/competition_day_runbook.md` | Hour-by-hour sheets for all five days on the 2025 baseline, TBA-hedged for the 2027 weekday shift, plus standing rules and contingency plans |
+| `07-logistics/registration_email_draft.md` | Ready-to-send e-mail to `aspercasecomps@umanitoba.ca` covering eligibility, the 10-hour case, dates, fees, formalities and rule deltas in one exchange — plus a short **follow-up** for when the first e-mail has already gone out |
+| `07-logistics/competition_day_runbook.md` | Hour-by-hour sheets for the six days of Feb 15–20, 2027 (dates from the official schedule, clock times from the 2025 pattern), including the excursion day and the 10-hour prep day, plus standing rules and contingency plans |
 
 ### 08-briefing-slides — the kick-off deck
 
@@ -194,7 +194,7 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 
 ## 4. Core workflows
 
-**Kick-off (W1 — the current week).** Present `08-briefing-slides/abcc_overview.pdf` → everyone reads `01-competition/handbook.md` → sign `03-team/team_charter.md` → assign roles per `03-team/role_playbooks.md` → brief the team on `03-team/coach_and_ai_rules.md` → send `07-logistics/registration_email_draft.md`.
+**Kick-off (W1, done Aug 2026).** Present `08-briefing-slides/abcc_overview.pdf` → everyone reads `01-competition/handbook.md` → sign `03-team/team_charter.md` → assign roles per `03-team/role_playbooks.md` → brief the team on `03-team/coach_and_ai_rules.md` → send `07-logistics/registration_email_draft.md`.
 
 **A normal training week (Phases 2–3).** One 3–5 h weekend block per `02-plan/week_by_week_plan.md` (simulation or workshop) → one 60–90 min midweek debrief plus a skill session from `04-training/`, opened by a mini-case → 30 min of individual drills (math routine, flashcards) on a third day. The per-week exercise layer is in `04-training/exercises/README.md`. **If a week collapses, the priority order is simulation > mini-case > workbook item > individual drills** — protect the simulations above all.
 
@@ -202,18 +202,21 @@ Exercise volume: ≈200 solved items — 25 quiz questions, ≈85 workbook items
 
 **When a case lands (competition or graded simulation).** Classify the type within ten minutes using `06-templates/case_type_playbook.md` → duplicate the matching skeleton from `06-templates/case-type-templates/`, **delete its red briefing slide**, rename to the round's file convention → storyline pass, **titles first** → parallel build along the role minute-maps in `03-team/role_playbooks.md` → every number through `06-templates/case_financial_toolkit.xlsx` → for boardroom rounds fill `06-templates/judge_brief_template.docx` with wording that mirrors the summary slide.
 
-**Prepared-case sprint (on release, ~2 weeks).** Follow Phase 4 of `02-plan/preparation_plan.md` day by day: deep read and client research → parallel workstreams → storyline plus **coach review, which is allowed in this round** → deck build → dress rehearsals → freeze. Submit the `.pptx` by e-mail **at least 24 h before the deadline**, named `[Team Name] Prepared Case`; the strategist owns submission, the coach confirms receipt.
+**Prepared-case sprint (on release ~Mon Feb 1; 13 days).** Follow Phase 4 of `02-plan/preparation_plan.md` day by day: deep read and client research → parallel workstreams → storyline plus **coach review, which is allowed in this round** → deck build → dress rehearsals → freeze. Submit the `.pptx` by e-mail on **Sat Feb 13** — before the team travels and ≥24 h before the expected Feb 15 deadline — named `[Team Name] Prepared Case`; the strategist owns submission, the coach confirms receipt.
 
-**Competition week.** `07-logistics/competition_day_runbook.md` is the daily script; the standing rules at its top apply all week. Note the open weekday question: the published window **Feb 18–22, 2027 falls Thursday–Monday**, while all three ABCC-format editions started on a Wednesday, so 2027 would be the first Thursday start since the format change. The runbook and the week plan map the 2025 round order onto the published dates and mark every weekday *expected*; the analysis and the booking consequence are in `01-competition/facts_and_rules.md`, "The 2027 weekday question".
+**Running a 10-hour simulation (from W17).** The same competition-identical conditions over a full day: release at 08:30, the **10-h column** of the shared clock in `03-team/role_playbooks.md` (research block, two storyline gates, scheduled meals, deck frozen and rehearsed before the end), hand-in at 18:30, presentation (20 + 10) the next morning before judges who have read nothing in advance. Coach silent from release to presentation. The extra asks and the 10-hour grading standard for the W17 case are in its teaching note (`05-practice-cases/case1_traditional_sparkasse_youth.md`).
 
-**After.** Debrief in the week of Feb 23: retro against the rubric, archive all decks and scores, write a two-page handover for the next HSBI team, send thank-yous, and update `01-competition/handbook.md` with everything 2027 actually did differently.
+**Competition week.** `07-logistics/competition_day_runbook.md` is the daily script; the standing rules at its top apply all week. The days follow the official 2027 schedule: Mon Feb 15 arrival, Tue opening + prepared, Wed boardroom, Thu excursion, Fri 10-hour prep, Sat 10-hour presentations, finals and awards dinner. Clock times remain the 2025 pattern until the organizers publish an agenda.
+
+**After.** Debrief in the week of Feb 22 (W30): retro against the rubric, archive all decks and scores, write a two-page handover for the next HSBI team, send thank-yous, and update `01-competition/handbook.md` with everything 2027 actually did differently.
 
 ---
 
 ## 5. Maintenance rules
 
-- **Rules first.** Whenever the organizers publish 2027 information (Competition Guide, agenda, deadlines, fees), update `01-competition/facts_and_rules.md` **first**, then sweep the repository for affected statements. The **TBA tracker in `01-competition/handbook.md` §12** lists exactly what to confirm: the day-by-day schedule and which date carries which round, the case sponsors (watch the sponsor page and @Asper_BCC from autumn — case writing starts around October), the prepared-case release date and deck deadline, the 2027 field, prize amounts, the Round 1 venue, and any rule deltas versus 2025.
-- **Propagation order** after a rules change: `01-competition/facts_and_rules.md` → `01-competition/handbook.md` → `01-competition/judging_scoresheet.md` (if the rubric moved) → `02-plan/week_by_week_plan.md` (if dates moved) → `07-logistics/competition_day_runbook.md` → `08-briefing-slides/abcc_overview.tex` (rebuild the PDF twice) → `04-training/exercises/format_quiz.md` (the answer key quotes the rules) → `README.md` and this file.
+- **Rules first.** Whenever the organizers publish 2027 information (Competition Guide, agenda, deadlines, fees), update `01-competition/facts_and_rules.md` **first** — its "What 2027 changed" table is where every delta against the 2025 baseline is recorded — then sweep the repository for affected statements. The 2026-10-31 schedule update is the worked example: facts → calendar → runbook → everything else, then rebuild. The **TBA tracker in `01-competition/handbook.md` §12** lists exactly what to confirm: the day-by-day schedule and which date carries which round, the case sponsors (watch the sponsor page and @Asper_BCC from autumn — case writing starts around October), the prepared-case release date and deck deadline, the 2027 field, prize amounts, the Round 1 venue, and any rule deltas versus 2025.
+- **Propagation order** after a rules change: `01-competition/facts_and_rules.md` → `01-competition/handbook.md` → `01-competition/judging_scoresheet.md` (if the rubric moved) → `02-plan/week_by_week_plan.md` (if dates moved) → `03-team/role_playbooks.md` (if a prep length moved — the phase clocks) → `07-logistics/competition_day_runbook.md` → `08-briefing-slides/abcc_overview.tex` (rebuild the PDF twice) → `04-training/exercises/format_quiz.md` (the answer key quotes the rules) → `README.md` and this file.
+- **Keep the README's "Where we are right now" current.** It is the one place that names the current week; update it at the start of every week (week number, this week's checklist, the next three weeks). Nothing else in the repository should say "now".
 - **The calendar is authoritative.** Date conflicts resolve in favour of `02-plan/week_by_week_plan.md`. Its phase numbers are calendar phases and deliberately differ from the concept phases in `preparation_plan.md`.
 - **Keep the decks in step with their documents.** The eleven slide sources in `tools/slides/` are condensed by hand and do not track their documents automatically — when one of the eleven deck documents changes, re-read its slide source against it, then rebuild (`tools/build_decks.py`, then `tools/check_decks.py`).
 - **Log every simulation the same day** in `02-plan/simulation_log.md`, with rubric scores and one carried-forward goal per person.
@@ -242,7 +245,8 @@ Full detail in [`CHANGELOG.md`](CHANGELOG.md). Work packages, not semantic versi
 | v10 | Material and structure improvement round: a `README.md` index per folder · tables of contents in 16 long documents · one heading convention across the three practice cases · repo-wide markdown normalization plus `.markdownlint.json` · the 2027 weekday question researched and propagated · `frameworks.md` rebuilt around a case-type selector · external-judge briefing added · Q&A-length conflict resolved · `index.md` merged into the practice-cases README |
 | v11 | Second content audit: every remaining answer key and teaching note recomputed (model answers, case-1 economics, workbook hooks) · weekday analysis extended to all five editions (three Wednesday starts in a row) and repropagated · boardroom file name added to the compliance card · verification log extended |
 | v12 | Publishing pass: 37 PDFs and the first four decks built beside their sources, `tools/` build pipeline added, travel scope removed |
-| **v13** | **Session decks:** seven new PowerPoint decks so every coached session is delivered from slides — scoring workshop, season briefing, roles briefing, Q&A / math / English workshops, pre-departure briefing — each a condensed rewrite beside its PDF handout; build pipeline extended to eleven decks |
+| v13 | Session decks: seven new PowerPoint decks so every coached session is delivered from slides — scoring workshop, season briefing, roles briefing, Q&A / math / English workshops, pre-departure briefing — each a condensed rewrite beside its PDF handout; build pipeline extended to eleven decks |
+| **v14** | **2027 schedule update and restructure:** the official 2027 schedule (Feb 15–20, a 10-hour third round) propagated through every document and deck · calendar re-planned from W14 (10-hour briefing W15, first 10-hour simulation W17, W25 in the 2027 order, sprint W27–W28) · 10-hour clock added to the role playbooks · runbook rewritten for six days · the five remaining official case PDFs mirrored · README reorganized around the current week, duplicated sections moved here · independent consistency audit of every document |
 
 **Git.** `main` carries the current material. The **`archive-history`** branch holds the eight commits of the formerly nested repository (v1–v8) — kept for provenance, never merged. To publish privately:
 
@@ -302,11 +306,15 @@ Bare filenames inside the inventory tables of this file are section-scoped, not 
 
 **Content counts** (all confirmed against the files): 87 flashcard rows · 40 math drills · 60 Q&A questions in five banks · 25 quiz questions in four blocks · mini-cases numbered 1–6 and 7–12 · exhibits 8 / 6 / 8 in cases 1 / 2 / 3 · `team_template.pptx` 14 slides · case-type decks 13 / 12 / 11 / 11 / 12 / 12 slides (A–F) · briefing deck 20 frames + 4 section pages = 24 PDF pages · 41 markdown files, ≈81,000 words · eleven official cases across ten clients.
 
-**Dates.** February 18–22, 2027 is **Thursday–Monday**. All three ABCC-format editions started on a Wednesday (2024: Feb 21–24; 2025: Feb 19–23; 2026: Feb 18–21 with Sunday departure), so 2027 as published would be the first Thursday start since the format change. This is recorded as an open question in `facts_and_rules.md` and the handbook's §12 tracker, and flagged in the calendar, the runbook, and `README.md`. W1 of the plan is Aug 3–9, 2026.
+**Dates.** Re-checked against the official 2027 page on 2026-10-31: the schedule runs **Mon Feb 15 – Sat Feb 20, 2027** (weekdays computed, not printed), with the 10-hour prep printed as "February 22" and assumed to be Feb 19. That resolves the old weekday question (the earlier "Feb 18–22" window fell Thursday–Monday, against three Wednesday starts in a row in 2024–2026); the history is kept in `facts_and_rules.md`. W1 of the plan is Aug 3–9, 2026; the competition is W29.
 
 **Rebuilt.** `08-briefing-slides/abcc_overview.pdf` is rebuilt from source with pdflatex (twice, for navigation) whenever the deck changes; currently 24 pages.
 
-**Not verified here.** Nothing on the official Asper website was re-fetched during these passes; all competition facts still carry their July–August 2026 validation date. Re-validate when the 2027 Competition Guide is published.
+**Re-verified 2026-10-31 (v14).** The official 2027 page re-fetched: schedule and "Case Instructions" read verbatim; round formats, card timings, 25/30/45 weights, final-round mechanics, tie-break cascade and contacts unchanged. The 2025 Event Guide URL still resolves to the guide ("February 19 - 22, 2025 · Competition Guide"). All five previously URL-only case PDFs downloaded, checked as the right documents (title page and author line) and mirrored. The 2027 sponsorship package refused automated download (HTTP 403) and is unread. No 2026 or 2027 event guide is published; the rubric, GenAI clause, anonymity rule and division draw therefore still rest on the 2025 guide.
+
+**Independent audit (v14).** After the update, every markdown document and slide source was checked by a second model (Claude Fable, run separately from the editing agents) against the new fact base and calendar for stale dates, the obsolete weekday framing, 3-hour assumptions about the third round, and contradictions between documents; its findings were fixed or consciously left (see `CHANGELOG.md`, v14).
+
+**Not verified here.** No 2027 Competition Guide exists yet; re-validate the rubric and the GenAI clause when it is published.
 
 ---
 
@@ -325,12 +333,12 @@ Bare filenames inside the inventory tables of this file are section-scoped, not 
 
 ## 9. Known limitations and open questions
 
-- **The 2027 agenda, deadlines, fees, and field are TBA.** Everything schedule-shaped in this repository is a 2025/2026-baseline assumption, flagged in place. The published Thursday–Monday footprint of Feb 18–22, 2027 would be the first Thursday start in the series, so even the weekday frame is unconfirmed — see `facts_and_rules.md`, "The 2027 weekday question".
+- **The 10-hour case is a working assumption.** The official 2027 schedule lists a "10-Hour Case" (prep Fri, presentations and finals Sat), while the page's rules text still calls the third round "traditional" and gives no prep length. Everything here assumes the 10-hour case replaces the 3-hour traditional round (45 %, 20 + 10, finals) and that the prep day printed as "February 22" is Feb 19 — both put to the organizers.
+- **Clock times, deadlines, fees, and the field are TBA.** The 2027 page gives dates only; every time of day in the runbook is the 2025 pattern, and the 10-hour day has no precedent at all.
 - **Original practice material uses fictional data.** The three full cases and all worked model answers are internally consistent inventions, labelled as case data; teaching-note figures are calibration aids, not real-company facts.
 - **Eligibility of the specific HSBI student mix needs written confirmation** from the organizers — the top open question in `01-competition/facts_and_rules.md`.
-- **Five of the eleven official cases are URL-only** (2024 cases 1 and 3, all three 2026 cases); download them before the sessions that use them (W14, W25).
 - **The git history is large for a documents repository** (≈20 MB packed, against a ≈9.4 MB working tree), because six official case PDFs and seven slide decks are versioned and earlier commits also carried a 14 MB zip of the whole repository. This is sunk history; nothing further grows it unless binaries change.
 
-Open questions to put to the organizers after registration (all four are covered by `07-logistics/registration_email_draft.md`): the 2027 agenda and prepared-case release/submission dates · the registration process and fee for an international team and what it covers, plus eligibility confirmation · roster, bio and photo requirements plus advisor registration · whether the 2027 rules package changes anything versus the 2025 baseline, specifically any **new generative-AI clauses**.
+Open questions to put to the organizers — all six are covered by `07-logistics/registration_email_draft.md` (full e-mail or follow-up): the 10-hour case (does it replace the traditional round; the Feb 22 typo; how the day runs) · prepared-case release and submission dates, registration and draw time · the registration process and fee for an international team · eligibility confirmation · roster, bio and photo requirements plus advisor registration · whether the 2027 rules package changes anything versus the 2025 baseline, specifically any **new generative-AI clauses**.
 
 **Contacts.** `aspercasecomps@umanitoba.ca` — Judith Jayasuriya (Instructor & Lead, Experiential Learning), Steven Harrison (Case Competition Coordinator, +1 204 396 9631) · Instagram @Asper_BCC · Drake Centre, Asper School of Business, 181 Freedman Crescent, Winnipeg.

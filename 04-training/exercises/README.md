@@ -1,6 +1,6 @@
 # Exercise Catalog — the Complete Drill Inventory
 
-Preparation starts **now (August 2026)**; the competition is **February 18–22, 2027**. This catalog lists every exercise in the repository and schedules it into the dated plan (`02-plan/week_by_week_plan.md` governs). Rhythm: the weekend block runs the big items (workshops, simulations); the midweek session runs one workbook exercise + one mini-case; individual drills fill 30 minutes on a third day.
+Preparation started in **August 2026**; the competition is **Mon February 15 – Sat February 20, 2027** (third round a **10-hour case** — `01-competition/facts_and_rules.md`, "What 2027 changed"). This catalog lists every exercise in the repository and schedules it into the dated plan (`02-plan/week_by_week_plan.md` governs). Rhythm: the weekend block runs the big items (workshops, simulations); the midweek session runs one workbook exercise + one mini-case; individual drills fill 30 minutes on a third day.
 
 ## Inventory at a glance
 
@@ -35,12 +35,13 @@ Full session plan: `02-plan/week_by_week_plan.md`. This table adds the exercise 
 | W9–W10 | Skills | Workbook 4.1 (3-min pitch, scenarios 1–2) + 2.1 sizing (1–6) | Math 31–40; phrasebook §2–3 |
 | W11–W12 | Simulations | Workbook 2.2 (exhibit math on real cases) + 4.2 brief (a) | 2.4 circuit weekly from here |
 | W13–W15 | Simulations | Workbook 3.3 + 3.4 (implementation drills 1–2); mini-cases 1–3 | Sizing 7–12; phrasebook §4–5 |
-| W16–W18 | Simulations | Workbook 4.2 briefs (b)(c); mini-cases 4–6; 4.3 gauntlet after case-1 sim | 2.3 sensitivity one-pager |
+| W16–W18 | Simulations | Workbook 4.2 briefs (b)(c); mini-cases 4–6; 4.3 gauntlet after the W17 10-hour sim (case 1) | 2.3 sensitivity one-pager — W17's 10-hour day has room to build it for real |
 | W19–W20 | Simulations | Mini-cases 7–9 (Set 2); 3.5 one-slider before boardroom sim | Author your own mini-case (draft) |
 | W21–W22 | Christmas (light) | — | Flashcards full deck; 1 finals video; 2.4 circuit |
 | W23–W24 | Peak / Klangfest sprint | Workbook 4.1 scenarios 3–6; 4.3 gauntlet after rehearsal | Member-authored mini-cases exchanged |
-| W25–W26 | Peak | Mini-cases 10–12; member-authored cases cracked; 4.4 choreography before W25 weekend | Format quiz re-certification 25/25 |
-| W27–W29 | Sprint & travel | Only 4.4 + light 2.4; everything else rests | Pack per runbook; sleep shift |
+| W25–W26 | Peak | Mini-cases 10–12; member-authored cases cracked; 4.4 choreography before the W25 competition-week sim (boardroom → 10-hour case) | Format quiz re-certification 25/25 |
+| W27–W28 | Prepared-case sprint (Feb 1–14) | Only 4.4 + light 2.4; everything else rests | Pack per runbook; sleep shift |
+| W29 | Competition week (Feb 15–20) | — | Runbook only |
 
 ## Ground rules for every exercise
 

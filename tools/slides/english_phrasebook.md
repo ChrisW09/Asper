@@ -14,7 +14,7 @@ The competition is conducted **entirely in English** — every round, and
 
 - **Prepared case** — 25 minutes + 15 minutes Q&A
 - **Boardroom** — 3-minute protected recommendation, then a **22-minute discussion**
-- **Traditional** — 20 + 10 · **Final** — 20 + 15
+- **Traditional** (2027: the 10-hour case) — 20 + 10 · **Final** — 20 + 15
 
 This deck teaches **the system and the flagship phrases**. The full inventory
 lives in the handout — drill from there.

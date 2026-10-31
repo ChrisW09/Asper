@@ -18,6 +18,9 @@ The training programme: its logic, its calendar, and the record of how it is goi
    **within 24 h** of every simulation by the general-business lead; drives the W20 half-term review and
    the W26 taper decisions.
 
-**Current position:** W1, Aug 3–9, 2026 — kick-off week. 29 weeks to the competition.
+**Current position:** W13, Oct 26 – Nov 1, 2026 — Boardroom #1 (AROW Global). 16 weeks to the competition
+(W29, **Mon Feb 15 – Sat Feb 20, 2027**). The calendar was **re-planned from W14 on 2026-10-31** after the
+organizers published the 2027 schedule: the third round is now a **10-hour case** (first 10-hour simulation
+W17), and the prepared-case sprint runs W27–W28 with submission on Sat Feb 13.
 
 Per-file detail: [`../DOCUMENTATION.md`](../DOCUMENTATION.md) §2 · workflows: §4.

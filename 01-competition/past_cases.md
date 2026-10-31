@@ -1,8 +1,8 @@
 # ABCC Past Editions and Case Clients — Practice Dossier
 
-**Prepared for the ABCC 2027 team (4 Masters students + coach) | Status: July 2026**
+**Prepared for the ABCC 2027 team (4 Masters students + coach) | Status: July 2026; 2027 entry updated 2026-10-31**
 
-This dossier reconstructs the history of the Asper Business Case Competition (ABCC) — founded in 2023 as the Asper Leadership Case Competition (ALCC) at the University of Manitoba's I.H. Asper School of Business — and profiles every known case client in enough depth to **re-crack the past cases as timed practice runs**. Part I covers each edition; Part II profiles each client, ending with a *Re-crack brief* (task restatement, guiding questions, what a winning answer likely needed); Part III distils patterns for 2027. Official case PDFs are linked under Sources; six are included in this repository under `01-competition/past-case-pdfs/`.
+This dossier reconstructs the history of the Asper Business Case Competition (ABCC) — founded in 2023 as the Asper Leadership Case Competition (ALCC) at the University of Manitoba's I.H. Asper School of Business — and profiles every known case client in enough depth to **re-crack the past cases as timed practice runs**. Part I covers each edition; Part II profiles each client, ending with a *Re-crack brief* (task restatement, guiding questions, what a winning answer likely needed); Part III distils patterns for 2027. Official case PDFs are linked under Sources; **all eleven** are included in this repository under `01-competition/past-case-pdfs/`.
 
 ---
 
@@ -41,7 +41,7 @@ This dossier reconstructs the history of the Asper Business Case Competition (AB
 | ABCC 2024 (2nd) | Feb 21–24, 2024 | 9 teams | 3 rounds, 25/30/45 | Asper ("Stellaris Consulting") | Haskayne 2nd, DeGroote 3rd |
 | ABCC 2025 (3rd) | Feb 19–23, 2025 | 9 teams | 3 rounds, 25/30/45 | Memorial University | John Molson 2nd, DeGroote 3rd |
 | ABCC 2026 (4th) | Feb 18–21, 2026 | 9 teams, first international entrant | 3 rounds, 25/30/45 | Babeș-Bolyai University (Romania) | DeGroote 2nd, HEC Montréal 3rd, John Molson 4th |
-| ABCC 2027 (5th) | Feb 18–22, 2027 | TBA | 3 rounds, 25/30/45 | — | — |
+| ABCC 2027 (5th) | Feb 15–20, 2027 | TBA | 3 rounds, 25/30/45; third round a 10-hour case | — | — |
 
 All editions share two structural constants: every case client is a **Manitoba/Winnipeg organization**, and teams compete anonymously as **fictional consulting firms** (revealing your school to judges is prohibited).
 
@@ -76,7 +76,7 @@ All editions share two structural constants: every case client is a **Manitoba/W
 
 ### ABCC 2027 — what we are entering
 
-February 18–22, 2027; teams of four graduate students; venue the Drake Centre (the Asper School of Business building) — daily agenda and round-to-day mapping still TBA. Format carried over: Prepared 25% (25 + 15), Boardroom 30% (3-minute pitch + 22-minute discussion, one slide plus a one-page black-and-white judge brief), Traditional 45% (20 + 10); top three re-present frozen decks to a fresh judge panel (20 + 15). Notable rules: finalists' faculty advisors barred from contact until after presenting; maximum four laptops, no phones or smartwatches; ties broken by performance in the highest-weighted rounds.
+Mon February 15 – Sat February 20, 2027; teams of four graduate students; venue the Drake Centre (the Asper School of Business building). Published schedule: arrival Mon, opening and prepared presentations Tue, 4-hour boardroom Wed, excursion Thu, **10-hour case** prep Fri (printed "Feb 22", almost certainly a typo), 10-hour presentations, finals and awards dinner Sat. Format carried over: Prepared 25% (25 + 15), Boardroom 30% (3-minute pitch + 22-minute discussion, one slide plus a one-page black-and-white judge brief), third round 45% (20 + 10) — through 2026 a 3-hour traditional case, in 2027 apparently the 10-hour case (unconfirmed, `facts_and_rules.md`); top three re-present frozen decks to a fresh judge panel (20 + 15). Notable rules: finalists' faculty advisors barred from contact until after presenting; maximum four laptops, no phones or smartwatches; ties broken by performance in the highest-weighted rounds.
 
 ---
 
@@ -168,11 +168,12 @@ Manitoba's provincial Crown utility: sole electricity provider and principal gas
 
 ## Part III — Patterns to exploit for 2027
 
-1. **The client formula is stable.** Prepared round: an arts/culture non-profit with a revenue-sustainability problem (WAG '24 → Manitoba Museum '25 → Jazz Winnipeg '26). Boardroom round: an owner-led local consumer or family business facing a growth/positioning choice (IJL '24 → AROW '25 → Coal & Canary '26). Traditional round: a large Manitoba-rooted enterprise with a trust, talent, or digital-engagement challenge (StandardAero '24 → People Corp '25 → Access CU '26). Expect ABCC 2027 to follow the template — scanning Winnipeg's non-profit arts scene and prominent local companies before February is rational preparation.
+1. **The client formula is stable.** Prepared round: an arts/culture non-profit with a revenue-sustainability problem (WAG '24 → Manitoba Museum '25 → Jazz Winnipeg '26). Boardroom round: an owner-led local consumer or family business facing a growth/positioning choice (IJL '24 → AROW '25 → Coal & Canary '26). Traditional round: a large Manitoba-rooted enterprise with a trust, talent, or digital-engagement challenge (StandardAero '24 → People Corp '25 → Access CU '26). Expect ABCC 2027 to follow the template — the 10-hour third round most likely keeps the large-enterprise client and simply asks for more depth — scanning Winnipeg's non-profit arts scene and prominent local companies before February is rational preparation.
 2. **Recurring themes:** financial sustainability for grant-dependent non-profits; growing beyond a small home market; brand elevation; rebuilding trust (internal, customer, member); engaging youth and talent; digital transition. Build reusable frameworks and benchmark libraries for each.
 3. **Case craft:** all cases are supervised by Judy Jayasuriya (Asper Experiential Learning), mix public information with executive interviews and real financial appendices, ban contacting the client, and encourage outside research. Expect hard numbers in the appendices — winning teams use them.
 4. **Boardroom mechanics matter:** judges receive the one-page black-and-white brief ~10 minutes before you enter; 3 minutes protected, then 22 minutes of interrogation. Practice the artifact (one slide + one-pager) and the grilling separately.
-5. **Practice plan:** re-crack the 2025 set under real time pressure (all three PDFs are public), then the 2023 Hydro pair, then IJL; use this dossier's profiles to simulate the 2024 WAG/StandardAero and 2026 rounds where PDFs are thinner. Note that Babeș-Bolyai won 2026 by winning *every* round — consistency across all three formats, not one brilliant final, is the winning profile.
+5. **Practice plan:** re-crack the 2025 set under real time pressure (all three PDFs are public), then the 2023 Hydro pair, then IJL; then the 2024 WAG/StandardAero and 2026 cases — all eleven PDFs are now in `01-competition/past-case-pdfs/`, and this dossier's profiles fill in the context the PDFs leave out. Note that Babeș-Bolyai won 2026 by winning *every* round — consistency across all three formats, not one brilliant final, is the winning profile.
+6. **The 2027 third round is a 10-hour case.** The three-hour re-crack briefs for the traditional cases (Access CU, People Corp, StandardAero, Hydro) still train speed and the 20 + 10 delivery; to rehearse the 10-hour format, run one of them as a full day — add the outside research the brief's guiding questions call for (market data, competitor benchmarks, regulatory context) and expect judges to probe evidence and implementation depth far harder than after three hours. The calendar does this in W17 (Sparkasse, original case) and W25 (StandardAero).
 
 ---
 
@@ -190,7 +191,7 @@ Manitoba's provincial Crown utility: sole electricity provider and principal gas
 - 2024 WAG-Qaumajuq / IJL / StandardAero: https://umanitoba.ca/asper/sites/asper/files/2024-08/abcc-case-1.pdf · https://umanitoba.ca/asper/sites/asper/files/2024-09/abcc-24_case-2.pdf · https://umanitoba.ca/asper/sites/asper/files/2024-08/abcc-24_case-3-.pdf
 - 2025 Manitoba Museum / AROW / People Corp: https://umanitoba.ca/asper/sites/asper/files/2025-03/abcc-25_case-1.pdf · https://umanitoba.ca/asper/sites/asper/files/2025-03/abcc-25_case-2.pdf · https://umanitoba.ca/asper/sites/asper/files/2025-03/abcc-25_case-3.pdf
 - 2026 Jazz Winnipeg / Coal & Canary: https://umanitoba.ca/asper/sites/asper/files/2026-05/abcc-2026_prepared-case.pdf · https://umanitoba.ca/asper/sites/asper/files/2026-05/abcc-2026_boardroom-case_final.pdf · Access CU: https://umanitoba.ca/asper/sites/asper/files/2026-04/abcc-2026_traditional-case-final.pdf
-- Copies in this repository (`01-competition/past-case-pdfs/`, official Asper publications, © University of Manitoba — internal team practice only, do not redistribute): `alcc2023_prepared_manitoba-hydro.pdf`, `alcc2023_traditional_manitoba-hydro.pdf`, `abcc2024_boardroom_independent-jewellers.pdf`, `abcc2025_prepared_manitoba-museum.pdf`, `abcc2025_boardroom_arow-global.pdf`, `abcc2025_traditional_people-corporation.pdf`. Not mirrored (use the URLs above): 2024 case 1 (WAG) and case 3 (StandardAero), all three 2026 cases.
+- Copies in this repository (`01-competition/past-case-pdfs/`, official Asper publications, © University of Manitoba — internal team practice only, do not redistribute): `alcc2023_prepared_manitoba-hydro.pdf`, `alcc2023_traditional_manitoba-hydro.pdf`, `abcc2024_boardroom_independent-jewellers.pdf`, `abcc2025_prepared_manitoba-museum.pdf`, `abcc2025_boardroom_arow-global.pdf`, `abcc2025_traditional_people-corporation.pdf`, `abcc2024_prepared_winnipeg-art-gallery.pdf`, `abcc2024_traditional_standardaero.pdf`, `abcc2026_prepared_jazz-winnipeg.pdf`, `abcc2026_boardroom_coal-and-canary.pdf`, `abcc2026_traditional_access-credit-union.pdf` — all eleven official cases; the URLs above remain the provenance.
 
 **Event guides and reports**
 - ALCC23 guide: https://umanitoba.ca/asper/sites/asper/files/2023-02/ALCC23-CompetitionGuide-Final_DIGITAL.pdf · ABCC24 guide: https://umanitoba.ca/asper/sites/asper/files/2024-02/ABCC24-EventGuide-Web-FNL.pdf · ABCC25 guide: https://umanitoba.ca/asper/sites/asper/files/2025-01/abcc25-eventguide.pdf

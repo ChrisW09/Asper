@@ -12,7 +12,7 @@ date: "Source: 04-training/qa_drills.md · the 60 drill questions stay in the ha
 | Round | Q&A time |
 | --- | --- |
 | **Prepared case** | 15 minutes after the pitch |
-| **Traditional case** | 10 minutes after the pitch |
+| **Traditional case** (2027: 10-hour case) | 10 minutes after the pitch |
 | **Boardroom** | 22-minute discussion — effectively all Q&A |
 
 Coaches across competitions describe Q&A as **the tiebreaker between closely

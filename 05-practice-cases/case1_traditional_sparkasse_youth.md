@@ -5,7 +5,7 @@
 | Item | Detail |
 | --- | --- |
 | Practice round type | TRADITIONAL (mirrors ABCC Traditional round; reference archetype: Access Credit Union case, ABCC 2026) |
-| Preparation time | 3 hours, closed room |
+| Preparation time | 3 hours, closed room — **at W17 run as a 10-hour case** (the 2027 third-round format); the coach issues a short addendum at release |
 | Presentation | 20 minutes, followed by 10 minutes Q&A |
 | Weight in practice-series score | 45% |
 | Team | 4 members; every member must present a substantive part |
@@ -40,7 +40,7 @@
 - [YOUR TASK](#your-task)
   - [Deliverable specification](#deliverable-specification)
 
-*Then the coach-only teaching note — do not read it before you have presented.*
+*Then the coach-only teaching note (§10 covers the 10-hour run at W17) — do not read it before you have presented.*
 
 ---
 
@@ -455,3 +455,31 @@ Suggested band interpretation: 85+ excellent (competition-ready); 70-84 solid wi
 | Funnel fix yield | +2,000-2,500 funded accounts p.a. |
 | Cliff fix yield (59% → 75-80% at ~3,400/yr) | +550-700 retained p.a. |
 | Sensible 2029 headline target | +9,000-10,000 under-30 main-bank relationships; 20-24 main-bank share 29% → ~40% |
+
+## 10. Running this as a 10-hour case (W17)
+
+The 2027 schedule replaces the 3-hour traditional prep with a **10-hour case** (prep Fri Feb 19, presentations Sat Feb 20 — working assumption until the organizers confirm; `01-competition/facts_and_rules.md`). At W17 this case is the team's first run of that format: **Saturday 08:30–18:30 prep, Sunday morning 20 + 10** before the coach and, ideally, an external judge. Hand out the case unchanged; at release also hand out the addendum below. The team's clock is "The 10-hour day" in `03-team/role_playbooks.md` (team-level summary in `04-training/presentation_and_storyline_guide.md` §3).
+
+**Addendum for the team (hand out at release).**
+
+> You have **ten hours**, not three. The board expects the same four answers, but at a depth a three-hour team could not reach. The exhibits remain case data — treat them as given. You may, and are expected to, add **outside research** where the case is silent, sourced on the slide. In addition to the four questions, the board asks:
+>
+> 1. **Benchmark the challengers.** Show what two real youth-focused propositions (one neobank, one incumbent bank's youth offer, German or international) actually offer on price, interest, investing and opening speed today, and where Sparkasse Ostwestfalen's redesigned offer would sit against them.
+> 2. **Size the prize bottom-up and top-down.** Triangulate your 2029 target from the funnel, the 18th-birthday cliff and the dormant-holder pool, and cross-check it against the breakeven number of main-bank relationships.
+> 3. **Three scenarios.** Base, downside (deposit margin normalises; stated intent converts at the low end) and upside — with the guardrail test (budget, recurring cost, payback, cost-income ratio) passed in every scenario or an explicit stage-gate response where it fails.
+> 4. **A month-by-month first year.** Owners by role, budget by quarter, the Finanz Informatik release dependencies, the works-council step, and the first *Verwaltungsrat* decision point.
+> 5. **A test-and-learn design** for the riskiest assumption: what you will pilot first, with which KPI, sample and stop/go threshold.
+> 6. **An appendix bank** of at least 15 numbered backup slides, indexed.
+
+**What a 10-hour-grade answer adds** (read this against the rubric in §8 — the bands stay, the bar rises):
+
+| Rubric dimension | 3-hour standard | 10-hour standard |
+| --- | --- | --- |
+| Analysis | Finds the cliff, the funnel and the dormant pool in the exhibits | Plus a sourced competitor benchmark and an explicit stated-intent discount justified by an outside base rate |
+| Financial model | CLV with stated assumptions, breakeven, one or two sensitivities | Three scenarios, a CIR bridge, funding-cost angle (€2.6–3.8m p.a.), and a guardrail test per scenario |
+| Recommendation | Phased B + modified C + D + E, G rejected | Same logic, with the redesign levers (interest cap, fee-waiver conditions, phased hubs) costed line by line |
+| Implementation | 3-year roadmap, 2029 targets, stakeholder steps | Month-by-month 2027, owners by role, quarterly budget, FI release dependencies, a pilot with stop/go thresholds |
+| Q&A | Defends numbers in role | Calls up the right appendix slide within ten seconds for every ambush in §7 |
+
+**Coach protocol for the day.** Release at 08:30 with the addendum; no contact until the hand-in at 18:30 (simulate the USB pickup); check that the team took its scheduled meal break — log it in `02-plan/simulation_log.md`, because energy management is part of what this simulation tests. Score Sunday's presentation on the official rubric (`01-competition/judging_scoresheet.md`) *and* this note's 100-point rubric with the 10-hour column above as the anchor; a team that would score 85 at three hours but adds no depth at ten should land in the 70s. Debrief question to close with: *what did we do with hours four to ten that a judge could see?*
+

@@ -4,7 +4,8 @@
 same understanding of the competition in one sitting. **24 pages** (20 frames + 4 section pages), Beamer,
 HSBI house style, in five parts: the competition at a glance · the format and the three rounds plus the
 final · deliverables before the competition · rules and judging incl. the official rubric · our team and
-the roadmap.
+the roadmap. Updated 2026-10-31 for the published 2027 schedule (Mon Feb 15 – Sat Feb 20, 10-hour third
+round).
 
 This is an **internal** deck — it names HSBI and is never shown at the competition. Nothing in
 [`../06-templates/`](../06-templates/) may inherit from it.

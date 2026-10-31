@@ -8,8 +8,8 @@ English, under time pressure, to practitioner judges.
 Three guides, read in this order, one per weekend block in Phase 2:
 
 1. [`presentation_and_storyline_guide.md`](presentation_and_storyline_guide.md) — action titles, the
-   storyline skeleton, the 3-hour production workflow, the 3-minute boardroom pitch, seated discussion
-   technique, delivery for non-native speakers.
+   storyline skeleton, the 3-hour production workflow and how it stretches to the **2027 10-hour case**, the
+   3-minute boardroom pitch, seated discussion technique, delivery for non-native speakers.
 2. [`qa_drills.md`](qa_drills.md) — answer-first protocol, bridging, the quarterback system, and **60 hard
    questions** in five banks with model answer patterns.
 3. [`business_math_drills.md`](business_math_drills.md) — anchor numbers, mental-math toolkit, **40 worked

@@ -7,7 +7,7 @@ The criterion questions in the table are the official wording; the 3/7/10 behavi
 Print one sheet per judge per team. If the judge is **external** — the calendar asks for one at W17, W23–24 and both W25 rounds, and W19 is graded too if you can get one — brief them from the last section of this file first.
 
 **Sheet header (fill in before the presentation):**
-Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional / Final · Prep time ______ · Judge ______ · Team ______
+Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional (3 h) / 10-hour / Final · Prep time ______ · Judge ______ · Team ______
 
 ## Scoresheet
 
@@ -75,7 +75,7 @@ Date ______ · Case ______ · Format: Prepared / Boardroom / Traditional / Final
 - [ ] **22-min discussion:** appendices accessible; yellow at 5, red at 1
 - [ ] Every member spoke during the discussion (the 3-min pitch may be one voice)
 
-**Traditional case (45 %) — 3 h prep**
+**Traditional case (45 %) — 3 h prep through 2026; the 10-hour case in 2027** (same 20 + 10 format, working assumption)
 - [ ] 20-min presentation: yellow at 5, red at 1
 - [ ] 10-min Q&A: yellow at 5, red at 1
 - [ ] Every member spoke
@@ -103,7 +103,7 @@ Recruit from HSBI faculty outside the team, alumni, or local practitioners — a
 manager, an NGO director.
 
 **The ask (e-mail or call, keep it this short).** "Four Masters students are preparing for a graduate case
-competition in Canada in February. Would you judge one 3-hour case simulation — you arrive at *time*, watch a
+competition in Canada in February. Would you judge one case simulation — you arrive at *time*, watch a
 20-minute presentation, ask 10 minutes of hard questions, score a one-page sheet we provide, and give 10
 minutes of feedback? About 90 minutes in total, no preparation needed from you."
 

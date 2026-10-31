@@ -1,6 +1,6 @@
 # English Phrasebook for German-Speaking Presenters — ABCC 2027
 
-**For the HSBI team and coach.** The Asper Business Case Competition (February 18–22, 2027, Winnipeg) is conducted **entirely in English**: a 25-minute prepared-case presentation with 15 minutes of Q&A, a boardroom round with a protected 3-minute recommendation followed by a 22-minute discussion with judges, a traditional case with 20 minutes plus 10 minutes of Q&A, and a 20+15 final. **Every team member must speak in every round.** Two ground rules shape the language below: never identify your school of origin to a judge (instant disqualification — you present as your drawn team letter, e.g. "Team C"), and Implementation & Resources is the heaviest rubric category (2.5x), so your English must be sharpest where you talk money, timelines, and resources. Everything here is deliberately short: under pressure you will only retrieve phrases of five to ten words.
+**For the HSBI team and coach.** The Asper Business Case Competition (February 15–20, 2027, Winnipeg) is conducted **entirely in English**: a 25-minute prepared-case presentation with 15 minutes of Q&A, a boardroom round with a protected 3-minute recommendation followed by a 22-minute discussion with judges, a traditional case — in 2027 a 10-hour case — with 20 minutes plus 10 minutes of Q&A, and a 20+15 final. **Every team member must speak in every round.** Two ground rules shape the language below: never identify your school of origin to a judge (instant disqualification — you present as your drawn team letter, e.g. "Team C"), and Implementation & Resources is the heaviest rubric category (2.5x), so your English must be sharpest where you talk money, timelines, and resources. Everything here is deliberately short: under pressure you will only retrieve phrases of five to ten words.
 
 ---
 
@@ -256,7 +256,7 @@ Numbers are where German habits are most audible. Six rules:
 2. **Percent never takes a plural.** "Seven percent," not "seven percents." A *change* between two percentages is measured in **percentage points**: "up three points, from 9 to 12 percent."
 3. **Currency after the number when speaking.** Written "$1.5m," spoken "one point five million dollars." First mention in Winnipeg: "Canadian dollars"; after that, "dollars."
 4. **Magnitudes:** Million = million; **Milliarde = billion; Billion = trillion.** Drill this until it is reflex.
-5. **Years and dates:** 2027 is "twenty twenty-seven." February 18 is "February eighteenth." Fiscal year 2026 is "FY twenty-six."
+5. **Years and dates:** 2027 is "twenty twenty-seven." February 15 is "February fifteenth." Fiscal year 2026 is "FY twenty-six."
 6. **Negatives and ranges:** "minus" or "down": "NPV falls to minus 340,000 dollars"; "between five and seven percent" or "five to seven percent."
 
 **Twelve practice sentences.** Read aloud daily; record yourself weekly. Spoken forms of the traps are in brackets.

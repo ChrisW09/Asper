@@ -2,7 +2,7 @@
 
 **Core skills trio, part 1 of 3 · Delivery: how the argument reaches the judges.** The other two: [`qa_drills.md`](qa_drills.md) · [`business_math_drills.md`](business_math_drills.md). Folder overview: [`README.md`](README.md).
 
-This guide is for our four-member Masters team (finance, innovation, computer science, general business administration) and our coach. It covers how we build and deliver decks across all three Asper rounds: the **Prepared case** (received ~2 weeks ahead; 25-minute presentation + 15-minute Q&A; 25% of total score), the **Boardroom case** (4-hour prep; 3-minute pitch + 22-minute seated discussion; 30%), and the **Traditional case** (3-hour prep; 20-minute presentation + 10-minute Q&A; 45%). Asper's judges are industry practitioners, not academics — and the official ABCC rubric (2025 Event Guide) makes **Implementation & Resources the single heaviest criterion at 2.5×**, ahead of Analysis (2.0×) and Recommendation (2.0×), with communication, framing, impact, and risk categories at 1.0× each. Everything below is tuned to that reality: one decisive, quantified, executable recommendation with a resourced roadmap.
+This guide is for our four-member Masters team (finance, innovation, computer science, general business administration) and our coach. It covers how we build and deliver decks across all three Asper rounds: the **Prepared case** (received ~2 weeks ahead; 25-minute presentation + 15-minute Q&A; 25% of total score), the **Boardroom case** (4-hour prep; 3-minute pitch + 22-minute seated discussion; 30%), and the **Traditional case** (20-minute presentation + 10-minute Q&A; 45%) — 3-hour prep through 2026, and in **2027 a 10-hour case** (prep Fri Feb 19, presentations and finals Sat Feb 20; working assumption until the organizers confirm — see `01-competition/facts_and_rules.md`, "What 2027 changed"). Asper's judges are industry practitioners, not academics — and the official ABCC rubric (2025 Event Guide) makes **Implementation & Resources the single heaviest criterion at 2.5×**, ahead of Analysis (2.0×) and Recommendation (2.0×), with communication, framing, impact, and risk categories at 1.0× each. Everything below is tuned to that reality: one decisive, quantified, executable recommendation with a resourced roadmap.
 
 ---
 
@@ -11,6 +11,7 @@ This guide is for our four-member Masters team (finance, innovation, computer sc
 - [1. Action titles and horizontal logic](#1-action-titles-and-horizontal-logic)
 - [2. The standard storyline skeleton](#2-the-standard-storyline-skeleton)
 - [3. The 3-hour production workflow (Traditional round)](#3-the-3-hour-production-workflow-traditional-round)
+  - [Stretching it to the 10-hour case (2027 third round)](#stretching-it-to-the-10-hour-case-2027-third-round)
 - [4. The 3-minute boardroom pitch formula](#4-the-3-minute-boardroom-pitch-formula)
 - [5. Seated boardroom discussion technique (22 minutes)](#5-seated-boardroom-discussion-technique-22-minutes)
 - [6. Handovers](#6-handovers)
@@ -86,6 +87,37 @@ Principles proven by winning teams: hypothesis-driven from minute one; roughly 1
 | 2:55–3:00 | Freeze; export PDF + PPTX + USB; restroom; pre-room ritual | — | — | — |
 
 Rules that make it work: the Quarterback vocalizes time and drift ("Twenty minutes gone — we are still on issues"); consensus always, but the Quarterback breaks ties instantly; anyone who finishes early builds appendix ammunition; rehearsal time is sacred — an average deck delivered brilliantly beats a brilliant deck delivered raw. For the 4-hour Boardroom round, stretch the build block and add a Q&A-only rehearsal. For the Prepared round, run this same skeleton, then iterate it with the coach across the two weeks before travel — remember there is no coach contact once cases are released on site, and no phones or smartwatches in the prep room.
+
+### Stretching it to the 10-hour case (2027 third round)
+
+The 2027 schedule replaces the 3-hour traditional prep with a **10-hour case** — same 20 + 10 delivery, same 45 % weight (assumed until confirmed). The 3-hour workflow above stays the **core**: the same roles, the same order (read → debate → lock → titles → build → rehearse), the same two gates. What changes is what fills the extra seven hours, and what judges will expect from a team that had them.
+
+**What judges will expect that they forgive at 3 hours.**
+
+- **Primary-style research.** Real market data, competitor pricing, comparable cases, regulatory facts — sourced on the slide, not assumed. "We estimate" becomes "we checked".
+- **Fuller financials.** A three-scenario model with explicit drivers, a sensitivity on the two assumptions that matter, payback/NPV *and* the funding source. Every number traceable in the appendix.
+- **A sharper implementation plan** (the 2.5× criterion). Named owners, month-by-month phasing, budget by phase, KPIs with targets and dates, a stop/go gate — no generic "Phase 1 / 2 / 3".
+- **An appendix bank.** 15–25 numbered appendix slides, each answering a predicted question, indexed for the slide DJ.
+- **More rehearsal, not more slides.** The main deck still fits 20 minutes; the extra time goes into proof and polish.
+
+**The 10-hour clock** — the team-level view of the authoritative clock in `03-team/role_playbooks.md` ("The 10-hour day"; per-role detail in its 10-hour columns). Times assume an 08:30 release.
+
+| Time | Block |
+| --- | --- |
+| 0:00–0:45 | Read and frame — as in the 3-hour workflow; key facts, exhibits and the decision-maker's question logged |
+| 0:45–1:30 | Align and decide — a *provisional* recommendation plus a written research plan (the 5–8 questions that could change the decision, each with an owner) |
+| 1:30–3:30 | Research and first analysis — desk research timeboxed at 30 min per thread, benchmarks into the source log, first model pass |
+| **3:30** | **GATE A: direction confirmed** — the last free chance to change the recommendation; paper storyboard agreed |
+| 3:50–4:20 | **Lunch, all four, away from screens** — scheduled, not optional |
+| 4:20–6:00 | Deep analysis — full model with sensitivities, implementation plan (owners, budget, timeline, first 90 days), KPIs and risks, alternatives considered |
+| **6:00** | **GATE B: storyline frozen** — every slide has its action title; ghost deck in the template |
+| 6:00–8:00 | Build — rolling merge; appendix bank built in parallel; a 15-minute food break around 7:00 |
+| 8:00–8:30 | Number audit — every displayed figure recomputed |
+| **8:30** | **Content and number freeze** |
+| 8:30–9:30 | Full timed rehearsal (20 + 10 with cards), then the AI Q&A-anticipation routine |
+| 9:30–10:00 | Lockdown and USB, then buffer — never spent on new content |
+
+Rules that change at 10 hours: energy is a resource, so food, water and the breaks are on the clock before the day starts; the gates come **later but are still never reopened** after Gate A; and because presentations fall on the following day (Sat Feb 20), the deck is frozen at the end of prep — the evening is for dinner, one read of the Q&A grid and sleep, not edits. We first run this at W17 (Sparkasse case) and again in the W25 competition-week simulation.
 
 ---
 

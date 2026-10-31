@@ -10,7 +10,7 @@ This pack contains two worked models: a complete answer outline for re-cracking 
 
 **Case:** *"Access Credit Union: Designing Digital Banking"* — advise Manitoba's largest credit union (~$14.1B assets, 208,000+ members, 925+ employees, ~50 branches) on service innovations and digital banking to engage young people — Gen Z and Gen Alpha — and reverse youth attrition.
 
-**Re-crack conditions (match the real round):** 3-hour prep, no coach or outside contact after release, one laptop per student, internet and GenAI allowed, prebuilt own template permitted. Deliver a 20-minute presentation plus 10-minute Q&A (yellow card at 5 minutes remaining, red at 1 — in both periods); every team member must speak; deck saved to USB as "[Team Name] Traditional Case". Present as your fictional consulting firm — never identify HSBI (identifying your school to a judge means disqualification).
+**Re-crack conditions (match the real round):** 3-hour prep (the 2026 format; in 2027 the third round becomes a 10-hour case, but the W14 re-crack deliberately stays at 3 h as a speed run — the 20 + 10 delivery is identical), no coach or outside contact after release, one laptop per student, internet and GenAI allowed, prebuilt own template permitted. Deliver a 20-minute presentation plus 10-minute Q&A (yellow card at 5 minutes remaining, red at 1 — in both periods); every team member must speak; deck saved to USB as "[Team Name] Traditional Case". Present as your fictional consulting firm — never identify HSBI (identifying your school to a judge means disqualification).
 
 ### The storyline in one sentence
 

@@ -1,17 +1,17 @@
 # Preparation Plan — Asper Business Case Competition 2027
 
 **Team:** 4 students (Finance, Innovation, Computer Science, General Business Administration) + faculty advisor Prof. Dr. Christoph Weisser (HSBI)
-**Competition:** February 18–22, 2027, Asper School of Business, University of Manitoba, Winnipeg
-**Planning horizon:** August 2026 → February 2027 (29 weeks, W1 = Aug 3–9, 2026)
+**Competition:** Mon February 15 – Sat February 20, 2027, Asper School of Business, University of Manitoba, Winnipeg — schedule published 2026-10-31; the third round is listed as a **10-hour case** (see `01-competition/facts_and_rules.md`, "What 2027 changed")
+**Planning horizon:** August 2026 → February 2027 (competition in W29 = Feb 15–21, 2027; W1 = Aug 3–9, 2026)
 **Dated schedule:** see `week_by_week_plan.md` for the calendar version of this plan (its calendar phases compress this file's concept phases into slightly different week boundaries — the calendar governs)
 
 ---
 
 ## Design principles
 
-1. **Train for the weights.** The two short-prep rounds (boardroom 30 % + traditional 45 %) decide 75 % of the score. Most training time therefore goes into timed short-prep simulations, not into polishing the prepared case. Within every case, train for the official judging rubric: **Implementation & Resources is the heaviest criterion (2.5×)**, ahead of Analysis (2.0×) and Recommendation (2.0×) — see `01-competition/facts_and_rules.md`.
+1. **Train for the weights.** The two on-site rounds (boardroom 30 % + the third round 45 %) decide 75 % of the score. Most training time therefore goes into timed on-site simulations, not into polishing the prepared case. The third round was a 3-hour traditional case in 2025/2026; for 2027 it is listed as a **10-hour case** — so from W15 the plan trains both clocks: the 10-hour day for depth and stamina, the 3-hour sprint as speed work and fallback. Within every case, train for the official judging rubric: **Implementation & Resources is the heaviest criterion (2.5×)**, ahead of Analysis (2.0×) and Recommendation (2.0×) — see `01-competition/facts_and_rules.md`.
 2. **Leads, not silos.** Each student owns a functional lens but must be able to carry the whole storyline. Judges expect every member to answer any question.
-3. **Competition-identical conditions.** Every mock case is run under the real rules: 3–4 h prep, one laptop per student, no phones/smartwatches, no coach contact after release, all four members speak, yellow/red time cards.
+3. **Competition-identical conditions.** Every mock case is run under the real rules: 3–4 h prep (10 h for the 10-hour simulations), one laptop per student, no phones/smartwatches, no coach contact after release, all four members speak, yellow/red time cards.
 4. **Feedback beats volume.** Every simulation ends with a structured debrief (video recording, judge-style scoring rubric, one improvement goal per person for the next round).
 
 ---
@@ -61,18 +61,18 @@ Rotate the **opening speaker** and the **Q&A quarterback** across mock cases so 
 **Goal: speed, consistency, resilience.**
 
 - **Weekly timed simulation**, alternating formats:
-  - *Traditional:* 3-h prep → 20 min + 10 min Q&A (mirrors the 45 %-weight round — do this most often).
+  - *Third round:* 20 min + 10 min Q&A (the 45 %-weight round — do this most often). Run it at **3-h prep** as a speed run, and **at least twice at 10-h prep** (W17, W25) to train the 2027 format: a written research plan, two storyline gates, scheduled meals, a content freeze at 8:30 and a full rehearsal before lockdown (`03-team/role_playbooks.md`, "The 10-hour day").
   - *Boardroom:* 4-h prep → one summary slide + one-page black-and-white judge brief → 3-min pitch + 22-min moderated discussion. Practise the discussion format explicitly: it is a conversation, not a presentation; seated delivery, wireless clicker, inviting judges into the logic.
 - Recruit **external judges** (colleagues, alumni, local executives) for at least 4 sessions; unfamiliar faces change team behaviour.
 - **Score every simulation with the official ABCC rubric** (7 categories: implementation & resources 2.5×, analysis 2.0×, recommendation 2.0×, communication, framing, impact, measurement/risks 1.0× each — see `01-competition/facts_and_rules.md`). Track scores over time in `02-plan/simulation_log.md`.
 - Practise **failure modes:** a case in an unfamiliar industry, a case with heavy data exhibits (CS lead under pressure), a deliberately ambiguous case, one simulation where the projector "fails."
 - Milestone (end W20): two consecutive simulations showing a rising trend within their format, with every member having opened at least once. The numeric targets live in one place — `02-plan/simulation_log.md` ("Internal targets") — so they are not restated here.
 
-## Phase 4 — Prepared-case sprint (release of Case 1 → submission deadline, ~2 weeks, likely late January/early February 2027)
+## Phase 4 — Prepared-case sprint (release of Case 1 → submission deadline, ~2 weeks: expected ~Mon Feb 1 → ~Mon Feb 15, 2027)
 
 **Goal: a submission-ready 25-minute deck, on time.**
 
-Suggested 14-day sprint:
+Suggested sprint — 13 working days in 2027, because the deadline is expected on arrival day (Feb 15) and the deck must be submitted **before the team travels (Sat Feb 13)**:
 
 - **Days 1–2:** deep reading, client research (public sources only — contacting sponsor employees is prohibited), problem definition, hypothesis tree.
 - **Days 3–5:** parallel workstreams by lead role (market & customer, financials, tech/data feasibility, creative options). Daily 30-min sync.
@@ -80,14 +80,14 @@ Suggested 14-day sprint:
 - **Days 8–10:** full deck build, financial model hardened, appendix bank for Q&A.
 - **Days 11–12:** two dress rehearsals (25 min + 15 min Q&A) with external audience, coach review #2.
 - **Day 13:** final polish, freeze.
-- **Day 14 (before the deadline, not on it):** **submit**. Late submissions are placed at the bottom of the pool — build in a 24-h buffer.
+- **Day 13 (Sat Feb 13 — before travel, never on the deadline):** **submit**. Late submissions are placed at the bottom of the pool — build in at least a 24-h buffer; the coach confirms receipt.
 
 ## Phase 5 — Final polish (last 2 weeks)
 
-- One light boardroom + one traditional simulation to stay sharp (no new content marathon; avoid burnout).
+- One light boardroom + one short third-round (3-h) drill to stay sharp (no new content marathon; avoid burnout — the 10-hour day comes at the end of a five-day week).
 - Prepared-case run-throughs to internalize (not memorize word-for-word) — Q&A practice matters more than delivery at this point.
 - Kit check: adapters, backup laptop chargers, USB-C/HDMI dongles, clicker, backup USB sticks, offline copies of all materials, business attire.
-- Team charter for competition days: sleep discipline, meal plan, roles during prep windows (first 20 min = silent reading; minute 20–40 = align on problem & storyline; last 30 min = rehearsal, always).
+- Team charter for competition days: sleep discipline, meal plan, roles during prep windows (3-h and 4-h: first 20 min = silent reading; minute 20–40 = align on problem & storyline; last 30 min = rehearsal, always; 10-h: the clock in `03-team/role_playbooks.md`). Use the Thursday excursion day (Feb 18) to recover, not to rehearse.
 
 ---
 
@@ -103,7 +103,8 @@ Suggested 14-day sprint:
 
 | Risk | Mitigation |
 | --- | --- |
-| 2027 rules differ from 2026 | Re-verify everything after registration; update repo and deck |
+| 2027 rules differ from 2026 | Re-verify everything after registration; update repo and deck. **Materialised 2026-10-31:** new dates (Feb 15–20) and a 10-hour third round — calendar re-planned from W14 |
+| **10-hour format misjudged** — we train a long round that turns out shorter, or bring 3-hour habits to a 10-hour day (shallow analysis, no research, collapse in the afternoon) | Ask the organizers (open question 1); keep the 3-h clock drilled as fallback; two full 10-hour simulations (W17, W25) with the gates, meals and 8:30 freeze; the CS lead calls breaks |
 | Prepared-case deadline missed | Day-14 buffer, submission owner = strategist, backup = coach reminder |
 | One member ill during competition | Everyone can cover every part; shared appendix knowledge |
 | Q&A in fast native-speaker English | Q&A gauntlet in English from Phase 2 onwards; vocabulary list per case |

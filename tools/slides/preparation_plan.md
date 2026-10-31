@@ -1,6 +1,6 @@
 ---
 title: "The Season Plan"
-subtitle: "August 2026 → Winnipeg, February 18–22, 2027"
+subtitle: "August 2026 → Winnipeg, February 15–20, 2027"
 author: "ABCC 2027 · HSBI · internal briefing"
 date: "Source: 02-plan/preparation_plan.md · calendar in 02-plan/week_by_week_plan.md"
 ---
@@ -10,7 +10,8 @@ date: "Source: 02-plan/preparation_plan.md · calendar in 02-plan/week_by_week_p
 ## What this briefing covers
 
 **29 weeks** from kick-off (W1 = Aug 3–9, 2026) to the competition
-(Feb 18–22, 2027, Asper School of Business, Winnipeg).
+(W29: Mon Feb 15 – Sat Feb 20, 2027, Asper School of Business, Winnipeg).
+Re-planned 2026-10-31: the third round is now a **10-hour case**.
 
 - The **phases** — foundations to taper
 - The **weekly cadence** and the roles
@@ -26,8 +27,8 @@ the calendar governs. Rubric and rules: 01-competition/facts_and_rules.md.
 
 ## Four design principles
 
-- **Train for the weights.** Boardroom 30 % + traditional 45 % = 75 % of the
-  score — most training time goes into timed short-prep simulations
+- **Train for the weights.** Boardroom 30 % + round 3 45 % = 75 % of the
+  score — most training time goes into timed on-site simulations
 - **Leads, not silos.** Each student owns a lens; everyone carries the
   whole storyline
 - **Competition-identical conditions.** Every mock under the real rules
@@ -45,8 +46,8 @@ Analysis 2.0×, Recommendation 2.0×.
 | **3 · Simulations** | W11–W20 | Oct 12 – Dec 20 |
 | Christmas break — light load | W21–W22 | Dec 21 – Jan 3 |
 | **4 · Peak** | W23–W26 | Jan 4 – Jan 31 |
-| **5 · Prepared-case sprint** | W27–W29 | Feb 1 – Feb 17 |
-| **ABCC 2027** | — | Feb 18–22 |
+| **5 · Prepared-case sprint** | W27–W28 | Feb 1 – Feb 14 |
+| **ABCC 2027** | W29 | Feb 15–20 |
 
 # The weekly rhythm
 
@@ -100,7 +101,8 @@ cases — all four credible in every position.
 **Goal: speed, consistency, resilience.** Alternating weekend simulations,
 debrief weeks in between.
 
-- *Traditional* most often — it mirrors the **45 %-weight round**
+- *Round 3* most often — the **45 %-weight round**: 3-h speed runs, and
+  **10-hour** days in W17 and W25 for the 2027 format
 - *Boardroom:* one slide + one-page brief + 3-min pitch + **22-min discussion**
 - External judges for at least 4 sessions — unfamiliar faces change behaviour
 - W20 half-term review: score trends, role rotation, gap list for January
@@ -117,8 +119,8 @@ case vocabulary, one final video with rubric.
 
 - W23–24: **Klangfest Bielefeld** — prepared-round dress rehearsal,
   14-day mini-sprint + 25+15 before external judges
-- W25: **competition-week simulation** — traditional Saturday +
-  boardroom Sunday, back-to-back, business attire
+- W25: **competition-week simulation in the 2027 order** — boardroom
+  Friday → 10-hour case Saturday → present Sunday + finals re-run
 - W26: targeted repairs, gauntlet #3 — **taper begins, no new content**
 
 # The ten simulations
@@ -129,9 +131,9 @@ case vocabulary, one final video with rubric.
 | --- | --- | --- |
 | W11 | **Traditional #1** (4 h, softened) | People Corporation 2025 |
 | W13 | **Boardroom #1** | AROW Global 2025 |
-| W14 | **Traditional #2** (full rules) | Access Credit Union 2026 |
+| W14 | **Traditional #2** (3-h speed run) | Access Credit Union 2026 |
 | W16 | **Boardroom #2** · template v1 | Independent Jewellers 2024 |
-| W17 | **Traditional #3** — original, graded | Sparkasse Ostwestfalen |
+| W17 | **10-hour #1** — original, graded | Sparkasse Ostwestfalen |
 | W19 | **Boardroom #3** — original, graded | Manufaktur Lichtwerk |
 
 January adds Klangfest, the W25 double, and light stay-sharp drills
@@ -141,7 +143,7 @@ mid-sprint — **ten simulations under competition rules from W11**.
 
 Every simulation is competition-identical:
 
-- Staggered release · timed prep (3–4 h) · **one laptop per student**
+- Staggered release · timed prep (3, 4 or 10 h) · **one laptop per student**
 - No phones, no smartwatches · internet + GenAI allowed
 - **No coach contact after release**
 - .pptx to "USB" at pickup time · all four speak · yellow/red cards
@@ -168,14 +170,15 @@ an ambiguous case, a "failed" projector.
 | Nov 2026 | Team .pptx **template v1** (anonymity-proof) |
 | Dec 2026 | **Template v2 frozen** after three sims |
 | Late Jan 2027 | **Taper begins** — sprint ready to launch |
-| ~Feb 4 (TBA) | **Prepared case released** → 14-day sprint |
-| ~Feb 17 (TBA) | **Submit ≥ 24 h before the deadline** |
-| Feb 18–22 | **ABCC 2027** — fly Feb 16/17 |
+| Oct 31, 2026 | **2027 schedule published** — calendar re-planned |
+| ~Mon Feb 1 (TBA) | **Prepared case released** → 13-day sprint |
+| Sat Feb 13 | **Submit** — before travel, ≥ 24 h ahead |
+| Feb 15–20 | **ABCC 2027** |
 
-Release and deadline follow the 2025 pattern — **TBA until the 2027
-guide lands**.
+Release and deadline follow the 2025 pattern mapped onto the 2027
+schedule (deadline ~arrival day, Feb 15) — **TBA until confirmed**.
 
-## The 14-day prepared-case sprint
+## The 13-day prepared-case sprint
 
 **Goal: a submission-ready 25-minute deck, on time.**
 
@@ -185,18 +188,20 @@ guide lands**.
   allowed in this round, use it
 - **Days 8–10:** deck build, model hardened, appendix bank
 - **Days 11–12:** two dress rehearsals 25+15, coach review #2
-- **Days 13–14:** freeze, then **submit early** — late = bottom of the pool
+- **Day 13 (Sat Feb 13):** freeze, then **submit before travel** — late =
+  bottom of the pool
 
 ## Final polish — protect energy
 
-- One light boardroom + one 3-h traditional drill mid-sprint —
+- One light boardroom + one 3-h round-3 drill mid-sprint —
   **no new content marathon**
 - Prepared-case run-throughs to internalize, not memorize — Q&A practice
   beats delivery now
 - **Kit check:** adapters, chargers, dongles, clicker, backup USBs,
   offline copies of everything, business attire
 - Competition-day charter: sleep, meals, the fixed prep-window protocol —
-  first 20 min silent reading, last 30 min rehearsal, always
+  first 20 min silent reading, last 30 min rehearsal, always; the
+  10-hour clock for Friday; Thursday's excursion is for recovery
 
 # When a week collapses
 

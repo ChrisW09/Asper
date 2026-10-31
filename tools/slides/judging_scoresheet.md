@@ -177,7 +177,7 @@ Progress measurement and realistic risk mitigation?
 | --- | --- | --- | --- | --- |
 | Prepared | 25 % | at home | 25 min | 15 min |
 | Boardroom | 30 % | 4 h | 3-min pitch, protected | 22-min discussion |
-| Traditional | 45 % | 3 h | 20 min | 10 min |
+| Traditional → 10-hour case (2027) | 45 % | 3 h → **10 h** | 20 min | 10 min |
 | Final | — | deck frozen | 20 min | 15 min |
 
 Boardroom: one summary slide only in the pitch, appendices blocked — then

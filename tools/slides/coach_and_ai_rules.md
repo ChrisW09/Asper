@@ -2,7 +2,7 @@
 title: "Coach & AI Rules"
 subtitle: "Two questions, answered from the official rules"
 author: "ABCC 2027 · HSBI · internal briefing"
-date: "Source: ABCC 2025 Event Guide · re-verify when the 2027 guide lands"
+date: "Source: ABCC 2025 Event Guide + 2027 schedule (2026-10-31) · re-verify when the 2027 guide lands"
 ---
 
 # The two questions
@@ -32,8 +32,9 @@ The rules allow internet use during timed prep, including
 > "any login-required website, including password-protected databases from
 > their University, filesharing websites, **and Generative AI**."
 
-That covers **the 4-hour boardroom prep and the 3-hour traditional prep**. In
-the prepared case, worked on at home, all resources are allowed anyway.
+That covers **the 4-hour boardroom prep and the third-round prep** — 3 h in
+2025/2026, a **10-hour case** in 2027 (assumed to carry over; we have asked).
+In the prepared case, worked on at home, all resources are allowed anyway.
 
 ## Every team has the same arsenal
 
@@ -78,13 +79,17 @@ Only sponsor-employee contact is banned — for everyone.
 
 ## Silent — three moments
 
-- **From case release to presentation** (boardroom and traditional): *no contact
-  with the team whatsoever* — not in person, not by message.
+- **From case release to presentation** (boardroom and round 3): *no contact
+  with the team whatsoever* — in 2027 that is **all of Fri Feb 19 and Sat
+  morning** until the team has presented, meals and evening included.
 - **During any presentation or Q&A:** any communication between coach and team,
   or any coach intervention in the question period, means
   **immediate disqualification**.
 - **In the final:** advisors of finalist teams may not communicate with their
   team until after it has presented.
+
+Excursion day (Thu Feb 18) is not a round — contact is fine, anonymity is not
+suspended.
 
 ## Anonymity binds the coach too
 
